@@ -1,6 +1,6 @@
 GET /app/labels/:page
 
-There are no form parameters for this route. 
+There are no form parameters for this route. All parameters are passed in through the URL by asking for the page name.
 
 JSON response example:
 
