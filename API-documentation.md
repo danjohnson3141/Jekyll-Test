@@ -1,12 +1,14 @@
 The types of API routes available can generally be broken up into seven different categories:
 
-* App & Navigation Elements
+* [App & Navigation](/App-&-Navigation)
 * Banner Ads
 * Events
 * Groups
 * Messages
 * Posts
 * Users
+
+***
 
 Possibly using this as a template: http://wiki.alfresco.com/wiki/API_Reference_Template
 
