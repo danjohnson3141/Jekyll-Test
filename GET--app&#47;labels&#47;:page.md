@@ -12,7 +12,6 @@ This is passed in through the URL. Each page of the App will have its own unique
 
 JSON response example:
 
-=
 ```
 {"app_label_pages"=>
   [{"id"=>10,
