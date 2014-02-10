@@ -1,6 +1,6 @@
 The types of API routes available can generally be broken up into seven different categories:
 
-* [App & Navigation](/App-&-Navigation)
+* [App & Navigation](/Evanta/EvantaAccessAPI/wiki/App-&-Navigation))
 * Banner Ads
 * Events
 * Groups
