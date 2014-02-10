@@ -7,8 +7,8 @@ App & Navigation
 
 ```
 {"app_label_pages"=>
-  [{"id"=>10,
-    "key"=>"Test Dictionary",
-    "label"=>"Testing Label Text",
-    "label_plural"=>nil}]}
+[{"id"=>10,
+"key"=>"Test Dictionary",
+"label"=>"Testing Label Text",
+"label_plural"=>nil}]}
 ```
