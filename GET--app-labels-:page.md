@@ -10,5 +10,6 @@ JSON response example:
     "key"=>"Test Dictionary",
     "label"=>"Testing Label Text",
     "label_plural"=>nil}]}
-
 ```
+
+This request should provide a 200 HTTP response when successful and a 404 when it fails.
