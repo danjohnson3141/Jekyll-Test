@@ -15,25 +15,30 @@ http://0.0.0.0:3000/ROUTE_NAME
 ####JSON response example:
 
 ```
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+{"navigation_left"=>
+  {"show_messages"=>true,
+   "show_notifications"=>false,
+   "show_search"=>false,
+   "show_user_profile"=>false,
+   "show_posts_count"=>false,
+   "show_likes_count"=>false,
+   "show_connections_count"=>false,
+   "show_groups"=>false,
+   "show_events"=>false,
+   "show_app_sponsors"=>true,
+   "show_support_link"=>true,
+   "new_message_count"=>0,
+   "new_notification_count"=>nil,
+   "user_headshot"=>nil,
+   "user_full_name"=>nil,
+   "user_title"=>nil,
+   "user_organization"=>nil,
+   "user_post_count"=>nil,
+   "user_like_count"=>nil,
+   "user_connection_count"=>nil,
+   "user_events"=>[],
+   "user_today_events"=>nil,
+   "user_groups"=>[]}}
 ```
 
 This requests provides a HTML RESPONSE NUMBER on success and a HTML RESPONSE NUMBER ON FAILURE
