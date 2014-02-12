@@ -8,9 +8,12 @@ This route is used to populate the various text form elements on each page. The 
 This is passed in through the URL. Each page of the App will have its own unique name.
 
 =
-
-
-JSON response example:
+####JSON request example:
+```
+http://0.0.0.0:3000/app/labels/login
+```
+=
+####JSON response example:
 
 ```
 {"app_label_pages"=>
@@ -20,4 +23,4 @@ JSON response example:
     "label_plural"=>nil}]}
 ```
 
-This request should provide a 200 HTTP response when successful and a 404 when it fails.
+This request should provide a <strong>200 HTTP</strong> response when successful and a 404 when it fails.
