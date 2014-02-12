@@ -1,4 +1,4 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route is used to return a list of only one of the application sponsors (these are different than event sponsors).
 
 Declare what authentications are required
 
