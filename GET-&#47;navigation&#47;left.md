@@ -1,15 +1,15 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is a route to help populate the left navigation element in the app (e.g. clicking on the bug).
 
-Declare what authentications are required
+The user needs to be logged in and have valid credentials to use this route.
 
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+This route has no parameters and returns its content based on the users's internal settings.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/navigation/left
 ```
 =
 ####JSON response example:
