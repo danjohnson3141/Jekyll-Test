@@ -66,4 +66,4 @@ http://0.0.0.0:3000/ROUTE_NAME
       "users"=>[]}}]}
 ```
 
-This requests provides a HTML RESPONSE NUMBER on success.
+This requests provides a <strong>HTML 200</strong> on success.
