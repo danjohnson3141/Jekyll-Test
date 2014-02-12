@@ -1,9 +1,11 @@
 This route pulls all of the banner ads for one particular 'app_sponsor'.
 
+=
 #### Authentication
 
 The user needs to be logged in and have valid credentials to use this route.
 
+=
 #### Parameters
 
 :app_sponsor_id
@@ -11,14 +13,13 @@ The user needs to be logged in and have valid credentials to use this route.
 This is passed in the URL and is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
 
 =
-
 ####JSON request example:
 ```
 http://0.0.0.0:3000/ROUTE_NAME
 ```
+
 =
 ####JSON response example:
-
 ```
 {"banner_ads"=>
   [{"id"=>207,
