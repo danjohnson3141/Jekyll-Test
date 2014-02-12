@@ -38,4 +38,4 @@ http://0.0.0.0:3000/ROUTE_NAME
     "users"=>[]}]}
 ```
 
-This requests provides a HTML RESPONSE NUMBER on success and a HTML RESPONSE NUMBER ON FAILURE
+This requests provides a HTML RESPONSE NUMBER on success.
