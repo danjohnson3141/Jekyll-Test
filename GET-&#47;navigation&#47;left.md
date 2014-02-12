@@ -41,4 +41,4 @@ http://0.0.0.0:3000/navigation/left
    "user_groups"=>[]}}
 ```
 
-This requests provides a HTML RESPONSE NUMBER on success and a HTML RESPONSE NUMBER ON FAILURE
+This requests provides a HTML 200 on success.
