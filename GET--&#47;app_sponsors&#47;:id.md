@@ -29,4 +29,4 @@ http://0.0.0.0:3000/app_sponsors/120
    "users"=>[]}}
 ```
 
-This requests provides a HTML RESPONSE NUMBER on success and a HTML RESPONSE NUMBER ON FAILURE
+This requests provides a HTML 200 on success.
