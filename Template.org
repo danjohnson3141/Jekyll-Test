@@ -9,6 +9,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
+
 ####JSON request example:
 ```
 http://0.0.0.0:3000/ROUTE_NAME
