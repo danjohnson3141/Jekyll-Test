@@ -1,10 +1,12 @@
 This route is used to return a list of only one of the application sponsors (these are different than event sponsors).
 
-Declare what authentications are required
+The user needs to be logged in and have valid credentials to use this route
 
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+/:id
+
+This is passed in the URL and is derived from the 'id' field on the the 'app_sponsors' table.
 
 =
 ####JSON request example:
