@@ -1,17 +1,15 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
-
-Declare what authentications are required
+This route will return a list of all the banner ads.
 
 Good sample text: The user needs to be logged in and have valid credentials to use this route.
 
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; only default response
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/banner_ads
 ```
 =
 ####JSON response example:
