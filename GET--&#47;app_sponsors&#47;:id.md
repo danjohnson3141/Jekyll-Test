@@ -1,4 +1,4 @@
-This route is used to return a list of only one of the application sponsors (these are different than event sponsors).
+This route is used to return a list of **only one** of the application sponsors (these are different than event sponsors).
 
 The user needs to be logged in and have valid credentials to use this route
 
