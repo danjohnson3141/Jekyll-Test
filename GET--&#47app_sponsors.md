@@ -36,4 +36,4 @@ http://0.0.0.0:3000/app_sponsors
     "users"=>[]}]}
 ```
 
-This request should provide a <strong>200 HTTP</strong> response when successful and a 404 when it fails.
+This request should provide a <strong>200 HTTP</strong> response when successful.
