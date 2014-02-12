@@ -9,31 +9,23 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000//app_sponsors/120
 ```
 =
 ####JSON response example:
 
 ```
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+{"app_sponsor"=>
+  {"id"=>120,
+   "name"=>"Pouros Inc",
+   "description"=>
+    "Odio facilis vero in enim qui cumque vitae ut sequi distinctio autem.",
+   "logo"=>nil,
+   "url"=>nil,
+   "sponsor_type"=>
+    {"id"=>168, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
+   "users"=>[]}}
+[3] pry(#<RSpec::Exa
 ```
 
 This requests provides a HTML RESPONSE NUMBER on success and a HTML RESPONSE NUMBER ON FAILURE
