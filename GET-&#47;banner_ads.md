@@ -1,9 +1,10 @@
 This route will return a list of all the banner ads.
 
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+=
+#### Authentication
+The user needs to be logged in and have valid credentials to use this route.
 
 #### Parameters
-
 none; only default response
 
 =
