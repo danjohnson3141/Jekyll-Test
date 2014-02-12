@@ -7,6 +7,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 #### Parameters
 
 :app_sponsor_id
+
 This is passed in the URL and is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
 
 =
