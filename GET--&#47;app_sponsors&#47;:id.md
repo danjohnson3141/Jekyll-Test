@@ -27,7 +27,6 @@ http://0.0.0.0:3000/app_sponsors/120
    "sponsor_type"=>
     {"id"=>168, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
    "users"=>[]}}
-[3] pry(#<RSpec::Exa
 ```
 
 This requests provides a HTML RESPONSE NUMBER on success and a HTML RESPONSE NUMBER ON FAILURE
