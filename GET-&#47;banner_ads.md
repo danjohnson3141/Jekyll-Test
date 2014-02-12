@@ -17,7 +17,7 @@ http://0.0.0.0:3000/banner_ads
 ```
 {"banner_ads"=>
   [{"id"=>175,
-    "graphic_link"=>"www.link.com/graphic_link.jpg",
+    "graphic_link"=>"www.example.com/graphic_link.jpg",
     "app_sponsor_id"=>nil,
     "link_url"=>"www.evanta.com",
     "created_by"=>nil,
@@ -27,7 +27,7 @@ http://0.0.0.0:3000/banner_ads
     "event_sponsor"=>nil,
     "app_sponsor"=>nil},
    {"id"=>176,
-    "graphic_link"=>"www.link.com/graphic_link.jpg",
+    "graphic_link"=>"www.example.com/graphic_link.jpg",
     "app_sponsor_id"=>nil,
     "link_url"=>"www.evanta.com",
     "created_by"=>nil,
