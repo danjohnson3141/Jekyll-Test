@@ -1,8 +1,8 @@
-This route pulls all of the banner ads for one particular sponsor
+This route pulls all of the banner ads for one particular 'app_sponsor'.
 
-Declare what authentications are required
+#### Authentication
 
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 #### Parameters
 
