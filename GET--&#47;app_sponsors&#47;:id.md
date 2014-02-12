@@ -31,4 +31,4 @@ http://0.0.0.0:3000/app_sponsors/120
    "users"=>[]}}
 ```
 
-This requests provides a HTML 200 on success.
+This requests provides a <strong>HTML 200</strong> on success.
