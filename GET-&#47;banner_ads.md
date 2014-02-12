@@ -5,6 +5,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 #### Parameters
 
 none; only default response
+
 =
 ####JSON request example:
 ```
