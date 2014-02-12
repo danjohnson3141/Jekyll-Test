@@ -1,86 +1,39 @@
-<font color=green>
-This is a template for documenting JavaScript/Template APIs. Use this template as a guide: you can modify titles and include new sections. To provided context for each section, ensure that you follow each title heading with an introductory sentence. For example, start by saying "This section describes...".
+PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
-When using this template:
+Declare what authentications are required
 
-*delete the text in green
+#### Parameters
 
-*replace the text in <angle brackets> with your own words
+LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
-*add a category for the product version to which this API relates
+=
+####JSON request example:
+```
+http://0.0.0.0:3000/ROUTE_NAME
+```
+=
+####JSON response example:
 
+```
+{"app_sponsors"=>
+  [{"id"=>105,
+    "name"=>"Harvey-Bruen",
+    "description"=>
+     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
+    "logo"=>nil,
+    "url"=>nil,
+    "sponsor_type"=>
+     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
+    "users"=>[]},
+   {"id"=>106,
+    "name"=>"Zboncak Inc",
+    "description"=>
+     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
+    "logo"=>nil,
+    "url"=>nil,
+    "sponsor_type"=>
+     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
+    "users"=>[]}]}
+```
 
-'''Note'''
-For Java APIs, generate the reference documentation using javadoc.
-<br>For RESTful APIs, generate the reference documentation from the Alfresco Server URL <nowiki>GET http://<host>:<port>/alfresco/service/index/all.mediawiki</nowiki>.
-</font>
-
-__TOC__
-
-= API introduction = 
-The <API_NAME_HERE> API allows developers to...
-
-<font color=green>
-Provide a high-level description of the interface.
-
-Examples of what to include: state the programming language; indicate where within the product that the API is available (within the repository or within the web framework; describes the clients of the interface and how the interface is used.
-</font>
-
-==Business examples==
-
-Using the API, developers can:
-* <business example>
-* <business example>
-
-==References==
-<font color=green>
-Provide other references (external and internal)...
-</font>
-
-== Object type ==
-<font color=green>
-Where there are groups of methods, create a different section for each grouping. For example, in the JavaScript API there are collections of methods associated with types of object, like the methods on ScriptNode, the methods on Search, and so on. 
-</font>
-
-The following list shows the properties for site:
-;<property>
-:Description 
-;<property>
-:Description 
-
-The following sections describe the available methods.
-===<Method 1>===
-This method creates a new site.
-
-<pre>
-<methodname>
-</pre>
-{|
-!Parameters:!!
-|-
-|<parameter 1>
-||Description
-|-
-|<parameter 2>
-||Description
-|-
-|<parameter 3>
-||Description
-|}
-
-{|
-!Return values:!!
-|-
-|value
-||Description
-|}
-
-<font color=green>
-Add examples of code use.
-</font>
-
-<font color=green>
-Add list of related methods.
-</font>
-[[Category:Developer API]]
-[[Category:JavaScript API]]
+This requests provides a HTML RESPONSE NUMBER on success and a HTML RESPONSE NUMBER ON FAILURE
