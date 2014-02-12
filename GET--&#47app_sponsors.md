@@ -5,6 +5,8 @@ This route is used to populate the various text form elements on each page. The 
 =
 #### Parameters
 
+none; only default response
+
 =
 ####JSON request example:
 ```
