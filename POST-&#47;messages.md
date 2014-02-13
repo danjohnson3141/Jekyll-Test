@@ -25,25 +25,25 @@ http://0.0.0.0:3000/messages
 ####JSON response example:
 
 ```
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+{"message"=>
+  {"id"=>1735,
+   "unread"=>true,
+   "viewed_date"=>nil,
+   "body"=>
+    "[\"THIS TEXT COMPOSES THE BODY OF THE MESSAGE\"]",
+   "sender_user_id"=>15,
+   "recipient_user_id"=>2345,
+   "created_at"=>"2014-02-13T23:06:47.997Z",
+   "ago"=>"0m",
+   "user"=>
+    {"id"=>15,
+     "first_name"=>"Generic",
+     "last_name"=>"User",
+     "title"=>nil,
+     "organization_name"=>nil,
+     "photo"=>nil,
+     "user_role_id"=>nil,
+     "user_connection_id"=>nil}}}
 ```
 
 This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
