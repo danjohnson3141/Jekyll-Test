@@ -19,7 +19,7 @@ http://0.0.0.0:3000/messages
 =
 ####Post Data
 ```
-{ message: {body: "#{Faker::Lorem.paragraphs(paragraph_count = 1)}", recipient_user_id: @user.id} }
+{ message: {body: "THIS TEXT COMPOSES THE BODY OF THE MESSAGE", recipient_user_id: 2345} }
 ```
 =
 ####JSON response example:
