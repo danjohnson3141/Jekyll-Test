@@ -21,6 +21,8 @@ So the message route of `GET /messages` would become `GET /messages?page=2&per_p
 =
 
 ####Templates
+This is the template currently being used for new documentation: [link](https://github.com/Evanta/EvantaAccessAPI/wiki/Template)
+
 Possibly using this as a template: http://wiki.alfresco.com/wiki/API_Reference_Template
 
 Would eventually like to look like Twitter's: https://dev.twitter.com/docs/api/1.1
