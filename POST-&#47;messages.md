@@ -26,21 +26,21 @@ http://0.0.0.0:3000/messages
 
 ```
 {"message"=>
-  {"id"=>1735,
-   "unread"=>true,
+  {"id"=>1772,
+   "unread"=>false,
    "viewed_date"=>nil,
    "body"=>
-    "[\"THIS TEXT COMPOSES THE BODY OF THE MESSAGE\"]",
+    "[\"Rerum maxime alias et nihil repellat. Recusandae est id. Rerum possimus aut eum voluptatum sed quibusdam cum. Quia nihil repudiandae. Magnam soluta temporibus unde.\"]",
    "sender_user_id"=>15,
    "recipient_user_id"=>2345,
-   "created_at"=>"2014-02-13T23:06:47.997Z",
+   "created_at"=>"2014-02-13T23:12:01.350Z",
    "ago"=>"0m",
    "user"=>
-    {"id"=>15,
-     "first_name"=>"Generic",
-     "last_name"=>"User",
-     "title"=>nil,
-     "organization_name"=>nil,
+    {"id"=>2345,
+     "first_name"=>"Brandyn",
+     "last_name"=>"Parker",
+     "title"=>"Random User",
+     "organization_name"=>"Schneider LLC",
      "photo"=>nil,
      "user_role_id"=>nil,
      "user_connection_id"=>nil}}}
