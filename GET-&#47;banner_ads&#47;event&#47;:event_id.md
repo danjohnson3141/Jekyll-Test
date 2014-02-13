@@ -8,7 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:app_sponsor_id
+:event_id
 
 This is passed in the URL and is derived from the 'event_id' field on the the 'banner_ads' table.
 
