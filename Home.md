@@ -12,6 +12,14 @@ The types of API routes available can generally be broken up into seven differen
 
 =
 
+####Pagination
+
+If the API request is designed to return more than one record, it is possible to paginate the results by adding the following suffix to the end of the request `?page=#&per_page=#`.
+
+So the message route of `GET /messages` would become `GET /messages?page=2&per_page=3`
+=
+
+####Templates
 Possibly using this as a template: http://wiki.alfresco.com/wiki/API_Reference_Template
 
 Would eventually like to look like Twitter's: https://dev.twitter.com/docs/api/1.1
