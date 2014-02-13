@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/messages
+http://example.com:3000/messages
 ```
 
 =
