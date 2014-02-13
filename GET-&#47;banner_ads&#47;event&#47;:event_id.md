@@ -82,4 +82,4 @@ http://0.0.0.0:3000//banner_ads/event/2990
     "app_sponsor"=>nil}]}
 ```
 
-This requests provides a HTML RESPONSE NUMBER on success.
+This requests provides a <strong>HTML 200</strong> on success.
