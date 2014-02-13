@@ -22,48 +22,64 @@ http://0.0.0.0:3000/ROUTE_NAME
 ####JSON response example:
 ```
 {"banner_ads"=>
-  [{"id"=>207,
+  [{"id"=>263,
     "graphic_link"=>"www.example.com/graphic_link.jpg",
-    "app_sponsor_id"=>171,
+    "app_sponsor_id"=>nil,
     "link_url"=>"www.example.com",
     "created_by"=>nil,
     "updated_by"=>nil,
     "group"=>nil,
-    "event"=>nil,
+    "event"=>
+     {"id"=>2990,
+      "name"=>"Fantastic Rubber Gloves",
+      "event_begin_date"=>nil,
+      "event_end_date"=>nil,
+      "venue_name"=>"Volkman LLC",
+      "address"=>"52210 Bergnaum Garden",
+      "state"=>"AZ",
+      "postal_code"=>"89603",
+      "event_follower_id"=>nil,
+      "country"=>{"name"=>"United States of America", "abbreviation"=>"us"},
+      "group"=>
+       {"id"=>2858,
+        "name"=>"Open Group",
+        "description"=>"Open group",
+        "owner_user_id"=>nil,
+        "app_sponsor_id"=>nil,
+        "group_type"=>
+         {"id"=>5995, "name"=>"Factory:Open", "description"=>"Open"},
+        "owner"=>nil}},
     "event_sponsor"=>nil,
-    "app_sponsor"=>
-     {"id"=>171,
-      "name"=>"Wuckert, Herman and Pacocha",
-      "description"=>
-       "Explicabo non recusandae omnis dolores rem esse est iste excepturi et enim minus atque ab.",
-      "logo"=>nil,
-      "url"=>nil,
-      "sponsor_type"=>
-       {"id"=>239,
-        "name"=>"A type of Sponsor",
-        "description"=>"A Sponsor Type"},
-      "users"=>[]}},
-   {"id"=>208,
+    "app_sponsor"=>nil},
+   {"id"=>264,
     "graphic_link"=>"www.example.com/graphic_link.jpg",
-    "app_sponsor_id"=>171,
+    "app_sponsor_id"=>nil,
     "link_url"=>"www.example.com",
     "created_by"=>nil,
     "updated_by"=>nil,
     "group"=>nil,
-    "event"=>nil,
+    "event"=>
+     {"id"=>2990,
+      "name"=>"Fantastic Rubber Gloves",
+      "event_begin_date"=>nil,
+      "event_end_date"=>nil,
+      "venue_name"=>"Volkman LLC",
+      "address"=>"52210 Bergnaum Garden",
+      "state"=>"AZ",
+      "postal_code"=>"89603",
+      "event_follower_id"=>nil,
+      "country"=>{"name"=>"United States of America", "abbreviation"=>"us"},
+      "group"=>
+       {"id"=>2858,
+        "name"=>"Open Group",
+        "description"=>"Open group",
+        "owner_user_id"=>nil,
+        "app_sponsor_id"=>nil,
+        "group_type"=>
+         {"id"=>5995, "name"=>"Factory:Open", "description"=>"Open"},
+        "owner"=>nil}},
     "event_sponsor"=>nil,
-    "app_sponsor"=>
-     {"id"=>171,
-      "name"=>"Wuckert, Herman and Pacocha",
-      "description"=>
-       "Explicabo non recusandae omnis dolores rem esse est iste excepturi et enim minus atque ab.",
-      "logo"=>nil,
-      "url"=>nil,
-      "sponsor_type"=>
-       {"id"=>239,
-        "name"=>"A type of Sponsor",
-        "description"=>"A Sponsor Type"},
-      "users"=>[]}}]}
+    "app_sponsor"=>nil}]}
 ```
 
 This requests provides a HTML RESPONSE NUMBER on success.
