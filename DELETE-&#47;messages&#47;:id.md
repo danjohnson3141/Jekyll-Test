@@ -23,7 +23,6 @@ http://0.0.0.0:3000/ROUTE_NAME
 
 ```
 NO JSON RESPONSE
-
 ```
 
 This requests provides a <strong>HTML 204</strong> on success.
