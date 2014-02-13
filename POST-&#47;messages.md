@@ -19,7 +19,9 @@ http://0.0.0.0:3000/messages
 =
 ####Post Data
 ```
-{ message: {body: "THIS TEXT COMPOSES THE BODY OF THE MESSAGE", recipient_user_id: 2345} }
+{ message: 
+{body: "THIS TEXT COMPOSES THE BODY OF THE MESSAGE", recipient_user_id: 2345} 
+}
 ```
 =
 ####JSON response example:
