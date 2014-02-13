@@ -10,7 +10,7 @@ The types of API routes available can generally be broken up into seven differen
 * [Posts](/Evanta/EvantaAccessAPI/wiki/Posts)
 * [Users](/Evanta/EvantaAccessAPI/wiki/Users)
 
-***
+=
 
 Possibly using this as a template: http://wiki.alfresco.com/wiki/API_Reference_Template
 
