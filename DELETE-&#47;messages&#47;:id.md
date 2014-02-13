@@ -15,7 +15,7 @@ Passed in the URL, id number is derived from the 'id' field of the 'messages' ta
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/messages/123
 ```
 
 =
