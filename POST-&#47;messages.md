@@ -7,6 +7,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 :body, this is the actual text of the message being sent
+
 :recipient_user_id, this is 'user_id' of the person that is receiving the message
 
 =
