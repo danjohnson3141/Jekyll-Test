@@ -1,15 +1,14 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route requests all of the banner ads associated with a specific group.
 
 =
 #### Authentication
-
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
+:group_id
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+This is passed in the URL and is derived from the 'group_id' field on the the 'banner_ads' table.
 
 =
 ####JSON request example:
