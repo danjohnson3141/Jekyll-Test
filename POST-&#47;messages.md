@@ -30,7 +30,7 @@ http://0.0.0.0:3000/messages
    "unread"=>false,
    "viewed_date"=>nil,
    "body"=>
-    "[\"Rerum maxime alias et nihil repellat. Recusandae est id. Rerum possimus aut eum voluptatum sed quibusdam cum. Quia nihil repudiandae. Magnam soluta temporibus unde.\"]",
+    "[\"THIS TEXT COMPOSES THE BODY OF THE MESSAGE\"]",
    "sender_user_id"=>15,
    "recipient_user_id"=>2345,
    "created_at"=>"2014-02-13T23:12:01.350Z",
