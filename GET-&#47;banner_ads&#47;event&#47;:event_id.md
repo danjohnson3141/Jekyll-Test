@@ -1,4 +1,4 @@
-This route pulls all of the banner ads for one particular 'app_sponsor'.
+This route pulls all of the banner ads for one particular event.
 
 =
 #### Authentication
@@ -10,12 +10,12 @@ The user needs to be logged in and have valid credentials to use this route.
 
 :app_sponsor_id
 
-This is passed in the URL and is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
+This is passed in the URL and is derived from the 'event_id' field on the the 'banner_ads' table.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000//banner_ads/event/2990
 ```
 
 =
