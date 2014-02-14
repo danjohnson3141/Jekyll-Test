@@ -1,19 +1,17 @@
-Users
-
-* POST /user_connections
-* DELETE /user_connections/:id
-* PATCH /user_connections/:id
-* PUT /user_connections/:id
-* GET /user_connections/:user_id
-* PATCH /users/password
-* POST /users/password
-* PUT /users/password
-* GET /users/password/edit
-* GET /users/password/new
-* GET /users/profile
-* PATCH /users/profile
-* PUT /users/profile
-* GET /users/profile/:id
-* GET /users/sign_in
-* POST /users/sign_in
-* DELETE /users/sign_out
+* [DELETE /user_connections/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;user_connections&%2347;:id)
+* [PATCH /user_connections/:id] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;user_connections&%2347;:id)
+* [PUT /user_connections/:id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;user_connections&%2347;:id)
+* [GET /user_connections/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;user_connections&%2347;:user_id)
+* [POST /user_connections] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;user_connections)
+* [GET /users/password/edit] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;password&%2347;edit)
+* [GET /users/password/new] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;password&%2347;new)
+* [PATCH /users/password] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;users&%2347;password)
+* [POST /users/password] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;users&%2347;password)
+* [PUT /users/password] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;users&%2347;password)
+* [GET /users/profile/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile&%2347;:id)
+* [GET /users/profile] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile)
+* [PATCH /users/profile] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;users&%2347;profile)
+* [PUT /users/profile] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;users&%2347;profile)
+* [GET /users/sign_in] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;sign_in)
+* [POST /users/sign_in] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;users&%2347;sign_in)
+* [DELETE /users/sign_out] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;users&%2347;sign_out)
