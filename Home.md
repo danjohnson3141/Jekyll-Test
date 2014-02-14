@@ -9,6 +9,7 @@ The types of API routes available can generally be broken up into seven differen
 * [Messages](/Evanta/EvantaAccessAPI/wiki/Messages)
 * [Posts](/Evanta/EvantaAccessAPI/wiki/Posts)
 * [Users](/Evanta/EvantaAccessAPI/wiki/Users)
+* [All Routes](/Evanta/EvantaAccessAPI/wiki/All-Routes)
 
 =
 
