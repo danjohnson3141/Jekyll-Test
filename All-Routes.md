@@ -1,10 +1,9 @@
 ####App & Navigation
-* [GET /app/labels/:page] (/Evanta/EvantaAccessAPI/wiki/GET-&#47;app&#47;labels&#47;:page)
-* [GET /app_setting_options/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&#47;app_setting_options&#47;:id)
-* [GET /app_settings/:name] (/Evanta/EvantaAccessAPI/wiki/GET-&#47;app_settings&#47;:name)
-* [GET /app_sponsors/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&#47;app_sponsors&#47;:id)
-* [GET /app_sponsors] (/Evanta/EvantaAccessAPI/wiki/GET-&#47;app_sponsors)
-* [POST /app_supports] (/Evanta/EvantaAccessAPI/wiki/POST-&#47;app_supports)
+* [GET /app/labels/:page] (/Evanta/EvantaAccessAPI/wiki/GET--&%2347;app&%2347;labels&%2347;:page)
+* [GET /app_setting_options/:id] (/Evanta/EvantaAccessAPI/wiki/GET--&%2347;app_setting_options&%2347;:id)
+* [GET /app_settings/:name] (/Evanta/EvantaAccessAPI/wiki/GET--&%2347;app_settings&%2347;:name)
+* [GET /app_sponsors/:id] (/Evanta/EvantaAccessAPI/wiki/GET--&%2347;app_sponsors&%2347;:id)
+* [GET /app_sponsors] (/Evanta/EvantaAccessAPI/wiki/GET--&%2347;app_sponsors)
 
 =
 ####Banner Ads
