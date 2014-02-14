@@ -14,6 +14,7 @@ This is derived from the 'id' field on the 'group_members' table.
 
 =
 ####JSON request example:
+
 ```
 http://0.0.0.0:3000/group_members/234
 
