@@ -1,6 +1,9 @@
-App & Navigation
-
-* [GET /app_sponsors](/Evanta/EvantaAccessAPI/wiki/GET--&%2347app_sponsors)
-* [GET /app_sponsors/:id](/Evanta/EvantaAccessAPI/wiki/GET--&%2347;app_sponsors&%2347;:id)
-* [GET /app/labels/:page](/Evanta/EvantaAccessAPI/wiki/GET--&%2347app&%2347;labels&%2347;:page)
-* [GET /navigation/left](/Evanta/EvantaAccessAPI/wiki/GET-&%2347;navigation&%2347;left)
+####App & Navigation
+* [GET /app/labels/:page] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app&%2347;labels&%2347;:page)
+* [GET /app_setting_options/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_setting_options&%2347;:id)
+* [GET /app_settings/:name] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_settings&%2347;:name)
+* [GET /app_sponsors/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_sponsors&%2347;:id)
+* [GET /app_sponsors] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_sponsors)
+* [POST /app_supports] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;app_supports)
+* [GET /navigation/left] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;navigation&%2347;left)
+* [GET /navigation/right/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;navigation&%2347;right&%2347;:event_id)
