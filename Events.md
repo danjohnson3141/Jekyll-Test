@@ -1,21 +1,22 @@
-Events
-
-* GET /event_featured_posts/:event_id
-* POST /event_followers
-* DELETE /event_followers/:id
-* GET /event_followers/events/:user_id
-* GET /event_followers/users/:event_id
-* GET /event_sponsors
-* GET /event_sponsors/:id
-* POST /event_users
-* DELETE /event_users/:id
-* GET /event_users/events/:user_id
-* GET /event_users/users/:event_id
-* GET /events
-* GET /events/:event_id
-* GET /events/all
-* GET /events/all/:user_id
-* GET /events/past
-* GET /events/past/:user_id
-* GET /events/upcoming
-* GET /events/upcoming/:user_id
+* [GET /event_featured_posts/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_featured_posts&%2347;:event_id)
+* [DELETE /event_followers/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;event_followers&%2347;:id)
+* [GET /event_followers/events/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_followers&%2347;events&%2347;:user_id)
+* [GET /event_followers/users/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_followers&%2347;users&%2347;:event_id)
+* [POST /event_followers] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;event_followers)
+* [GET /event_sessions/:event_session_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_sessions&%2347;:event_session_id)
+* [GET /event_sessions/events/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_sessions&%2347;events&%2347;:event_id)
+* [GET /event_sponsors/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_sponsors&%2347;:id)
+* [GET /event_sponsors] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_sponsors)
+* [DELETE /event_users/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;event_users&%2347;:id)
+* [GET /event_users/attendees/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_users&%2347;attendees&%2347;:event_id)
+* [GET /event_users/events/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_users&%2347;events&%2347;:user_id)
+* [GET /event_users/users/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_users&%2347;users&%2347;:event_id)
+* [POST /event_users] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;event_users)
+* [GET /events/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events&%2347;:event_id)
+* [GET /events/all/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events&%2347;all&%2347;:user_id)
+* [GET /events/all] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events&%2347;all)
+* [GET /events/past/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events&%2347;past&%2347;:user_id)
+* [GET /events/past] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events&%2347;past)
+* [GET /events/upcoming/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events&%2347;upcoming&%2347;:user_id)
+* [GET /events/upcoming] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events&%2347;upcoming)
+* [GET /events] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;events)
