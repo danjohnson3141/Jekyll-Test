@@ -97,4 +97,4 @@
 * [PUT /users/profile] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;users&%2347;profile)
 * [GET /users/sign_in] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;sign_in)
 * [POST /users/sign_in] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;users&%2347;sign_in)
-* [DELETE /users/sign_out] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;users&%2347;sign_out)* 
+* [DELETE /users/sign_out] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;users&%2347;sign_out)
