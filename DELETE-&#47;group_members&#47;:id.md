@@ -17,6 +17,7 @@ This is derived from the 'id' field on the 'group_members' table.
 
 ```
 http://0.0.0.0:3000/group_members/234
+```
 
 =
 ####JSON response example:
