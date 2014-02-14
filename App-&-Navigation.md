@@ -3,6 +3,6 @@
 * [GET /app_settings/:name] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_settings&%2347;:name)
 * [GET /app_sponsors/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_sponsors&%2347;:id)
 * [GET /app_sponsors] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_sponsors)
-* [POST /app_supports] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;app_supports)
 * [GET /navigation/left] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;navigation&%2347;left)
 * [GET /navigation/right/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;navigation&%2347;right&%2347;:event_id)
+* [POST /app_supports] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;app_supports)
