@@ -1,12 +1,13 @@
 ####App & Navigation
-[GET /app/labels/:page] (/Evanta/EvantaAccessAPI/wiki/GET &#47;app&#47;labels&#47;:page) 
+[GET /app/labels/:page] (/Evanta/EvantaAccessAPI/wiki/GET &#47;app&#47;labels&#47;:page)
 [GET /app_setting_options/:id] (/Evanta/EvantaAccessAPI/wiki/GET &#47;app_setting_options&#47;:id) 
 [GET /app_settings/:name] (/Evanta/EvantaAccessAPI/wiki/GET &#47;app_settings&#47;:name) 
 [GET /app_sponsors/:id] (/Evanta/EvantaAccessAPI/wiki/GET &#47;app_sponsors&#47;:id) 
 [GET /app_sponsors] (/Evanta/EvantaAccessAPI/wiki/GET &#47;app_sponsors) 
 [POST /app_supports] (/Evanta/EvantaAccessAPI/wiki/POST &#47;app_supports) 
 [GET /navigation/left] (/Evanta/EvantaAccessAPI/wiki/GET &#47;navigation&#47;left) 
-[GET /navigation/right/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET &#47;navigation&#47;right&#47;:event_id) 
+[GET /navigation/right/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET &#47;navigation&#47;right&#47;:event_id)
+ 
 =
 ####Banner Ads
 [GET /banner_ads/app_sponsor/:app_sponsor_id] (/Evanta/EvantaAccessAPI/wiki/GET &#47;banner_ads&#47;app_sponsor&#47;:app_sponsor_id)
