@@ -1,20 +1,18 @@
-Groups
-
-* GET /group_featured_posts/:group_id
-* POST /group_invites
-* DELETE /group_invites/:id
-* GET /group_invites/groups
-* GET /group_invites/users/:group_id
-* POST /group_members
-* DELETE /group_members/:id
-* GET /group_members/groups/:user_id
-* GET /group_members/users/:group_id
-* POST /group_requests
-* DELETE /group_requests/:id
-* GET /group_requests/groups
-* GET /group_requests/users/:group_id
-* GET /groups
-* POST /groups
-* GET /groups/:id
-* PATCH /groups/:id
-* PUT /groups/:id
+* [GET /group_featured_posts/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_featured_posts&%2347;:group_id)
+* [DELETE /group_invites/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_invites&%2347;:id)
+* [GET /group_invites/groups] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_invites&%2347;groups)
+* [GET /group_invites/users/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_invites&%2347;users&%2347;:group_id)
+* [POST /group_invites] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_invites)
+* [DELETE /group_members/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_members&%2347;:id)
+* [GET /group_members/groups/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_members&%2347;groups&%2347;:user_id)
+* [GET /group_members/users/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_members&%2347;users&%2347;:group_id)
+* [POST /group_members] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_members)
+* [DELETE /group_requests/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_requests&%2347;:id)
+* [GET /group_requests/groups] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_requests&%2347;groups)
+* [GET /group_requests/users/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_requests&%2347;users&%2347;:group_id)
+* [POST /group_requests] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_requests)
+* [GET /groups/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;groups&%2347;:id)
+* [PATCH /groups/:id] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;groups&%2347;:id)
+* [PUT /groups/:id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;groups&%2347;:id)
+* [GET /groups] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;groups)
+* [POST /groups] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;groups)
