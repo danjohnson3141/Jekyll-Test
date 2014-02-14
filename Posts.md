@@ -1,7 +1,7 @@
-Posts
-
-* POST /posts
-* DELETE /posts/:post_id
-* GET /posts/:post_id
-* PATCH /posts/:post_id
-* PUT /posts/:post_id
+* [DELETE /posts/:post_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;posts&%2347;:post_id)
+* [GET /posts/:post_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;posts&%2347;:post_id)
+* [PATCH /posts/:post_id] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;posts&%2347;:post_id)
+* [PUT /posts/:post_id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;posts&%2347;:post_id)
+* [GET /posts/groups/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;posts&%2347;groups&%2347;:group_id)
+* [GET /posts/users/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;posts&%2347;users&%2347;:user_id)
+* [POST /posts] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;posts)
