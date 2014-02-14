@@ -1,4 +1,3 @@
-####App & Navigation
 * [GET /app/labels/:page] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app&%2347;labels&%2347;:page)
 * [GET /app_setting_options/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_setting_options&%2347;:id)
 * [GET /app_settings/:name] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;app_settings&%2347;:name)
