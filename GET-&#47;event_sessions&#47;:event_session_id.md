@@ -15,8 +15,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
-```
+http://0.0.0.0:3000/ROUTE_NAME```
 
 =
 ####JSON response example:
