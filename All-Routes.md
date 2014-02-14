@@ -8,7 +8,6 @@
 * [GET /navigation/left] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;navigation&%2347;left)
 * [GET /navigation/right/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;navigation&%2347;right&%2347;:event_id)
 
-
 =
 ####Banner Ads
 * [GET /banner_ads/app_sponsor/:app_sponsor_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;banner_ads&%2347;app_sponsor&%2347;:app_sponsor_id)
