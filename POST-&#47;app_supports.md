@@ -1,32 +1,37 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is the route used for the user to submit support requests to the application admins. 
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+No authorizations required
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:body, this is the actual text of the support request 
+
+:email, if the user is not logged in, the app will ask the user for this, if they're logged in it will automatically fill it in.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/app_supports
 ```
 
+=
+####POST Data
+```
+{ app_support: {body: "I need help!!!", email: "distraught_user@example.com"} }
+```
 =
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+{"app_support"=>
+  {"id"=>36,
+   "body"=>"I need help!!!",
+   "email"=>"distraught_user@example.com",
+   "created_by_user"=>"Generic User"}}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.
