@@ -7,7 +7,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; default only
 
 =
 ####JSON request example:
