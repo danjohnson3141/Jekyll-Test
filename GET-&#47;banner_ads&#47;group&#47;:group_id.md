@@ -8,7 +8,9 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:group_id
+
+This is derived from the 'id' field on the 'groups' table.
 
 =
 ####JSON request example:
