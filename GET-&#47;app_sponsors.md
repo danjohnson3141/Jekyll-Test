@@ -14,6 +14,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 ```
 http://0.0.0.0:3000/app_sponsors
+```
 
 =
 ####JSON response example:
