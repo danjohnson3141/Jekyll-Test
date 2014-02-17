@@ -16,7 +16,7 @@ This is derived from the 'id' field of the 'events' table.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/234
 ```
 
 =
