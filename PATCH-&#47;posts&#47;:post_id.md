@@ -10,7 +10,27 @@ The user needs to be logged in and have valid credentials to use this route.
 
 :post_id
 
-This references
+This is passed in through the URL. It is derived from the 'id' field on the 'posts' table.
+
+:title
+
+Text, passed in through the post data.
+
+:body
+
+Text, passed in through the post data.
+
+:body_markdown
+
+Text, passed in through the post data.
+
+:excerpt
+
+Text, passed in through the post data.
+
+:thumbnail_teaser_photo
+
+Text, passed in through the post data.
 
 =
 ####JSON request example
