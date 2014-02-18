@@ -1,21 +1,21 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns all of the posts from a single user
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:user_id
+
+This is passed in through the URL. It is derived from the 'id' field on the 'users' table.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/posts/users/13908
 ```
 
 =
