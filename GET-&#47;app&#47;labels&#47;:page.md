@@ -16,6 +16,7 @@ Text, passed in through the URL. Each page of the App will have its own unique n
 #### Parameters
 
 /:page - Text, passed in through the URL. Each page of the App will have its own unique name. This parameter corresponds to the 'name' field in the app_label_pages table in the database.
+
 =
 ####JSON request example:
 ```
