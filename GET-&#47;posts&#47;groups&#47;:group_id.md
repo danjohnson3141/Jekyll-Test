@@ -3,14 +3,14 @@ This returns **all** the posts associated with one group.
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:group_id
+
+This is passed in through the URL and is derived from the 'id' field on the 'groups' table.
 
 =
 ####JSON request example:
@@ -101,4 +101,4 @@ http://0.0.0.0:3000/posts/groups/2197
       "user_connection_id"=>nil}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
