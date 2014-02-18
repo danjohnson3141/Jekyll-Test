@@ -8,7 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:post_id - This is passed in through the URL. It is derived from the 'id' field on the 'posts' table.
+:post_id - Integer, passed in through the URL. Used to declare which post is going to be updated. It is derived from the 'id' field on the 'posts' table.
 
 :title - Text, passed in through the post data. The title of the post. Limited to 255 characters.
 
