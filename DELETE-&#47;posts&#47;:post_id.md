@@ -1,16 +1,16 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This deletes a post. Only the user that created the post is allowed to delete the post.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:post_id
+
+This references the 'id'  field from the 'posts' table.
 
 =
 ####JSON request example:
@@ -22,12 +22,7 @@ http://0.0.0.0:3000/ROUTE_NAME
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+NO JSON RESPONSE
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 204</strong> on success.
