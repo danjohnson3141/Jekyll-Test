@@ -26,8 +26,7 @@ http://0.0.0.0:3000/posts/234
     body: "A covered container with a spout, in which coffee is made or served.", 
     body_markdown: "A **covered** *container* with a spout, in which coffee is made or served.",
     excerpt: "covered container",
-    thumbnail_teaser_photo: "www.example.com/new_photo.png"
-    } 
+    thumbnail_teaser_photo: "www.example.com/new_photo.png"} 
   }
 ```
 
