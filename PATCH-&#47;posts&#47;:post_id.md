@@ -8,29 +8,17 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:post_id
+:post_id - This is passed in through the URL. It is derived from the 'id' field on the 'posts' table.
 
-This is passed in through the URL. It is derived from the 'id' field on the 'posts' table.
+:title - Text, passed in through the post data. The title of the post. Limited to 255 characters.
 
-:title
+:body - Text, passed in through the post data. The plain text of the post.
 
-Text, passed in through the post data.
+:body_markdown - Text, passed in through the post data. The formatted version of the post.
 
-:body
+:excerpt - Text, passed in through the post data. A synopsis of the post.
 
-Text, passed in through the post data.
-
-:body_markdown
-
-Text, passed in through the post data.
-
-:excerpt
-
-Text, passed in through the post data.
-
-:thumbnail_teaser_photo
-
-Text, passed in through the post data.
+:thumbnail_teaser_photo - Varchar, passed in through the post data. The URL of a photo used to advertise the post
 
 =
 ####JSON request example
