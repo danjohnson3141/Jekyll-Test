@@ -15,7 +15,7 @@ This is passed in through the URL. It is derived from the 'id' field on the 'use
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/posts/users/13908
+http://0.0.0.0:3000/posts/users/13935
 ```
 
 =
@@ -23,81 +23,82 @@ http://0.0.0.0:3000/posts/users/13908
 
 ```
 {"posts"=>
-  [{"id"=>1052,
-    "title"=>"Multi-layered scalable throughput: Small Cotton Pants",
+  [{"id"=>1056,
+    "title"=>"Synergized methodical utilisation: Gorgeous Granite Pants",
     "body"=>
-     "---\n- Voluptatem natus id similique animi qui unde consequatur. Tenetur expedita aut accusamus\n  autem sit
+     "---\n- Possimus architecto iure cum. Commodi qui ut rem. Optio consectetur praesentium\n  vel deserunt offic
     "body_markdown"=>
-     "---\n- Voluptates at doloribus blanditiis natus est quia eos. Ipsa necessitatibus ea numquam\n  quaerat itaq
-    "excerpt"=>"Right-sized assymetric protocol",
+     "---\n- At vel modi non aliquam architecto. Sequi vero ab soluta sit maiores. Magnam voluptatem\n  mollitia u
+    "excerpt"=>"Optional zero tolerance access",
     "thumbnail_teaser_photo"=>"www.example.com/post_thumbnail.jpg",
-    "display_rank"=>0,
-    "view_count"=>0,
+    "display_rank"=>4,
+    "view_count"=>6,
     "created_by"=>nil,
     "updated_by"=>nil,
     "group"=>
-     {"id"=>2579,
-      "name"=>"Intelligent Granite Car",
-      "description"=>"Sit facere fugiat voluptas et dolores inventore.",
-      "owner_user_id"=>13911,
-      "app_sponsor_id"=>341,
+     {"id"=>2583,
+      "name"=>"Incredible Cotton Car",
+      "description"=>"Qui sint sed sint animi.",
+      "owner_user_id"=>13938,
+      "app_sponsor_id"=>345,
       "group_type"=>
-       {"id"=>5181, "name"=>"Factory:Open", "description"=>"Open"},
+       {"id"=>5185, "name"=>"Factory:Open", "description"=>"Open"},
       "owner"=>
-       {"id"=>13911,
-        "first_name"=>"Pasquale",
-        "last_name"=>"Bogan",
+       {"id"=>13938,
+        "first_name"=>"Price",
+        "last_name"=>"Marks",
         "title"=>"Creator Of All 1",
-        "organization_name"=>"Berge, Moore and Monahan",
+        "organization_name"=>"Keeling-Simonis",
         "photo"=>"www.example.com/user_photo.jpg",
-        "user_role_id"=>29965,
+        "user_role_id"=>29992,
         "user_connection_id"=>nil}},
     "user"=>
-     {"id"=>13908,
-      "first_name"=>"Gay",
-      "last_name"=>"Thompson",
-      "title"=>"Random User",
-      "organization_name"=>"Becker, Jast and Ernser",
+     {"id"=>13935,
+      "first_name"=>"Jazmyn",
+      "last_name"=>"Bahringer",
+      "title"=>"Author",
+      "organization_name"=>"Lubowitz-Rosenbaum",
       "photo"=>"www.example.com/user_photo.jpg",
-      "user_role_id"=>29960,
+      "user_role_id"=>29987,
       "user_connection_id"=>nil}},
-   {"id"=>1053,
-    "title"=>"Diverse scalable complexity: Sleek Granite Shoes",
+   {"id"=>1057,
+    "title"=>
+     "Polarised leading edge artificial intelligence: Ergonomic Granite Shirt",
     "body"=>
-     "---\n- Iusto blanditiis numquam sit rerum et. Iste distinctio quaerat voluptatem et omnis\n  sunt tempora. S
+     "---\n- Earum ea voluptates qui assumenda. Deleniti fugiat est. Facere omnis reprehenderit\n  et provident ad
     "body_markdown"=>
-     "---\n- Necessitatibus reiciendis quisquam quia sint veniam ut rerum. Facilis delectus ratione\n  minus. Nihi
-    "excerpt"=>"Open-architected cohesive time-frame",
+     "---\n- Reiciendis in id dolorem distinctio qui ut vel. Est rerum beatae pariatur. Ab et\n  ea. Aut eos volup
+    "excerpt"=>"Reverse-engineered user-facing product",
     "thumbnail_teaser_photo"=>"www.example.com/post_thumbnail.jpg",
-    "display_rank"=>7,
-    "view_count"=>9,
+    "display_rank"=>1,
+    "view_count"=>2,
     "created_by"=>nil,
     "updated_by"=>nil,
     "group"=>
-     {"id"=>2580,
-      "name"=>"Small Cotton Table",
-      "description"=>"Eos ea labore delectus cupiditate facere fugit et.",
-      "owner_user_id"=>13914,
-      "app_sponsor_id"=>342,
+     {"id"=>2584,
+      "name"=>"Sleek Rubber Shoes",
+      "description"=>"Ipsum aut nam velit sint sint velit alias.",
+      "owner_user_id"=>13941,
+      "app_sponsor_id"=>346,
       "group_type"=>
-       {"id"=>5182, "name"=>"Factory:Open", "description"=>"Open"},
+       {"id"=>5186, "name"=>"Factory:Open", "description"=>"Open"},
       "owner"=>
-       {"id"=>13914,
-        "first_name"=>"Leda",
-        "last_name"=>"Lindgren",
+       {"id"=>13941,
+        "first_name"=>"Josefina",
+        "last_name"=>"Powlowski",
         "title"=>"Creator Of All 1",
-        "organization_name"=>"Sipes-Funk",
+        "organization_name"=>"Blick Group",
         "photo"=>"www.example.com/user_photo.jpg",
-        "user_role_id"=>29968,
+        "user_role_id"=>29995,
         "user_connection_id"=>nil}},
     "user"=>
-     {"id"=>13908,
-      "first_name"=>"Gay",
-      "last_name"=>"Thompson",
-      "title"=>"Random User",
-      "organization_name"=>"Becker, Jast and Ernser",
+     {"id"=>13935,
+      "first_name"=>"Jazmyn",
+      "last_name"=>"Bahringer",
+      "title"=>"Author",
+      "organization_name"=>"Lubowitz-Rosenbaum",
       "photo"=>"www.example.com/user_photo.jpg",
-      "user_role_id"=>29960,
+      "user_role_id"=>29987,
       "user_connection_id"=>nil}}]}
 ```
 
