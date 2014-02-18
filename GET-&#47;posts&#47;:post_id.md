@@ -15,7 +15,7 @@ This is derived from the 'id' field on 'posts' table.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/posts/921
+http://0.0.0.0:3000/posts/21
 ```
 
 =
