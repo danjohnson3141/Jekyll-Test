@@ -8,9 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:post_id
-
-This is derived from the 'id' field on 'posts' table.
+:post_id - Integer, passed in through the URL. Used to declare which post is being requested. This is derived from the 'id' field on 'posts' table.
 
 =
 ####JSON request example:
