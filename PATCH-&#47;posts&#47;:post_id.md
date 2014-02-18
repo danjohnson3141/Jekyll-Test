@@ -21,14 +21,14 @@ http://0.0.0.0:3000/posts/234
 =
 ####Post Data
 ```
-    { post: 
-      { title: "Coffee Pot", 
-        body: "A covered container with a spout, in which coffee is made or served.", 
-        body_markdown: "A **covered** *container* with a spout, in which coffee is made or served.",
-        excerpt: "covered container",
-        thumbnail_teaser_photo: "www.example.com/new_photo.png"
-        } 
-      }
+{ post: 
+  { title: "Coffee Pot", 
+    body: "A covered container with a spout, in which coffee is made or served.", 
+    body_markdown: "A **covered** *container* with a spout, in which coffee is made or served.",
+    excerpt: "covered container",
+    thumbnail_teaser_photo: "www.example.com/new_photo.png"
+    } 
+  }
 ```
 
 =
