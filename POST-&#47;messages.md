@@ -6,9 +6,9 @@ The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
-:body, this is the actual text of the message being sent
+:body - Integer, passed in through the post data. This is the actual text of the message being sent
 
-:recipient_user_id, this is 'user_id' of the person that is receiving the message
+:recipient_user_id - Integer, passed in through the post data. This is 'user_id' of the person that is receiving the message. Derived from the 'id' field of the 'users' table'.
 
 =
 ####JSON request example:
@@ -19,7 +19,10 @@ http://example.com:3000/messages
 =
 ####Post Data
 ```
-{ message: {body: "THIS TEXT COMPOSES THE BODY OF THE MESSAGE", recipient_user_id: 2345} }
+{ message: 
+  {body: "THIS TEXT COMPOSES THE BODY OF THE MESSAGE", 
+   recipient_user_id: 2345} 
+ }
 ```
 =
 ####JSON response example:
