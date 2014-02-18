@@ -1,11 +1,9 @@
-S
+This is the route by which users will create *new* posts.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
@@ -32,12 +30,29 @@ http://0.0.0.0:3000/posts
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+{"post"=>
+  {"id"=>81,
+   "title"=>"Teapot",
+   "body"=>"A teapot is a vessel used for steeping tea leaves.",
+   "body_markdown"=>"A *teapot* is a vessel used for **steeping** tea leaves.",
+   "excerpt"=>"vessel steeping",
+   "thumbnail_teaser_photo"=>"www.example.com/teaser_photo.bmp",
+   "display_rank"=>nil,
+   "view_count"=>nil,
+   "group"=>
+    {"id"=>268,
+     "name"=>"Intelligent Concrete Pants",
+     "group_type_name"=>"Factory:Open"},
+   "user"=>
+    {"id"=>2228,
+     "first_name"=>"Generic",
+     "last_name"=>"User",
+     "title"=>"CEO of QA",
+     "organization_name"=>"Evanta",
+     "photo"=>
+      "https://assets.evanta.com/shared/resources/Users/large/anonymous.jpg",
+     "user_role_id"=>2232,
+     "user_connection_id"=>nil}}}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.
