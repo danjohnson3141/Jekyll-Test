@@ -1,4 +1,4 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This returns **all** the posts associated with one group.
 
 =
 #### Authentication
@@ -15,7 +15,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/posts/groups/2197
 ```
 
 =
