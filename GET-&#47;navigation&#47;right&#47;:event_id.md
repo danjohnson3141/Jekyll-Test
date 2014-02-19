@@ -9,9 +9,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 =
 #### Parameters
 
-:event_id
-
-This is derived from the 'id' field of the 'events' table.
+:event_id - Integer, passed in through the URL. Derived from the 'id' field of the 'events' table.
 
 =
 ####JSON request example:
