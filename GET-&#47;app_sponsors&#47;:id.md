@@ -8,9 +8,7 @@ The user needs to be logged in and have valid credentials to use this route
 =
 #### Parameters
 
-/:id
-
-This is passed in the URL and is derived from the 'id' field on the the 'app_sponsors' table.
+:id - Integer, passed in through the URL. Derived from the 'id' field on the the 'app_sponsors' table.
 
 =
 ####JSON request example:
