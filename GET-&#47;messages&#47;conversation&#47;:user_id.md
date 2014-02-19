@@ -1,4 +1,4 @@
-Requests all of the non-archived messages between the logged in user and a second party.
+Requests all of the non-archived messages between the logged in user and a second party. The ':user_id' parameter looks at both the 'sender_user_id' and 'recipient_user_id' fields from the 'messages' table. 
 
 =
 #### Authentication
@@ -8,9 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:user_id;
-
-This is taken from both the 'sender_user_id' and 'recipient_user_id' fields from the 'messages' table. 
+:user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table. 
 
 =
 ####JSON request example:
