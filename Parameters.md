@@ -5,13 +5,13 @@ List of all parameters being used.
 
 * :app_sponsor_id - Integer, passed in the URL. Is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
 
-* :event_id - Integer, passed in through the URL. Derived from the 'id' field of the 'events' table.
+* :event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
 
 * :group_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'groups' table.
 
 * (messages) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 
-* :page - Text, passed in through the URL. Each page of the App will have its own unique name. This parameter corresponds to the 'name' field in the app_label_pages table in the database.
+* :page - Text, passed in through the URL. Is derived from the 'name' field in the 'app_label_pages' table.
 
 * :post_id - Integer, passed in through the URL. Used to declare which post is going to be updated. It is derived from the 'id' field on the 'posts' table.
 
