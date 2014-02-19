@@ -1,4 +1,4 @@
-Returns all of the users invited to a group. Should only return any values if the user is the owner of the group.
+Returns all of the pending user invites for a group. Should not return any invites for users who members of the group. Should only return any values if the user is the owner of the group.
 
 =
 #### Authentication
