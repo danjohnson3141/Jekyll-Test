@@ -23,7 +23,8 @@ http://0.0.0.0:3000/groups/234
 ```
 { group: 
   { name: "Groups are Awesome", 
-    description: "New Description" } }
+    description: "New Description" } 
+ }
 ```
 =
 ####JSON response example:
