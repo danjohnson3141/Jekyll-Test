@@ -1,0 +1,45 @@
+List of all parameters being used.
+
+* :alt_email
+
+* :app_sponsor_id
+
+* :bio
+
+* :body - Text, passed in through the post data. The plain text of the post.
+
+* :body_markdown - Text, passed in through the post data. The formatted version of the post.
+
+* :description
+
+* :email
+
+* :event_id
+
+* :excerpt - Text, passed in through the post data. A synopsis of the post.
+
+* :first_name
+
+* :group_id
+
+* :group_id - Integer, passed in through the post data. This is the 'id' of the group that the post will be associated with; derived from the 'id' field on the 'groups' table.
+
+* :last_name
+
+* :name
+
+* :organization_name
+
+* :photo
+
+* :post_id - Integer, passed in through the URL. Used to declare which post is going to be updated. It is derived from the 'id' field on the 'posts' table.
+
+* :recipient_user_id
+
+* :sender_user_id
+
+* :thumbnail_teaser_photo - Varchar, passed in through the post data. The URL of a photo used to advertise the post
+
+* :title - Text, passed in through the post data. The title of the post. Limited to 255 characters.
+
+* :user_id
