@@ -13,7 +13,7 @@ none; default only
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/group_invites/groups
 ```
 
 =
