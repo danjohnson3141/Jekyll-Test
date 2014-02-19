@@ -20,13 +20,13 @@ List of all parameters being used.
 
 * :bio
 
-* :body - Text, passed in through the post data. The plain text of the post.
+* :body - Text, passed in through the post data. This is the plain text of the submission.
 
 * :body_markdown - Text, passed in through the post data. The formatted version of the post.
 
 * :description
 
-* :email
+* :email - Varchar, passed in through the post data. If the user is not logged in, the app will ask the user for this, if they're logged in it will automatically fill it in.
 
 * :event_id
 
