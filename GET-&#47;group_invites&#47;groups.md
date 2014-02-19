@@ -118,4 +118,4 @@ http://0.0.0.0:3000/group_invites/groups
         "user_connection_id"=>nil}}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
