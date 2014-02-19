@@ -3,9 +3,11 @@ List of all parameters being used.
 =
 ####URL Parameters
 
-:app_sponsor_id - Integer, passed in the URL. Is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
+* :app_sponsor_id - Integer, passed in the URL. Is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
 
 * :event_id - Integer, passed in through the URL. Derived from the 'id' field of the 'events' table.
+
+* :group_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'groups' table.
 
 * :page - Text, passed in through the URL. Each page of the App will have its own unique name. This parameter corresponds to the 'name' field in the app_label_pages table in the database.
 
