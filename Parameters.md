@@ -11,6 +11,10 @@ List of all parameters being used.
 
 * :group_invite_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'group_invites' table.
 
+* :group_members_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'group_members' table.
+
+* :group_requests_id - Integer, passed in the URL. Is derived from the 'id' field on the 'group_requests' table.
+
 * (messages) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 
 * :page - Text, passed in through the URL. Is derived from the 'name' field in the 'app_label_pages' table.
