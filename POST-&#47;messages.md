@@ -6,7 +6,7 @@ The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
-:body - Integer, passed in through the post data. This is the actual text of the message being sent
+:body - Text, passed in through the post data. This is the plain text of the submission.
 
 :recipient_user_id - Integer, passed in through the post data. This is 'user_id' of the person that is receiving the message. Derived from the 'id' field of the 'users' table'.
 
