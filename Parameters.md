@@ -13,9 +13,9 @@ List of all parameters being used.
 
 * :page - Text, passed in through the URL. Is derived from the 'name' field in the 'app_label_pages' table.
 
-* :post_id - Integer, passed in through the URL. Used to declare which post is going to be updated. It is derived from the 'id' field on the 'posts' table.
+* :post_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 
-* (sponsor):id - Integer, passed in through the URL. Derived from the 'id' field on the the 'app_sponsors' table.
+* (sponsor):id - Integer, passed in through the URL. Is derived from the 'id' field on the the 'app_sponsors' table.
 
 * :user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
 
