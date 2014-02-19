@@ -1,16 +1,14 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns a list of all of the members of a group.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:group_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'groups' table.
 
 =
 ####JSON request example:
@@ -22,12 +20,42 @@ http://0.0.0.0:3000/ROUTE_NAME
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+{"group_members"=>
+  [{"id"=>289,
+    "group_id"=>1671,
+    "created_by"=>nil,
+    "updated_by"=>nil,
+    "user"=>
+     {"id"=>13496,
+      "email"=>"generic_user@evanta.com",
+      "alt_email"=>nil,
+      "first_name"=>"Generic",
+      "last_name"=>"User",
+      "title"=>"CEO of QA",
+      "organization_name"=>"Evanta",
+      "bio"=>nil,
+      "photo"=>
+       "https://assets.evanta.com/shared/resources/Users/large/anonymous.jpg",
+      "user_role_id"=>13500,
+      "user_connection_id"=>nil}},
+   {"id"=>290,
+    "group_id"=>1671,
+    "created_by"=>nil,
+    "updated_by"=>nil,
+    "user"=>
+     {"id"=>13499,
+      "email"=>"nickolas_keebler@kuvalis.biz",
+      "alt_email"=>"brant@gmail.com",
+      "first_name"=>"Forrest",
+      "last_name"=>"Metz",
+      "title"=>"Random User",
+      "organization_name"=>"Kuhic and Sons",
+      "bio"=>
+       "Deleniti a quia incidunt amet voluptate natus cupiditate ex occaecati eos.",
+      "photo"=>
+       "https://assets.evanta.com/shared/resources/Users/large/anonymous.jpg",
+      "user_role_id"=>13501,
+      "user_connection_id"=>nil}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
