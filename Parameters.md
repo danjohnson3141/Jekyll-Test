@@ -38,7 +38,7 @@ List of all parameters being used.
 
 * :body_markdown - Text, passed in through the post data. The formatted version of the post.
 
-* :description
+* :description - Text, passed in through the post data. Is derived from the 'description' field of the 'groups' table.
 
 * :email - Varchar, passed in through the post data. If the user is not logged in, the app will ask the user for this, if they're logged in it will automatically fill it in.
 
@@ -52,10 +52,9 @@ List of all parameters being used.
 
 * :last_name
 
-* :name
+* :name - Varchar, passed in through the post data. Is derived from the 'name' field of the 'groups' table.
 
 * :organization_name
-
 
 * :photo
 
