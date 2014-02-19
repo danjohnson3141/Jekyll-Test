@@ -18,6 +18,7 @@ List of all parameters being used.
 * (sponsor):id - Integer, passed in through the URL. Derived from the 'id' field on the the 'app_sponsors' table.
 
 * :user_id - Integer, passed in through the URL. Is derived from both the 'sender_user_id' and 'recipient_user_id' fields from the 'messages' table. 
+
 =
 ####Post Data Parameters
 
