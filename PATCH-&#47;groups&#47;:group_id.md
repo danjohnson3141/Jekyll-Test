@@ -1,11 +1,9 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Updates 
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
