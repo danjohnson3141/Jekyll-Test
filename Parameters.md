@@ -48,8 +48,6 @@ List of all parameters being used.
 
 * :first_name
 
-* :group_id
-
 * :group_id - Integer, passed in through the post data. This is the 'id' of the group that the post will be associated with; derived from the 'id' field on the 'groups' table.
 
 * :last_name
