@@ -1,11 +1,9 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns a list of all the group requests for **one** group. Should not return any users who are members of the group. 
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
