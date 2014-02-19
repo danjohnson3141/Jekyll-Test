@@ -21,7 +21,10 @@ http://0.0.0.0:3000/app_supports
 =
 ####POST Data
 ```
-{ app_support: {body: "I need help!!!", email: "distraught_user@example.com"} }
+{ app_support: 
+  {body: "I need help!!!", 
+   email: "distraught_user@example.com"} 
+ }
 ```
 =
 ####JSON response example:
