@@ -3,6 +3,8 @@ List of all parameters being used.
 =
 ####URL Parameters
 
+* :event_id - Integer, passed in through the URL. Derived from the 'id' field of the 'events' table.
+
 * :page - Text, passed in through the URL. Each page of the App will have its own unique name. This parameter corresponds to the 'name' field in the app_label_pages table in the database.
 
 * :post_id - Integer, passed in through the URL. Used to declare which post is going to be updated. It is derived from the 'id' field on the 'posts' table.
