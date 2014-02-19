@@ -8,9 +8,9 @@ No authorizations required
 =
 #### Parameters
 
-:body, this is the actual text of the support request 
+:body - Text, passed in through the post data. This is the plain text of the submission.
 
-:email, if the user is not logged in, the app will ask the user for this, if they're logged in it will automatically fill it in.
+:email - Varchar, passed in through the post data. If the user is not logged in, the app will ask the user for this, if they're logged in it will automatically fill it in.
 
 =
 ####JSON request example:
