@@ -1,4 +1,4 @@
-Updates 
+Updates the group
 
 =
 #### Authentication
