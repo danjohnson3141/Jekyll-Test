@@ -15,9 +15,16 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/groups/234
 ```
 
+=
+####Post Data
+```
+{ group: 
+  { name: "Groups are Awesome", 
+    description: "New Description" } }
+```
 =
 ####JSON response example:
 
