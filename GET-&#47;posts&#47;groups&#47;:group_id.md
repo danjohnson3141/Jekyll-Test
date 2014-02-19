@@ -8,9 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:group_id
-
-This is passed in through the URL and is derived from the 'id' field on the 'groups' table.
+:group_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'groups' table.
 
 =
 ####JSON request example:
