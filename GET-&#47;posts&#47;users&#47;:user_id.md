@@ -8,9 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:user_id
-
-This is passed in through the URL. It is derived from the 'id' field on the 'users' table.
+:user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
 
 =
 ####JSON request example:
