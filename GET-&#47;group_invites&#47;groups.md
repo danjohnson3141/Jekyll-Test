@@ -1,16 +1,14 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route returns all of the pending invites for the logged in user. Should not return invites for groups that the user is already a member of.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; default only
 
 =
 ####JSON request example:
