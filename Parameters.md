@@ -40,6 +40,8 @@ List of all parameters being used.
 
 * :sender_user_id
 
+* (sponsor):id - Integer, passed in through the URL. Derived from the 'id' field on the the 'app_sponsors' table.
+
 * :thumbnail_teaser_photo - Varchar, passed in through the post data. The URL of a photo used to advertise the post
 
 * :title - Text, passed in through the post data. The title of the post. Limited to 255 characters.
