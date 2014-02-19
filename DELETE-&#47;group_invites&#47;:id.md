@@ -6,9 +6,7 @@ The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
-:id
-
-This is derived from the 'id' field on the 'group_invites' table.
+:id - Integer, passed in through the URL. Is derived from the 'id' field on the 'group_invites' table.
 
 =
 ####JSON request example:
