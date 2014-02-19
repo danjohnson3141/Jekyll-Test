@@ -8,9 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:event_id
-
-This is passed in the URL and is derived from the 'event_id' field on the the 'banner_ads' table.
+:event_id - Integer, passed in through the URL. Derived from the 'id' field of the 'events' table.
 
 =
 ####JSON request example:
