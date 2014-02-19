@@ -1,4 +1,4 @@
-Returns details on *one* group.
+Returns details on **one** group.
 
 =
 #### Authentication
