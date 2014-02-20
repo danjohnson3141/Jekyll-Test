@@ -1,4 +1,4 @@
-This logs the user out. Doesn't 
+This logs the user out.
 
 =
 #### Authentication
