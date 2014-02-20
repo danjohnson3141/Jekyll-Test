@@ -23,4 +23,4 @@ http://0.0.0.0:3000/user_connections/234
 NO JSON RESPONSE
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 204</strong> on success.
