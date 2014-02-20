@@ -1,4 +1,4 @@
-* [DELETE /user_connections/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;user_connections&%2347;:id)
+* [DELETE /user_connections/:user_connection_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;user_connections&%2347;:user_connection_id)
 * [DELETE /users/sign_out] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;users&%2347;sign_out)
 * [GET /user_connections/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;user_connections&%2347;:user_id)
 * [GET /users/password/edit] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;password&%2347;edit)
