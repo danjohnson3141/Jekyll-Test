@@ -33,4 +33,4 @@ http://0.0.0.0:3000/groups/234
 NO JSON RESPONSE
 ```
 
-This requests provides a <strong>HTML 200</strong> on success.
+This requests provides a <strong>HTML 204</strong> on success.
