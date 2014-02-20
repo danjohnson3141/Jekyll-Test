@@ -1,4 +1,4 @@
-Updates the group
+Updates the group. Only the group owner is allowed to update the group, and the only editable options are the group's name and the description of the group.
 
 =
 #### Authentication
