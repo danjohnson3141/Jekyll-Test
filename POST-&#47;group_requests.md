@@ -1,33 +1,67 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This creates a new record for the user trying to join a group that requires approval to join.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table. This is the group that the user is requesting to join.
+
+:user_id - Integer, passed in through the post data. Derived from the 'id' field of the 'users' table.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/group_requests
 ```
 
 =
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+{"group_request"=>
+  {"id"=>89,
+   "user"=>
+    {"id"=>5317,
+     "email"=>"generic_user@evanta.com",
+     "alt_email"=>nil,
+     "first_name"=>"Generic",
+     "last_name"=>"User",
+     "title"=>"CEO of QA",
+     "organization_name"=>"Evanta",
+     "bio"=>"This is the biography of the default Generic User",
+     "photo"=>
+      "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
+     "user_role_id"=>5321,
+     "user_connection_id"=>nil},
+   "group"=>
+    {"id"=>706,
+     "name"=>"TestGroup",
+     "description"=>"For Testing",
+     "owner_user_id"=>nil,
+     "member_count"=>0,
+     "group_member_id"=>nil,
+     "group_request_id"=>89,
+     "group_request_is_approved"=>false,
+     "group_invite_id"=>nil,
+     "create_post"=>false,
+     "create_groups"=>nil,
+     "leave_group"=>nil,
+     "group_type"=>
+      {"id"=>1181,
+       "name"=>"Factory:Open",
+       "description"=>"Open",
+       "is_group_visible"=>true,
+       "is_memberlist_visible"=>true,
+       "is_content_visible"=>true,
+       "is_approval_required"=>false},
+     "owner"=>nil,
+     "banner_ads"=>[],
+     "group_sponsor"=>nil,
+     "group_members"=>[]}}}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.
