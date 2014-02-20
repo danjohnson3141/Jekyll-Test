@@ -1,16 +1,18 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is how the user will create a new group.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:name - Varchar, passed in through the post data. Is derived from the 'name' field of the 'groups' table. This will be the name of the group
+
+:description - Text, passed in through the post data. Is derived from the 'description' field of the 'groups' table. This will be the 
+
+:group_type_id - Integer, passed in through the post data. Is derived from the 'id' field on 'group_types' table.
 
 =
 ####JSON request example:
