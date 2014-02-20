@@ -23,6 +23,8 @@ List of all parameters being used.
 
 * (sponsor):id - Integer, passed in through the URL. Is derived from the 'id' field on the the 'app_sponsors' table.
 
+* :user_connection_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'user_connection' table.
+
 * :user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
 
 =
