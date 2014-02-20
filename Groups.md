@@ -1,6 +1,6 @@
 * [DELETE /group_invites/:group_invite_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_invites&%2347;:group_invite_id)
 * [DELETE /group_members/:group_member_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_members&%2347;:group_member_id)
-* [DELETE /group_requests/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_requests&%2347;:id)
+* [DELETE /group_requests/:group_requests_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_requests&%2347;:group_requests_id)
 * [GET /group_featured_posts/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_featured_posts&%2347;:group_id)
 * [GET /group_invites/groups] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_invites&%2347;groups)
 * [GET /group_invites/users/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_invites&%2347;users&%2347;:group_id)
