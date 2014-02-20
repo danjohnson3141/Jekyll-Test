@@ -8,7 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
+:message_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 
 =
 ####JSON request example:
