@@ -19,6 +19,15 @@ http://0.0.0.0:3000/group_requests
 ```
 
 =
+####Post Data
+```
+{ group_request: 
+  { user_id: 5317, 
+    group_id: 706 } 
+ }
+```
+
+=
 ####JSON response example:
 
 ```
