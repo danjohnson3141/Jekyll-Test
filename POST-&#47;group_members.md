@@ -3,7 +3,7 @@ This creates a new group membership record. The user associated with this record
 =
 ####Authentication
 
-The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route. This is the group that the active user will now be a member of.
 
 =
 ####Parameters
