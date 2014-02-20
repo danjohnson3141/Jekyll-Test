@@ -36,4 +36,4 @@ http://0.0.0.0:3000/users/profile/18447
    "user_connection_id"=>nil}}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
