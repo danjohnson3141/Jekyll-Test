@@ -69,4 +69,4 @@ http://0.0.0.0:3000/user_connections/17065
       "user_role_id"=>17067}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
