@@ -48,7 +48,9 @@ List of all parameters being used.
 
 * :first_name
 
-* :group_id - Integer, passed in through the post data. This is the 'id' of the group that the post will be associated with; derived from the 'id' field on the 'groups' table.
+* :group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table.
+
+* :group_type_id - Integer, passed in through the post data. Is derived from the 'id' field on 'group_types' table.
 
 * :last_name
 
@@ -66,4 +68,4 @@ List of all parameters being used.
 
 * :title - Text, passed in through the post data. The title of the post. Limited to 255 characters.
 
-* :user_id
+* :user_id - Integer, passed in through the post data. Derived from the 'id' field of the 'users' table.
