@@ -22,8 +22,8 @@ http://0.0.0.0:3000/group_invites
 ####Post Data
 ```
 { group_invite: 
-  { user_id: @user.id, 
-    group_id: group.id } 
+  { user_id: 29845, 
+    group_id: 3773 } 
  }
 ```
 
@@ -32,36 +32,36 @@ http://0.0.0.0:3000/group_invites
 
 ```
 {"group_invite"=>
-  {"id"=>486,
+  {"id"=>506,
    "user"=>
-    {"id"=>28187,
-     "email"=>"generic_user@evanta.com",
-     "alt_email"=>nil,
-     "first_name"=>"Generic",
-     "last_name"=>"User",
-     "title"=>"CEO of QA",
-     "organization_name"=>"Evanta",
-     "bio"=>nil,
+    {"id"=>29845,
+     "email"=>"juliet@towne.com",
+     "alt_email"=>"davonte_gleichner@hotmail.com",
+     "first_name"=>"Sonny",
+     "last_name"=>"Tromp",
+     "title"=>"Random User",
+     "organization_name"=>"Bailey Inc",
+     "bio"=>"Et qui aut veritatis quo omnis et voluptas quia ipsa nulla.",
      "photo"=>
       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-     "user_role_id"=>28191,
+     "user_role_id"=>29847,
      "user_connection_id"=>nil},
    "group"=>
-    {"id"=>3563,
+    {"id"=>3773,
      "name"=>"Private Group",
      "description"=>"Private group",
-     "owner_user_id"=>28187,
+     "owner_user_id"=>29842,
      "app_sponsor_id"=>nil,
      "member_count"=>0,
      "group_member_id"=>nil,
      "group_request_id"=>nil,
      "group_request_is_approved"=>nil,
-     "group_invite_id"=>486,
+     "group_invite_id"=>nil,
      "create_groups"=>nil,
      "leave_group"=>nil,
      "banner_ads"=>[],
      "group_type"=>
-      {"id"=>6407,
+      {"id"=>6772,
        "name"=>"Factory:Private",
        "description"=>"Private",
        "is_group_visible"=>true,
@@ -70,14 +70,14 @@ http://0.0.0.0:3000/group_invites
        "is_approval_required"=>true},
      "app_sponsor"=>nil,
      "owner"=>
-      {"id"=>28187,
+      {"id"=>29842,
        "first_name"=>"Generic",
        "last_name"=>"User",
        "title"=>"CEO of QA",
        "organization_name"=>"Evanta",
        "photo"=>
         "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-       "user_role_id"=>28191,
+       "user_role_id"=>29846,
        "user_connection_id"=>nil}}}}
 ```
 
