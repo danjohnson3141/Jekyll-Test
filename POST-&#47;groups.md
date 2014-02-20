@@ -32,4 +32,4 @@ http://0.0.0.0:3000/ROUTE_NAME
 }
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.
