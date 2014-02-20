@@ -15,4 +15,4 @@
 * [POST /group_members] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_members)
 * [POST /group_requests] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_requests)
 * [POST /groups] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;groups)
-* [PUT /groups/:id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;groups&%2347;:id)
+* [PUT /groups/:group_id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;groups&%2347;:group_id)
