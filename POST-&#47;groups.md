@@ -1,4 +1,4 @@
-This is how the user will create a new group.
+This is how the user will create a new group. On success of this route, a group_member record will be created for the active user and the new group.
 
 =
 #### Authentication
