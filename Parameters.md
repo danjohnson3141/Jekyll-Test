@@ -30,11 +30,11 @@ List of all parameters being used.
 =
 ####Post Data Parameters
 
-* :alt_email
+* :alt_email - Varchar, passed in through the post data. Is derived from the 'alt_email' field on the 'users' table.
 
 * :app_sponsor_id
 
-* :bio
+* :bio  - Text, passed in through the post data. Is derived from the 'bio' field on the 'users' table. 
 
 * :body - Text, passed in through the post data. This is the plain text of the submission.
 
@@ -48,25 +48,27 @@ List of all parameters being used.
 
 * :excerpt - Text, passed in through the post data. A synopsis of the post.
 
-* :first_name
+* :first_name - Varchar, passed in through the post data. Is derived from the 'first_name' field on the 'users' table.
 
 * :group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table.
 
 * :group_type_id - Integer, passed in through the post data. Is derived from the 'id' field on 'group_types' table.
 
-* :last_name
+* :last_name - Varchar, passed in through the post data. Is derived from the 'last_name' field on the 'users' table.
 
 * :name - Varchar, passed in through the post data. Is derived from the 'name' field of the 'groups' table.
 
-* :organization_name
+* :organization_name - Varchar, passed in through the post data. Is derived from the 'organization_name' field on the 'users' table. 
 
-* :photo
+* :photo - Varchar, passed in through the post data. Is derived from the 'photo' field on the 'users' table.
 
 * :recipient_user_id - Integer, passed in through the post data. This is 'user_id' of the person that is receiving the message. Derived from the 'id' field of the 'users' table'.
 
 * :sender_user_id
 
 * :thumbnail_teaser_photo - Varchar, passed in through the post data. The URL of a photo used to advertise the post
+
+* :title - Varchar, passed in through the post data. Is derived from the 'title' field on the 'users' table.
 
 * :title - Text, passed in through the post data. The title of the post. Limited to 255 characters.
 
