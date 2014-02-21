@@ -10,24 +10,31 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:alt_email
+
+:first_name
+
+:last_name
+
+:title
+
+:organization_name 
+
+:bio 
+
+:photo
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/users/profile
 ```
 
 =
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+none; default only
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 204</strong> on success.
