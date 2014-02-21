@@ -1,4 +1,4 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Changes a user_connection request to being approved.
 
 =
 #### Authentication
@@ -30,4 +30,4 @@ http://0.0.0.0:3000/ROUTE_NAME
 }
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.
