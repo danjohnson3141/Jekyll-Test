@@ -10,19 +10,19 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 =
 #### Parameters
 
-:alt_email
+:alt_email - Varchar, passed in through the post data. Is derived from the 'alt_email' field on the 'users' table.
 
-:first_name
+:first_name - Varchar, passed in through the post data. Is derived from the 'first_name' field on the 'users' table.
 
-:last_name
+:last_name - Varchar, passed in through the post data. Is derived from the 'last_name' field on the 'users' table.
 
-:title
+:title - Varchar, passed in through the post data. Is derived from the 'title' field on the 'users' table.
 
-:organization_name 
+:organization_name - Varchar, passed in through the post data. Is derived from the 'organization_name' field on the 'users' table. 
 
-:bio 
+:bio  - Text, passed in through the post data. Is derived from the 'bio' field on the 'users' table. 
 
-:photo
+:photo - Varchar, passed in through the post data. Is derived from the 'photo' field on the 'users' table.
 
 =
 ####JSON request example:
