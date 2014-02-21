@@ -33,7 +33,15 @@ http://0.0.0.0:3000/users/profile
 =
 ####Post Data
 ```
-
+{ user: 
+  { alt_email: "alt@example.com", 
+    bio: "I'm totally awesome!!", 
+    first_name: "Awesome", 
+    last_name: "UserTest", 
+    organization_name: "Testing is awesome!", 
+    photo: "www.example.com/updated.gif", 
+    title: "King of the World" }
+ }
 ```
 
 =
