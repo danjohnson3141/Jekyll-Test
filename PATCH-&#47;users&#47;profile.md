@@ -31,6 +31,12 @@ http://0.0.0.0:3000/users/profile
 ```
 
 =
+####Post Data
+```
+
+```
+
+=
 ####JSON response example:
 
 ```
