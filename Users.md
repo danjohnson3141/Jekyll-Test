@@ -12,6 +12,6 @@
 * [POST /user_connections] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;user_connections)
 * [POST /users/password] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;users&%2347;password)
 * [POST /users/sign_in] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;users&%2347;sign_in)
-* [PUT /user_connections/:id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;user_connections&%2347;:id)
+* [PUT /user_connections/:user_connection_id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;user_connections&%2347;:user_connection_id)
 * [PUT /users/password] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;users&%2347;password)
 * [PUT /users/profile] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;users&%2347;profile)
