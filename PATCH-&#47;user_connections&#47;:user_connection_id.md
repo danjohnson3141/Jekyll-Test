@@ -1,4 +1,4 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Changes a user_connection request to being approved.
 
 =
 #### Authentication
