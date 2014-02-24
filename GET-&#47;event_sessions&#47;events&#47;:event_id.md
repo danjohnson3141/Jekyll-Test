@@ -3,9 +3,7 @@ Returns all of the sessions for one event.
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
@@ -15,7 +13,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_sessions/events/5363
 ```
 
 =
