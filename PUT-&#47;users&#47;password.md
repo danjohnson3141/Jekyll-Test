@@ -1,33 +1,40 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is how the user resets their password. They need to have a 'reset_password_token' which is sent to them via their email address. After they've received this token, they're able to update their password, which is then encrypted (and salted? I don't know) and stored in the 'encrypted_password' field of the 'users' table.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The active user does not need to be logged in for this route to work.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:password - Passed in through the post data. This is the users new password. Is not stored in plaintext anywhere.
+
+:password_confirmation - Passed in through the post data. This is used to verify that the new user has entered the correct updated password by having them submit it twice and
+
+:reset_password_token - Varchar, passed in through the post data. This is derived from the 'reset_password_token' field on the 'users' table.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/users/password
+```
+
+=
+####Post Data
+```
+{ user: 
+  { reset_password_token: "S8cL7iZCLrX3WURW2vaN",  
+    password: "evanta2015", 
+    password_confirmation: "evanta2015" } 
+ }
 ```
 
 =
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+NO JSON RESPONSE
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
