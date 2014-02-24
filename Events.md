@@ -1,5 +1,5 @@
 * [DELETE /event_followers/:id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;event_followers&%2347;:id)
-* [DELETE /event_users/:event_users_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;event_users&%2347;:event_users_id)
+* [DELETE /event_users/:event_user_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;event_users&%2347;:event_user_id)
 * [GET /event_featured_posts/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_featured_posts&%2347;:event_id)
 * [GET /event_followers/events/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_followers&%2347;events&%2347;:user_id)
 * [GET /event_followers/users/:event_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;event_followers&%2347;users&%2347;:event_id)
