@@ -1,4 +1,4 @@
-Returns the active users's profile.
+This route shows the profile for the active user.
 
 =
 #### Authentication
