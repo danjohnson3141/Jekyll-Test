@@ -1,33 +1,26 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is how a user unfollows an events.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:id - Integer, passed in through the URL. Is derived from the 'id' field on the 'event_followers' table.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_followes/234
 ```
 
 =
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+NO JSON RESPONSE
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 204</strong> on success.
