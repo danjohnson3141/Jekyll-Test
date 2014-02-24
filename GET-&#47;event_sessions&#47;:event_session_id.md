@@ -1,4 +1,4 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns all the details for one event session.
 
 =
 #### Authentication
@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_sessions/558
 ```
 
 =
