@@ -10,7 +10,9 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+
+
+:reset_password_token - Varchar, passed in through the post data. This is derived from the 'reset_password_token' field on the 'users' table.
 
 =
 ####JSON request example:
