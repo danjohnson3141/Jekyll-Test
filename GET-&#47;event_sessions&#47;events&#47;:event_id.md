@@ -178,4 +178,4 @@ http://0.0.0.0:3000/event_sessions/events/5363
         "user_role_id"=>41867}}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
