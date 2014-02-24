@@ -1,4 +1,4 @@
-This brings back **one** users profile.
+This brings back **one** user's profile.
 
 =
 #### Authentication
