@@ -25,7 +25,7 @@ http://0.0.0.0:3000/ROUTE_NAME
   { reset_password_token: "S8cL7iZCLrX3WURW2vaN",  
     password: "evanta2015", 
     password_confirmation: "evanta2015" } 
-  }
+ }
 ```
 
 =
