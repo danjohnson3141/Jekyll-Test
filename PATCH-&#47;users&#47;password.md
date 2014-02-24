@@ -1,23 +1,23 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is how the user resets their password. They need to have a 'reset_password_token'
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The active user does not need to be logged in for this route to work.
 
 =
 #### Parameters
 
+:password - Passed in through the post data. This is the users new password. Is not stored in plaintext anywhere.
 
+:password_confirmation - Passed in through the post data. This is used to verify that the new user has entered the correct updated password by having them submit it twice and
 
 :reset_password_token - Varchar, passed in through the post data. This is derived from the 'reset_password_token' field on the 'users' table.
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/users/password
 ```
 
 =
