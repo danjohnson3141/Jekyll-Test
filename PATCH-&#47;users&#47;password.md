@@ -19,15 +19,20 @@ http://0.0.0.0:3000/ROUTE_NAME
 ```
 
 =
+####Post Data
+```
+{ user: 
+  { reset_password_token: "S8cL7iZCLrX3WURW2vaN",  
+    password: "evanta2015", 
+    password_confirmation: "evanta2015" } 
+  }
+```
+
+=
 ####JSON response example:
 
 ```
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
+NO JSON RESPONSE
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
