@@ -1,4 +1,4 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns information on one event sponsor.
 
 =
 #### Authentication
