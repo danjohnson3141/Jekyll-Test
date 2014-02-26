@@ -1,0 +1,15 @@
+* DELETE /user_event_bookmarks/:id
+* DELETE /user_event_notes/:id
+* GET /event_speakers/:event_speaker_id
+* GET /event_speakers/event/:event_id
+* GET /event_speakers/event_session/:event_session_id
+* GET /user_event_bookmarks
+* GET /user_event_bookmarks/:id
+* GET /user_event_notes
+* GET /user_event_notes/:id
+* PATCH /user_event_bookmarks/:id
+* PATCH /user_event_notes/:id
+* POST /user_event_bookmarks
+* POST /user_event_notes
+* PUT /user_event_bookmarks/:id
+* PUT /user_event_notes/:id
