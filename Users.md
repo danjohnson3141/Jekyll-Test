@@ -6,8 +6,8 @@
  
 =
 ####Profiles
-[GET /users/profile/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile&%2347;:id)
-* [GET /users/profile] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile)
+*[GET /users/profile/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile&%2347;:id)
+*[GET /users/profile] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile)
 
 
 =
