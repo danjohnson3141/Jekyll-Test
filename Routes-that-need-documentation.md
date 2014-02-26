@@ -12,4 +12,4 @@
 * [POST /user_event_bookmarks](/Evanta/EvantaAccessAPI/wiki/POST-&%2347;user_event_bookmarks)
 * [POST /user_event_notes](/Evanta/EvantaAccessAPI/wiki/POST-&%2347;user_event_notes)
 * [PUT /user_event_bookmarks/:id](/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;user_event_bookmarks&%2347;:id)
-* [PUT /user_event_notes/:i]()/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;user_event_notes&%2347;:id)
+* [PUT /user_event_notes/:id](/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;user_event_notes&%2347;:id)
