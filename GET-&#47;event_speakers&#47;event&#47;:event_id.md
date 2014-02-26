@@ -1,4 +1,4 @@
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns all of the speakers for one event.
 
 =
 #### Authentication
@@ -8,7 +8,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:event_id - Integer, passed in through the URL. 
+:event_id - Integer, passed in through the URL. Derived from the 'id' field on the 'events' table.
 
 =
 ####JSON request example:
