@@ -1,1 +1,7 @@
-This is the footer! Isn't that exciting!!!
+[[App-&-Navigation]]
+ | [[Banner Ads]]
+ | [[Events]]
+ | [[Messages]]
+ | [[Posts]]
+ | [[Users]]
+ | [[All Routes]]
