@@ -1,10 +1,13 @@
 [[Gollum]]
 
+Changes made to the files locally in a text editor will not be reflected on the wiki till they're committed to the repository.
+
 Evanta Access is a social networking and event management Application that is currently being used as  collaborative tool amongst the CXOs of many Fortune 1000 companies. These APIs allow the user to interact with the network.
 
 The types of API routes available can generally be broken up into seven different categories:
 
-* [App & Navigation](/Evanta/EvantaAccessAPI/wiki/App-&-Navigation)
+* [[App-&-Navigation]]
+
 * [Banner Ads](/Evanta/EvantaAccessAPI/wiki/Banner-Ads)
 * [Events](/Evanta/EvantaAccessAPI/wiki/Events)
 * [Groups](/Evanta/EvantaAccessAPI/wiki/Groups)
