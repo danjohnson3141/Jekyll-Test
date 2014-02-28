@@ -1,6 +1,6 @@
 ####App & Navigation
 * [[GET /app/labels/:page|GET-&%2347;app&%2347;labels&%2347;:page]]
-* [[GET /app_setting_options/:id|GET-&%2347;app_setting_options&%2347;:id]]
+* [[GET /app_setting_options/:id|GET-&#47;app_setting_options&#47;:id]]
 * [[GET /app_settings/:name|GET-&%2347;app_settings&%2347;:name]]
 * [[GET /app_sponsors/:app_sponsor_id|GET-&%2347;app_sponsors&%2347;:app_sponsor_id]]
 * [[GET /app_sponsors|GET-&%2347;app_sponsors]]
