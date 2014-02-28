@@ -25,7 +25,7 @@ If the API request is designed to return more than one record, it is possible to
 
 So the message route of `GET /messages` would become `GET /messages?page=2&per_page=3`
 
-=
+___
 
 ####Templates
 This is the template currently being used for new documentation: [[Template]]
