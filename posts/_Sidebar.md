@@ -1,0 +1,7 @@
+* [[DELETE /posts/:post_id|DELETE-&#47;posts&#47;:post_id]]
+* [[GET /posts/:post_id|GET-&#47;posts&#47;:post_id]]
+* [[PATCH /posts/:post_id|PATCH-&#47;posts&#47;:post_id]]
+* [[PUT /posts/:post_id|PUT-&#47;posts&#47;:post_id]]
+* [[GET /posts/groups/:group_id|GET-&#47;posts&#47;groups&#47;:group_id]]
+* [[GET /posts/users/:user_id|GET-&#47;posts&#47;users&#47;:user_id]]
+* [[POST /posts|POST-&#47;posts]]
