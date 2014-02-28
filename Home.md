@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-zxcvb
-=======
 Evanta Access is a social networking and event management Application that is currently being used as  collaborative tool amongst the CXOs of many Fortune 1000 companies. These APIs allow the user to interact with the network.
 
 The types of API routes available can generally be broken up into seven different categories:
