@@ -11,8 +11,11 @@ The types of API routes available can generally be broken up into seven differen
 * [Users](/Evanta/EvantaAccessAPI/wiki/Users)
 * [All Routes](/Evanta/EvantaAccessAPI/wiki/All-Routes)
 
-=
 
+***
+
+
+=
 ####Pagination
 
 If the API request is designed to return more than one record, it is possible to paginate the results by adding the following suffix to the end of the request `?page=#&per_page=#`.
