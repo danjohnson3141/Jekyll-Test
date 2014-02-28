@@ -1,25 +1,17 @@
-* [DELETE /user_connections/:user_connection_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;user_connections&%2347;:user_connection_id)
-* [DELETE /users/sign_out] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;users&%2347;sign_out)
-* [GET /user_connections/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;user_connections&%2347;:user_id)
-* [GET /users/password/edit] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;password&%2347;edit)
-* [GET /users/password/new] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;password&%2347;new)
- 
-=
-####Profiles
-*[GET /users/profile/:id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile&%2347;:id)
-*[GET /users/profile] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;profile)
-
-
-=
-####Sign in
-
-* [GET /users/sign_in] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;users&%2347;sign_in)
-* [PATCH /user_connections/:user_connection_id] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;user_connections&%2347;:user_connection_id)
-* [PATCH /users/password] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;users&%2347;password)
-* [PATCH /users/profile] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;users&%2347;profile)
-* [POST /user_connections] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;user_connections)
-* [POST /users/password] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;users&%2347;password)
-* [POST /users/sign_in] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;users&%2347;sign_in)
-* [PUT /user_connections/:user_connection_id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;user_connections&%2347;:user_connection_id)
-* [PUT /users/password] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;users&%2347;password)
-* [PUT /users/profile] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;users&%2347;profile)
+* [[DELETE /user_connections/:id|DELETE-&#47;user_connections&#47;:id]]
+* [[PATCH /user_connections/:id|PATCH-&#47;user_connections&#47;:id]]
+* [[PUT /user_connections/:id|PUT-&#47;user_connections&#47;:id]]
+* [[GET /user_connections/:user_id|GET-&#47;user_connections&#47;:user_id]]
+* [[POST /user_connections|POST-&#47;user_connections]]
+* [[GET /users/password/edit|GET-&#47;users&#47;password&#47;edit]]
+* [[GET /users/password/new|GET-&#47;users&#47;password&#47;new]]
+* [[PATCH /users/password|PATCH-&#47;users&#47;password]]
+* [[POST /users/password|POST-&#47;users&#47;password]]
+* [[PUT /users/password|PUT-&#47;users&#47;password]]
+* [[GET /users/profile/:id|GET-&#47;users&#47;profile&#47;:id]]
+* [[GET /users/profile|GET-&#47;users&#47;profile]]
+* [[PATCH /users/profile|PATCH-&#47;users&#47;profile]]
+* [[PUT /users/profile|PUT-&#47;users&#47;profile]]
+* [[GET /users/sign_in|GET-&#47;users&#47;sign_in]]
+* [[POST /users/sign_in|POST-&#47;users&#47;sign_in]]
+* [[DELETE /users/sign_out|DELETE-&#47;users&#47;sign_out]]

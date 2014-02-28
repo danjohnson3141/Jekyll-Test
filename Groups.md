@@ -1,18 +1,18 @@
-* [DELETE /group_invites/:group_invite_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_invites&%2347;:group_invite_id)
-* [DELETE /group_members/:group_member_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_members&%2347;:group_member_id)
-* [DELETE /group_requests/:group_requests_id] (/Evanta/EvantaAccessAPI/wiki/DELETE-&%2347;group_requests&%2347;:group_requests_id)
-* [GET /group_featured_posts/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_featured_posts&%2347;:group_id)
-* [GET /group_invites/groups] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_invites&%2347;groups)
-* [GET /group_invites/users/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_invites&%2347;users&%2347;:group_id)
-* [GET /group_members/groups/:user_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_members&%2347;groups&%2347;:user_id)
-* [GET /group_members/users/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_members&%2347;users&%2347;:group_id)
-* [GET /group_requests/groups] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_requests&%2347;groups)
-* [GET /group_requests/users/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;group_requests&%2347;users&%2347;:group_id)
-* [GET /groups/:group_id] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;groups&%2347;:group_id)
-* [GET /groups] (/Evanta/EvantaAccessAPI/wiki/GET-&%2347;groups)
-* [PATCH /groups/:group_id] (/Evanta/EvantaAccessAPI/wiki/PATCH-&%2347;groups&%2347;:group_id)
-* [POST /group_invites] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_invites)
-* [POST /group_members] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_members)
-* [POST /group_requests] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;group_requests)
-* [POST /groups] (/Evanta/EvantaAccessAPI/wiki/POST-&%2347;groups)
-* [PUT /groups/:group_id] (/Evanta/EvantaAccessAPI/wiki/PUT-&%2347;groups&%2347;:group_id)
+* [[GET /group_featured_posts/:group_id|GET-&#47;group_featured_posts&#47;:group_id]]
+* [[DELETE /group_invites/:id|DELETE-&#47;group_invites&#47;:id]]
+* [[GET /group_invites/groups|GET-&#47;group_invites&#47;groups]]
+* [[GET /group_invites/users/:group_id|GET-&#47;group_invites&#47;users&#47;:group_id]]
+* [[POST /group_invites|POST-&#47;group_invites]]
+* [[DELETE /group_members/:id|DELETE-&#47;group_members&#47;:id]]
+* [[GET /group_members/groups/:user_id|GET-&#47;group_members&#47;groups&#47;:user_id]]
+* [[GET /group_members/users/:group_id|GET-&#47;group_members&#47;users&#47;:group_id]]
+* [[POST /group_members|POST-&#47;group_members]]
+* [[DELETE /group_requests/:id|DELETE-&#47;group_requests&#47;:id]]
+* [[GET /group_requests/groups|GET-&#47;group_requests&#47;groups]]
+* [[GET /group_requests/users/:group_id|GET-&#47;group_requests&#47;users&#47;:group_id]]
+* [[POST /group_requests|POST-&#47;group_requests]]
+* [[GET /groups/:id|GET-&#47;groups&#47;:id]]
+* [[PATCH /groups/:id|PATCH-&#47;groups&#47;:id]]
+* [[PUT /groups/:id|PUT-&#47;groups&#47;:id]]
+* [[GET /groups|GET-&#47;groups]]
+* [[POST /groups|POST-&#47;groups]]
