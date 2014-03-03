@@ -1,4 +1,4 @@
-<!-- --- GET /app_sponsors-->
+<!-- --- title: GET /app_sponsors-->
 
 This route is used to return a list of all of the application sponsors (these are different than event sponsors). 
 
