@@ -1,3 +1,5 @@
+<!-- --- title: NAME OF THE ROUTE -->
+
 Returns a list of all the user connections that a user has. 
 
 =

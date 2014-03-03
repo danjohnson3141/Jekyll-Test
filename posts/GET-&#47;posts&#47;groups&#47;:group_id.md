@@ -1,3 +1,5 @@
+<!-- --- title: GET /posts/groups/:group_id -->
+
 This returns **all** the posts associated with one group.
 
 =

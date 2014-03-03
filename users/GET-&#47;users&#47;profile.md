@@ -1,3 +1,5 @@
+<!-- --- title: NAME OF THE ROUTE -->
+
 This route shows the profile for the active user.
 
 =

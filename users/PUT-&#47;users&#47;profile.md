@@ -1,3 +1,5 @@
+<!-- --- title: NAME OF THE ROUTE -->
+
 This is the route that allows the active user to alter their profile.
 
 =

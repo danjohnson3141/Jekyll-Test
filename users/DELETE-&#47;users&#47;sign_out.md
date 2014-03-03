@@ -1,3 +1,5 @@
+<!-- --- title: NAME OF THE ROUTE -->
+
 This logs the user out.
 
 =

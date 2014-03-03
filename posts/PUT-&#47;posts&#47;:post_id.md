@@ -1,3 +1,5 @@
+<!-- --- title: PUT /posts/:post_id -->
+
 This updates records in the 'posts' table.
 
 =

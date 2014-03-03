@@ -1,3 +1,5 @@
+<!-- --- title: POST /posts -->
+
 This is the route by which users will create *new* posts.
 
 =

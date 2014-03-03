@@ -1,3 +1,5 @@
+<!-- --- title: GET /posts/:post_id -->
+
 This returns **one** post.
 
 =
