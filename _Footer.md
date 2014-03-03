@@ -1,4 +1,4 @@
-[[App-&-Navigation]]
+[[App & Navigation|App-&-Navigation]]
  | [[Banner Ads]]
  | [[Events]]
  | [[Groups]]
