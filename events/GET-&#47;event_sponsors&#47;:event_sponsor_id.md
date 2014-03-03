@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_sponsors/:event_sponsor_id -->
+
 Returns information on one event sponsor.
 
 =

@@ -1,3 +1,5 @@
+<!-- --- title: POST /event_users -->
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

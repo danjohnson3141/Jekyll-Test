@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_followers/users/:event_id -->
+
 Returns all of the followers for one event.
 
 =
@@ -13,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/event_followers/users
+http://0.0.0.0:3000/event_followers/users/4739
 ```
 
 =

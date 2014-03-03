@@ -1,3 +1,5 @@
+<!-- --- title: GET /events/upcoming/:user_id -->
+
 Returns a list of all upcoming events that the user is involved with.
 
 =

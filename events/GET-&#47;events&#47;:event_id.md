@@ -1,3 +1,5 @@
+<!-- --- title: GET /events/:event_id -->
+
 Returns the details for one event.
 
 =

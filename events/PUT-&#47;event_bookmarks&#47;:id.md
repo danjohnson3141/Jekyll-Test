@@ -1,3 +1,5 @@
+<!-- --- title: PUT /event_bookmakrs/:id -->
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

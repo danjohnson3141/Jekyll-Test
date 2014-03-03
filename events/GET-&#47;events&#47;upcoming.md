@@ -1,3 +1,5 @@
+<!-- --- title: GET /events/upcoming -->
+
 Returns a list of all upcoming events.
 
 =

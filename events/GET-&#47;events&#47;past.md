@@ -1,3 +1,5 @@
+<!-- --- title: GET /events/past -->
+
 Returns a list of all events whose date is before today.
 
 =

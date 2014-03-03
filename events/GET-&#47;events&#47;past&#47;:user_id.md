@@ -1,3 +1,5 @@
+<!-- --- title: GET /events/past/:user_id -->
+
 Returns all of the past events that the user was involved with
 
 =

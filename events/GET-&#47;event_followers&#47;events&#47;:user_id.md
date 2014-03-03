@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_followers/events/:user_id -->
+
 Returns a list of all the events followed by one user.
 
 =

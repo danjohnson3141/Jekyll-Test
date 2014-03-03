@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_users/events/:user_id -->
+
 This returns all the event users for one event.
 
 =
@@ -13,7 +15,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_users/events/9675
 ```
 
 =

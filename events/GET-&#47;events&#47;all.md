@@ -1,3 +1,5 @@
+<!-- --- title: GET /events/all -->
+
 Returns all the events.
 
 =

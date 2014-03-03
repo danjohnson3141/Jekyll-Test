@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_sessions/events/:event_id -->
+
 Returns all of the sessions for one event.
 
 =

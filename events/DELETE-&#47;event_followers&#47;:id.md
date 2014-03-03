@@ -1,3 +1,5 @@
+<!-- --- title: DELETE /event_followers/:id -->
+
 This is how a user unfollows an events.
 
 =

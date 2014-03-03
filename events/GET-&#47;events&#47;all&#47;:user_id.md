@@ -1,3 +1,5 @@
+<!-- --- title: GET /events/all/:user_id -->
+
 Returns all the events for one user that they're following or registered for.
 
 =

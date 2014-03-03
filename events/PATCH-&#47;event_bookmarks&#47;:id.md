@@ -1,3 +1,5 @@
+<!-- --- title: PATCH /event_bookmarks/:id -->
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

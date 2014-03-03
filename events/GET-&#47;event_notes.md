@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_notes -->
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_sponsors -->
+
 Returns a list of all event sponsors.
 
 =
@@ -13,7 +15,7 @@ none; default only
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_sponsors
 ```
 
 =

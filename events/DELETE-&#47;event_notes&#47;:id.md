@@ -1,3 +1,5 @@
+<!-- --- title: DELETE /event_notes/:id -->
+
 Removes one event_notes record for the user.
 
 =

@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_users/attendees/:event_id -->
+
 Returns all of the event users for one event.
 
 =

@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_bookmarks/:id -->
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
@@ -14,7 +16,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_bookmarks/
 ```
 
 =

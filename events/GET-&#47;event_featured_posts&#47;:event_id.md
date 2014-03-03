@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_featured_posts/:event_id -->
+
 This route returns all the featured posts for one event.
 
 =

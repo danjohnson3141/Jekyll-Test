@@ -1,3 +1,5 @@
+<!-- --- title: DELETE /event_bookmarks/:id -->
+
 Removes one specific event bookmark for the user.
 
 =

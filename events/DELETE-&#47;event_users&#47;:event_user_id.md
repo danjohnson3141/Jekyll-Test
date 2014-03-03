@@ -1,3 +1,5 @@
+<!-- --- title: DELETE /event_users/:event_user_id -->
+
 This removes an event_users record. Event_users keeps track of event registrations and their status.
 
 =

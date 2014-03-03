@@ -1,3 +1,5 @@
+<!-- --- title: PUT /event_notes/:id -->
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

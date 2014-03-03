@@ -1,3 +1,5 @@
+<!-- --- title: GET /event_speakers/:event_speaker_id -->
+
 Returns information for one event speaker.
 
 =

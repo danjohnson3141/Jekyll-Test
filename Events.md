@@ -7,7 +7,7 @@
 * [[GET /event_sessions/events/:event_id|GET-&#47;event_sessions&#47;events&#47;:event_id]]
 * [[GET /event_sponsors/:id|GET-&#47;event_sponsors&#47;:event_sponsor_id]]
 * [[GET /event_sponsors|GET-&#47;event_sponsors]]
-* [[DELETE /event_users/:id|DELETE-&#47;event_users&#47;:id]]
+* [[DELETE /event_users/:id|DELETE-&#47;event_users&#47;:event_user_id]]
 * [[GET /event_users/attendees/:event_id|GET-&#47;event_users&#47;attendees&#47;:event_id]]
 * [[GET /event_users/events/:user_id|GET-&#47;event_users&#47;events&#47;:user_id]]
 * [[GET /event_users/users/:event_id|GET-&#47;event_users&#47;users&#47;:event_id]]
