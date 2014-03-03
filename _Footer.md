@@ -1,6 +1,7 @@
 [[App-&-Navigation]]
  | [[Banner Ads]]
  | [[Events]]
+ | [[Groups]]
  | [[Messages]]
  | [[Posts]]
  | [[Users]]
