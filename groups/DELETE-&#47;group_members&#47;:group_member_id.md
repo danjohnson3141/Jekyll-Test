@@ -1,3 +1,5 @@
+<!-- --- title: DELETE /group_members/:group_member_id -->
+
 Allows the user to delete their group membership. Only the user is able to delete group memberships and only for the their own memberships. 
 
 =

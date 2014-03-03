@@ -1,3 +1,5 @@
+<!-- --- title: GET /group_invites/users/:group_id -->
+
 Returns all of the pending user invites for a group. Should not return any invites for users who members of the group. Should only return any values if the user is the owner of the group.
 
 =

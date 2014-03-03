@@ -1,3 +1,5 @@
+<!-- --- title: GET /group_members/users/:group_id -->
+
 Returns a list of all of the members of a group.
 
 =

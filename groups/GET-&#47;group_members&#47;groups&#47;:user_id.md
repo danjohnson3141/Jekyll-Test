@@ -1,3 +1,5 @@
+<!-- --- title: GET /group_members/groups/:user_id -->
+
 This returns a list of all the groups that a user is a member of. 
 
 =

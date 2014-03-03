@@ -1,3 +1,5 @@
+<!-- --- title: POST /group_invites -->
+
 Creates an invitation for another user to join a group. Only the owner of a group is allowed to create invitations.
 
 =

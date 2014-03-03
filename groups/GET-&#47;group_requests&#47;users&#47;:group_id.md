@@ -1,3 +1,5 @@
+<!-- --- title: GET /group_requests/users/:group_id -->
+
 Returns a list of all the group requests for **one** group. Should not return any users who are members of the group. 
 
 =

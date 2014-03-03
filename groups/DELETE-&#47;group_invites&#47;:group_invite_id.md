@@ -1,3 +1,5 @@
+<!-- --- title: DELETE /group_invites/:group_invites_id -->
+
 This allows the recipient of a group invite to delete the invite. The sender of the invite is not allowed to delete the invite, only the recipient. Deletion of the invite is the action taken when the user rejects the invite.
 
 =

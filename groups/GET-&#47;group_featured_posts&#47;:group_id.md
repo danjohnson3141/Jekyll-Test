@@ -1,3 +1,5 @@
+<!-- --- title: GET /group_featured_posts/:group_id -->
+
 This route returns the featured posts for **one** group.
 
 =
@@ -13,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000//group_featured_posts/764
+http://0.0.0.0:3000/group_featured_posts/764
 ```
 
 =

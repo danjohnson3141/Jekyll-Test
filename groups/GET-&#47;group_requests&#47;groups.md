@@ -1,3 +1,5 @@
+<!-- --- title: GET /group_requests/groups -->
+
 Returns all of the outstanding requests for the logged in user. Should not return any groups that the user is already a member of.
 
 =

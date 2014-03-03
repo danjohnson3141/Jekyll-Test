@@ -1,3 +1,5 @@
+<!-- --- title: GET /groups -->
+
 Returns a list of all groups.
 
 =

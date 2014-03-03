@@ -1,3 +1,5 @@
+<!-- --- title: GET /groups/:group_id -->
+
 Returns details on **one** group.
 
 =

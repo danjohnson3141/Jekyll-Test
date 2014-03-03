@@ -1,3 +1,5 @@
+<!-- --- title: POST /group_requests -->
+
 This creates a new record for the user trying to join a group that requires approval to join.
 
 =

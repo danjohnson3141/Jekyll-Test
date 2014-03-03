@@ -1,3 +1,5 @@
+<!-- --- title: POST /group_members -->
+
 This creates a new group membership record. The user associated with this record will always be the active user.
 
 =
