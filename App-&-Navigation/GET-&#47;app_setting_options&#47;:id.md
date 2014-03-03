@@ -1,3 +1,5 @@
+<!-- --- title: GET /app_setting_options/:id -->
+
 AS OF 2014/02/17 THERE ARE NO RSPEC TESTS FOR THIS ROUTE
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
