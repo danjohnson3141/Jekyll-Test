@@ -1,3 +1,5 @@
+<!-- --- title: GET /messages/conversation/:user_id -->
+
 Requests all of the non-archived messages between the logged in user and a second party. The ':user_id' parameter looks at both the 'sender_user_id' and 'recipient_user_id' fields from the 'messages' table. 
 
 =
@@ -13,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/messages/conversation/18655
 ```
 
 =

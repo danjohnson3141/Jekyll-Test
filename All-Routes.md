@@ -44,28 +44,28 @@
 
 =
 ####Groups
+* [[DELETE /group_invites/:id|DELETE-&#47;group_invites&#47;:group_invite_id]]
+* [[DELETE /group_members/:id|DELETE-&#47;group_members&#47;:group_member_id]]
+* [[DELETE /group_requests/:id|DELETE-&#47;group_requests&#47;:group_requests_id]]
 * [[GET /group_featured_posts/:group_id|GET-&#47;group_featured_posts&#47;:group_id]]
-* [[DELETE /group_invites/:id|DELETE-&#47;group_invites&#47;:id]]
 * [[GET /group_invites/groups|GET-&#47;group_invites&#47;groups]]
 * [[GET /group_invites/users/:group_id|GET-&#47;group_invites&#47;users&#47;:group_id]]
-* [[POST /group_invites|POST-&#47;group_invites]]
-* [[DELETE /group_members/:id|DELETE-&#47;group_members&#47;:id]]
 * [[GET /group_members/groups/:user_id|GET-&#47;group_members&#47;groups&#47;:user_id]]
 * [[GET /group_members/users/:group_id|GET-&#47;group_members&#47;users&#47;:group_id]]
-* [[POST /group_members|POST-&#47;group_members]]
-* [[DELETE /group_requests/:id|DELETE-&#47;group_requests&#47;:id]]
 * [[GET /group_requests/groups|GET-&#47;group_requests&#47;groups]]
 * [[GET /group_requests/users/:group_id|GET-&#47;group_requests&#47;users&#47;:group_id]]
-* [[POST /group_requests|POST-&#47;group_requests]]
-* [[GET /groups/:id|GET-&#47;groups&#47;:id]]
-* [[PATCH /groups/:id|PATCH-&#47;groups&#47;:id]]
-* [[PUT /groups/:id|PUT-&#47;groups&#47;:id]]
+* [[GET /groups/:id|GET-&#47;groups&#47;:group_id]]
 * [[GET /groups|GET-&#47;groups]]
+* [[PATCH /groups/:id|PATCH-&#47;groups&#47;:group_id]]
+* [[POST /group_invites|POST-&#47;group_invites]]
+* [[POST /group_members|POST-&#47;group_members]]
+* [[POST /group_requests|POST-&#47;group_requests]]
 * [[POST /groups|POST-&#47;groups]]
+* [[PUT /groups/:id|PUT-&#47;groups&#47;:group_id]]
 
 =
 ####Messages
-* [[DELETE /messages/:id|DELETE-&#47;messages&#47;:id]]
+* [[DELETE /messages/:id|DELETE-&#47;messages&#47;:message_id]]
 * [[GET /messages/conversation/:user_id|GET-&#47;messages&#47;conversation&#47;:user_id]]
 * [[GET /messages|GET-&#47;messages]]
 * [[POST /messages|POST-&#47;messages]]

@@ -1,3 +1,5 @@
+<!-- --- title: DELETE /messages/:message_id -->
+
 This route changes the 'sender_deleted' or 'recipient_deleted' flags on messages from 0 to 1. Messages are never actually deleted, just invisibly archived.
 
 =

@@ -1,3 +1,5 @@
+<!-- --- title: GET /messages -->
+
 This route gets the inbox messages view for the logged in user. The 'inbox view' returns only the most recent conversation threads with each person the user was communicating with.
 
 =
