@@ -1,3 +1,5 @@
+<!-- --- title: GET/banner_ads -->
+
 This route will return a list of all the banner ads.
 
 =

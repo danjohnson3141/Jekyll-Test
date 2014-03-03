@@ -1,3 +1,5 @@
+<!-- --- title: GET /banner_ads/event/:event_id -->
+
 This route pulls all of the banner ads for one particular event.
 
 =
@@ -13,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000//banner_ads/event/2990
+http://0.0.0.0:3000/banner_ads/event/2990
 ```
 
 =

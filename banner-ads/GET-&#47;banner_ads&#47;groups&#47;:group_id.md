@@ -1,3 +1,5 @@
+<!-- --- title: GET /banner_ads/groups/:group_id -->
+
 This route requests all of the banner ads associated with a specific group.
 
 =

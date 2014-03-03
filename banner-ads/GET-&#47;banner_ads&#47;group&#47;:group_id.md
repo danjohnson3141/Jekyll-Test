@@ -1,3 +1,5 @@
+<!-- --- title: GET /banner_ads/group/:group_id -->
+
 This request returns all of the banner ads association with **one** group.
 
 =
