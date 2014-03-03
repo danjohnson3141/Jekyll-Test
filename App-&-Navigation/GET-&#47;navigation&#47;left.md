@@ -1,3 +1,5 @@
+<!-- --- title: GET /navigation/leftw -->
+
 This is a route to help populate the left navigation element in the app (e.g. clicking on the bug).
 
 The user needs to be logged in and have valid credentials to use this route.

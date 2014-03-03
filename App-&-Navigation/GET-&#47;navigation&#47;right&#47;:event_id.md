@@ -1,3 +1,5 @@
+<!-- --- title: GET /navigation/right/:event_id -->
+
 This returns the elements for the right navigation bar. It has something to do 
 
 =
@@ -14,7 +16,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/234
+http://0.0.0.0:3000/navigation/right/234
 ```
 
 =

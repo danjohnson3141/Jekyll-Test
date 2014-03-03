@@ -1,3 +1,5 @@
+<!-- --- title: GET /app_settings/:name -->
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

@@ -1,4 +1,4 @@
-<!-- --- title: I HAVE ADDED A NEW TITLE! -->
+<!-- --- title: List of all routes -->
 
 ####App & Navigation
 * [[GET /app/labels/:page|GET-&#47app_sponsors]]

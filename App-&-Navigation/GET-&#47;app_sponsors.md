@@ -1,3 +1,5 @@
+<!-- --- title: GET /app_sponsors -->
+
 This returns a list of **ALL** sponsors.
 
 =

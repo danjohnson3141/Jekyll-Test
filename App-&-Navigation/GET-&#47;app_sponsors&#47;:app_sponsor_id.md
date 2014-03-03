@@ -1,3 +1,5 @@
+<!-- --- title: GET /app_sponsors/:app_sponsor -->
+
 This route is used to return a list of **only one** of the application sponsors (these are different than event sponsors).
 
 =
