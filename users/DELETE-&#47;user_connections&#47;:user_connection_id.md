@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: DELETE /user_connections/:user_connection_id -->
 
 This route deletes a user connection. The user is only able to delete connections that they are a part of (either sender or recipient), if they are the recipient they are able to delete it before it is approved. If they are the sender, the user is not allowed to delete the record until it's been approved by the recipient.
  

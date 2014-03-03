@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: GET /users/:profile -->
 
 This route shows the profile for the active user.
 

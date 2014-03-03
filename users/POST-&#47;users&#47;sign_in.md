@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: POST /users/sign_in -->
 
 This is the route that the user uses to login.
 

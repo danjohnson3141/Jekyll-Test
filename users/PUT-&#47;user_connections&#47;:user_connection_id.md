@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: PUT /user_connections/:user_connection_id -->
 
 Changes a user_connection request to being approved. There is a field 'is_approved' on the 'user_connections' table that is the value that gets changed. This field has a default boolean value of 0, which gets changed to 1 after this route has been run.
 

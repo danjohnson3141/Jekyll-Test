@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: PATCH /users/profile -->
 
 This is the route that allows the active user to alter their profile.
 

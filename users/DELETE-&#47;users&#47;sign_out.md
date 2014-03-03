@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: DELETE /users/sign_out -->
 
 This logs the user out.
 

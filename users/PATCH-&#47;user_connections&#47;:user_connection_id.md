@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: PATCH /user_connections/:user_connection_id -->
 
 Changes a user_connection request to being approved. There is a field 'is_approved' on the 'user_connections' table that is the value that gets changed. This field has a default boolean value of 0, which gets changed to 1 after this route has been run.
 
@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000//user_connections/159
+http://0.0.0.0:3000/user_connections/159
 ```
 
 =

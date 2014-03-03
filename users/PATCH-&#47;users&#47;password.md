@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: PATCH /users/password -->
 
 This is how the user resets their password. They need to have a 'reset_password_token' which is sent to them via their email address. After they've received this token, they're able to update their password, which is then encrypted (and salted? I don't know) and stored in the 'encrypted_password' field of the 'users' table.
 

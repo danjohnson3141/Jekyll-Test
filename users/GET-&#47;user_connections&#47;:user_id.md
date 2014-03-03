@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: GET /user_connections/:user_id -->
 
 Returns a list of all the user connections that a user has. 
 

@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: GET /users/password/new -->
 
 NO RSPEC TESTS AS OF 2014/02/20
 
@@ -19,7 +19,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/users/password/new
 ```
 
 =

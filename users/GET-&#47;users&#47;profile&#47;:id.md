@@ -1,4 +1,4 @@
-<!-- --- title: NAME OF THE ROUTE -->
+<!-- --- title: GET /users/profile/:id -->
 
 This brings back **one** user's profile.
 
