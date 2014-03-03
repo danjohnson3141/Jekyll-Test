@@ -1,4 +1,4 @@
-<!-- --- title: GET /navigation/leftw -->
+<!-- --- title: GET /navigation/left -->
 
 This is a route to help populate the left navigation element in the app (e.g. clicking on the bug).
 
