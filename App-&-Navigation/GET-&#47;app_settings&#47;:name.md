@@ -1,6 +1,6 @@
 <!-- --- title: GET /app_settings/:name -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This returns the true or false value for one specifc application setting. Application settings are referenced by a
 
 =
 #### Authentication
