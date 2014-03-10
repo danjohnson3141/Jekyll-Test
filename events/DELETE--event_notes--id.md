@@ -1,4 +1,4 @@
-<!-- --- DELETE /event_notes/:id -->
+<!-- --- title: DELETE /event_notes/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
