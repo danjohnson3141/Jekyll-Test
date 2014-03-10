@@ -84,19 +84,19 @@
 =
 ####Messages
 * [[DELETE /messages/:message_id|DELETE-&#47;messages&#47;:message_id]]
-* [[DELETE /messages/conversation/:user_id]]
+* [[DELETE /messages/conversation/:user_id|DELETE--messages-conversation--user_id]]
 * [[GET /messages/conversation/:user_id|GET-&#47;messages&#47;conversation&#47;:user_id]]
 * [[GET /messages|GET-&#47;messages]]
 * [[POST /messages|POST-&#47;messages]]
 
 =
 ####Posts
-* [[DELETE /post_comments/:id]]
-* [[DELETE /post_likes/:id]]
+* [[DELETE /post_comments/:id|DELETE--post_comments--id]]
+* [[DELETE /post_likes/:id|DELETE--post_likes--id]]
 * [[DELETE /posts/:id|DELETE-&#47;posts&#47;:post_id]]
-* [[GET /post_comments/:id]]
-* [[GET /post_comments/post/:id]]
-* [[GET /post_comments/user/:id]]
+* [[GET /post_comments/:id|GET--post_comments--id]]
+* [[GET /post_comments/post/:id|GET--post_comments-post--id]]
+* [[GET /post_comments/user/:id|GET--post_comments-user--id]]
 * [[GET /post_likes/:id]]
 * [[GET /post_likes/post/:id]]
 * [[GET /post_likes/user/:id]]
