@@ -3,7 +3,7 @@
 ####App & Navigation
 * [[GET /app/labels/:page|GET--app-labels-:page]]
 * [[GET /app_setting_options/:id|GET-&#47;app_setting_options&#47;:id]]
-* [[GET /app_settings/:name|GET-&#47;app_settings&#47;:name]]
+* [[GET /app_settings|GET-&#47;app_settings&#47;:name]]
 * [[GET /app_sponsors/:app_sponsor_id|GET-&#47;app_sponsors&#47;:app_sponsor_id]]
 * [[GET /app_sponsors|GET-&#47;app_sponsors]]
 * [[GET /navigation/left|GET-&#47;navigation&#47;left]]
@@ -26,7 +26,7 @@
 * [[GET /event_followers/users/:event_id|GET-&#47;event_followers&#47;users&#47;:event_id]]
 * [[GET /event_sessions/:event_session_id|GET-&#47;event_sessions&#47;:event_session_id]]
 * [[GET /event_sessions/events/:event_id|GET-&#47;event_sessions&#47;events&#47;:event_id]]
-* [[GET /event_sponsors/:id|GET-&#47;event_sponsors&#47;:event_sponsor_id]]
+* [[GET /event_sponsors/:event_sponsor_id|GET-&#47;event_sponsors&#47;:event_sponsor_id]]
 * [[GET /event_sponsors|GET-&#47;event_sponsors]]
 * [[GET /event_users/attendees/:event_id|GET-&#47;event_users&#47;attendees&#47;:event_id]]
 * [[GET /event_users/events/:user_id|GET-&#47;event_users&#47;events&#47;:user_id]]
@@ -44,9 +44,9 @@
 
 =
 ####Groups
-* [[DELETE /group_invites/:id|DELETE-&#47;group_invites&#47;:group_invite_id]]
-* [[DELETE /group_members/:id|DELETE-&#47;group_members&#47;:group_member_id]]
-* [[DELETE /group_requests/:id|DELETE-&#47;group_requests&#47;:group_requests_id]]
+* [[DELETE /group_invites/:group_invite_id|DELETE-&#47;group_invites&#47;:group_invite_id]]
+* [[DELETE /group_members/:group_member_id|DELETE-&#47;group_members&#47;:group_member_id]]
+* [[DELETE /group_requests/:group_requests_id|DELETE-&#47;group_requests&#47;:group_requests_id]]
 * [[GET /group_featured_posts/:group_id|GET-&#47;group_featured_posts&#47;:group_id]]
 * [[GET /group_invites/groups|GET-&#47;group_invites&#47;groups]]
 * [[GET /group_invites/users/:group_id|GET-&#47;group_invites&#47;users&#47;:group_id]]
@@ -65,26 +65,26 @@
 
 =
 ####Messages
-* [[DELETE /messages/:id|DELETE-&#47;messages&#47;:message_id]]
+* [[DELETE /messages/:message_id|DELETE-&#47;messages&#47;:message_id]]
 * [[GET /messages/conversation/:user_id|GET-&#47;messages&#47;conversation&#47;:user_id]]
 * [[GET /messages|GET-&#47;messages]]
 * [[POST /messages|POST-&#47;messages]]
 
 =
 ####Posts
-* [[DELETE /posts/:post_id|DELETE-&#47;posts&#47;:post_id]]
-* [[GET /posts/:post_id|GET-&#47;posts&#47;:post_id]]
-* [[PATCH /posts/:post_id|PATCH-&#47;posts&#47;:post_id]]
-* [[PUT /posts/:post_id|PUT-&#47;posts&#47;:post_id]]
-* [[GET /posts/groups/:group_id|GET-&#47;posts&#47;groups&#47;:group_id]]
-* [[GET /posts/users/:user_id|GET-&#47;posts&#47;users&#47;:user_id]]
+* [[DELETE /posts/:id|DELETE-&#47;posts&#47;:post_id]]
+* [[GET /posts/:id|GET-&#47;posts&#47;:post_id]]
+* [[PATCH /posts/:id|PATCH-&#47;posts&#47;:post_id]]
+* [[PUT /posts/:id|PUT-&#47;posts&#47;:post_id]]
+* [[GET /posts/groups/:id|GET-&#47;posts&#47;groups&#47;:group_id]]
+* [[GET /posts/users/:id|GET-&#47;posts&#47;users&#47;:user_id]]
 * [[POST /posts|POST-&#47;posts]]
 
 =
 ####Users
 * [[DELETE /user_connections/:id|DELETE-&#47;user_connections&#47;:user_connection_id]]
 * [[DELETE /users/sign_out|DELETE-&#47;users&#47;sign_out]]
-* [[GET /user_connections/:user_id|GET-&#47;user_connections&#47;:user_id]]
+* [[GET /user_connections/user/:id|GET-&#47;user_connections&#47;:user_id]]
 * [[GET /users/password/edit|GET-&#47;users&#47;password&#47;edit]]
 * [[GET /users/password/new|GET-&#47;users&#47;password&#47;new]]
 * [[GET /users/profile/:id|GET-&#47;users&#47;profile&#47;:id]]
