@@ -19,13 +19,26 @@
 
 =
 ####Events
+* [[DELETE /event_bookmarks/:id]]
 * [[DELETE /event_followers/:id|DELETE-&#47;event_followers&#47;:id]]
+* [[DELETE /event_notes/:id]]
+* [[DELETE /event_user_schedules/:id]]
 * [[DELETE /event_users/:event_user_id|DELETE-&#47;event_users&#47;:event_user_id]]
+* [[GET /event_bookmarks/:id]]
+* [[GET /event_bookmarks/event/:event_id]]
+* [[GET /event_bookmarks]]
 * [[GET /event_featured_posts/:event_id|GET-&#47;event_featured_posts&#47;:event_id]]
 * [[GET /event_followers/events/:user_id|GET-&#47;event_followers&#47;events&#47;:user_id]]
 * [[GET /event_followers/users/:event_id|GET-&#47;event_followers&#47;users&#47;:event_id]]
+* [[GET /event_notes/:id]]
+* [[GET /event_notes/event/:event_id]]
+* [[GET /event_notes]]
 * [[GET /event_sessions/:event_session_id|GET-&#47;event_sessions&#47;:event_session_id]]
 * [[GET /event_sessions/events/:event_id|GET-&#47;event_sessions&#47;events&#47;:event_id]]
+* [[GET /event_sessions/my_schedule/:event_id]]
+* [[GET /event_speakers/:event_speaker_id]]
+* [[GET /event_speakers/event/:event_id]]
+* [[GET /event_speakers/event_session/:event_session_id]]
 * [[GET /event_sponsors/:event_sponsor_id|GET-&#47;event_sponsors&#47;:event_sponsor_id]]
 * [[GET /event_sponsors|GET-&#47;event_sponsors]]
 * [[GET /event_users/attendees/:event_id|GET-&#47;event_users&#47;attendees&#47;:event_id]]
@@ -39,8 +52,13 @@
 * [[GET /events/upcoming/:user_id|GET-&#47;events&#47;upcoming&#47;:user_id]]
 * [[GET /events/upcoming|GET-&#47;events&#47;upcoming]]
 * [[GET /events|GET-&#47;events]]
+* [[PATCH /event_notes/:id]]
+* [[POST /event_bookmarks]]
 * [[POST /event_followers|POST-&#47;event_followers]]
+* [[POST /event_notes]]
+* [[POST /event_user_schedules]]
 * [[POST /event_users|POST-&#47;event_users]]
+* [[PUT /event_notes/:id]]
 
 =
 ####Groups
@@ -66,19 +84,34 @@
 =
 ####Messages
 * [[DELETE /messages/:message_id|DELETE-&#47;messages&#47;:message_id]]
+* [[DELETE /messages/conversation/:user_id]]
 * [[GET /messages/conversation/:user_id|GET-&#47;messages&#47;conversation&#47;:user_id]]
 * [[GET /messages|GET-&#47;messages]]
 * [[POST /messages|POST-&#47;messages]]
 
 =
 ####Posts
+* [[DELETE /post_comments/:id]]
+* [[DELETE /post_likes/:id]]
 * [[DELETE /posts/:id|DELETE-&#47;posts&#47;:post_id]]
+* [[GET /post_comments/:id]]
+* [[GET /post_comments/post/:id]]
+* [[GET /post_comments/user/:id]]
+* [[GET /post_likes/:id]]
+* [[GET /post_likes/post/:id]]
+* [[GET /post_likes/user/:id]]
+* [[GET /post_likes]]
 * [[GET /posts/:id|GET-&#47;posts&#47;:post_id]]
-* [[PATCH /posts/:id|PATCH-&#47;posts&#47;:post_id]]
-* [[PUT /posts/:id|PUT-&#47;posts&#47;:post_id]]
+* [[GET /posts/events/:id ]]
 * [[GET /posts/groups/:id|GET-&#47;posts&#47;groups&#47;:group_id]]
 * [[GET /posts/users/:id|GET-&#47;posts&#47;users&#47;:user_id]]
+* [[PATCH /post_comments/:id]]
+* [[PATCH /posts/:id|PATCH-&#47;posts&#47;:post_id]]
+* [[POST /post_comments]]
+* [[POST /post_likes]]
 * [[POST /posts|POST-&#47;posts]]
+* [[PUT /post_comments/:id]]
+* [[PUT /posts/:id|PUT-&#47;posts&#47;:post_id]]
 
 =
 ####Users
