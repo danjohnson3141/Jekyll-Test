@@ -1,6 +1,6 @@
 * [[DELETE /user_connections/:id|DELETE-&#47;user_connections&#47;:user_connection_id]]
 * [[DELETE /users/sign_out|DELETE-&#47;users&#47;sign_out]]
-* [[GET /user_connections/:user_id|GET-&#47;user_connections&#47;:user_id]]
+* [[GET /user_connections/user/:id|GET-&#47;user_connections&#47;:user_id]]
 * [[GET /users/password/edit|GET-&#47;users&#47;password&#47;edit]]
 * [[GET /users/password/new|GET-&#47;users&#47;password&#47;new]]
 * [[GET /users/profile/:id|GET-&#47;users&#47;profile&#47;:id]]
