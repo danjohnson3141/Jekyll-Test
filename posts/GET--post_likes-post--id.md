@@ -1,4 +1,4 @@
-<!-- --- title: DELETE /messages/conversation/:user_id -->
+<!-- --- title: GET /post_likes/post/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
