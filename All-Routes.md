@@ -38,7 +38,7 @@
 * [[GET /event_sessions/my_schedule/:event_id|GET--event_sessions-my_schedule--event_id]]
 * [[GET /event_speakers/:event_speaker_id|GET--event_speakers--event_speaker_id]]
 * [[GET /event_speakers/event/:event_id|GET--event_speakers-event--event_id]]
-* [[GET /event_speakers/event_session/:event_session_id]]
+* [[GET /event_speakers/event_session/:event_session_id]|GET--event_speakers-event_session--event_session_id]
 * [[GET /event_sponsors/:event_sponsor_id|GET-&#47;event_sponsors&#47;:event_sponsor_id]]
 * [[GET /event_sponsors|GET-&#47;event_sponsors]]
 * [[GET /event_users/attendees/:event_id|GET-&#47;event_users&#47;attendees&#47;:event_id]]

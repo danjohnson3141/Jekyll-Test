@@ -1,4 +1,4 @@
-<!-- --- title: GET /event_sessions/my_schedule/:event_id -->
+<!-- --- title: POST /event_bookmarks -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
