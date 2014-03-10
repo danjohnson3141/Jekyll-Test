@@ -105,7 +105,7 @@
 * [[GET /posts/events/:id|GET--posts-events--id]]
 * [[GET /posts/groups/:id|GET-&#47;posts&#47;groups&#47;:group_id]]
 * [[GET /posts/users/:id|GET-&#47;posts&#47;users&#47;:user_id]]
-* [[PATCH /post_comments/:id]]
+* [[PATCH /post_comments/:id|PATCH--post_comments--id]]
 * [[PATCH /posts/:id|PATCH-&#47;posts&#47;:post_id]]
 * [[POST /post_comments|POST--post_comments]]
 * [[POST /post_likes|POST--post_likes]]
