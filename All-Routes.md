@@ -21,7 +21,7 @@
 ####Events
 * [[DELETE /event_bookmarks/:id|DELETE--event_bookmarks-id]]
 * [[DELETE /event_followers/:id|DELETE-&#47;event_followers&#47;:id]]
-* [[DELETE /event_notes/:id]]
+* [[DELETE /event_notes/:id|DELETE--event_notes--id]]
 * [[DELETE /event_user_schedules/:id]]
 * [[DELETE /event_users/:event_user_id|DELETE-&#47;event_users&#47;:event_user_id]]
 * [[GET /event_bookmarks/:id]]
