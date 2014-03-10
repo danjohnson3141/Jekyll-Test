@@ -38,7 +38,7 @@
 * [[GET /event_sessions/my_schedule/:event_id|GET--event_sessions-my_schedule--event_id]]
 * [[GET /event_speakers/:event_speaker_id|GET--event_speakers--event_speaker_id]]
 * [[GET /event_speakers/event/:event_id|GET--event_speakers-event--event_id]]
-* [[GET /event_speakers/event_session/:event_session_id]|GET--event_speakers-event_session--event_session_id]
+* [[GET /event_speakers/event_session/:event_session_id|GET--event_speakers-event_session--event_session_id]]
 * [[GET /event_sponsors/:event_sponsor_id|GET-&#47;event_sponsors&#47;:event_sponsor_id]]
 * [[GET /event_sponsors|GET-&#47;event_sponsors]]
 * [[GET /event_users/attendees/:event_id|GET-&#47;event_users&#47;attendees&#47;:event_id]]
@@ -52,13 +52,13 @@
 * [[GET /events/upcoming/:user_id|GET-&#47;events&#47;upcoming&#47;:user_id]]
 * [[GET /events/upcoming|GET-&#47;events&#47;upcoming]]
 * [[GET /events|GET-&#47;events]]
-* [[PATCH /event_notes/:id]]
-* [[POST /event_bookmarks]]
+* [[PATCH /event_notes/:id|PATCH--event_notes--id]]
+* [[POST /event_bookmarks|POST-&#47;event_bookmarks]]
 * [[POST /event_followers|POST-&#47;event_followers]]
-* [[POST /event_notes]]
-* [[POST /event_user_schedules]]
+* [[POST /event_notes|POST--event_notes]]
+* [[POST /event_user_schedules|POST--event_user_schedules]]
 * [[POST /event_users|POST-&#47;event_users]]
-* [[PUT /event_notes/:id]]
+* [[PUT /event_notes/:id|PUT--event_notes--id]]
 
 =
 ####Groups
