@@ -56,6 +56,6 @@ http://0.0.0.0:3000/event_bookmarks
     "event_speaker"=>nil,
     "event_session"=>nil,
     "sponsor"=>nil}]}
-```json
+```
 
 This requests provides a <strong>HTML 200</strong> on success.
