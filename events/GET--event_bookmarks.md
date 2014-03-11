@@ -20,7 +20,7 @@ http://0.0.0.0:3000/event_bookmarks
 
 =
 ####JSON response example:
-```
+```json
 {"event_bookmarks"=>
   [{"id"=>1089,
     "event"=>{"id"=>6928, "name"=>"Gorgeous Concrete Chair 1"},
@@ -56,6 +56,6 @@ http://0.0.0.0:3000/event_bookmarks
     "event_speaker"=>nil,
     "event_session"=>nil,
     "sponsor"=>nil}]}
-```
+```json
 
 This requests provides a <strong>HTML 200</strong> on success.
