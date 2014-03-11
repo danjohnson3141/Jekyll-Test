@@ -1,5 +1,3 @@
-* DELETE /event_bookmarks/:id
-* DELETE /event_bookmarks/:id
 * DELETE /event_notes/:id
 * DELETE /event_user_schedules/:id
 * DELETE /messages/conversation/:user_id
