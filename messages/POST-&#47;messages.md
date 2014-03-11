@@ -14,7 +14,7 @@ The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####JSON request example:
-```
+```json
 http://example.com:3000/messages
 ```
 

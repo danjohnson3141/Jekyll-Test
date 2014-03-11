@@ -26,7 +26,7 @@ The user does not need to be logged in to use this route.
 
 =
 ####JSON request example:
-```
+```json
 http://0.0.0.0:3000/users/sign_in
 ```
 

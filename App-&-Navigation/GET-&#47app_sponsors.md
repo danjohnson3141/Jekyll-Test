@@ -12,7 +12,7 @@ none; only default response
 
 =
 ####JSON request example:
-```
+```json
 http://0.0.0.0:3000/app_sponsors
 ```
 =

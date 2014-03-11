@@ -14,7 +14,7 @@ This is passed in the URL and is derived from the 'group_id' field on the the 'b
 
 =
 ####JSON request example:
-```
+```json
 http://0.0.0.0:3000/banner_ads/groups/3074
 ```
 

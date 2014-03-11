@@ -15,7 +15,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 
 =
 ####JSON request example:
-```
+```json
 http://0.0.0.0:3000/event_speakers/event_session/664
 ```
 

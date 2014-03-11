@@ -14,7 +14,7 @@ none; defaults only
 
 =
 ####JSON request example:
-```
+```json
 http://0.0.0.0:3000/users/sign_out
 ```
 
