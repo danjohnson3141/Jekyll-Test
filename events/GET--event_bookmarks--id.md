@@ -1,61 +1,48 @@
-<!-- --- title: GET /event_bookmarks -->
+<!-- --- title: NAME OF THE ROUTE -->
 
-This returns *all* the event_bookmarks for *one* user, regardless of type of bookmark (sessions, speaker, et al) or event.
+PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
 #### Authentication
 
-The user needs to be logged in and have valid credentials to use this route.
+Declare what authentications are required
+Good sample text: The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-None; default only.
+LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
 ####JSON request example:
 ```
-http://0.0.0.0:3000/event_bookmarks
+http://0.0.0.0:3000/ROUTE_NAME
 ```
 
 =
 ####JSON response example:
+
 ```
-{"event_bookmarks"=>
-  [{"id"=>1089,
-    "event"=>{"id"=>6928, "name"=>"Gorgeous Concrete Chair 1"},
-    "event_user"=>
-     {"id"=>2583,
-      "user"=>
-       {"id"=>38103,
-        "first_name"=>"Generic",
-        "last_name"=>"User",
-        "title"=>"CEO of QA",
-        "organization_name"=>"Evanta",
-        "photo"=>
-         "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-        "user_role_id"=>37707,
-        "user_connection_id"=>nil}},
-    "event_speaker"=>nil,
-    "event_session"=>nil,
-    "sponsor"=>nil},
-   {"id"=>1090,
-    "event"=>{"id"=>6929, "name"=>"Awesome Steel Table 2"},
-    "event_user"=>
-     {"id"=>2584,
-      "user"=>
-       {"id"=>38103,
-        "first_name"=>"Generic",
-        "last_name"=>"User",
-        "title"=>"CEO of QA",
-        "organization_name"=>"Evanta",
-        "photo"=>
-         "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-        "user_role_id"=>37707,
-        "user_connection_id"=>nil}},
-    "event_speaker"=>nil,
-    "event_session"=>nil,
-    "sponsor"=>nil}]}
+{"app_sponsors"=>
+  [{"id"=>105,
+    "name"=>"Harvey-Bruen",
+    "description"=>
+     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
+    "logo"=>nil,
+    "url"=>nil,
+    "sponsor_type"=>
+
+     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
+    "users"=>[]},
+   {"id"=>106,
+    "name"=>"Zboncak Inc",
+    "description"=>
+     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
+    "logo"=>nil,
+    "url"=>nil,
+    "sponsor_type"=>
+     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
+    "users"=>[]}]}
 ```
 
-This requests provides a <strong>HTML 200</strong> on success.
+This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
