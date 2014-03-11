@@ -20,7 +20,7 @@ http://0.0.0.0:3000/app/labels/login
 =
 ####JSON response example:
 
-```
+```json
 {"app_label_pages"=>
   [{"id"=>10,
     "key"=>"Test Dictionary",

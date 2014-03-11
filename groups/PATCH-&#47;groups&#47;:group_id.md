@@ -31,7 +31,7 @@ http://0.0.0.0:3000/groups/234
 =
 ####JSON response example:
 
-```
+```json
 NO JSON RESPONSE
 ```
 

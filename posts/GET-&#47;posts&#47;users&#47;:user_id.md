@@ -21,7 +21,7 @@ http://0.0.0.0:3000/posts/users/13935
 =
 ####JSON response example:
 
-```
+```json
 {"posts"=>
   [{"id"=>1056,
     "title"=>"Synergized methodical utilisation: Gorgeous Granite Pants",

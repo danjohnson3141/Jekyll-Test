@@ -21,7 +21,7 @@ http://0.0.0.0:3000/event_featured_posts/4316
 =
 ####JSON response example:
 
-```
+```json
 {"event_featured_posts"=>
   [{"id"=>258,
     "event_id"=>4316,

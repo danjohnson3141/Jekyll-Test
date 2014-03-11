@@ -21,7 +21,7 @@ http://0.0.0.0:3000/event_users/events/9675
 =
 ####JSON response example:
 
-```
+```json
 {"event_users"=>
   [{"id"=>3144,
     "event_registration_status"=>{"id"=>767, "key"=>"registered"},

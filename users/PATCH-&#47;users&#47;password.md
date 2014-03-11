@@ -35,7 +35,7 @@ http://0.0.0.0:3000/users/password
 =
 ####JSON response example:
 
-```
+```json
 NO JSON RESPONSE
 ```
 

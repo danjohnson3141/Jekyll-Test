@@ -25,7 +25,7 @@ http://0.0.0.0:3000/users/sign_in
 =
 ####JSON response example:
 
-```
+```json
 {"json_example"=>
   [{"id"=>123,
     "field1"=>"Text",

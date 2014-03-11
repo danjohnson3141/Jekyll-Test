@@ -21,7 +21,7 @@ http://0.0.0.0:3000/user_connections/17065
 =
 ####JSON response example:
 
-```
+```json
 {"user_connections"=>
   [{"id"=>320,
     "body"=>"Connect1",

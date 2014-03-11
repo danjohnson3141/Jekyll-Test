@@ -21,7 +21,7 @@ http://0.0.0.0:3000/users/profile
 =
 ####JSON response example:
 
-```
+```json
 {"user"=>
   {"id"=>19845,
    "email"=>"generic_user@evanta.com",

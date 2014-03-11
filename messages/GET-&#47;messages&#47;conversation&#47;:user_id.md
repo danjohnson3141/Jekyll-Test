@@ -21,7 +21,7 @@ http://0.0.0.0:3000/messages/conversation/18655
 =
 ####JSON response example:
 
-```
+```json
 {"messages"=>
   [{"id"=>1624,
     "unread"=>false,

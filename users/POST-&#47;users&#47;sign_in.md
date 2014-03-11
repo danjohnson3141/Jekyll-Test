@@ -33,7 +33,7 @@ http://0.0.0.0:3000/users/sign_in
 =
 ####JSON response example:
 
-```
+```json
 {"success"=>true, "auth_token"=>"54321"}
 ```
 

@@ -21,7 +21,7 @@ http://0.0.0.0:3000/group_invites/users/1158
 =
 ####JSON response example:
 
-```
+```json
 {"group_invites"=>
   [{"id"=>176,
     "group_id"=>1158,

@@ -22,7 +22,7 @@ http://0.0.0.0:3000/event_speakers/event_session/664
 =
 ####JSON response example:
 
-```
+```json
 {"event_speakers"=>
   [{"id"=>108,
     "first_name"=>"Loren",

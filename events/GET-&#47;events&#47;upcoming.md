@@ -21,7 +21,7 @@ http://0.0.0.0:3000/events/upcoming
 =
 ####JSON response example:
 
-```
+```json
 {"events"=>
   [{"id"=>18150,
     "name"=>"Awesome Concrete Chair 17",

@@ -29,7 +29,7 @@ http://example.com:3000/messages
 =
 ####JSON response example:
 
-```
+```json
 {"message"=>
   {"id"=>1772,
    "unread"=>false,

@@ -21,7 +21,7 @@ http://0.0.0.0:3000/banner_ads/group/895
 =
 ####JSON response example:
 
-```
+```json
 {"banner_ads"=>
   [{"id"=>118,
     "graphic_link"=>"www.example.com/graphic_link.jpg",

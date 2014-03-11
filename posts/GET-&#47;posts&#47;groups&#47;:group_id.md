@@ -21,7 +21,7 @@ http://0.0.0.0:3000/posts/groups/2197
 =
 ####JSON response example:
 
-```
+```json
 {"posts"=>
   [{"id"=>948,
     "title"=>"Realigned didactic standardization: Practical Concrete Shirt",

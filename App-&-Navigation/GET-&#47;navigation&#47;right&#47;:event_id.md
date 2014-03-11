@@ -22,7 +22,7 @@ http://0.0.0.0:3000/navigation/right/234
 =
 ####JSON response example:
 
-```
+```json
 {"navigation_right"=>
   {"show_attendees"=>false,
    "show_sessions"=>false,

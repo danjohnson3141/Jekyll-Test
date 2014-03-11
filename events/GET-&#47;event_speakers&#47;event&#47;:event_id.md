@@ -21,7 +21,7 @@ http://0.0.0.0:3000/event_speakers/event/1947
 =
 ####JSON response example:
 
-```
+```json
 {"event_speakers"=>
   [{"id"=>97,
     "first_name"=>"Giovanni",

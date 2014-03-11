@@ -29,7 +29,7 @@ http://0.0.0.0:3000/event_followers
 =
 ####JSON response example:
 
-```
+```json
 {"event_follower"=>
   {"id"=>4283,
    "created_by"=>nil,

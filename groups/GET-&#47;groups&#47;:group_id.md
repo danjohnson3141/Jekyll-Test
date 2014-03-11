@@ -21,7 +21,7 @@ http://0.0.0.0:3000/groups/2315
 =
 ####JSON response example:
 
-```
+```json
 {"group"=>
   {"id"=>2315,
    "name"=>"Rustic Cotton Hat",

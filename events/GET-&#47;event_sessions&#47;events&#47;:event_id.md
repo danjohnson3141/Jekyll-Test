@@ -21,7 +21,7 @@ http://0.0.0.0:3000/event_sessions/events/5363
 =
 ####JSON response example:
 
-```
+```json
 {"event_sessions"=>
   [{"id"=>617,
     "name"=>"0",

@@ -21,7 +21,7 @@ http://0.0.0.0:3000/group_requests/groups
 =
 ####JSON response example:
 
-```
+```json
 {"group_members"=>
   [{"id"=>298,
     "user_id"=>14164,

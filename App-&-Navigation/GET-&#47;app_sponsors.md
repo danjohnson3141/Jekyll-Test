@@ -21,7 +21,7 @@ http://0.0.0.0:3000/app_sponsors
 =
 ####JSON response example:
 
-```
+```json
 {"app_sponsors"=>
   [{"id"=>27,
     "name"=>"Pfeffer-Rogahn",

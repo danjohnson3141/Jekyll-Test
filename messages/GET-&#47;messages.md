@@ -19,7 +19,7 @@ http://0.0.0.0:3000/messages
 =
 ####JSON response example:
 
-```
+```json
 {"messages"=>
   [{"id"=>1105,
     "unread"=>true,

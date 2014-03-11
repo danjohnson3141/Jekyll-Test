@@ -31,7 +31,7 @@ http://0.0.0.0:3000/app_supports
 =
 ####JSON response example:
 
-```
+```json
 {"app_support"=>
   {"id"=>36,
    "body"=>"I need help!!!",

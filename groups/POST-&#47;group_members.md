@@ -28,7 +28,7 @@ http://0.0.0.0:3000/group_members
 =
 ####JSON response example:
 
-```
+```json
 {"group_member"=>
   {"id"=>42,
    "created_by"=>nil,

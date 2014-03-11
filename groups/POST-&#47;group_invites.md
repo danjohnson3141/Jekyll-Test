@@ -32,7 +32,7 @@ http://0.0.0.0:3000/group_invites
 =
 ####JSON response example:
 
-```
+```json
 {"group_invite"=>
   {"id"=>506,
    "user"=>

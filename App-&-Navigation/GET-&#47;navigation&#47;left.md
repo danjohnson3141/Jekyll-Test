@@ -18,7 +18,7 @@ http://0.0.0.0:3000/navigation/left
 =
 ####JSON response example:
 
-```
+```json
 {"navigation_left"=>
   {"show_messages"=>true,
    "show_notifications"=>false,

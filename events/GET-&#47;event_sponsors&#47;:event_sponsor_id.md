@@ -21,7 +21,7 @@ http://0.0.0.0:3000/event_sponsors/2056
 =
 ####JSON response example:
 
-```
+```json
 {"event_sponsor"=>
   {"id"=>2056,
    "name"=>"Baumbach-King",

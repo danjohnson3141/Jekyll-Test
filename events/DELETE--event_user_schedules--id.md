@@ -21,7 +21,7 @@ http://0.0.0.0:3000/event_user_schedules/234
 =
 ####JSON response example:
 
-```
+```json
 NO JSON RESPONSE
 ```
 

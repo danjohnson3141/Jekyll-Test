@@ -31,7 +31,7 @@ http://0.0.0.0:3000/posts
 =
 ####JSON response example:
 
-```
+```json
 {"post"=>
   {"id"=>81,
    "title"=>"Teapot",

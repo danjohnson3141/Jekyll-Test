@@ -20,7 +20,7 @@ http://0.0.0.0:3000/app_sponsors/120
 =
 ####JSON response example:
 
-```
+```json
 {"app_sponsor"=>
   {"id"=>120,
    "name"=>"Pouros Inc",

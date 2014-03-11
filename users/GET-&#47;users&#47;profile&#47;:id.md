@@ -21,7 +21,7 @@ http://0.0.0.0:3000/users/profile/18447
 =
 ####JSON response example:
 
-```
+```json
 {"user"=>
   {"id"=>18447,
    "email"=>"tamara.hodkiewicz@mcdermott.net",

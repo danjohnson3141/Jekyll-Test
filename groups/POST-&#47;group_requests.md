@@ -32,7 +32,7 @@ http://0.0.0.0:3000/group_requests
 =
 ####JSON response example:
 
-```
+```json
 {"group_request"=>
   {"id"=>89,
    "user"=>

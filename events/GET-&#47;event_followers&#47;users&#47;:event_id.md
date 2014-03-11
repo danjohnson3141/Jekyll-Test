@@ -21,7 +21,7 @@ http://0.0.0.0:3000/event_followers/users/4739
 =
 ####JSON response example:
 
-```
+```json
 {"event_followers"=>
   [{"id"=>1074,
     "event_id"=>4739,

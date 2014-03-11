@@ -21,7 +21,7 @@ http://0.0.0.0:3000/posts/21
 =
 ####JSON response example:
 
-```
+```json
 {"post"=>
   {"id"=>21,
    "title"=>"Profit-focused zero tolerance alliance: Sleek Steel Car",

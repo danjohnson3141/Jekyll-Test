@@ -21,7 +21,7 @@ http://0.0.0.0:3000/group_featured_posts/764
 =
 ####JSON response example:
 
-```
+```json
 {"group_featured_posts"=>
   [{"id"=>31,
     "group_id"=>764,

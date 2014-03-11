@@ -21,7 +21,7 @@ http://0.0.0.0:3000/events/11787
 =
 ####JSON response example:
 
-```
+```json
 {"event"=>
   {"id"=>11787,
    "name"=>"Small Cotton Pants 42",

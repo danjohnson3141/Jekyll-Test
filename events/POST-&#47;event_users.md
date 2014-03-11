@@ -32,7 +32,7 @@ http://0.0.0.0:3000/event_users
 =
 ####JSON response example:
 
-```
+```json
 {"event_user"=>
   {"id"=>134,
    "created_by"=>nil,

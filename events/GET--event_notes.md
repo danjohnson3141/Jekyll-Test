@@ -22,7 +22,7 @@ http://0.0.0.0:3000/ROUTE_NAME
 =
 ####JSON response example:
 
-```
+```json
 {"app_sponsors"=>
   [{"id"=>105,
     "name"=>"Harvey-Bruen",
