@@ -1,4 +1,4 @@
-<!-- --- title: GET /event_notes -->
+<!-- --- title: GET /event_bookmarks/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
@@ -31,6 +31,7 @@ http://0.0.0.0:3000/ROUTE_NAME
     "logo"=>nil,
     "url"=>nil,
     "sponsor_type"=>
+
      {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
     "users"=>[]},
    {"id"=>106,
