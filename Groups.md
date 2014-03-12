@@ -1,4 +1,4 @@
-* [[DELETE /group_invites/:group_invite_id|DELETE-group_invites-group_invite_id]]
+* [[DELETE /group_invites/:id|DELETE-group_invites-group_invite_id]]
 * [[DELETE /group_members/:group_member_id|DELETE-group_members-group_member_id]]
 * [[DELETE /group_requests/:group_requests_id|DELETE-group_requests-group_requests_id]]
 * [[GET /group_featured_posts/:group_id|GET-group_featured_posts-group_id]]

@@ -4,5 +4,6 @@
  | [[Groups]]
  | [[Messages]]
  | [[Posts]]
+ | [[Sponsors]]
  | [[Users]]
  | [[All Routes]]

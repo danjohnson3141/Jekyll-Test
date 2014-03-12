@@ -1,13 +1,10 @@
-* GET /event_bookmarks
+* DELETE /event_bookmarks/:id
 * GET /event_bookmarks/:id
 * GET /event_bookmarks/event/:event_id
 * GET /event_notes
 * GET /event_notes/:id
 * GET /event_notes/event/:event_id
 * GET /event_sessions/my_schedule/:event_id
-* GET /event_speakers/:event_speaker_id
-* GET /event_speakers/event/:event_id
-* GET /event_speakers/event_session/:event_session_id
 * GET /post_comments/:id
 * GET /post_comments/post/:id
 * GET /post_comments/user/:id
@@ -27,4 +24,4 @@
 * POST /post_likes
 * PUT /event_bookmakrs/:id
 * PUT /event_notes/:id
-* PUT /post_comments/:id* 
+* PUT /post_comments/:id

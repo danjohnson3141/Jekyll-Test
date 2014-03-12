@@ -18,8 +18,6 @@
 * [[GET /event_speakers/:event_speaker_id|GET-event_speakers-event_speaker_id]]
 * [[GET /event_speakers/event/:event_id|GET-event_speakers-event-event_id]]
 * [[GET /event_speakers/event_session/:event_session_id|GET-event_speakers-event_session-event_session_id]]
-* [[GET /event_sponsors/:event_sponsor_id|GET-event_sponsors-event_sponsor_id]]
-* [[GET /event_sponsors|GET-event_sponsors]]
 * [[GET /event_users/attendees/:event_id|GET-event_users-attendees-event_id]]
 * [[GET /event_users/events/:user_id|GET-event_users-events-user_id]]
 * [[GET /event_users/users/:event_id|GET-event_users-users-event_id]]

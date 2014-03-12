@@ -92,7 +92,7 @@
 * [[DELETE /posts/:id|DELETE-posts-post_id]]
 * [[GET /post_comments/:id|GET-post_comments-id]]
 * [[GET /post_comments/post/:post_id|GET-post_comments-post-id]]
-* [[GET /post_comments/user/:post_id|GET-post_comments-user-id]]
+* [[GET /post_comments/user/:user_id|GET-post_comments-user-id]]
 * [[GET /post_likes/:id|GET-post_likes-id]]
 * [[GET /post_likes/posts/:user_id|GET-post_likes-post-id]]
 * [[GET /post_likes/users/:post_id|GET-post_likes-user-id]]
