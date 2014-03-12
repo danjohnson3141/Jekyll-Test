@@ -1,0 +1,5 @@
+* [[GET /sponsors|]]
+* [[GET /sponsors/:id|]]
+* [[GET /sponsors/app|]]
+* [[GET /sponsors/event|]]
+* [[GET /sponsors/group|]]

@@ -4,17 +4,15 @@
 * [[GET /app/labels/:page|GET-app-labels-page]]
 * [[GET /app_setting_options/:id|GET-app_setting_options-id]]
 * [[GET /app_settings|GET-app_settings-name]]
-* [[GET /app_sponsors/:app_sponsor_id|GET-app_sponsors-app_sponsor_id]]
-* [[GET /app_sponsors|GET-app_sponsors]]
 * [[GET /navigation/left|GET-navigation-left]]
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]
 * [[POST /app_supports|POST-app_supports]]
 
 =
 ####Banner Ads
-* [[GET /banner_ads/app_sponsor/:app_sponsor_id|GET-banner_ads-app_sponsor-app_sponsor_id]]
-* [[GET /banner_ads/event/:event_id|GET-banner_ads-event-event_id]]
-* [[GET /banner_ads/group/:group_id|GET-banner_ads-group-group_id]]
+* [[GET /banner_ads/sponsor/:id|GET-banner_ads-app_sponsor-app_sponsor_id]]
+* [[GET /banner_ads/event/:id|GET-banner_ads-event-event_id]]
+* [[GET /banner_ads/group/:id|GET-banner_ads-group-group_id]]
 * [[GET /banner_ads|GET-banner_ads]]
 
 =
@@ -39,8 +37,6 @@
 * [[GET /event_speakers/:event_speaker_id|GET-event_speakers-event_speaker_id]]
 * [[GET /event_speakers/event/:event_id|GET-event_speakers-event-event_id]]
 * [[GET /event_speakers/event_session/:event_session_id|GET-event_speakers-event_session-event_session_id]]
-* [[GET /event_sponsors/:event_sponsor_id|GET-event_sponsors-event_sponsor_id]]
-* [[GET /event_sponsors|GET-event_sponsors]]
 * [[GET /event_users/attendees/:event_id|GET-event_users-attendees-event_id]]
 * [[GET /event_users/events/:user_id|GET-event_users-events-user_id]]
 * [[GET /event_users/users/:event_id|GET-event_users-users-event_id]]
@@ -62,7 +58,7 @@
 
 =
 ####Groups
-* [[DELETE /group_invites/:group_invite_id|DELETE-group_invites-group_invite_id]]
+* [[DELETE /group_invites/:id|DELETE-group_invites-group_invite_id]]
 * [[DELETE /group_members/:group_member_id|DELETE-group_members-group_member_id]]
 * [[DELETE /group_requests/:group_requests_id|DELETE-group_requests-group_requests_id]]
 * [[GET /group_featured_posts/:group_id|GET-group_featured_posts-group_id]]
@@ -95,16 +91,16 @@
 * [[DELETE /post_likes/:id|DELETE-post_likes-id]]
 * [[DELETE /posts/:id|DELETE-posts-post_id]]
 * [[GET /post_comments/:id|GET-post_comments-id]]
-* [[GET /post_comments/post/:id|GET-post_comments-post-id]]
-* [[GET /post_comments/user/:id|GET-post_comments-user-id]]
+* [[GET /post_comments/post/:post_id|GET-post_comments-post-id]]
+* [[GET /post_comments/user/:post_id|GET-post_comments-user-id]]
 * [[GET /post_likes/:id|GET-post_likes-id]]
-* [[GET /post_likes/post/:id|GET-post_likes-post-id]]
-* [[GET /post_likes/user/:id|GET-post_likes-user-id]]
+* [[GET /post_likes/posts/:user_id|GET-post_likes-post-id]]
+* [[GET /post_likes/users/:post_id|GET-post_likes-user-id]]
 * [[GET /post_likes|GET-post_likes]]
 * [[GET /posts/:id|GET-posts-post_id]]
-* [[GET /posts/events/:id|GET-posts-events-id]]
-* [[GET /posts/groups/:id|GET-posts-groups-group_id]]
-* [[GET /posts/users/:id|GET-posts-users-user_id]]
+* [[GET /posts/event/:event_id|GET-posts-events-id]]
+* [[GET /posts/group/:group_id|GET-posts-groups-group_id]]
+* [[GET /posts/user/:user_id|GET-posts-users-user_id]]
 * [[PATCH /post_comments/:id|PATCH-post_comments-id]]
 * [[PATCH /posts/:id|PATCH-posts-post_id]]
 * [[POST /post_comments|POST-post_comments]]
@@ -112,6 +108,14 @@
 * [[POST /posts|POST-posts]]
 * [[PUT /post_comments/:id|PUT-post_comments-id]]
 * [[PUT /posts/:id|PUT-posts-post_id]]
+
+=
+####Sponsors
+* [[GET /sponsors|]]
+* [[GET /sponsors/:id|]]
+* [[GET /sponsors/app|]]
+* [[GET /sponsors/event|]]
+* [[GET /sponsors/group|]]
 
 =
 ####Users
