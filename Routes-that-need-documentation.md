@@ -1,4 +1,3 @@
-* DELETE /event_bookmarks/:id
 * GET /event_bookmarks/:id
 * GET /event_bookmarks/event/:event_id
 * GET /event_notes
