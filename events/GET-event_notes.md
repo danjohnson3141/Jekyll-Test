@@ -1,5 +1,7 @@
 <!-- --- title: GET /event_notes -->
 
+NO RSPEC TESTS AS OF 3/12/14
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

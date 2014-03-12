@@ -1,5 +1,7 @@
 <!-- --- title: GET /event_bookmarks/:id -->
 
+NO RSPEC TESTS FOR THIS ROUTE AS OF 3/12/14
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

@@ -2,11 +2,12 @@
 
 ####URL Parameters
 
-* (messages) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 * (event_user_schedules) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_user_schedules' table.
-* (sponsor) :id - Integer, passed in through the URL. Is derived from the 'id' field on the the 'app_sponsors' table.
+* (messages) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 * (post comment) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_comments' table.
 * (post likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
+* (post_comments) :id - Integer, passed in the URL. Is derived from the 'id' field on the 'post_comments' table.
+* (sponsor) :id - Integer, passed in through the URL. Is derived from the 'id' field on the the 'app_sponsors' table.
 * :app_sponsor_id - Integer, passed in the URL. Is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
 * :event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
 * :group_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'groups' table.
@@ -14,6 +15,7 @@
 * :group_members_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'group_members' table.
 * :group_requests_id - Integer, passed in the URL. Is derived from the 'id' field on the 'group_requests' table.
 * :page - Text, passed in through the URL. Is derived from the 'name' field in the 'app_label_pages' table.
+* :post_comments_id - Integer, passed in the URL. Is derived from the 'id' field on the 'post_comments' table.
 * :post_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 * :user_connection_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'user_connection' table.
 * :user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
