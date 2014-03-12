@@ -25,3 +25,8 @@
 * PUT /event_bookmakrs/:id
 * PUT /event_notes/:id
 * PUT /post_comments/:id
+* [[GET /sponsors|GET-sponsors]]
+* [[GET /sponsors/:id|GET-sponsors-id]]
+* [[GET /sponsors/app|GET-sponsors-app]]
+* [[GET /sponsors/event|GET-sponsors-event]]
+* [[GET /sponsors/group|GET-sponsors-group]]

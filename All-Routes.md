@@ -111,11 +111,11 @@
 
 =
 ####Sponsors
-* [[GET /sponsors|]]
-* [[GET /sponsors/:id|]]
-* [[GET /sponsors/app|]]
-* [[GET /sponsors/event|]]
-* [[GET /sponsors/group|]]
+* [[GET /sponsors|GET-sponsors]]
+* [[GET /sponsors/:id|GET-sponsors-id]]
+* [[GET /sponsors/app|GET-sponsors-app]]
+* [[GET /sponsors/event|GET-sponsors-event]]
+* [[GET /sponsors/group|GET-sponsors-group]]
 
 =
 ####Users
