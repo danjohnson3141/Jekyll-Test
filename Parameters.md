@@ -6,6 +6,7 @@
 * (messages) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 * (post comment) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_comments' table.
 * (post likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
+* (post) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 * (post_comments) :id - Integer, passed in the URL. Is derived from the 'id' field on the 'post_comments' table.
 * (sponsor) :id - Integer, passed in through the URL. Is derived from the 'id' field on the the 'app_sponsors' table.
 * :app_sponsor_id - Integer, passed in the URL. Is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.

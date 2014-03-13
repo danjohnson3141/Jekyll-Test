@@ -1,48 +1,115 @@
 <!-- --- title: GET /post_comments/post/:id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns **all** comments associated with **one** post.
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+(post) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/post_comments/post/3758
 ```
 
 =
 ####JSON response example:
 
 ```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+"post_comments"=>
+  [{"id"=>159,
+    "body"=>"Ameliorated tertiary policy",
+    "user"=>
+     {"id"=>40471,
+      "email"=>"generic_user@evanta.com",
+      "alt_email"=>"alt_gen_use@evanta.com",
+      "first_name"=>"Generic",
+      "last_name"=>"User",
+      "title"=>"CEO of QA",
+      "organization_name"=>"Evanta",
+      "bio"=>"This is the biography of the default Generic User",
+      "photo"=>
+       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
+      "can_message"=>true,
+      "user_role_id"=>40108,
+      "user_connection_id"=>nil,
+      "post_count"=>1},
+    "post"=>
+     {"id"=>3758,
+      "title"=>"Reactive homogeneous encryption: Incredible Cotton Shirt",
+      "excerpt"=>"Integrated optimal concept",
+      "body"=>
+       "---\n- Qui et voluptatum. Repellendus omnis laborum. Totam ipsum minus quia autem voluptatem\n  provident 
+      "body_markdown"=>
+       "---\n- Neque est nulla nostrum omnis corrupti fuga qui. Id sint eveniet sequi fuga eum\n  sed. Voluptatem 
+      "thumbnail_teaser_photo"=>"www.example.com/post_thumbnail.jpg",
+      "display_rank"=>0,
+      "view_count"=>5,
+      "like_count"=>0,
+      "comment_count"=>0,
+      "post_like_id"=>nil,
+      "post_attachments"=>[],
+      "ago"=>"0m",
+      "group"=>nil,
+      "event"=>{"id"=>7150, "name"=>"Gorgeous Granite Shoes 265"},
+      "authors"=>
+       [{"id"=>40471,
+         "first_name"=>"Generic",
+         "last_name"=>"User",
+         "title"=>"CEO of QA",
+         "organization_name"=>"Evanta",
+         "photo"=>
+          "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg"}]}},
+   {"id"=>160,
+    "body"=>"Exclusive fault-tolerant info-mediaries",
+    "user"=>
+     {"id"=>40472,
+      "email"=>"augusta.kiehn@rogahn.name",
+      "alt_email"=>"jensen@hotmail.com",
+      "first_name"=>"Katrina",
+      "last_name"=>"Gorczany",
+      "title"=>"Author",
+      "organization_name"=>"Stokes, Hilpert and Kertzmann",
+      "bio"=>
+       "Eaque sit beatae harum corporis autem tempore error dolore distinctio atque ex est est nesciunt.",
+      "photo"=>
+       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
+      "can_message"=>true,
+      "user_role_id"=>40109,
+      "user_connection_id"=>nil,
+      "post_count"=>0},
+    "post"=>
+     {"id"=>3758,
+      "title"=>"Reactive homogeneous encryption: Incredible Cotton Shirt",
+      "excerpt"=>"Integrated optimal concept",
+      "body"=>
+       "---\n- Qui et voluptatum. Repellendus omnis laborum. Totam ipsum minus quia autem voluptatem\n  provident 
+      "body_markdown"=>
+       "---\n- Neque est nulla nostrum omnis corrupti fuga qui. Id sint eveniet sequi fuga eum\n  sed. Voluptatem 
+      "thumbnail_teaser_photo"=>"www.example.com/post_thumbnail.jpg",
+      "display_rank"=>0,
+      "view_count"=>5,
+      "like_count"=>0,
+      "comment_count"=>0,
+      "post_like_id"=>nil,
+      "post_attachments"=>[],
+      "ago"=>"0m",
+      "group"=>nil,
+      "event"=>{"id"=>7150, "name"=>"Gorgeous Granite Shoes 265"},
+      "authors"=>
+       [{"id"=>40471,
+         "first_name"=>"Generic",
+         "last_name"=>"User",
+         "title"=>"CEO of QA",
+         "organization_name"=>"Evanta",
+         "photo"=>
+          "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg"}]}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
