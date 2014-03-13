@@ -1,5 +1,7 @@
 <!-- --- title: GET /post_likes -->
 
+NO RSPEC TEST FOR THS ROUTE AS OF 3/13/14
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

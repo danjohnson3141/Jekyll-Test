@@ -1,48 +1,109 @@
-<!-- --- title: GET /posts/events/:id -->
+<!-- --- title: GET /posts/events/:event_id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns **all** of the posts associated with **one** event.
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
+
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/posts/events/5803
 ```
 
 =
 ####JSON response example:
 
 ```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+{"posts"=>
+  [{"id"=>2621,
+    "title"=>nil,
+    "excerpt"=>nil,
+    "thumbnail_teaser_photo"=>nil,
+    "view_count"=>nil,
+    "show_likes_count"=>true,
+    "like_count"=>0,
+    "comment_count"=>0,
+    "post_like_id"=>nil,
+    "post_likes"=>true,
+    "show_post_likes_list"=>true,
+    "post_attachments"=>[],
+    "authors"=>[nil],
+    "ago"=>"0m",
+    "group"=>nil,
+    "event"=>{"id"=>5803, "name"=>"Practical Cotton Computer 371"}},
+   {"id"=>2622,
+    "title"=>nil,
+    "excerpt"=>nil,
+    "thumbnail_teaser_photo"=>nil,
+    "view_count"=>nil,
+    "show_likes_count"=>true,
+    "like_count"=>0,
+    "comment_count"=>0,
+    "post_like_id"=>nil,
+    "post_likes"=>true,
+    "show_post_likes_list"=>true,
+    "post_attachments"=>[],
+    "authors"=>[nil],
+    "ago"=>"0m",
+    "group"=>nil,
+    "event"=>{"id"=>5803, "name"=>"Practical Cotton Computer 371"}},
+   {"id"=>2623,
+    "title"=>nil,
+    "excerpt"=>nil,
+    "thumbnail_teaser_photo"=>nil,
+    "view_count"=>nil,
+    "show_likes_count"=>true,
+    "like_count"=>0,
+    "comment_count"=>0,
+    "post_like_id"=>nil,
+    "post_likes"=>true,
+    "show_post_likes_list"=>true,
+    "post_attachments"=>[],
+    "authors"=>[nil],
+    "ago"=>"0m",
+    "group"=>nil,
+    "event"=>{"id"=>5803, "name"=>"Practical Cotton Computer 371"}},
+   {"id"=>2624,
+    "title"=>nil,
+    "excerpt"=>nil,
+    "thumbnail_teaser_photo"=>nil,
+    "view_count"=>nil,
+    "show_likes_count"=>true,
+    "like_count"=>0,
+    "comment_count"=>0,
+    "post_like_id"=>nil,
+    "post_likes"=>true,
+    "show_post_likes_list"=>true,
+    "post_attachments"=>[],
+    "authors"=>[nil],
+    "ago"=>"0m",
+    "group"=>nil,
+    "event"=>{"id"=>5803, "name"=>"Practical Cotton Computer 371"}},
+   {"id"=>2625,
+    "title"=>nil,
+    "excerpt"=>nil,
+    "thumbnail_teaser_photo"=>nil,
+    "view_count"=>nil,
+    "show_likes_count"=>true,
+    "like_count"=>0,
+    "comment_count"=>0,
+    "post_like_id"=>nil,
+    "post_likes"=>true,
+    "show_post_likes_list"=>true,
+    "post_attachments"=>[],
+    "authors"=>[nil],
+    "ago"=>"0m",
+    "group"=>nil,
+    "event"=>{"id"=>5803, "name"=>"Practical Cotton Computer 371"}}]}
 ```
 
 This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.

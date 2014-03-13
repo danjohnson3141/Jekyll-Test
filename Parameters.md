@@ -8,6 +8,7 @@
 * (post likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
 * (post) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 * (post_comments) :id - Integer, passed in the URL. Is derived from the 'id' field on the 'post_comments' table.
+* (post_likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
 * (sponsor) :id - Integer, passed in through the URL. Is derived from the 'id' field on the the 'app_sponsors' table.
 * :app_sponsor_id - Integer, passed in the URL. Is derived from the 'app_sponsor_id' field on the the 'banner_ads' table.
 * :event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
@@ -18,6 +19,7 @@
 * :page - Text, passed in through the URL. Is derived from the 'name' field in the 'app_label_pages' table.
 * :post_comments_id - Integer, passed in the URL. Is derived from the 'id' field on the 'post_comments' table.
 * :post_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
+* :post_likes_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
 * :user_connection_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'user_connection' table.
 * :user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
 

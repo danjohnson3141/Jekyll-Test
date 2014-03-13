@@ -1,11 +1,7 @@
 * GET /event_bookmarks/:id (NO TESTS)
 * GET /event_notes (NO TESTS)
 * GET /event_notes/:id (NO TESTS)
-* GET /post_comments/user/:id
-* GET /post_likes
-* GET /post_likes/:id
-* GET /post_likes/post/:id
-* GET /post_likes/user/:id
+* GET /post_likes (NO TESTS)
 * GET /posts/events/:id
 * PATCH /event_bookmarks/:id
 * PATCH /event_notes/:id
