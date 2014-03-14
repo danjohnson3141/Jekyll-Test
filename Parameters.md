@@ -2,7 +2,9 @@
 
 ####URL Parameters
 
+* (event_bookmarks) :id - Integer, passed in the URL. Is derived from the 'id' field on the the 'event_bookmarks' table.
 * (event_user_schedules) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_user_schedules' table.
+* (event_notes) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
 * (messages) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 * (post comment) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_comments' table.
 * (post likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.

@@ -1,48 +1,47 @@
 <!-- --- title: GET /event_notes/:id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns **one** event note based on the data passed in.
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+(event_notes) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_notes/14
 ```
 
 =
 ####JSON response example:
 
 ```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+{"event_note"=>
+  {"id"=>14,
+   "body"=>
+    "Facilis omnis totam molestias quis animi exercitationem. Est non nam sint suscipit. Cum voluptatem in est recusandae deserunt ducimus aliquam.\n\nSit mollitia vel sequi. Velit totam temporibus quam. Deleniti consectetur animi explicabo est.",
+   "event"=>{"id"=>35, "name"=>"Gorgeous Wooden Chair 35"},
+   "event_user"=>
+    {"id"=>31,
+     "user"=>
+      {"id"=>1689,
+       "first_name"=>"Generic",
+       "last_name"=>"User",
+       "title"=>"CEO of QA",
+       "organization_name"=>"Evanta",
+       "photo"=>
+        "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
+       "user_role_id"=>46254,
+       "user_connection_id"=>nil}},
+   "event_speaker"=>nil,
+   "event_session"=>nil,
+   "sponsor"=>nil}}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
