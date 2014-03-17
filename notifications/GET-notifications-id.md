@@ -1,5 +1,6 @@
 <!-- --- title: GET /notifications/:id -->
 
+(NO RSPEC TESTS AS OF 2014/03/17)
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =

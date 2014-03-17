@@ -1,5 +1,6 @@
-<!-- --- title: PUT /event_bookmakrs/:id -->
+<!-- --- title: PUT /event_bookmarks/:id -->
 
+(NO RSPEC TESTS AS OF 2014/03/17)
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
