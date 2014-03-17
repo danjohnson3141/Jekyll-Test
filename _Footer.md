@@ -3,6 +3,7 @@
  | [[Events]]
  | [[Groups]]
  | [[Messages]]
+ | [[Notifications]]
  | [[Posts]]
  | [[Sponsors]]
  | [[Users]]
