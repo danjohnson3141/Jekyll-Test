@@ -7,6 +7,7 @@
 * POST /notifications (NO RSPEC TESTS AS OF 2014/03/17)
 * PUT /event_bookmarks/:id (NO RSPEC TESTS AS OF 2014/03/17)
 
+
 * GET /sponsors
 * GET /sponsors/:id
 * GET /sponsors/app
