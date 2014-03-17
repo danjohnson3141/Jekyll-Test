@@ -7,3 +7,4 @@
 * [[GET /sponsors/app|GET-sponsors-app]]
 * [[GET /sponsors/event|GET-sponsors-event]]
 * [[GET /sponsors/group|GET-sponsors-group]]
+* DELETE /notifications/:id
