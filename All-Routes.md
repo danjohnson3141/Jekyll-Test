@@ -54,7 +54,7 @@
 * [[POST /event_followers|POST-event_followers]]
 * [[POST /event_notes|POST-event_notes]]
 * [[POST /event_user_schedules|POST-event_user_schedules]]
-* [[POST /event_users|POST-event_users]]
+* [[POST /event_u sers|POST-event_users]]
 * [[PUT /event_notes/:id|PUT-event_notes-id]]
 
 =
@@ -77,6 +77,9 @@
 * [[POST /group_requests|POST-group_requests]]
 * [[POST /groups|POST-groups]]
 * [[PUT /groups/:id|PUT-groups-group_id]]
+* [[PATCH /group_requests/:id|PATCH-group_requests-id]]
+* [[PUT /group_requests/:id|PUT-group_requests-id]]
+
 
 =
 ####Messages
@@ -85,6 +88,12 @@
 * [[GET /messages/conversation/:user_id|GET-messages-conversation-user_id]]
 * [[GET /messages|GET-messages]]
 * [[POST /messages|POST-messages]]
+
+=
+####Notifications
+* [[DELETE /notifications/:id|DELETE-notifications-id]]
+* [[GET /notifications|GET-notifications]]
+* [[GET /notifications/:id|GET-notifications-id]]
 
 =
 ####Posts
