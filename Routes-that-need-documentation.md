@@ -1,4 +1,3 @@
-* DELETE /event_bookmarks/:id
 * DELETE /notifications/:id
 * GET /notifications
 * GET /notifications/:id
