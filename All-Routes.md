@@ -32,7 +32,7 @@
 * [[GET /event_notes/event/:event_id|GET-event_notes-event-event_id]]
 * [[GET /event_notes|GET-event_notes]]
 * [[GET /event_sessions/:event_session_id|GET-event_sessions-event_session_id]]
-* [[GET /event_sessions/events/:event_id|GET-event_sessions-events-event_id]]
+* [[GET /event_sessions/event/:event_id|GET-event_sessions-event-event_id]]
 * [[GET /event_sessions/my_schedule/:event_id|GET-event_sessions-my_schedule-event_id]]
 * [[GET /event_speakers/:event_speaker_id|GET-event_speakers-event_speaker_id]]
 * [[GET /event_speakers/event/:event_id|GET-event_speakers-event-event_id]]
