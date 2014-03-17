@@ -49,7 +49,7 @@
 * [[POST /event_bookmarks|POST-event_bookmarks]]
 * [[POST /event_followers|POST-event_followers]]
 * [[POST /event_notes|POST-event_notes]]
-* [[POST /event_u sers|POST-event_users]]
+* [[POST /event_users|POST-event_users]]
 * [[POST /event_user_schedules|POST-event_user_schedules]]
 * [[PUT /event_notes/:id|PUT-event_notes-id]]
 
