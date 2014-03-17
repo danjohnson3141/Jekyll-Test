@@ -1,3 +1,6 @@
 * [[DELETE /notifications/:id|DELETE-notifications-id]]
 * [[GET /notifications|GET-notifications]]
 * [[GET /notifications/:id|GET-notifications-id]]
+* [[PATCH /notifications/:id|PATCH-notifications-id]]
+* [[POST /notifications|POST-notifications]]
+* [[PUT /notifications/:id|PUT-notifications-id]]

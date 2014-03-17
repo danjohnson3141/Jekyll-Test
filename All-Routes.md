@@ -8,14 +8,14 @@
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]
 * [[POST /app_supports|POST-app_supports]]
 
+<!--(
 =
 ####Banner Ads
 * [[GET /banner_ads/sponsor/:id|GET-banner_ads-app_sponsor-app_sponsor_id]]
 * [[GET /banner_ads/event/:id|GET-banner_ads-event-event_id]]
 * [[GET /banner_ads/group/:id|GET-banner_ads-group-group_id]]
-
-<!--( * [[GET /banner_ads|GET-banner_ads]] )-->
-
+ * [[GET /banner_ads|GET-banner_ads]] 
+ )-->
 =
 ####Events
 * [[DELETE /event_bookmarks/:id|DELETE-event_bookmarks-id]]
@@ -31,7 +31,6 @@
 * [[GET /event_followers/users/:event_id|GET-event_followers-users-event_id]]
 * [[GET /event_notes/:id|GET-event_notes-id]]
 * [[GET /event_notes/event/:event_id|GET-event_notes-event-event_id]]
-* [[GET /event_notes|GET-event_notes]]
 * [[GET /event_sessions/:id|GET-event_sessions-id]]
 * [[GET /event_sessions/event/:event_id|GET-event_sessions-event-event_id]]
 * [[GET /event_sessions/my_schedule/:event_id|GET-event_sessions-my_schedule-event_id]]
@@ -43,18 +42,15 @@
 * [[GET /event_users/users/:event_id|GET-event_users-users-event_id]]
 * [[GET /events/:event_id|GET-events-event_id]]
 * [[GET /events/all/:user_id|GET-events-all-user_id]]
-* [[GET /events/all|GET-events-all]]
 * [[GET /events/past/:user_id|GET-events-past-user_id]]
-* [[GET /events/past|GET-events-past]]
 * [[GET /events/upcoming/:user_id|GET-events-upcoming-user_id]]
-* [[GET /events/upcoming|GET-events-upcoming]]
 * [[GET /events|GET-events]]
 * [[PATCH /event_notes/:id|PATCH-event_notes-id]]
 * [[POST /event_bookmarks|POST-event_bookmarks]]
 * [[POST /event_followers|POST-event_followers]]
 * [[POST /event_notes|POST-event_notes]]
-* [[POST /event_user_schedules|POST-event_user_schedules]]
 * [[POST /event_u sers|POST-event_users]]
+* [[POST /event_user_schedules|POST-event_user_schedules]]
 * [[PUT /event_notes/:id|PUT-event_notes-id]]
 
 =
@@ -71,15 +67,14 @@
 * [[GET /group_requests/users/:group_id|GET-group_requests-users-group_id]]
 * [[GET /groups/:id|GET-groups-group_id]]
 * [[GET /groups|GET-groups]]
+* [[PATCH /group_requests/:id|PATCH-group_requests-id]]
 * [[PATCH /groups/:id|PATCH-groups-group_id]]
 * [[POST /group_invites|POST-group_invites]]
 * [[POST /group_members|POST-group_members]]
 * [[POST /group_requests|POST-group_requests]]
 * [[POST /groups|POST-groups]]
-* [[PUT /groups/:id|PUT-groups-group_id]]
-* [[PATCH /group_requests/:id|PATCH-group_requests-id]]
 * [[PUT /group_requests/:id|PUT-group_requests-id]]
-
+* [[PUT /groups/:id|PUT-groups-group_id]]
 
 =
 ####Messages
@@ -94,6 +89,9 @@
 * [[DELETE /notifications/:id|DELETE-notifications-id]]
 * [[GET /notifications|GET-notifications]]
 * [[GET /notifications/:id|GET-notifications-id]]
+* [[PATCH /notifications/:id|PATCH-notifications-id]]
+* [[POST /notifications|POST-notifications]]
+* [[PUT /notifications/:id|PUT-notifications-id]]
 
 =
 ####Posts
@@ -106,7 +104,6 @@
 * [[GET /post_likes/:id|GET-post_likes-id]]
 * [[GET /post_likes/posts/:user_id|GET-post_likes-post-id]]
 * [[GET /post_likes/users/:post_id|GET-post_likes-user-id]]
-* [[GET /post_likes|GET-post_likes]]
 * [[GET /posts/:id|GET-posts-post_id]]
 * [[GET /posts/event/:event_id|GET-posts-events-id]]
 * [[GET /posts/group/:group_id|GET-posts-groups-group_id]]
@@ -121,16 +118,17 @@
 
 =
 ####Sponsors
-* [[GET /sponsors|GET-sponsors]]
 * [[GET /sponsors/:id|GET-sponsors-id]]
 * [[GET /sponsors/app|GET-sponsors-app]]
 * [[GET /sponsors/event|GET-sponsors-event]]
 * [[GET /sponsors/group|GET-sponsors-group]]
+* [[GET /sponsors|GET-sponsors]]
 
 =
 ####Users
 * [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
+* [[GET /user_connections/pending|GET-user_connections-pending]]
 * [[GET /user_connections/user/:id|GET-user_connections-user_id]]
 * [[GET /users/password/edit|GET-users-password-edit]]
 * [[GET /users/password/new|GET-users-password-new]]
