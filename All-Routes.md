@@ -60,7 +60,7 @@
 ####Groups
 * [[DELETE /group_invites/:id|DELETE-group_invites-group_invite_id]]
 * [[DELETE /group_members/:group_member_id|DELETE-group_members-group_member_id]]
-* [[DELETE /group_requests/:group_requests_id|DELETE-group_requests-group_requests_id]]
+* [[DELETE /group_requests/:id|DELETE-group_requests-id]]
 * [[GET /group_featured_posts/:group_id|GET-group_featured_posts-group_id]]
 * [[GET /group_invites/groups|GET-group_invites-groups]]
 * [[GET /group_invites/users/:group_id|GET-group_invites-users-group_id]]
