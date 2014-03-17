@@ -129,8 +129,6 @@
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
 * [[GET /user_connections/pending|GET-user_connections-pending]]
 * [[GET /user_connections/user/:id|GET-user_connections-user_id]]
-* [[GET /users/password/edit|GET-users-password-edit]]
-* [[GET /users/password/new|GET-users-password-new]]
 * [[GET /users/profile/:id|GET-users-profile-id]]
 * [[GET /users/profile|GET-users-profile]]
 * [[GET /users/sign_in|GET-users-sign_in]]
