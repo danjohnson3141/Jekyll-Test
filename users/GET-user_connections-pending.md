@@ -1,48 +1,50 @@
 <!-- --- title: GET /user_connections/pending -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns a list of **all** user_connection records that currently have 'is_approved' as 'false'.
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; defaults only
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/user_connections/pending
 ```
 
 =
 ####JSON response example:
 
 ```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+{"user_connections"=>
+  [{"id"=>144,
+    "is_approved"=>false,
+    "is_approver"=>false,
+    "user"=>
+     {"id"=>8938,
+      "first_name"=>"Gonzalo",
+      "last_name"=>"Volkman",
+      "title"=>"Random User",
+      "organization_name"=>"O'Connell LLC",
+      "photo"=>
+       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg"}},
+   {"id"=>145,
+    "is_approved"=>false,
+    "is_approver"=>true,
+    "user"=>
+     {"id"=>8939,
+      "first_name"=>"Jarod",
+      "last_name"=>"McClure",
+      "title"=>"Random User",
+      "organization_name"=>"Jast, Bergnaum and DuBuque",
+      "photo"=>
+       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg"}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.

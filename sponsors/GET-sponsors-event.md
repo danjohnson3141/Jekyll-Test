@@ -1,48 +1,64 @@
 <!-- --- title: GET /sponsors/event -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This returns a list of **all** the sponsors that have been associated with an event. 
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; default only
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/sponsors/event
 ```
 
 =
 ####JSON response example:
 
 ```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
+{"sponsors"=>
+  [{"id"=>463,
+    "name"=>"Walter, Kessler and Nitzsche 71",
     "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
+     "Dolore in beatae distinctio ducimus dolores magnam voluptatibus voluptates non aut aspernatur non qui voluptas.",
+    "logo"=>"www.example.com/sponsor_logo.jpg",
+    "url"=>"donnelly.biz",
+    "splash_sponsor"=>false,
     "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
+     {"id"=>4,
+      "name"=>"plum",
+      "description"=>"Future-proofed responsive hardware",
+      "display_rank"=>54},
+    "banner_ads"=>
+     [{"id"=>156,
+       "graphic_link"=>"www.example.com/graphic_link.jpg",
+       "link_url"=>"www.example.com"}],
+    "event"=>{"id"=>528, "name"=>"Gorgeous Wooden Pants 11"},
+    "group"=>nil},
+   {"id"=>464,
+    "name"=>"Leffler-Vandervort 72",
     "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
+     "Beatae et dolorem incidunt veniam illo quaerat nulla et commodi nesciunt nostrum velit porro ea.",
+    "logo"=>"www.example.com/sponsor_logo.jpg",
+    "url"=>"ledner.org",
+    "splash_sponsor"=>false,
     "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+     {"id"=>5,
+      "name"=>"pink",
+      "description"=>"Versatile analyzing migration",
+      "display_rank"=>54},
+    "banner_ads"=>
+     [{"id"=>157,
+       "graphic_link"=>"www.example.com/graphic_link.jpg",
+       "link_url"=>"www.example.com"}],
+    "event"=>{"id"=>529, "name"=>"Fantastic Granite Pants 12"},
+    "group"=>nil}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.

@@ -1,48 +1,64 @@
 <!-- --- title: GET /sponsors/app -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This returns **all** of the app_sponsors. This means sponsors that are **not** assoicated with any specific groups or events.
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; default only
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/sponsors/app
 ```
 
 =
 ####JSON response example:
 
 ```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
+{"sponsors"=>
+  [{"id"=>265,
+    "name"=>"Greenholt-Konopelski 253",
     "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
+     "Aut magni illum sit qui ratione totam nihil aut et voluptatem quis nulla iure.",
+    "logo"=>"www.example.com/sponsor_logo.jpg",
+    "url"=>"trantowrice.name",
+    "splash_sponsor"=>false,
     "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
+     {"id"=>2,
+      "name"=>"lime",
+      "description"=>"Persistent incremental extranet",
+      "display_rank"=>24},
+    "banner_ads"=>
+     [{"id"=>50,
+       "graphic_link"=>"www.example.com/graphic_link.jpg",
+       "link_url"=>"www.example.com"}],
+    "event"=>nil,
+    "group"=>nil},
+   {"id"=>266,
+    "name"=>"Gutkowski-Flatley 254",
     "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
+     "Numquam laborum autem quos quidem aut dolores perspiciatis voluptatem minus nisi laboriosam.",
+    "logo"=>"www.example.com/sponsor_logo.jpg",
+    "url"=>"fisherhalvorson.com",
+    "splash_sponsor"=>false,
     "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+     {"id"=>3,
+      "name"=>"orange",
+      "description"=>"Re-contextualized mission-critical frame",
+      "display_rank"=>24},
+    "banner_ads"=>
+     [{"id"=>51,
+       "graphic_link"=>"www.example.com/graphic_link.jpg",
+       "link_url"=>"www.example.com"}],
+    "event"=>nil,
+    "group"=>nil}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
