@@ -49,4 +49,4 @@ http://0.0.0.0:3000/event_users/attendees/7704
     "event_registration_status"=>{"id"=>639, "key"=>"attended"}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.

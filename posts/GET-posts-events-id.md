@@ -106,4 +106,4 @@ http://0.0.0.0:3000/posts/events/5803
     "event"=>{"id"=>5803, "name"=>"Practical Cotton Computer 371"}}]}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
