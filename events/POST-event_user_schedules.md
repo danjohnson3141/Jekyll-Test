@@ -1,48 +1,60 @@
 <!-- --- title: POST /event_user_schedules -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is how the active user creates event_user_schedule records. These records are used to create the user's "My Schedule".
 
 =
 #### Authentication
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:event_session_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_sessions' table.
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/event_user_schedules
+```
+
+=
+####Post Data:
+```json
+{ event_user_schedule: { event_session_id: 1527 } }
 ```
 
 =
 ####JSON response example:
 
 ```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
+{"event_user_schedule"=>
+  {"id"=>477,
+   "event_session"=>
+    {"id"=>1527,
+     "name"=>"Practical Wooden Car",
+     "description"=>
+      "Seamless global benchmark. Assimilated optimizing neural-net",
+     "start_date_time"=>"2014-03-18T18:10:15.000Z",
+     "end_date_time"=>"2014-03-18T19:10:15.000Z",
+     "track_name"=>"Organic optimal methodology",
+     "breakout_id"=>nil,
+     "session_type"=>"Practical Concrete Pants",
+     "room_name"=>"Ergonomic Wooden Gloves",
+     "is_comments_on"=>false,
+     "display_rank"=>nil},
+   "event_user"=>
+    {"id"=>1842,
+     "user"=>
+      {"id"=>23778,
+       "first_name"=>"Generic",
+       "last_name"=>"User",
+       "title"=>"CEO of QA",
+       "organization_name"=>"Evanta",
+       "photo"=>
+        "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
+       "user_role_id"=>28021,
+       "user_connection_id"=>nil}}}}
 ```
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.

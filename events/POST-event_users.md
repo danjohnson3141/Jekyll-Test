@@ -1,18 +1,16 @@
 <!-- --- title: POST /event_users -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This allows the user to create an event_user record. No idea how this going to work yet.
 
 =
 #### Authentication
 
-Declare what authentications are required
-
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:event_id - Integer, passed in throug the post data. Is derived from the 'id' field on the 'events' table.
 
 =
 ####JSON request example:
@@ -24,8 +22,7 @@ http://0.0.0.0:3000/event_users
 ####Post Data
 ```
 { event_user: 
-  { user_id: 4890, 
-    event_id: 42 } 
+  { event_id: 42 } 
 }
 ```
 

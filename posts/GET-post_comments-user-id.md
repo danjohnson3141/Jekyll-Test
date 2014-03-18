@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://0.0.0.0:3000/post_comments/user/19429
 ```
 
 =

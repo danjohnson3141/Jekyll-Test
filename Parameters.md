@@ -3,8 +3,9 @@
 ####URL Parameters
 
 * (event_bookmarks) :id - Integer, passed in the URL. Is derived from the 'id' field on the the 'event_bookmarks' table.
-* (event_user_schedules) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_user_schedules' table.
 * (event_notes) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
+* (event_user_schedules) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_user_schedules' table.
+* (group_requests) :id - Integer, passed in the URL. Is derived from the 'id' field on the 'group_requests' table.
 * (messages) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'messages' table.
 * (post comment) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_comments' table.
 * (post likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
@@ -35,7 +36,8 @@
 * :body_markdown - Text, passed in through the post data. The formatted version of the post.
 * :description - Text, passed in through the post data. Is derived from the 'description' field of the 'groups' table.
 * :email - Varchar, passed in through the post data. If the user is not logged in, the app will ask the user for this, if they're logged in it will automatically fill it in.
-* :event_id
+* :event_id - Integer, passed in throug the post data. Is derived from the 'id' field on the 'events' table.
+* :event_session_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_sessions' table.
 * :excerpt - Text, passed in through the post data. A synopsis of the post.
 * :first_name - Varchar, passed in through the post data. Is derived from the 'first_name' field on the 'users' table.
 * :group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table.
@@ -44,6 +46,7 @@
 * :name - Varchar, passed in through the post data. Is derived from the 'name' field of the 'groups' table.
 * :organization_name - Varchar, passed in through the post data. Is derived from the 'organization_name' field on the 'users' table. 
 * :photo - Varchar, passed in through the post data. Is derived from the 'photo' field on the 'users' table.
+* :post_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'post' table.
 * :recipient_user_id - Integer, passed in through the post data. This is 'user_id' of the person that is receiving the message. Derived from the 'id' field of the 'users' table'.
 * :sender_user_id
 * :thumbnail_teaser_photo - Varchar, passed in through the post data. The URL of a photo used to advertise the post
