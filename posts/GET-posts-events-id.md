@@ -1,4 +1,4 @@
-<!-- --- title: GET /posts/events/:event_id -->
+<!-- --- title: GET /posts/event/:event_id -->
 
 Returns **all** of the posts associated with **one** event.
 

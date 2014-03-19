@@ -1,4 +1,4 @@
-<!-- --- title: GET /posts/groups/:group_id -->
+<!-- --- title: GET /posts/group/:group_id -->
 
 This returns **all** the posts associated with one group.
 

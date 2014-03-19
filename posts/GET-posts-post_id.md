@@ -1,4 +1,4 @@
-<!-- --- title: GET /posts/:post_id -->
+<!-- --- title: GET /posts/:id -->
 
 This returns **one** post.
 

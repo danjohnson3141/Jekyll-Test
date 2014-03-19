@@ -1,4 +1,4 @@
-<!-- --- title: DELETE /posts/:post_id -->
+<!-- --- title: DELETE /posts/:id -->
 
 This deletes a post. Only the user that created the post is allowed to delete the post.
 

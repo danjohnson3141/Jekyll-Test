@@ -1,4 +1,4 @@
-<!-- --- title: GET /post_comments/user/:id -->
+<!-- --- title: GET /post_comments/user/:user_id -->
 
 Returns **all** of the post comments for **one** user. 
 

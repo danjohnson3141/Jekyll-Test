@@ -1,4 +1,4 @@
-<!-- --- title: GET /post_likes/user/:post_id -->
+<!-- --- title: GET /post_likes/users/:post_id -->
 
 Returns **all** post likes for **one** post.
 

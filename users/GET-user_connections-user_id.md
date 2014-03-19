@@ -1,4 +1,4 @@
-<!-- --- title: GET /user_connections/:user_id -->
+<!-- --- title: GET /user_connections/user/:user_id -->
 
 Returns a list of all the user connections that a user has. 
 

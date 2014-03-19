@@ -1,4 +1,4 @@
-<!-- --- title: GET /app_supports-->
+<!-- --- title: POST /app_supports-->
 
 This is the route used for the user to submit support requests to the application admins. 
 

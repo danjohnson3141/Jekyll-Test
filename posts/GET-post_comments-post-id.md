@@ -1,4 +1,4 @@
-<!-- --- title: GET /post_comments/post/:id -->
+<!-- --- title: GET /post_comments/post/:post_id -->
 
 Returns **all** comments associated with **one** post.
 

@@ -1,4 +1,4 @@
-<!-- --- title: GET /groups/:group_id -->
+<!-- --- title: GET /groups/:id -->
 
 Returns details on **one** group.
 

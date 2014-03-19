@@ -1,4 +1,4 @@
-<!-- --- title: GET /posts/users/:user_id -->
+<!-- --- title: GET /posts/user/:user_id -->
 
 Returns all of the posts from a single user
 

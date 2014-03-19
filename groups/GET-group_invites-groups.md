@@ -1,6 +1,6 @@
-<!-- --- title: GET /group_invites/:groups -->
+<!-- --- title: GET /group_invites/groups -->
 
-This route returns all of the pending invites for the logged in user. Should not return invites for groups that the user is already a member of.
+This route returns all of the pending invites for the logged in user. Should not return invites for groups that the user is already a member of.`
 
 =
 #### Authentication

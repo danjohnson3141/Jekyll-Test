@@ -1,4 +1,4 @@
-<!-- --- title: PATCH /posts/:post_id -->
+<!-- --- title: PATCH /posts/:id -->
 
 This updates records in the 'posts' table.
 

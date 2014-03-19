@@ -1,4 +1,4 @@
-<!-- --- title: PUT /posts/:post_id -->
+<!-- --- title: PUT /posts/:id -->
 
 This updates records in the 'posts' table.
 
