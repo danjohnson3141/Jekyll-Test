@@ -3,4 +3,4 @@
 * On Session related end points, the ‘name’ data that would normally be derived from the ‘name’ field on the * ‘Sessions’ table is instead being derived from the ‘title’ field on the ‘Posts’ table.
 * On Session related end points, the ‘description’ data that would normally be derived from the * ‘description’ field on the ‘Sessions’ table is instead being derived from the ‘body’ field on the ‘Posts’ * table.
 * The existense (or lack thereof) in no way impacts the behavior of the 'excerpt' on the post.
-* [[Is a post visible?|post_visible.pdf]]
+* [[post_visible.pdf]]
