@@ -1,6 +1,8 @@
 <!-- --- title: GET /events -->
 
-Returns all the events.
+Returns **all** events that are visible to the user.
+
+The events that are visible to the user are filtered by whether or not that event is associated with a group that the user is a member of. Being an event_user for an event trumps all group_member requirements.
 
 =
 #### Authentication

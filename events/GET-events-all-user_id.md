@@ -1,6 +1,8 @@
 <!-- --- title: GET /events/all/:user_id -->
 
-Returns all the events for one user that they're following or registered for.
+Returns **all** the events for the active user for which they have _either_ an event_follower or event_user record. 
+
+The events that are visible to the user are filtered by whether or not that event is associated with a group that the user is a member of. Being an event_user for an event trumps all group_member requirements.
 
 =
 #### Authentication
