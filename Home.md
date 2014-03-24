@@ -1,4 +1,4 @@
-[[Gollum]]
+<!-- --- title: Evanta Access API Documentation -->
 
 Changes made to the files locally in a text editor will not be reflected on the wiki till they're committed to the repository.
 
@@ -14,10 +14,6 @@ The types of API routes available can generally be broken up into seven differen
 * [[Users]]
 * [[All Routes]]
 
-
-***
-
-
 ===
 ####Pagination
 
@@ -25,9 +21,9 @@ If the API request is designed to return more than one record, it is possible to
 
 So the message route of `GET /messages` would become `GET /messages?page=2&per_page=3`
 
-___
-
+===
 ####Templates
+
 This is the template currently being used for new documentation: [[Template]]
 
 Possibly using this as a template: http://wiki.alfresco.com/wiki/API_Reference_Template
@@ -39,3 +35,10 @@ Would eventually like to look like Twitter's: https://dev.twitter.com/docs/api/1
 Helpful API documentation resources:
 
 * http://www.monperrus.net/martin/how-to-write-good-API-documentation
+
+===
+####Gollum Info
+
+[[How to layout and edit Gollum wiki pages.|Gollum]]
+
+[[Technical information on Gollum|Tech_docs]]
