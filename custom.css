@@ -1,2 +1,2 @@
 .action-edit-page, #minibutton-rename-page, #delete-link
-{display:none}
+{display:none !important}
