@@ -17,6 +17,8 @@
 * [[GET /event_bookmarks/:id|GET-event_bookmarks-id]]
 * [[GET /event_bookmarks/event/:event_id|GET-event_bookmarks-event-event_id]]
 * [[GET /event_bookmarks|GET-event_bookmarks]]
+* [[GET /event_evaluations/event/:event_id|GET-event_evaluations-event-event_id]]
+* [[GET /event_evaluations|GET-event_evaluations]]
 * [[GET /event_featured_posts/:event_id|GET-event_featured_posts-event_id]]
 * [[GET /event_followers/events/:user_id|GET-event_followers-events-user_id]]
 * [[GET /event_followers/users/:event_id|GET-event_followers-users-event_id]]
@@ -40,8 +42,8 @@
 * [[POST /event_bookmarks|POST-event_bookmarks]]
 * [[POST /event_followers|POST-event_followers]]
 * [[POST /event_notes|POST-event_notes]]
-* [[POST /event_users|POST-event_users]]
 * [[POST /event_user_schedules|POST-event_user_schedules]]
+* [[POST /event_users|POST-event_users]]
 * [[PUT /event_notes/:id|PUT-event_notes-id]]
 
 =
@@ -133,3 +135,12 @@
 * [[PUT /user_connections/:id|PUT-user_connections-user_connection_id]]
 * [[PUT /users/password|PUT-users-password]]
 * [[PUT /users/profile|PUT-users-profile]]
+* [[GET /users/post_options|GET-users-post_options]]
+
+=
+####Routes that exist, but not really
+* GET /app_setting_options/:id
+* GET /options_test
+* GET /users/password/edit
+* GET /users/password/new
+* GET /users/sign_in
