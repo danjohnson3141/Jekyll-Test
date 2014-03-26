@@ -1,4 +1,4 @@
-<!-- --- title: GET /events/:event_id -->
+<!-- --- title: GET /events/:id -->
 
 Returns the details for **one** event.
 
@@ -12,7 +12,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
+(event) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
 
 =
 ####JSON request example:

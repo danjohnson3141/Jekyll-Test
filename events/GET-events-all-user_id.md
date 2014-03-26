@@ -1,4 +1,4 @@
-<!-- --- title: GET /events/all/:user_id -->
+<!-- --- title: GET /events/all -->
 
 Returns **all** the events for the active user for which they have _either_ an event_follower or event_user record. 
 
@@ -12,12 +12,12 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
+none; default only
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/events/all/107339
+http://0.0.0.0:3000/events/all
 ```
 
 =

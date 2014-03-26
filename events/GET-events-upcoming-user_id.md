@@ -1,4 +1,4 @@
-<!-- --- title: GET /events/upcoming/:user_id -->
+<!-- --- title: GET /events/upcoming -->
 
 Returns a list of **all** upcoming events that are visible to the active user.
 
@@ -12,12 +12,12 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
+none; default only
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/events/upcoming/234
+http://0.0.0.0:3000/events/upcoming
 ```
 
 =

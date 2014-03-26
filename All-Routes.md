@@ -25,16 +25,16 @@
 * [[GET /event_sessions/:id|GET-event_sessions-id]]
 * [[GET /event_sessions/event/:event_id|GET-event_sessions-event-event_id]]
 * [[GET /event_sessions/my_schedule/:event_id|GET-event_sessions-my_schedule-event_id]]
-* [[GET /event_speakers/:event_speaker_id|GET-event_speakers-event_speaker_id]]
+* [[GET /event_speakers/:id|GET-event_speakers-event_speaker_id]]
 * [[GET /event_speakers/event/:event_id|GET-event_speakers-event-event_id]]
 * [[GET /event_speakers/event_session/:event_session_id|GET-event_speakers-event_session-event_session_id]]
 * [[GET /event_users/attendees/:event_id|GET-event_users-attendees-event_id]]
 * [[GET /event_users/events/:user_id|GET-event_users-events-user_id]]
 * [[GET /event_users/users/:event_id|GET-event_users-users-event_id]]
-* [[GET /events/:event_id|GET-events-event_id]]
-* [[GET /events/all/:user_id|GET-events-all-user_id]]
-* [[GET /events/past/:user_id|GET-events-past-user_id]]
-* [[GET /events/upcoming/:user_id|GET-events-upcoming-user_id]]
+* [[GET /events/:id|GET-events-event_id]]
+* [[GET /events/all/|GET-events-all-user_id]]
+* [[GET /events/past/|GET-events-past-user_id]]
+* [[GET /events/upcoming/|GET-events-upcoming-user_id]]
 * [[GET /events|GET-events]]
 * [[PATCH /event_notes/:id|PATCH-event_notes-id]]
 * [[POST /event_bookmarks|POST-event_bookmarks]]
@@ -75,6 +75,7 @@
 * [[GET /messages|GET-messages]]
 * [[POST /messages|POST-messages]]
 
+<!--
 =
 ####Notifications
 * [[DELETE /notifications/:id|DELETE-notifications-id]]
@@ -83,7 +84,7 @@
 * [[PATCH /notifications/:id|PATCH-notifications-id]]
 * [[POST /notifications|POST-notifications]]
 * [[PUT /notifications/:id|PUT-notifications-id]]
-
+-->
 =
 ####Posts
 * [[DELETE /post_comments/:id|DELETE-post_comments-id]]
@@ -120,7 +121,7 @@
 * [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
 * [[GET /user_connections/pending|GET-user_connections-pending]]
-* [[GET /user_connections/user/:id|GET-user_connections-user_id]]
+* [[GET /user_connections/user/:user_id|GET-user_connections-user_id]]
 * [[GET /users/profile/:id|GET-users-profile-id]]
 * [[GET /users/profile|GET-users-profile]]
 * [[PATCH /user_connections/:id|PATCH-user_connections-user_connection_id]]
@@ -129,6 +130,6 @@
 * [[POST /user_connections|POST-user_connections]]
 * [[POST /users/password|POST-users-password]]
 * [[POST /users/sign_in|POST-users-sign_in]]
-* [[PUT /user_connections/:id|PUT-user_connections-user_connection_id]]
+* [[PUT /user_connections/:user_id|PUT-user_connections-user_connection_id]]
 * [[PUT /users/password|PUT-users-password]]
 * [[PUT /users/profile|PUT-users-profile]]

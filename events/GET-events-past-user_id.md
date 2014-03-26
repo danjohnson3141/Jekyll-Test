@@ -1,4 +1,4 @@
-<!-- --- title: GET /events/past/:user_id -->
+<!-- --- title: GET /events/past -->
 
 Returns **all** of the past events that are visible to the active user.
 
@@ -12,12 +12,12 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 #### Parameters
 
-:user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
+none; default only
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/events/past/125861
+http://0.0.0.0:3000/events/past
 ```
 
 =
