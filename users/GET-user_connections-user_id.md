@@ -1,4 +1,4 @@
-<!-- --- title: GET /user_connections/user/:user_id -->
+<!-- --- title: GET /users/connections/:user_id -->
 
 Returns a list of all the user connections that a user has. 
 
@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/user_connections/17065
+http://0.0.0.0:3000/users/connections/17065
 ```
 
 =
