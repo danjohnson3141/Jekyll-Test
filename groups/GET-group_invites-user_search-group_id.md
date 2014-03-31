@@ -1,5 +1,7 @@
 <!-- --- title: GET /group_invites/user_search/:group_id -->
 
+NO RSPEC TESTS AS OF 2014/03/31
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
