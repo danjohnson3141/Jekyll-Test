@@ -1,21 +1,22 @@
-<!-- --- title: GET /users/post_options -->
+<!-- --- title: GET /event_session_evaluations/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
 #### Authentication
 
-The user needs to be logged in and have valid credentials to use this route.
+Declare what authentications are required
+Good sample text: The user needs to be logged in and have valid credentials to use this route.
 
 =
 #### Parameters
 
-none; default only
+LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/users/post_options
+http://0.0.0.0:3000/ROUTE_NAME
 ```
 
 =
@@ -44,4 +45,4 @@ http://0.0.0.0:3000/users/post_options
     "users"=>[]}]}
 ```
 
-This requests provides a <strong>HTML 200</strong> on success.
+This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.

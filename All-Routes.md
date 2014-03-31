@@ -45,6 +45,8 @@
 * [[POST /event_user_schedules|POST-event_user_schedules]]
 * [[POST /event_users|POST-event_users]]
 * [[PUT /event_notes/:id|PUT-event_notes-id]]
+* [[GET /event_evaluations/:id|GET-event_evaluations-id]]
+* [[GET /event_session_evaluations/:id|GET-event_session_evaluations-id]]
 
 =
 ####Groups
@@ -68,6 +70,7 @@
 * [[POST /groups|POST-groups]]
 * [[PUT /group_requests/:id|PUT-group_requests-id]]
 * [[PUT /groups/:id|PUT-groups-group_id]]
+* [[GET /group_invites/user_search/:group_id|GET-group_invites-user_search-group_id]]
 
 =
 ####Messages
@@ -77,16 +80,20 @@
 * [[GET /messages|GET-messages]]
 * [[POST /messages|POST-messages]]
 
-<!--
+
 =
 ####Notifications
+* [[GET /notifications/:id|GET-notifications-id]]
+* [[GET /notifications/user/:user_id|GET-notifications-user-user_id]]
+
+<!--
 * [[DELETE /notifications/:id|DELETE-notifications-id]]
 * [[GET /notifications|GET-notifications]]
-* [[GET /notifications/:id|GET-notifications-id]]
 * [[PATCH /notifications/:id|PATCH-notifications-id]]
 * [[POST /notifications|POST-notifications]]
 * [[PUT /notifications/:id|PUT-notifications-id]]
 -->
+
 =
 ####Posts
 * [[DELETE /post_comments/:id|DELETE-post_comments-id]]
@@ -144,3 +151,4 @@
 * GET /users/password/edit
 * GET /users/password/new
 * GET /users/sign_in
+* OPTIONS /*path
