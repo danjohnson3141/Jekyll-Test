@@ -6,21 +6,42 @@
 * [[GET /navigation/left|GET-navigation-left]]
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]
 * [[POST /app_supports|POST-app_supports]]
+* [[POST /app_settings|POST-app_settings]]
 
 =
-####Events
+####Event Bookmarks
 * [[DELETE /event_bookmarks/:id|DELETE-event_bookmarks-id]]
-* [[DELETE /event_followers/:id|DELETE-event_followers-id]]
-* [[DELETE /event_notes/:id|DELETE-event_notes-id]]
-* [[DELETE /event_user_schedules/:id|DELETE-event_user_schedules-id]]
-* [[DELETE /event_users/:event_user_id|DELETE-event_users-event_user_id]]
 * [[GET /event_bookmarks/:id|GET-event_bookmarks-id]]
 * [[GET /event_bookmarks/event/:event_id|GET-event_bookmarks-event-event_id]]
 * [[GET /event_bookmarks|GET-event_bookmarks]]
-* [[GET /event_followers/events/:user_id|GET-event_followers-events-user_id]]
-* [[GET /event_followers/users/:event_id|GET-event_followers-users-event_id]]
+* [[POST /event_bookmarks|POST-event_bookmarks]]
+
+=
+####Event Council
+* [[GET /event_council_members/event/:event_id|GET-event_council_members-event-event_id]]
+
+=
+####Event Leaderboard
+* [[GET /event_leaderboards/event/:event_id|GET-event_leaderboards-event-event_id]]
+* [[GET /event_user_leaderboards/event/:event_id|GET-event_user_leaderboards-event-event_id]]
+
+=
+####Event Notes
+* [[DELETE /event_notes/:id|DELETE-event_notes-id]]
 * [[GET /event_notes/:id|GET-event_notes-id]]
 * [[GET /event_notes/event/:event_id|GET-event_notes-event-event_id]]
+* [[PATCH /event_notes/:id|PATCH-event_notes-id]]
+* [[POST /event_notes|POST-event_notes]]
+* [[PUT /event_notes/:id|PUT-event_notes-id]]
+
+=
+####Events
+* [[GET /event_users/:id|GET-event_users-id]]
+* [[DELETE /event_followers/:id|DELETE-event_followers-id]]
+* [[DELETE /event_user_schedules/:id|DELETE-event_user_schedules-id]]
+* [[DELETE /event_users/:event_user_id|DELETE-event_users-event_user_id]]
+* [[GET /event_followers/events/:user_id|GET-event_followers-events-user_id]]
+* [[GET /event_followers/users/:event_id|GET-event_followers-users-event_id]]
 * [[GET /event_sessions/:id|GET-event_sessions-id]]
 * [[GET /event_sessions/event/:event_id|GET-event_sessions-event-event_id]]
 * [[GET /event_sessions/my_schedule/:event_id|GET-event_sessions-my_schedule-event_id]]
@@ -34,14 +55,9 @@
 * [[GET /events/all|GET-events-all-user_id]]
 * [[GET /events/past|GET-events-past-user_id]]
 * [[GET /events/upcoming|GET-events-upcoming-user_id]]
-* [[GET /events|GET-events]]
-* [[PATCH /event_notes/:id|PATCH-event_notes-id]]
-* [[POST /event_bookmarks|POST-event_bookmarks]]
 * [[POST /event_followers|POST-event_followers]]
-* [[POST /event_notes|POST-event_notes]]
 * [[POST /event_user_schedules|POST-event_user_schedules]]
 * [[POST /event_users|POST-event_users]]
-* [[PUT /event_notes/:id|PUT-event_notes-id]]
 * [[GET /event_evaluations/:id|GET-event_evaluations-id]]
 * [[GET /event_session_evaluations/:id|GET-event_session_evaluations-id]]
 
@@ -50,7 +66,6 @@
 * [[DELETE /group_invites/:id|DELETE-group_invites-group_invite_id]]
 * [[DELETE /group_members/:group_member_id|DELETE-group_members-group_member_id]]
 * [[DELETE /group_requests/:id|DELETE-group_requests-id]]
-* [[GET /group_featured_posts/:group_id|GET-group_featured_posts-group_id]]
 * [[GET /group_invites/groups|GET-group_invites-groups]]
 * [[GET /group_invites/users/:group_id|GET-group_invites-users-group_id]]
 * [[GET /group_members/groups/:user_id|GET-group_members-groups-user_id]]
@@ -77,20 +92,31 @@
 * [[GET /messages|GET-messages]]
 * [[POST /messages|POST-messages]]
 
-
 =
 ####Notifications
+* [[PATCH /notifications/:id|PATCH-notifications-id]]
 * [[GET /notifications/:id|GET-notifications-id]]
 * [[GET /notifications|GET-notifications]]
+* [[PUT /notifications/:id|PUT-notifications-id]]
 
 =
 ####Posts
+* [[PUT /post_attachments/:id|PUT-post_attachments-id]]
+* [[POST /post_followers|POST-post_followers]]
+* [[POST /post_attachments|POST-post_attachments]]
+* [[POST /featured_posts|POST-featured_posts]]
+* [[PATCH /post_attachments/:id|]]
+* [[GET /post_followers/users/:post_id|GET-post_followers-users-post_id]]
+* [[GET /post_followers/posts/:user_id|GET-post_followers-posts-user_id]]
+* [[GET /featured_posts/user|GET-featured_posts-user]]
+* [[DELETE /post_followers/:id|DELETE-post_followers-id]]
+* [[DELETE /post_attachments/:id|DELETE-post_attachments-id]]
+* [[DELETE /featured_posts/:id|DELETE-featured_posts-id]]
 * [[DELETE /post_comments/:id|DELETE-post_comments-id]]
 * [[DELETE /post_likes/:id|DELETE-post_likes-id]]
 * [[DELETE /posts/:id|DELETE-posts-post_id]]
 * [[GET /post_comments/:id|GET-post_comments-id]]
 * [[GET /post_comments/post/:post_id|GET-post_comments-post-id]]
-* [[GET /post_comments/user/:user_id|GET-post_comments-user-id]]
 * [[GET /post_likes/:id|GET-post_likes-id]]
 * [[GET /post_likes/posts/:user_id|GET-post_likes-post-id]]
 * [[GET /post_likes/users/:post_id|GET-post_likes-user-id]]
@@ -118,6 +144,9 @@
 
 =
 ####Users
+* [[GET /users/settings|GET /users/settings]]
+* [[GET /users/locale_options|GET-users-locale_options]]
+* [[GET /user_feed|GET-user_feed]]
 * [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
 * [[GET /user_connections/pending|GET-user_connections-pending]]
@@ -146,11 +175,13 @@
 
 <!--
 Deprecated Routes
-* [[GET /notifications/user/:user_id|GET-notifications-user-user_id]]
 * [[DELETE /notifications/:id|DELETE-notifications-id]]
+* [[GET /event_evaluations/event/:event_id|GET-event_evaluations-event-event_id]]
+* [[GET /event_evaluations|GET-event_evaluations]]
+* [[GET /events|GET-events]]
+* [[GET /notifications/user/:user_id|GET-notifications-user-user_id]]
+* [[GET /post_comments/user/:user_id|GET-post_comments-user-id]]
 * [[PATCH /notifications/:id|PATCH-notifications-id]]
 * [[POST /notifications|POST-notifications]]
 * [[PUT /notifications/:id|PUT-notifications-id]]
-* [[GET /event_evaluations/event/:event_id|GET-event_evaluations-event-event_id]]
-* [[GET /event_evaluations|GET-event_evaluations]]
 -->
