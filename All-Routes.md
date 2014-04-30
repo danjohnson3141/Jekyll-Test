@@ -144,7 +144,7 @@
 
 =
 ####Users
-* [[GET /users/settings|GET /users/settings]]
+* [[GET /users/settings|GET-users-settings]]
 * [[GET /users/locale_options|GET-users-locale_options]]
 * [[GET /user_feed|GET-user_feed]]
 * [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
