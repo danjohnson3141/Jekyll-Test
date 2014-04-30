@@ -105,7 +105,7 @@
 * [[POST /post_followers|POST-post_followers]]
 * [[POST /post_attachments|POST-post_attachments]]
 * [[POST /featured_posts|POST-featured_posts]]
-* [[PATCH /post_attachments/:id|]]
+* [[PATCH /post_attachments/:id|PATCH-post_attachments-id]]
 * [[GET /post_followers/users/:post_id|GET-post_followers-users-post_id]]
 * [[GET /post_followers/posts/:user_id|GET-post_followers-posts-user_id]]
 * [[GET /featured_posts/user|GET-featured_posts-user]]
