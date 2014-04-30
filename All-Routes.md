@@ -17,7 +17,6 @@
 * [[GET /event_bookmarks/:id|GET-event_bookmarks-id]]
 * [[GET /event_bookmarks/event/:event_id|GET-event_bookmarks-event-event_id]]
 * [[GET /event_bookmarks|GET-event_bookmarks]]
-* [[GET /event_featured_posts/:event_id|GET-event_featured_posts-event_id]]
 * [[GET /event_followers/events/:user_id|GET-event_followers-events-user_id]]
 * [[GET /event_followers/users/:event_id|GET-event_followers-users-event_id]]
 * [[GET /event_notes/:id|GET-event_notes-id]]
@@ -106,6 +105,8 @@
 * [[POST /posts|POST-posts]]
 * [[PUT /post_comments/:id|PUT-post_comments-id]]
 * [[PUT /posts/:id|PUT-posts-post_id]]
+* [[GET /featured_posts/event/:event_id|GET-featured_posts-event-event_id]]
+* [[GET /featured_posts/group/:group_id|GET-featured_posts-group-group_id]]
 
 =
 ####Sponsors

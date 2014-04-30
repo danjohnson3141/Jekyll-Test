@@ -1,4 +1,4 @@
-<!-- --- title: GET /event_featured_posts/:event_id -->
+<!-- --- title: GET /featured_posts/event/:event_id -->
 
 This route returns all the featured posts for one event.
 
@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/event_featured_posts/4316
+http://0.0.0.0:3000/featured_posts/event/4316
 ```
 
 =
