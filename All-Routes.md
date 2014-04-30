@@ -17,8 +17,6 @@
 * [[GET /event_bookmarks/:id|GET-event_bookmarks-id]]
 * [[GET /event_bookmarks/event/:event_id|GET-event_bookmarks-event-event_id]]
 * [[GET /event_bookmarks|GET-event_bookmarks]]
-* [[GET /event_evaluations/event/:event_id|GET-event_evaluations-event-event_id]]
-* [[GET /event_evaluations|GET-event_evaluations]]
 * [[GET /event_featured_posts/:event_id|GET-event_featured_posts-event_id]]
 * [[GET /event_followers/events/:user_id|GET-event_followers-events-user_id]]
 * [[GET /event_followers/users/:event_id|GET-event_followers-users-event_id]]
@@ -74,7 +72,7 @@
 
 =
 ####Messages
-* [[DELETE /messages/:message_id|DELETE-messages-message_id]]
+* [[DELETE /messages/:id|DELETE-messages-message_id]]
 * [[DELETE /messages/conversation/:user_id|DELETE-messages-conversation-user_id]]
 * [[GET /messages/conversation/:user_id|GET-messages-conversation-user_id]]
 * [[GET /messages|GET-messages]]
@@ -84,15 +82,7 @@
 =
 ####Notifications
 * [[GET /notifications/:id|GET-notifications-id]]
-* [[GET /notifications/user/:user_id|GET-notifications-user-user_id]]
-
-<!--
-* [[DELETE /notifications/:id|DELETE-notifications-id]]
 * [[GET /notifications|GET-notifications]]
-* [[PATCH /notifications/:id|PATCH-notifications-id]]
-* [[POST /notifications|POST-notifications]]
-* [[PUT /notifications/:id|PUT-notifications-id]]
--->
 
 =
 ####Posts
@@ -152,3 +142,14 @@
 * GET /users/password/new
 * GET /users/sign_in
 * OPTIONS /*path
+
+<!--
+Deprecated Routes
+* [[GET /notifications/user/:user_id|GET-notifications-user-user_id]]
+* [[DELETE /notifications/:id|DELETE-notifications-id]]
+* [[PATCH /notifications/:id|PATCH-notifications-id]]
+* [[POST /notifications|POST-notifications]]
+* [[PUT /notifications/:id|PUT-notifications-id]]
+* [[GET /event_evaluations/event/:event_id|GET-event_evaluations-event-event_id]]
+* [[GET /event_evaluations|GET-event_evaluations]]
+-->
