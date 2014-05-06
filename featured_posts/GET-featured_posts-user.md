@@ -1,6 +1,6 @@
-<!-- --- title: PUT /post_attachments/:id -->
+<!-- --- title: GET /post_followers/posts/:user_id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Featured posts are a list of posts that the application displays at the top of several pages (user feed, group feed, event feed). There is maximum number of posts that will be returned by this route. However, it is possible to artificially limit the number of posts returned through a suffix on the route. 
 
 =
 #### Authentication

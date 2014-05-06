@@ -1,0 +1,1 @@
+* [[GET /event_council_members/event/:event_id|GET-event_council_members-event-event_id]]

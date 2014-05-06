@@ -1,6 +1,6 @@
 * [[GET /app/labels/:page|GET-app-labels-page]]
-* [[GET /app_setting_options/:id|GET-app_setting_options-id]]
 * [[GET /app_settings|GET-app_settings-name]]
 * [[GET /navigation/left|GET-navigation-left]]
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]
+* [[POST /app_settings|POST-app_settings]]
 * [[POST /app_supports|POST-app_supports]]

@@ -1,0 +1,6 @@
+* [[DELETE /event_notes/:id|DELETE-event_notes-id]]
+* [[GET /event_notes/:id|GET-event_notes-id]]
+* [[GET /event_notes/event/:event_id|GET-event_notes-event-event_id]]
+* [[PATCH /event_notes/:id|PATCH-event_notes-id]]
+* [[POST /event_notes|POST-event_notes]]
+* [[PUT /event_notes/:id|PUT-event_notes-id]]
