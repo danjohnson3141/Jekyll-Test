@@ -16,7 +16,7 @@ Feed is composed of:
 * Notification if connected user creates a visible group
 * Posts the user is following
 
-These items are sorted by the most recently created at the top of the list and then descending. Several actions that can be taken by other users can affect the order of the posts by bumping tht post to the top of the list. Whether or not the user is following a post and also whether the action was taken by a connection or non-connection will affect this. If the user *is not* following the post, the action must be taken by a connection for it to affect the sort order. If the user *is* following the post, then the action does not need to be performed by a connection for the sort order to be affected.
+These items are sorted by the most recently created at the top of the list and then descending. Several actions that can be taken by other users can affect the order of the posts by bumping that post to the top of the list. Whether or not the user is following a post and also whether the action was taken by a connection or non-connection will affect this. If the user **is not** following the post, the action must be taken by a connection for it to affect the sort order. If the user **is** following the post, then the action does not need to be performed by a connection for the sort order to be affected.
 
 * Comment on a visible post
 * Like on a visible post
