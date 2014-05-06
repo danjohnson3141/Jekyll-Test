@@ -6,7 +6,7 @@ This route is a collection of post and notifications that is specific to the act
 Feed is composed of:
 
 * Posts in groups that the active user is a member of
-* Posts in events that the active user is an event user of
+* Posts in events that the active user is following
 * Visible posts that are commented on by connected user
 * Visible posts that are liked by connected user
 * Visible posts that are created by connected user
