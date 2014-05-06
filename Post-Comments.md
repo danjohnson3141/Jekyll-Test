@@ -1,0 +1,6 @@
+* [[DELETE /post_comments/:id|DELETE-post_comments-id]]
+* [[GET /post_comments/:id|GET-post_comments-id]]
+* [[GET /post_comments/post/:post_id|GET-post_comments-post-id]]
+* [[PATCH /post_comments/:id|PATCH-post_comments-id]]
+* [[POST /post_comments|POST-post_comments]]
+* [[PUT /post_comments/:id|PUT-post_comments-id]]

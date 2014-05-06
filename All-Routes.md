@@ -143,7 +143,6 @@
 * [[GET /post_likes/users/:post_id|GET-post_likes-user-id]]
 * [[POST /post_likes|POST-post_likes]]
 
-
 =
 ####Sponsors
 * [[GET /sponsors/:id|GET-sponsors-id]]
