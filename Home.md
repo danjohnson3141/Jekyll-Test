@@ -7,7 +7,10 @@ Evanta Access is a social networking and event management Application that is cu
 The types of API routes available can generally be broken up into these categories:
 
 * [[App-&-Navigation]]
+* [[Event Bookmarks]]
 * [[Event Council]]
+* [[Event Leaderboard]]
+* [[Event Notes]]
 * [[Events]]
 * [[Featured Posts]]
 * [[Groups]]

@@ -61,6 +61,7 @@
 * [[POST /event_user_schedules|POST-event_user_schedules]]
 * [[POST /event_users|POST-event_users]]
 
+=
 ####Featured Posts
 * [[DELETE /featured_posts/:id|DELETE-featured_posts-id]]
 * [[GET /featured_posts/event/:event_id|GET-featured_posts-event-event_id]]
@@ -107,27 +108,13 @@
 * [[PUT /notifications/:id|PUT-notifications-id]]
 
 =
-####Posts
-* [[POST /post_followers|POST-post_followers]]
-* [[GET /post_followers/users/:post_id|GET-post_followers-users-post_id]]
-* [[GET /post_followers/posts/:user_id|GET-post_followers-posts-user_id]]
-* [[DELETE /post_followers/:id|DELETE-post_followers-id]]
-* [[DELETE /posts/:id|DELETE-posts-post_id]]
-* [[GET /posts/:id|GET-posts-post_id]]
-* [[GET /posts/event/:event_id|GET-posts-events-id]]
-* [[GET /posts/group/:group_id|GET-posts-groups-group_id]]
-* [[GET /posts/user/:user_id|GET-posts-users-user_id]]
-* [[PATCH /posts/:id|PATCH-posts-post_id]]
-* [[POST /posts|POST-posts]]
-* [[PUT /posts/:id|PUT-posts-post_id]]
-
 ####Post Attachments
 * [[DELETE /post_attachments/:id|DELETE-post_attachments-id]]
 * [[PATCH /post_attachments/:id|PATCH-post_attachments-id]]
 * [[POST /post_attachments|POST-post_attachments]]
 * [[PUT /post_attachments/:id|PUT-post_attachments-id]]
 
-
+=
 ####Post Comments
 * [[DELETE /post_comments/:id|DELETE-post_comments-id]]
 * [[GET /post_comments/:id|GET-post_comments-id]]
@@ -144,6 +131,21 @@
 * [[POST /post_likes|POST-post_likes]]
 
 =
+####Posts
+* [[POST /post_followers|POST-post_followers]]
+* [[GET /post_followers/users/:post_id|GET-post_followers-users-post_id]]
+* [[GET /post_followers/posts/:user_id|GET-post_followers-posts-user_id]]
+* [[DELETE /post_followers/:id|DELETE-post_followers-id]]
+* [[DELETE /posts/:id|DELETE-posts-post_id]]
+* [[GET /posts/:id|GET-posts-post_id]]
+* [[GET /posts/event/:event_id|GET-posts-events-id]]
+* [[GET /posts/group/:group_id|GET-posts-groups-group_id]]
+* [[GET /posts/user/:user_id|GET-posts-users-user_id]]
+* [[PATCH /posts/:id|PATCH-posts-post_id]]
+* [[POST /posts|POST-posts]]
+* [[PUT /posts/:id|PUT-posts-post_id]]
+
+=
 ####Sponsors
 * [[GET /sponsors/:id|GET-sponsors-id]]
 * [[GET /sponsors/app|GET-sponsors-app]]
@@ -152,23 +154,26 @@
 * [[GET /sponsors|GET-sponsors]]
 
 =
+####User Connections
+* [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
+* [[GET /user_connections/pending|GET-user_connections-pending]]
+* [[GET /users/connections/:user_id|GET-user_connections-user_id]]
+* [[PATCH /user_connections/:id|PATCH-user_connections-user_connection_id]]
+* [[POST /user_connections|POST-user_connections]]
+* [[PUT /user_connections/:id|PUT-user_connections-user_connection_id]]
+
+=
 ####Users
 * [[GET /users/settings|GET-users-settings]]
 * [[GET /users/locale_options|GET-users-locale_options]]
 * [[GET /user_feed|GET-user_feed]]
-* [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
-* [[GET /user_connections/pending|GET-user_connections-pending]]
-* [[GET /users/connections/:user_id|GET-user_connections-user_id]]
 * [[GET /users/profile/:id|GET-users-profile-id]]
 * [[GET /users/profile|GET-users-profile]]
-* [[PATCH /user_connections/:id|PATCH-user_connections-user_connection_id]]
 * [[PATCH /users/password|PATCH-users-password]]
 * [[PATCH /users/profile|PATCH-users-profile]]
-* [[POST /user_connections|POST-user_connections]]
 * [[POST /users/password|POST-users-password]]
 * [[POST /users/sign_in|POST-users-sign_in]]
-* [[PUT /user_connections/:id|PUT-user_connections-user_connection_id]]
 * [[PUT /users/password|PUT-users-password]]
 * [[PUT /users/profile|PUT-users-profile]]
 * [[GET /users/post_options|GET-users-post_options]]
