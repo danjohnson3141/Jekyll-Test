@@ -11,16 +11,16 @@ Feed is composed of:
 * Visible posts that are liked by connected user
 * Visible posts that are created by connected user
 * Notifciation if connected user changes their title
-* Notification is connected user changes their organization
+* Notification if connected user changes their organization
+* Notification if connected user registers for visible and/or followed event
+* Notification if connected user creates a visible group
 * Posts the user is following
 
-These items are sorted by the most recently created at the top of the list and then descending. Several actions that can be taken by other users can bump the order of the posts. These actions need to be taken by user connections of the active user for them to affect the user feed sort order. The exact same action taken by somebody who is not a connection will not affect the sort order.
+These items are sorted by the most recently created at the top of the list and then descending. Several actions that can be taken by other users can affect the order of the posts by bumping tht post to the top of the list. Whether or not the user is following a post and also whether the action was taken by a connection or non-connection will affect this. If the user *is not* following the post, the action must be taken by a connection for it to affect the sort order. If the user *is* following the post, then the action does not need to be performed by a connection for the sort order to be affected.
 
 * Comment on a visible post
 * Like on a visible post
 * Adding an attachment
-
-If a user is following a post the above actions will also affect the sort order of that post regardless of the connection status of the user who perfomed that action.
 
 =
 #### Authentication
