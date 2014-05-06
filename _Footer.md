@@ -1,5 +1,4 @@
 [[App & Navigation|App-&-Navigation]]
- | [[App-&-Navigation]]
  | [[Event Bookmarks]]
  | [[Event Council]]
  | [[Event Leaderboard]]
