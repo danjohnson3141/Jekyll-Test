@@ -1,6 +1,6 @@
 <!-- --- title: POST /users/sign_in -->
 
-This is the route that the user uses to login.
+This is the route that the active user uses to login. After a succseful login, the app provides the active user with an authorization token that will be needed in order to use most other routes within the application. 
 
 =
 #### Authentication
