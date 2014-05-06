@@ -1,4 +1,4 @@
-<!-- --- title: POST /post_attachments -->
+<!-- --- title: POST /featured_posts -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
