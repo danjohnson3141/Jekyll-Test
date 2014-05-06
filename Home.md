@@ -4,13 +4,20 @@ Changes made to the files locally in a text editor will not be reflected on the 
 
 Evanta Access is a social networking and event management Application that is currently being used as  collaborative tool amongst the CXOs of many Fortune 1000 companies. These APIs allow the user to interact with the network.
 
-The types of API routes available can generally be broken up into seven different categories:
+The types of API routes available can generally be broken up into these categories:
 
 * [[App-&-Navigation]]
+* [[Event Council]]
 * [[Events]]
+* [[Featured Posts]]
 * [[Groups]]
 * [[Messages]]
+* [[Notifications]]
+* [[Post Attachments]]
+* [[Post Comments]]
+* [[Post Likes]]
 * [[Posts]]
+* [[Sponsors]]
 * [[Users]]
 * [[All Routes]]
 
