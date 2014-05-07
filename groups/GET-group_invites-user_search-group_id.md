@@ -18,7 +18,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/ROUTE_NAME
+http://stage-api-access.evant.com/ROUTE_NAME
 ```
 
 =

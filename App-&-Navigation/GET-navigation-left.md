@@ -13,7 +13,7 @@ This route has no parameters and returns its content based on the users's intern
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/navigation/left
+http://stage-api-access.evant.com/navigation/left
 ```
 =
 ####JSON response example:

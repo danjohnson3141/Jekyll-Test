@@ -13,7 +13,7 @@ none; only default response
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/messages
+http://stage-api-access.evant.com/messages
 ```
 
 =

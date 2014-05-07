@@ -17,7 +17,7 @@ No authorizations required
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/app_supports
+http://stage-api-access.evant.com/app_supports
 ```
 
 =

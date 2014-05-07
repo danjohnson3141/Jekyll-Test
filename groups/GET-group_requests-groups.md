@@ -15,7 +15,7 @@ none; default only
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/group_requests/groups
+http://stage-api-access.evant.com/group_requests/groups
 ```
 
 =

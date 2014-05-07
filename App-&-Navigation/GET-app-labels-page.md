@@ -16,7 +16,7 @@ Some requests do not require the user to be authenticated, this is determined by
 ####JSON request example:
 
 ```json
-http://0.0.0.0:3000/app/labels/login
+http://stage-api-access.evant.com/app/labels/login
 ```
 =
 ####JSON response example:

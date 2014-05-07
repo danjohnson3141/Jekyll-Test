@@ -20,7 +20,7 @@ suffix: '?limit=X'
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/featured_posts/user?limit=5
+http://stage-api-access.evant.com/featured_posts/user?limit=5
 ```
 
 =

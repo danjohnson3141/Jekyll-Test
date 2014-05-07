@@ -1,6 +1,6 @@
 <!-- --- title: DELETE /post_comments/:id -->
 
-Deletes *one* comment that exists associated with a post.
+Deletes *one* comment that exists associated with a post. The user has to be listed as the creator of the post in order for this route to be succseful. 
 
 =
 #### Authentication
@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example:
 ```json
-http://0.0.0.0:3000/post_comments/234
+http://stage-api-access.evant.com/post_comments/234
 ```
 
 =
