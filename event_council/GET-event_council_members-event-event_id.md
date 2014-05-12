@@ -1,4 +1,4 @@
-<!-- --- title: GET /event_leaderboards/event/:event_id -->
+<!-- --- title: GET /event_council_members/event/:event_id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
