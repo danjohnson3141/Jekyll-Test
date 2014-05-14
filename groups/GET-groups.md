@@ -3,12 +3,12 @@
 Returns a list of all groups that are visible to the active user. Secret groups that the user is not a member of will not be returned. This route returns a lot more data than seems neccessary, but that's because the front end resuses a lot of this data through the UX.
 
 =
-#### Authentication
+####Authentication
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters
 
 none; default only
 
@@ -26,8 +26,8 @@ http://stage-api-access.evant.com/groups
 =
 ####JSON response example:
 
-[[include:/json/json-get-groups]]
+[[include:/json/JSON_GET_groups]]
 
-####Response Data Detail
+####Response Data Detail:
 
 [[include:/serializers/groups]]
