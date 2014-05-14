@@ -39,7 +39,7 @@
        "user"=>
         {"id"=>10,
          "first_name"=>"AAA",
-         "last_name"=>"AAA",
+         "last_name"=ow m>"AAA",
          "title"=>"Senior Intranet Director of Electronics & Computers",
          "organization_name"=>"Hilll-Grant",
          "photo"=>
