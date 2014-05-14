@@ -13,8 +13,8 @@
 | leave_group              |Whether the user can leave the group                                            |boolean                 |
 | hide_app_sponsors?       |Whether the app level sponsors should be displayed                              |boolean                 |
 | group_type               |Object describing details of the group                                          |object; GroupType       |
-| owner                    |User object about the owner of group; uses UserShort                            |object                  |
+| owner                    |User object about the owner of group; uses UserShort                            |object; UserShort       |
 | group_sponsors           |List of sponsors associated with this group                                     |array                   |
 | group_members            |List of group members; uses GroupMemberUser serializer                          |array                   |
-| group_invites            |List of pending group_invites for this group; only shows if user is group owner |array; GroupInviteUser  |
-| group_requests           |List of pending group_requests for this group; only shows if user is group owner|array; GroupRequestUser |
+| group_invites            |List of pending group_invites; only shows if user is group owner 				|array; GroupInviteUser  |
+| group_requests           |List of pending group_requests; only shows if user is group owner               |array; GroupRequestUser |
