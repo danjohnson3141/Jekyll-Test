@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 none; default only
 
 =
+####Response
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####JSON request example:
 ```json
 http://stage-api-access.evant.com/groups
@@ -26,5 +31,3 @@ http://stage-api-access.evant.com/groups
 ####Response Data Detail
 
 [[include:/serializers/groups]]
-
-This requests provides a <strong>HTML 200</strong> on success.

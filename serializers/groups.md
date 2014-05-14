@@ -1,5 +1,6 @@
-| id                        | The id of the group                                                              | integer                 |
+| name                      | description                                                                      | type                    |
 |---------------------------|----------------------------------------------------------------------------------|-------------------------|
+| id                        | The id of the group                                                              | integer                 |
 | name                      | The name of the group                                                            | string                  |
 | description               | The description of the group                                                     | string                  |
 | owner_user_id             | The ID of the user that owns this group                                          | integer                 |
