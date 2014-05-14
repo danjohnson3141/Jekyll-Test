@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/groups
 =
 ####JSON response example:
 
-[[include:JSON-GET-groups]]
+[[include:JSON-GET-groups.md]]
 
 ```json
 ```
