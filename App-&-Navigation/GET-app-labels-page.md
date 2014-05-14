@@ -8,7 +8,7 @@ This route is used to populate the various text form elements on each page. The 
 Some requests do not require the user to be authenticated, this is determined by the 'auth_required' field of the app_label_pages table in the database (0 = auth not required, 1 = auth required).
 
 =
-#### Parameters
+####Parameters:
 
 :page - Text, passed in through the URL. Each page of the App will have its own unique name. This parameter corresponds to the 'name' field in the app_label_pages table in the database.
 

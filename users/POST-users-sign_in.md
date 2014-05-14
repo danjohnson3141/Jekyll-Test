@@ -3,12 +3,12 @@
 This is the route that the active user uses to login. After a succseful login, the app provides the active user with an authorization token that will be needed in order to use most other routes within the application. 
 
 =
-#### Authentication
+####Authentication:
 
 The user does not need to be logged in to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :email - Varchar, passed in through the post data. Is derived from the 'email' field on the 'users' table.
 
@@ -16,7 +16,7 @@ The user does not need to be logged in to use this route.
 
 
 =
-####Post Data
+####Post Data:
 ```
 { user: 
   { email: "generic_user@evanta.com", 

@@ -3,12 +3,12 @@
 Returns **all** of the event_evaluations for **one** event. The active_users needs to have an event_user record for this event in order to get the record.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
 

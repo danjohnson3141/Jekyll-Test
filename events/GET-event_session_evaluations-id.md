@@ -3,12 +3,12 @@
 Returns **one** event_session_evaluation based on the ID passed in. These will be available to only the participants of specific sessions.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 (event_session_evaluations) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_sessions_evaluations' table.
 
 

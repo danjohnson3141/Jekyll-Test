@@ -3,12 +3,12 @@
 Returns a list of **all** evaluations for **all** events that the active_user has an event_user record for.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none, default only
 

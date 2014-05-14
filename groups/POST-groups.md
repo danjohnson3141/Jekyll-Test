@@ -3,12 +3,12 @@
 This is how the user will create a new group. On success of this route, a group_member record will be created for the active user and the new group.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :name - Varchar, passed in through the post data. Is derived from the 'name' field of the 'groups' table. This will be the name of the group
 

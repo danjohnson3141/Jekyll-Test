@@ -3,12 +3,12 @@
 Deletes *one* comment that exists associated with a post. The user has to be listed as the creator of the post in order for this route to be succseful. 
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (post comment) :id - Integer, passed in throug the URL. Is derived form the 'id' field on the 'post_comments' table.
 

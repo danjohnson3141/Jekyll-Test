@@ -3,12 +3,12 @@
 This returns **one** data record relating to a sponsor as defined by the ID passed in.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (sponsor) :id - Integer, passed in through the URL. Is derived from the 'id' field on the the 'app_sponsors' table.
 

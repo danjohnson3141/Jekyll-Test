@@ -3,12 +3,12 @@
 This allows the active user to update **one** event_notes record.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (event_notes) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
 
@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/event_notes/234
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { event_note: { body: 'This is the updated body of the event note.' } }
 ```

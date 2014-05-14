@@ -3,12 +3,12 @@
 Returns all of the outstanding requests for the logged in user. Should not return any groups that the user is already a member of.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; default only
 

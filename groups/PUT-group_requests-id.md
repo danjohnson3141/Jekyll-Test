@@ -3,12 +3,12 @@
 This is the method by which a group owner is able to approve the request of a different owner who requested to join that group.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (group_requests) :id - Integer, passed in the URL. Is derived from the 'id' field on the 'group_requests' table.
 
@@ -19,7 +19,7 @@ http://stage-api-access.evant.com/group_requests/234
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 NO POST DATA?
 ```

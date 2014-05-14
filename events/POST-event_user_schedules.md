@@ -3,12 +3,12 @@
 This is how the active user creates event_user_schedule records. These records are used to create the user's "My Schedule".
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_session_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_sessions' table.
 
@@ -19,7 +19,7 @@ http://stage-api-access.evant.com/event_user_schedules
 ```
 
 =
-####Post Data:
+####Post Data::
 ```json
 { event_user_schedule: { event_session_id: 1527 } }
 ```

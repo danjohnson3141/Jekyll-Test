@@ -5,11 +5,11 @@ This is a route to help populate the left navigation element in the app (e.g. cl
 The 'user_today_events' field of the json only returns events that the user is registered for or is attending. This comes off of the 'event_registration_status_id' field of the 'event_users' table.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
-#### Parameters
+####Parameters:
 
 This route has no parameters and returns its content based on the users's internal settings.
 

@@ -3,12 +3,12 @@
 This returns a list of all the groups that a user is a member of. 
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
 

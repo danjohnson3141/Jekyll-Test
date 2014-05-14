@@ -3,12 +3,12 @@
 Returns **all** comments associated with **one** post.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (post) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 

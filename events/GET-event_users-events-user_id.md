@@ -3,12 +3,12 @@
 This returns all the event users for one event.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 

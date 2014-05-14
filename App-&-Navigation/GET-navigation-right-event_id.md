@@ -3,12 +3,12 @@
 This returns the elements for the right navigation bar. Each of the buttons can be turned on and off by various app_setting records. 
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_id - Integer, passed in through the URL. Derived from the 'id' field of the 'events' table.
 

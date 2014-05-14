@@ -3,12 +3,12 @@
 Removes the like record associated with a post. This is action of 'unliking' a post.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (post likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
 

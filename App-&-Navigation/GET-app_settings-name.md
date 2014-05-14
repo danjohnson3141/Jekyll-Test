@@ -3,12 +3,12 @@
 This returns the true or false value for one specifc application setting. Application settings are referenced by a
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :name - Varchar, passed in through the URL.
 

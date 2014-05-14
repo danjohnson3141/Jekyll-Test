@@ -3,12 +3,12 @@
 This returns *all* the event_bookmarks for *one* user, regardless of type of bookmark (sessions, speaker, et al) or event.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 None; default only.
 

@@ -3,12 +3,12 @@
 This is the method by which the active user is able to add a 'like' to any post.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :post_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'post' table.
 

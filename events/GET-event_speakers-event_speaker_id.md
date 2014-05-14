@@ -3,12 +3,12 @@
 Returns information for one event speaker.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_speaker_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'event_speaker' table.
 

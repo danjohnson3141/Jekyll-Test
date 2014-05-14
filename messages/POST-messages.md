@@ -3,11 +3,11 @@
 This is the route for creating a new message, being sent from the logged in user to another user. The sender_user_id is set from the
 
 =
-#### Authentication
+####Authentication:
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 :body - Text, passed in through the post data. This is the plain text of the submission.
 
 :recipient_user_id - Integer, passed in through the post data. This is 'user_id' of the person that is receiving the message. Derived from the 'id' field of the 'users' table'.
@@ -19,7 +19,7 @@ http://example.com:3000/messages
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { message: 
   {body: "THIS TEXT COMPOSES THE BODY OF THE MESSAGE", 

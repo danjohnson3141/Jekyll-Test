@@ -3,12 +3,12 @@
 Allows the active user to edit the content of **one** post comment.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :body - Text, passed in through the post data. This is the plain text of the submission.
 
@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/post_comments/234
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { post_comment: { body: 'This is the updated body of the post_comment.' } }
 ```

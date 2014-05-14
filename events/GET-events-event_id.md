@@ -5,12 +5,12 @@ Returns the details for **one** event.
 The events that are visible to the user are filtered by whether or not that event is associated with a group that the user is a member of. Being an event_user for an event trumps all group_member requirements.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (event) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
 

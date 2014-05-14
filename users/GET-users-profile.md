@@ -3,12 +3,12 @@
 This route shows the profile for the active user. This route returns a lot of information about the user.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; defaults only
 

@@ -23,12 +23,12 @@ These items are sorted by the most recently created at the top of the list and t
 * Adding an attachment
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; default only
 

@@ -3,12 +3,12 @@
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; default only
 

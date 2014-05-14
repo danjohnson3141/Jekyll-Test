@@ -3,12 +3,12 @@
 This logs the user out.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; defaults only
 

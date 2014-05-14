@@ -3,12 +3,12 @@
 This the method by which the active user ads a comment to an already existing post.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :body - Text, passed in through the post data. This is the plain text of the submission.
 :post_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'post' table.

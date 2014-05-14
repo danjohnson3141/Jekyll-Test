@@ -3,12 +3,12 @@
 Returns a list of **all** user_connection records that currently have 'is_approved' as 'false'.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; defaults only
 

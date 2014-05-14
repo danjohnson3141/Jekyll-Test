@@ -3,12 +3,12 @@
 This returns **all** of the app_sponsors. This means sponsors that are **not** assoicated with any specific groups or events.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; default only
 

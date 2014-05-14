@@ -3,12 +3,12 @@
 Allows the active user to create a note. Each note is able to reference **one** and **only** one of the following: event_user, sponsor_id, event_speaker_id, or event_session_id. If the user attempts to pass in more than one of these, the request will fail.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :body - Text, passed in through the post data. This is the plain text of the submission.
 
@@ -26,7 +26,7 @@ The user needs to be logged in and have valid credentials to use this route.
 http://stage-api-access.evant.com/event_notes
 ```
 
-####Post Data:
+####Post Data::
 ```
 { event_note: { body: 'This text is the body of the note.', event_session_id: 21 }
 ```

@@ -3,12 +3,12 @@
 This allows the user to create an event_user record. No idea how this going to work yet.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_id - Integer, passed in throug the post data. Is derived from the 'id' field on the 'events' table.
 
@@ -19,7 +19,7 @@ http://stage-api-access.evant.com/event_users
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { event_user: 
   { event_id: 42 } 

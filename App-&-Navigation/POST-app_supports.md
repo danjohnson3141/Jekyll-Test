@@ -3,12 +3,12 @@
 This is the route used for the user to submit support requests to the application admins. 
 
 =
-#### Authentication
+####Authentication:
 
 No authorizations required
 
 =
-#### Parameters
+####Parameters:
 
 :body - Text, passed in through the post data. This is the plain text of the submission.
 
@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/app_supports
 ```
 
 =
-####POST Data
+####Post Data:
 ```
 { app_support: 
   {body: "I need help!!!", 

@@ -3,12 +3,12 @@
 This returns **all** the event_user_schedule records associated with the active user for **one** event.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
 

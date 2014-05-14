@@ -3,12 +3,12 @@
 This creates the event_followers records. The user should only be able to post records for their own account.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
@@ -19,7 +19,7 @@ http://stage-api-access.evant.com/event_followers
 ```
 
 =
-####Post Data:
+####Post Data::
 ```
 { event_follower: 
   { user_id: 129457, 

@@ -3,12 +3,12 @@
 Allows the active user to create a bookmark. Each bookmark is able to reference **one** and **only** one of the following: event_user, sponsor_id, event_speaker_id, or event_session_id. If the user attempts to pass in more than one of these, the request will fail.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_user_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_users' table.
 
@@ -25,7 +25,7 @@ http://stage-api-access.evant.com/event_bookmarks
 ```
 
 =
-####Post Data:
+####Post Data::
 ```
 { event_bookmark: { event_session_id: 9 } }
 ```

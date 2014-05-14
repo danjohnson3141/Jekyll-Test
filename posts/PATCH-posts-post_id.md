@@ -3,12 +3,12 @@
 This updates records in the 'posts' table.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :post_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 
@@ -29,7 +29,7 @@ http://stage-api-access.evant.com/posts/234
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { post: 
   { title: "Coffee Pot", 

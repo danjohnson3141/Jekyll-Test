@@ -3,12 +3,12 @@
 This returns a list of **all** the sponsors that have been associated with an event. 
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; default only
 

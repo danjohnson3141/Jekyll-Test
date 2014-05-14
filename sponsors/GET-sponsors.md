@@ -3,12 +3,12 @@
 This retruns a list of **all** sponsors, regardless of any other associations they might have.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 none; default only
 

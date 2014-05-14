@@ -3,12 +3,12 @@
 This is how the active user submits a new user connection request.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :body - Text, passed in through the post data. This is the plain text of the submission.
 

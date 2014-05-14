@@ -3,11 +3,11 @@
 This route gets the inbox messages view for the logged in user. The 'inbox view' returns only the most recent conversation threads with each person the user was communicating with. This route returns an array of message objects.
 
 =
-#### Authentication
+####Authentication:
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 none; only default response
 
 =

@@ -3,12 +3,12 @@
 Creates an invitation for another user to join a group. Only the owner of a group is allowed to create invitations.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table. This is the ID of the group that the invite will be associated with.
 
@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/group_invites
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { group_invite: 
   { user_id: 29845, 

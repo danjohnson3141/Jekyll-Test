@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route. Thi
 :group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table.
 
 =
-####Post Data
+####Post Data:
 ```
 { group_member: 
   { group_id: 296 } 

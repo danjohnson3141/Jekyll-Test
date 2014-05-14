@@ -3,12 +3,12 @@
 Returns **one** post comment.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (post_comments) :id - Integer, passed in the URL. Is derived from the 'id' field on the 'post_comments' table.
 

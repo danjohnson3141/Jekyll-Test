@@ -3,12 +3,12 @@
 Returns all of the followers for one event.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_id - Integer, passed in through the URL. Is derived from the 'event_id' field on the 'event_followers'
 

@@ -3,12 +3,12 @@
 Returns all the details for one event session.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_session_id - Integer, passed in through the URL. Derived from the 'id' field 
 

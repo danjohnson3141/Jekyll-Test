@@ -3,12 +3,12 @@
 This is the route by which users will create *new* posts.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :title - Text, passed in through the post data. The title of the post. Limited to 255 characters. 
 

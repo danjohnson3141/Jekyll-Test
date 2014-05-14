@@ -3,12 +3,12 @@
 This creates a new record for the user trying to join a group that requires approval to join.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table. This is the group that the user is requesting to join.
 
@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/group_requests
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { group_request: 
   { user_id: 5317, 

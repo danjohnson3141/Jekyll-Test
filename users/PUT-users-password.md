@@ -3,12 +3,12 @@
 This is how the user resets their password. They need to have a 'reset_password_token' which is sent to them via their email address. After they've received this token, they're able to update their password, which is then encrypted (and salted? I don't know) and stored in the 'encrypted_password' field of the 'users' table.
 
 =
-#### Authentication
+####Authentication:
 
 The active user does not need to be logged in for this route to work.
 
 =
-#### Parameters
+####Parameters:
 
 :password - Passed in through the post data. This is the users new password. Is not stored in plaintext anywhere.
 
@@ -23,7 +23,7 @@ http://stage-api-access.evant.com/users/password
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { user: 
   { reset_password_token: "S8cL7iZCLrX3WURW2vaN",  

@@ -7,13 +7,13 @@ The database table that manages this route only has two relevant fields that are
 The user route (as opposed to event and group routes) is composed of all the featured group posts from groups that the active user is a member of.
 
 =
-#### Authentication
+####Authentication:
 
 Declare what authentications are required
 Good sample text: The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 suffix: '?limit=X' 
 

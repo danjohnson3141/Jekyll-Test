@@ -7,12 +7,12 @@ The database table that manages this route only has two relevant fields that are
 This particular route returns all of the featured posts that reference the event_id passed in.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :event_id - Integer, passed in through the URL. Is derived from the 'event_id' field on the 'event_featured_posts' table.
 

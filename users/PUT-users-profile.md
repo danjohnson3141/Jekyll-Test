@@ -3,12 +3,12 @@
 This is the route that allows the active user to alter their profile.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :alt_email - Varchar, passed in through the post data. Is derived from the 'alt_email' field on the 'users' table.
 
@@ -31,7 +31,7 @@ http://stage-api-access.evant.com/users/profile
 ```
 
 =
-####Post Data
+####Post Data:
 ```
 { user: 
   { alt_email: "alt@example.com", 

@@ -3,12 +3,12 @@
 This route returns all the featured posts for one group.
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 :group_id - Integer, passed in through the URL. Is derived from the 'group_id' field on the 'featured_posts' table.
 

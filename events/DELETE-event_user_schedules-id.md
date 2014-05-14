@@ -3,12 +3,12 @@
 Removes the event user schedule record from the database. 
 
 =
-#### Authentication
+####Authentication:
 
 The user needs to be logged in and have valid credentials to use this route.
 
 =
-#### Parameters
+####Parameters:
 
 (event_user_schedules) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_user_schedules' table.
 
