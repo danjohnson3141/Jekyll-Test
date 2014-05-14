@@ -58,7 +58,7 @@ http://stage-api-access.evant.com/messages
  
 ```
 =
-####Response Information
+####Response Data Detail
 
 | name              | description                                      | type    |
 |-------------------|--------------------------------------------------|---------|

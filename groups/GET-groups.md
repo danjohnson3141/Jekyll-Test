@@ -1,6 +1,6 @@
 <!-- --- title: GET /groups -->
 
-Returns a list of all groups that are visible to the active user. Secret groups that the user is not a member of will not be returned. 
+Returns a list of all groups that are visible to the active user. Secret groups that the user is not a member of will not be returned. This route returns a lot more data than seems neccessary, but that's because the front end resuses a lot of this data through the UX.
 
 =
 #### Authentication
@@ -22,5 +22,9 @@ http://stage-api-access.evant.com/groups
 ####JSON response example:
 
 [[include:/json/json-get-groups]]
+
+####Response Data Detail
+
+[[include:/serializers/groups]]
 
 This requests provides a <strong>HTML 200</strong> on success.
