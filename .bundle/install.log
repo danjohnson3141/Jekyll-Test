@@ -444,3 +444,135 @@ I, [2014-04-30T07:47:59.989599 #17562]  INFO -- : 0:  rspec-mocks (3.0.0.beta1) 
 I, [2014-04-30T07:47:59.989994 #17562]  INFO -- : 0:  rspec-rails (3.0.0.beta1) from /Users/grahambaas/.rvm/gems/ruby-2.1.0/specifications/rspec-rails-3.0.0.beta1.gemspec
 I, [2014-04-30T07:47:59.990460 #17562]  INFO -- : 0:  simplecov-html (0.8.0) from /Users/grahambaas/.rvm/gems/ruby-2.1.0/specifications/simplecov-html-0.8.0.gemspec
 I, [2014-04-30T07:47:59.990818 #17562]  INFO -- : 0:  simplecov (0.8.2) from /Users/grahambaas/.rvm/gems/ruby-2.1.0/specifications/simplecov-0.8.2.gemspec
+I, [2014-05-14T08:21:28.271260 #30223]  INFO -- : 0:  rake (10.1.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-05-14T08:21:28.271652 #30223]  INFO -- : 0:  i18n (0.6.9) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-05-14T08:21:28.271939 #30223]  INFO -- : 0:  minitest (4.7.5) from /Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-05-14T08:21:28.272255 #30223]  INFO -- : 0:  multi_json (1.8.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-05-14T08:21:28.272552 #30223]  INFO -- : 0:  atomic (1.1.14) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-05-14T08:21:28.272843 #30223]  INFO -- : 0:  thread_safe (0.1.3) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-05-14T08:21:28.273137 #30223]  INFO -- : 0:  tzinfo (0.3.38) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-05-14T08:21:28.273438 #30223]  INFO -- : 0:  activesupport (4.0.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-05-14T08:21:28.273741 #30223]  INFO -- : 0:  builder (3.1.4) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-05-14T08:21:28.274032 #30223]  INFO -- : 0:  erubis (2.7.0) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-05-14T08:21:28.274324 #30223]  INFO -- : 0:  rack (1.5.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-05-14T08:21:28.274616 #30223]  INFO -- : 0:  rack-test (0.6.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-05-14T08:21:28.274963 #30223]  INFO -- : 0:  actionpack (4.0.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.2.gemspec
+I, [2014-05-14T08:21:28.275264 #30223]  INFO -- : 0:  mime-types (1.25.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-05-14T08:21:28.275559 #30223]  INFO -- : 0:  polyglot (0.3.3) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-05-14T08:21:28.275851 #30223]  INFO -- : 0:  treetop (1.4.15) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-05-14T08:21:28.276131 #30223]  INFO -- : 0:  mail (2.5.4) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-05-14T08:21:28.276428 #30223]  INFO -- : 0:  actionmailer (4.0.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.2.gemspec
+I, [2014-05-14T08:21:28.276733 #30223]  INFO -- : 0:  activemodel (4.0.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-05-14T08:21:28.277030 #30223]  INFO -- : 0:  active_model_serializers (0.8.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/active_model_serializers-0.8.1.gemspec
+I, [2014-05-14T08:21:28.277377 #30223]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-05-14T08:21:28.277671 #30223]  INFO -- : 0:  arel (4.0.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-05-14T08:21:28.277972 #30223]  INFO -- : 0:  activerecord (4.0.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-05-14T08:21:28.278264 #30223]  INFO -- : 0:  apartment (0.23.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/apartment-0.23.1.gemspec
+I, [2014-05-14T08:21:28.278556 #30223]  INFO -- : 0:  bundler (1.5.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
+I, [2014-05-14T08:21:28.278857 #30223]  INFO -- : 0:  thor (0.18.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-05-14T08:21:28.279176 #30223]  INFO -- : 0:  railties (4.0.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/railties-4.0.2.gemspec
+I, [2014-05-14T08:21:28.279470 #30223]  INFO -- : 0:  hike (1.2.3) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-05-14T08:21:28.279755 #30223]  INFO -- : 0:  tilt (1.4.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-05-14T08:21:28.280057 #30223]  INFO -- : 0:  sprockets (2.10.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-05-14T08:21:28.280362 #30223]  INFO -- : 0:  sprockets-rails (2.0.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-05-14T08:21:28.280659 #30223]  INFO -- : 0:  rails (4.0.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/rails-4.0.2.gemspec
+I, [2014-05-14T08:21:28.280944 #30223]  INFO -- : 0:  will_paginate (3.0.5) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/will_paginate-3.0.5.gemspec
+I, [2014-05-14T08:21:28.281245 #30223]  INFO -- : 0:  api_pagination_headers (1.1.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/api_pagination_headers-1.1.1.gemspec
+I, [2014-05-14T08:21:28.281544 #30223]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-05-14T08:21:28.281847 #30223]  INFO -- : 0:  net-ssh (2.7.0) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/net-ssh-2.7.0.gemspec
+I, [2014-05-14T08:21:28.282143 #30223]  INFO -- : 0:  net-scp (1.1.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/net-scp-1.1.2.gemspec
+I, [2014-05-14T08:21:28.282434 #30223]  INFO -- : 0:  tins (0.13.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/tins-0.13.1.gemspec
+I, [2014-05-14T08:21:28.282733 #30223]  INFO -- : 0:  term-ansicolor (1.2.2) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/term-ansicolor-1.2.2.gemspec
+I, [2014-05-14T08:21:28.283037 #30223]  INFO -- : 0:  sshkit (1.3.0) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/sshkit-1.3.0.gemspec
+I, [2014-05-14T08:21:28.283339 #30223]  INFO -- : 0:  capistrano (3.1.0) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/capistrano-3.1.0.gemspec
+I, [2014-05-14T08:21:28.283635 #30223]  INFO -- : 0:  capistrano-bundler (1.1.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/capistrano-bundler-1.1.1.gemspec
+I, [2014-05-14T08:21:28.283931 #30223]  INFO -- : 0:  capistrano-rails (1.1.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/capistrano-rails-1.1.1.gemspec
+I, [2014-05-14T08:21:28.284226 #30223]  INFO -- : 0:  capistrano-rvm (0.1.1) from /Users/michaelirey/.rvm/gems/ruby-2.1.0/specifications/capistrano-rvm-0.1.1.gemspec
+E, [2014-05-14T08:21:30.492414 #30223] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/michaelirey/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for main() in -licui18n... no
+checking for main() in -licui18n... no
+
+
+***************************************************************************************
+*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+***************************************************************************************
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/michaelirey/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-icu-dir
+	--without-icu-dir
+	--with-icu-include
+	--without-icu-include=${icu-dir}/include
+	--with-icu-lib
+	--without-icu-lib=${icu-dir}/lib
+	--with-icui18nlib
+	--without-icui18nlib
+	--with-icui18nlib
+	--without-icui18nlib
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/michaelirey/.rvm/gems/ruby-2.1.0/gems/charlock_holmes-0.6.9.4 for inspection.
+Results logged to /Users/michaelirey/.rvm/gems/ruby-2.1.0/extensions/x86_64-darwin-12/2.1.0-static/charlock_holmes-0.6.9.4/gem_make.out
+
+/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-05-14T08:23:12.788467 #30435] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/michaelirey/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for main() in -licui18n... no
+checking for main() in -licui18n... no
+
+
+***************************************************************************************
+*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+***************************************************************************************
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/michaelirey/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-icu-dir
+	--without-icu-dir
+	--with-icu-include
+	--without-icu-include=${icu-dir}/include
+	--with-icu-lib
+	--without-icu-lib=${icu-dir}/lib
+	--with-icui18nlib
+	--without-icui18nlib
+	--with-icui18nlib
+	--without-icui18nlib
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/michaelirey/.rvm/gems/ruby-2.1.0/gems/charlock_holmes-0.6.9.4 for inspection.
+Results logged to /Users/michaelirey/.rvm/gems/ruby-2.1.0/extensions/x86_64-darwin-12/2.1.0-static/charlock_holmes-0.6.9.4/gem_make.out
+
+/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/michaelirey/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/Users/michaelirey/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
