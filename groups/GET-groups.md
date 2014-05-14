@@ -21,9 +21,6 @@ http://stage-api-access.evant.com/groups
 =
 ####JSON response example:
 
-
-```json
 [[include:json_get_groups]]
-```
 
 This requests provides a <strong>HTML 200</strong> on success.

@@ -1,3 +1,4 @@
+```json
 {"groups"=>
   [{"id"=>1,
     "name"=>"Open Group 1",
@@ -242,3 +243,4 @@
     "group_members"=>[],
     "group_invites"=>[],
     "group_requests"=>[]}]}
+```
