@@ -14,7 +14,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 :event_session_id - Integer, passed in through the URL. Is derived from the 'id' field
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_speakers/event_session/664
 ```

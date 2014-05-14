@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :name - Varchar, passed in through the URL.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/app_setting_options/text
 ```

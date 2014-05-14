@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_followers
 ```

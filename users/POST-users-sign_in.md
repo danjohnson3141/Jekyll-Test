@@ -25,7 +25,7 @@ The user does not need to be logged in to use this route.
 ```
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/users/sign_in
 ```

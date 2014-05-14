@@ -15,7 +15,7 @@ No authorizations required
 :email - Varchar, passed in through the post data. If the user is not logged in, the app will ask the user for this, if they're logged in it will automatically fill it in.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/app_supports
 ```

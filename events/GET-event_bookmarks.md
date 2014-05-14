@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 None; default only.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_bookmarks
 ```

@@ -18,7 +18,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 suffix: '?limit=X' 
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/featured_posts/user?limit=5
 ```

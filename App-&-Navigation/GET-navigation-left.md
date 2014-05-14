@@ -14,7 +14,7 @@ The user needs to be logged in and have valid credentials to use this route.
 This route has no parameters and returns its content based on the users's internal settings.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/navigation/left
 ```

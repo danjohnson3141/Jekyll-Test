@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :recipient_user_id - Integer, passed in through the post data. This is 'user_id' of the person that is receiving the message. Derived from the 'id' field of the 'users' table'.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://example.com:3000/messages
 ```

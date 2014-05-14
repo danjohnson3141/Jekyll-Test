@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table. This returns connections where the user is either the recipient or the sender.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/users/connections/17065
 ```

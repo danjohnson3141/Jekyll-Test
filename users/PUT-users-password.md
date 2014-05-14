@@ -17,7 +17,7 @@ The active user does not need to be logged in for this route to work.
 :reset_password_token - Varchar, passed in through the post data. This is derived from the 'reset_password_token' field on the 'users' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/users/password
 ```

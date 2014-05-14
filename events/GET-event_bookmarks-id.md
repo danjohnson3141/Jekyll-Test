@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 (event_bookmarks) :id - Integer, passed in the URL. Is derived from the 'id' field on the the 'event_bookmarks' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_bookmarks/81
 ```

@@ -13,7 +13,7 @@ Some requests do not require the user to be authenticated, this is determined by
 :page - Text, passed in through the URL. Each page of the App will have its own unique name. This parameter corresponds to the 'name' field in the app_label_pages table in the database.
 
 =
-####JSON request example:
+####API request example:
 
 ```json
 http://stage-api-access.evant.com/app/labels/login

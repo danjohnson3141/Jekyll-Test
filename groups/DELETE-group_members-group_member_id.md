@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :group_members_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'group_members' table.
 
 =
-####JSON request example:
+####API request example:
 
 ```
 http://stage-api-access.evant.com/group_members/234

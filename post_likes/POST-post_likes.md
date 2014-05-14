@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :post_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'post' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/post_like
 ```

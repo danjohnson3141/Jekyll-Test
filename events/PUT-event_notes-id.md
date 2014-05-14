@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :body - Text, passed in through the post data. This is the plain text of the submission.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_notes/234
 ```

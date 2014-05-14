@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 (post comment) :id - Integer, passed in throug the URL. Is derived form the 'id' field on the 'post_comments' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/post_comments/234
 ```

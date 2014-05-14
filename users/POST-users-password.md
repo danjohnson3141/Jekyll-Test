@@ -13,7 +13,7 @@ The user does not need to be logged in to use this route.
 :email - Varchar, passed in through the post data. Is derived from the 'email' field on the 'users' table. 
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/users/password
 ```

@@ -21,7 +21,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :event_session_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_sessions' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_notes
 ```

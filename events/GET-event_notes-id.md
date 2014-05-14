@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 (event_notes) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_notes/14
 ```

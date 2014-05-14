@@ -17,7 +17,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :sender_user_id - Integer, passed in through the post data. This is 'user_id' of the person that is receiving the message. Derived from the 'id' field of the 'users' table'.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/user_connections
 ```

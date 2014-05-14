@@ -20,7 +20,7 @@ The user needs to be logged in and have valid credentials to use this route. Thi
 ```
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/group_members
 ```

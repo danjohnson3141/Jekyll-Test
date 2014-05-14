@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :description - Text, passed in through the post data. Is derived from the 'description' field of the 'groups' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/groups/234
 ```

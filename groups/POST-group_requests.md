@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :user_id - Integer, passed in through the post data. Derived from the 'id' field of the 'users' table.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/group_requests
 ```

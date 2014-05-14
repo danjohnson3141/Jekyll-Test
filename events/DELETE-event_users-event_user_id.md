@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 :event_user_id - Integer, passed in through the URL. Is derived from the 'id' field of the '
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/event_users/234
 ```
