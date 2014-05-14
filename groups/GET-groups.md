@@ -18,7 +18,7 @@ none; default only
 This requests provides a <strong>HTML 200</strong> on success.
 
 =
-####JSON request example:
+####API request example:
 ```json
 http://stage-api-access.evant.com/groups
 ```
