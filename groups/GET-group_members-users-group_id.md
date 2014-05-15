@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 :group_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'groups' table.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/group_members/users/1671
@@ -21,43 +26,10 @@ http://stage-api-access.evant.com/group_members/users/1671
 =
 ####JSON response example:
 
-```json
-{"group_members"=>
-  [{"id"=>289,
-    "group_id"=>1671,
-    "created_by"=>nil,
-    "updated_by"=>nil,
-    "user"=>
-     {"id"=>13496,
-      "email"=>"generic_user@evanta.com",
-      "alt_email"=>nil,
-      "first_name"=>"Generic",
-      "last_name"=>"User",
-      "title"=>"CEO of QA",
-      "organization_name"=>"Evanta",
-      "bio"=>nil,
-      "photo"=>
-       "https://assets.evanta.com/shared/resources/Users/large/anonymous.jpg",
-      "user_role_id"=>13500,
-      "user_connection_id"=>nil}},
-   {"id"=>290,
-    "group_id"=>1671,
-    "created_by"=>nil,
-    "updated_by"=>nil,
-    "user"=>
-     {"id"=>13499,
-      "email"=>"nickolas_keebler@kuvalis.biz",
-      "alt_email"=>"brant@gmail.com",
-      "first_name"=>"Forrest",
-      "last_name"=>"Metz",
-      "title"=>"Random User",
-      "organization_name"=>"Kuhic and Sons",
-      "bio"=>
-       "Deleniti a quia incidunt amet voluptate natus cupiditate ex occaecati eos.",
-      "photo"=>
-       "https://assets.evanta.com/shared/resources/Users/large/anonymous.jpg",
-      "user_role_id"=>13501,
-      "user_connection_id"=>nil}}]}
-```
+Returns an array of user objects
 
-This requests provides a <strong>HTML 200</strong> on success.
+[[include:/json/JSON_GET_group_members_users_group_id]]
+
+####Response Data Detail:
+
+[[include:/serializers/group_members_user]]
