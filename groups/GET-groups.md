@@ -13,7 +13,7 @@ The user needs to be logged in and have valid credentials to use this route.
 none; default only
 
 =
-####Response
+####Response:
 
 This requests provides a <strong>HTML 200</strong> on success.
 
@@ -25,6 +25,8 @@ http://stage-api-access.evant.com/groups
 
 =
 ####JSON response example:
+
+Returns an array of group objects
 
 [[include:/json/JSON_GET_groups]]
 

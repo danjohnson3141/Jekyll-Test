@@ -8,7 +8,7 @@
 * [[GET /group_members/users/:group_id|GET-group_members-users-group_id]]
 * [[GET /group_requests/groups|GET-group_requests-groups]]
 * [[GET /group_requests/users/:group_id|GET-group_requests-users-group_id]]
-* [[GET /groups/:id|GET-groups-group_id]]
+* [[GET /groups/:id|GET-groups-id]]
 * [[GET /groups|GET-groups]]
 * [[PATCH /group_requests/:id|PATCH-group_requests-id]]
 * [[PATCH /groups/:id|PATCH-groups-group_id]]

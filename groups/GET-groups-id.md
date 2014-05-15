@@ -1,6 +1,6 @@
-<!-- --- title: GET /posts/group/:group_id -->
+<!-- --- title: GET /groups/:id -->
 
-This returns **all** the posts associated with one group.
+Returns details on **one** group.
 
 =
 ####Authentication:
@@ -14,20 +14,19 @@ The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Response:
-
 This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:
 ```json
-http://stage-api-access.evant.com/posts/groups/2197
+http://stage-api-access.evant.com/groups/2315
 ```
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_GET_posts_group_group_id]]
+[[include:/json/JSON_GET_groups_id]]
 
 ####Response Data Detail:
 
-[[include:/serializers/group_feed]]
+[[include:/serializers/groups]]

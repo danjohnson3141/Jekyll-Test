@@ -10,7 +10,7 @@
 | like_count             | How many users have liked this post                                                               | integer                   |
 | comment_count          | How many comments are on this post                                                                | integer                   |
 | post_like_id           | If the user has liked this post; the ID of that post                                              | integer                   |
-| can_like?              | Whether the user is able to like this post                                                        | boolean                   |
+| can_like?              | Whether the user is able to like or comment this post                                             | boolean                   |
 | featured?              | Whether this post is a featured post                                                              | boolean                   |
 | show_post_likes_list?  | Whether to show the list of users who have liked this post                                        | boolean                   |
 | ago                    | How long ago this post was created                                                                | string                    |
