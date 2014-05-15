@@ -30,4 +30,4 @@ http://stage-api-access.evant.com/posts/groups/2197
 
 ####Response Data Detail:
 
-[[include:/serializers/groups]]
+[[include:/serializers/group_feed]]
