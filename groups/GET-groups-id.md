@@ -29,4 +29,4 @@ http://stage-api-access.evant.com/groups/2315
 
 ####Response Data Detail:
 
-[[include:/serializers/groups]]
+[[include:/serializers/group]]

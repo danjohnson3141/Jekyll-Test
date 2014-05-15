@@ -32,4 +32,4 @@ Returns an array of group objects
 
 ####Response Data Detail:
 
-[[include:/serializers/groups]]
+[[include:/serializers/group]]
