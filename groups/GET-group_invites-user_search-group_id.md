@@ -16,6 +16,11 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/ROUTE_NAME
@@ -46,5 +51,3 @@ http://stage-api-access.evant.com/ROUTE_NAME
      {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
     "users"=>[]}]}
 ```
-
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.

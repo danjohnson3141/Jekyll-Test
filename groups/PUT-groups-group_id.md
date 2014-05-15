@@ -31,8 +31,6 @@ http://stage-api-access.evant.com/groups/234
 =
 ####JSON response example:
 
-```json
-NO JSON RESPONSE
-```
+[[include:/json/JSON_NO_RESPONSE]]
 
 This requests provides a <strong>HTML 200</strong> on success.

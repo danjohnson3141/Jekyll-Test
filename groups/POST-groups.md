@@ -17,6 +17,11 @@ The user needs to be logged in and have valid credentials to use this route.
 :group_type_id - Integer, passed in through the post data. Is derived from the 'id' field on 'group_types' table.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 201</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/groups
@@ -33,5 +38,3 @@ http://stage-api-access.evant.com/groups
   }]
 }
 ```
-
-This requests provides a <strong>HTML 201</strong> on success.

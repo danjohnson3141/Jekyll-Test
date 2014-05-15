@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route. Thi
 :group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 201</strong> on success.
+
+=
 ####Post Data:
 ```
 { group_member: 
@@ -71,5 +76,3 @@ http://stage-api-access.evant.com/group_members
      "app_sponsor"=>nil,
      "owner"=>nil}}}
 ```
-
-This requests provides a <strong>HTML 201</strong> on success.

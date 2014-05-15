@@ -21,8 +21,6 @@ http://stage-api-access.evant.com/event_user_schedules/234
 =
 ####JSON response example:
 
-```json
-NO JSON RESPONSE
-```
+[[include:/json/JSON_NO_RESPONSE]]
 
 This requests provides a <strong>HTML 204</strong> on success.

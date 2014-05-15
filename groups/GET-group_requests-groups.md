@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 none; default only
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/group_requests/groups
@@ -119,5 +124,3 @@ http://stage-api-access.evant.com/group_requests/groups
         "user_role_id"=>14174,
         "user_connection_id"=>nil}}}]}
 ```
-
-This requests provides a <strong>HTML 200</strong> on success.
