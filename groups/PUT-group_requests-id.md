@@ -25,7 +25,9 @@ http://stage-api-access.evant.com/group_requests/234
 
 =
 ####Post data example:
+```
 { group_request: {is_approved: true} }
+```
 
 =
 ###Post data detail:
