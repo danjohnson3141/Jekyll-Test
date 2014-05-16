@@ -10,9 +10,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-:name - Varchar, passed in through the post data. Is derived from the 'name' field of the 'groups' table.
-
-:description - Text, passed in through the post data. Is derived from the 'description' field of the 'groups' table.
+:id = The ID of the group to be edited.
 
 =
 ####Response:

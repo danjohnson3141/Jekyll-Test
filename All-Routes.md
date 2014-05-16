@@ -84,7 +84,7 @@
 * [[GET /groups/:id|GET-groups-id]]
 * [[GET /groups|GET-groups]]
 * [[PATCH /group_requests/:id|PATCH-group_requests-id]]
-* [[PATCH /groups/:id|PATCH-groups-group_id]]
+* [[PATCH /groups/:id|PATCH-groups-id]]
 * [[POST /group_invites|POST-group_invites]]
 * [[POST /group_members|POST-group_members]]
 * [[POST /group_requests|POST-group_requests]]
