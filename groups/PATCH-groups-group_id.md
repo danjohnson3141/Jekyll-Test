@@ -33,9 +33,6 @@ http://stage-api-access.evant.com/groups/234
     description: "New Description" } 
  }
 ```
-###Post Data Detail:
-
-[[include:/post_data/patch_groups_group_id]]
 
 =
 ####JSON response example:

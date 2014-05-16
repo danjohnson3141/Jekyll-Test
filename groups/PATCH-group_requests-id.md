@@ -24,10 +24,13 @@ http://stage-api-access.evant.com/group_requests/234
 ```
 
 =
-####Post Data:
+####Post data example:
 { group_request: {is_approved: true} }
 
+=
+###Post data detail:
 
+[[include:/post_data/patch_groups_group_id]]
 
 =
 ####JSON response example:
