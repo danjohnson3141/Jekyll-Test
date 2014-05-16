@@ -28,9 +28,9 @@ http://stage-api-access.evant.com/group_requests/users/1917
 
 Returns an array of user objects
 
-[[include:/json/JJSON_GET_group_requests_users_group_id]]
+[[include:/json/JSON_GET_group_requests_users_group_id]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/group_members_user]]
+[[include:/serializers/group_request_user]]

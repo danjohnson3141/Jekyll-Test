@@ -26,7 +26,7 @@ http://stage-api-access.evant.com/group_invites/users/1158
 =
 ####JSON response example:
 
-[[include:/json/JSON_GET_group_invites_users_gorup_id]]
+[[include:/json/JSON_GET_group_invites_users_grou3p_id]]
 
 =
 ####Response Data Detail:
