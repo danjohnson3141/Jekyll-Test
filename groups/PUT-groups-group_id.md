@@ -15,22 +15,31 @@ The user needs to be logged in and have valid credentials to use this route.
 :description - Text, passed in through the post data. Is derived from the 'description' field of the 'groups' table.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 204</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/groups/234
 ```
 
 =
-####Post Data:
+####Post Data Example:
 ```
 { group: 
   { name: "Groups are Awesome", 
     description: "New Description" } 
  }
 ```
+
+=
+###Post data detail:
+
+[[include:/post_data/patch_groups_id]]
+
 =
 ####JSON response example:
 
 [[include:/json/JSON_NO_RESPONSE]]
-
-This requests provides a <strong>HTML 200</strong> on success.

@@ -35,6 +35,11 @@ http://stage-api-access.evant.com/groups/234
 ```
 
 =
+###Post data detail:
+
+[[include:/post_data/patch_groups_id]]
+
+=
 ####JSON response example:
 
 [[include:/json/JSON_NO_RESPONSE]]

@@ -30,7 +30,7 @@ http://stage-api-access.evant.com/group_requests/234
 =
 ###Post data detail:
 
-[[include:/post_data/patch_groups_group_id]]
+[[include:/post_data/patch_group_requests_id]]
 
 =
 ####JSON response example:
