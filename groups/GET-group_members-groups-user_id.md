@@ -28,6 +28,7 @@ http://stage-api-access.evant.com/group_members/groups/13175
 
 [[include:/json/JSON_GET_group_members_groups_user_user_id]]
 
+=
 ####Response Data Detail:
 
 [[include:/serializers/group_members_group]]

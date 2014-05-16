@@ -30,6 +30,7 @@ Returns an array of user objects
 
 [[include:/json/JJSON_GET_group_requests_users_group_id]]
 
+=
 ####Response Data Detail:
 
 [[include:/serializers/group_members_user]]

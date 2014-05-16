@@ -30,6 +30,7 @@ Returns an array of group objects
 
 [[include:/json/JSON_GET_groups]]
 
+=
 ####Response Data Detail:
 
 [[include:/serializers/group]]

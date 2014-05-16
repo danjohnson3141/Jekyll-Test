@@ -27,6 +27,7 @@ http://stage-api-access.evant.com/groups/2315
 
 [[include:/json/JSON_GET_groups_id]]
 
+=
 ####Response Data Detail:
 
 [[include:/serializers/group]]

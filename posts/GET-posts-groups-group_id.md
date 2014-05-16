@@ -30,6 +30,7 @@ Returns an array of
 
 [[include:/json/JSON_GET_posts_group_group_id]]
 
+=
 ####Response Data Detail:
 
 [[include:/serializers/post_feed]]

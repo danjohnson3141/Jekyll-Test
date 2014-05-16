@@ -34,6 +34,7 @@ Returns an array of featured_post objects
 
 [[include:/json/JSON_GET_featured_posts_group_group_id]]
 
+=
 ####Response Data Detail:
 
 [[include:/serializers/group_featured_post]]

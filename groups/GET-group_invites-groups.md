@@ -28,6 +28,7 @@ http://stage-api-access.evant.com/group_invites/groups
 
 [[include:/json/JSON_GET_groups_id]]
 
+=
 ####Response Data Detail:
 
 [[include:/serializers/group_invite_group]]
