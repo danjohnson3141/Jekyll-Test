@@ -6,7 +6,7 @@ DELETE /event_user_schedules/:id
 DELETE /event_users/:event_user_id
 DELETE /featured_posts/:id
 DELETE /group_invites/:id
-DELETE /group_members/:group_member_id
+DELETE /group_members/:id
 DELETE /group_requests/:id
 DELETE /messages/:id
 DELETE /messages/conversation/:user_id

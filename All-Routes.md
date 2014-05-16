@@ -71,8 +71,8 @@
 
 =
 ####Groups
-* [[DELETE /group_invites/:id|DELETE-group_invites-group_invite_id]]
-* [[DELETE /group_members/:group_member_id|DELETE-group_members-group_member_id]]
+* [[DELETE /group_invites/:id|DELETE-group_invites-id]]
+* [[DELETE /group_members/:id|DELETE-group_members-id]]
 * [[DELETE /group_requests/:id|DELETE-group_requests-id]]
 * [[GET /group_invites/groups|GET-group_invites-groups]]
 * [[GET /group_invites/user_search/:group_id|GET-group_invites-user_search-group_id]]

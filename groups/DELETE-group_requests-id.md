@@ -8,7 +8,12 @@ The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
-:group_requests_id - Integer, passed in the URL. Is derived from the 'id' field on the 'group_requests' table.
+:id - Integer, passed in the URL. Is derived from the 'id' field on the 'group_requests' table.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 204</strong> on success.
 
 =
 ####API request example:
@@ -20,5 +25,3 @@ http://stage-api-access.evant.com/group_requests/234
 ####JSON response example:
 
 [[include:/json/JSON_NO_RESPONSE]]
-
-This requests provides a <strong>HTML 204</strong> on success.

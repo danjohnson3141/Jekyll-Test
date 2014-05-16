@@ -1,6 +1,6 @@
-<!-- --- title: GET /posts/group/:group_id -->
+<!-- --- title: GET /featured_posts/group/:group_id -->
 
-This returns **all** the posts associated with one group.
+This route returns the featured posts for **one** group.
 
 =
 ####Authentication:
@@ -20,16 +20,16 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```json
-http://stage-api-access.evant.com/posts/groups/2197
+http://stage-api-access.evant.com/group_featured_posts/764
 ```
 
 =
 ####JSON response example:
 
-Returns an array of 
+Returns an array of featured_post objects
 
-[[include:/json/JSON_GET_posts_group_group_id]]
+[[include:/json/JSON_GET_featured_posts_group_group_id]]
 
 ####Response Data Detail:
 
-[[include:/serializers/post_feed]]
+[[include:/serializers/group_featured_post]]

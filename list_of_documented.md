@@ -6,7 +6,7 @@ DELETE /event_notes/:id
 DELETE /event_user_schedules/:id
 DELETE /event_users/:event_user_id
 DELETE /group_invites/:id
-DELETE /group_members/:group_member_id
+DELETE /group_members/:id
 DELETE /group_requests/:id
 DELETE /messages/:message_id
 DELETE /messages/conversation/:user_id
@@ -52,7 +52,7 @@ GET /events/past
 GET /events/past/:user_id
 GET /events/upcoming
 GET /events/upcoming/:user_id
-GET /group_featured_posts/:group_id
+GET /featured_posts/group/:group_id
 GET /group_invites/:groups
 GET /group_invites/users/:group_id
 GET /group_members/groups/:user_id
