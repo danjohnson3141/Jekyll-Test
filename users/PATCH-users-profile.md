@@ -48,7 +48,7 @@ http://stage-api-access.evant.com/users/profile
 ####JSON response example:
 
 ```json
-None; default only
+None; default only.
 ```
 
 This requests provides a <strong>HTML 204</strong> on success.

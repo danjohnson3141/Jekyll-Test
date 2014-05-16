@@ -30,7 +30,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-None; default only
+None; default only.
 
 =
 ####API request example:
