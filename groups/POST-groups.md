@@ -10,11 +10,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-:name - Varchar, passed in through the post data. Is derived from the 'name' field of the 'groups' table. This will be the name of the group
-
-:description - Text, passed in through the post data. Is derived from the 'description' field of the 'groups' table. This will be the 
-
-:group_type_id - Integer, passed in through the post data. Is derived from the 'id' field on 'group_types' table.
+none; default only
 
 =
 ####Response:
@@ -28,13 +24,25 @@ http://stage-api-access.evant.com/groups
 ```
 
 =
+####Post data example:
+```
+{ group: 
+	{ name: "Awesome Saunce", 
+	  group_type_id: 1, 
+	  description: "Put it on your fries" } }
+```
+
+=
+###Post data detail:
+
+[[include:/post_data/post_groups]]
+
+=
 ####JSON response example:
 
-```json
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
-```
+[[include:/json/JSON_POST_groups]]
+
+=
+####Response Data Detail:
+
+[[include:/serializers/group]]

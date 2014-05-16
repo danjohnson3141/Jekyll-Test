@@ -1,0 +1,39 @@
+```json
+{"group"=>
+  {"id"=>12,
+   "name"=>"rspec",
+   "description"=>"test",
+   "owner_user_id"=>1,
+   "member_count"=>1,
+   "group_member_id"=>9,
+   "group_request_id"=>nil,
+   "group_request_is_approved"=>nil,
+   "group_invite_id"=>nil,
+   "create_post"=>true,
+   "leave_group"=>false,
+   "hide_app_sponsors"=>false,
+   "group_type"=>
+    {"id"=>4,
+     "name"=>"Factory:Open",
+     "description"=>"Open",
+     "is_group_visible"=>true,
+     "is_memberlist_visible"=>true,
+     "is_content_visible"=>true,
+     "is_approval_required"=>false},
+   "owner"=>
+    {"id"=>1,
+     "first_name"=>"Generic",
+     "last_name"=>"User",
+     "title"=>"CEO of QA",
+     "organization_name"=>"Evanta",
+     "photo"=>
+      "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
+     "user_role_id"=>1,
+     "user_connections_blocked"=>false,
+     "user_profile"=>true,
+     "event_council_member"=>false,
+     "connection_status"=>nil},
+   "group_sponsors"=>[],
+   "group_invites"=>[],
+   "group_requests"=>[]}}
+```   
