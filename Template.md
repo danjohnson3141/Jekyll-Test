@@ -14,14 +14,31 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
+####Response:
+
+This requests provides a <strong>HTML QQQ</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/ROUTE_NAME
 ```
 
 =
+####Post data example:
+{ Example: {Test: Boolean} }
+
+=
+###Post data detail:
+
+[[include:/post_data/EXAMPLE]]
+
+=
 ####JSON response example:
 
 [[include:/json/JSON_NEEDS_EXAMPLE]]
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]
