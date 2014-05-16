@@ -22,27 +22,6 @@ http://stage-api-access.evant.com/ROUTE_NAME
 =
 ####JSON response example:
 
-```json
-{"app_sponsors"=>
-  [{"id"=>105,
-    "name"=>"Harvey-Bruen",
-    "description"=>
-     "Delectus labore quia cum quaerat sed ratione qui et sit nam.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-
-     {"id"=>144, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]},
-   {"id"=>106,
-    "name"=>"Zboncak Inc",
-    "description"=>
-     "Itaque officia quibusdam necessitatibus laboriosam consequatur officiis qui aspernatur unde.",
-    "logo"=>nil,
-    "url"=>nil,
-    "sponsor_type"=>
-     {"id"=>145, "name"=>"A type of Sponsor", "description"=>"A Sponsor Type"},
-    "users"=>[]}]}
-```
+[[include:/json/JSON_NEEDS_EXAMPLE]]
 
 This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
