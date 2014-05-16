@@ -26,7 +26,10 @@ http://stage-api-access.evant.com/ROUTE_NAME
 
 =
 ####Post data example:
-{ Example: {Test: Boolean} }
+```
+{ Example: 
+	{Test: Boolean} }
+```
 
 =
 ###Post data detail:
