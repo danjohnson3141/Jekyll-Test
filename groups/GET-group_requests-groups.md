@@ -28,7 +28,7 @@ http://stage-api-access.evant.com/group_requests/groups
 
 returns an array of group requests
 
-[[include:json/JSON_GET_group_requests_group]]
+[[include:/json/JSON_GET_group_requests_group]]
 
 =
 ####Response Data Detail:
