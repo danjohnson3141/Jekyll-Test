@@ -29,7 +29,7 @@
 * :user_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'users' table.
 
 =
-####Post Data: Parameters
+####Post data example: Parameters
 
 * :alt_email - Varchar, passed in through the post data. Is derived from the 'alt_email' field on the 'users' table.
 * :app_sponsor_id

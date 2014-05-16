@@ -19,7 +19,7 @@ http://example.com:3000/messages
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { message: 
   {body: "THIS TEXT COMPOSES THE BODY OF THE MESSAGE", 

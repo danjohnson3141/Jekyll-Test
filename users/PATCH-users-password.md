@@ -23,7 +23,7 @@ http://stage-api-access.evant.com/users/password
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { user: 
   { reset_password_token: "S8cL7iZCLrX3WURW2vaN",  

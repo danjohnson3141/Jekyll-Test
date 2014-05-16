@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/post_comments/234
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { post_comment: { body: 'This is the updated body of the post_comment.' } }
 ```

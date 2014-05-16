@@ -25,7 +25,7 @@ http://stage-api-access.evant.com/event_bookmarks
 ```
 
 =
-####Post Data::
+####Post data example::
 ```
 { event_bookmark: { event_session_id: 9 } }
 ```

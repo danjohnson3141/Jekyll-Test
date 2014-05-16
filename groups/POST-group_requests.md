@@ -26,7 +26,7 @@ http://stage-api-access.evant.com/group_requests
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { group_request: 
   { user_id: 5317, 

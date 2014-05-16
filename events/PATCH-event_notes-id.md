@@ -21,7 +21,7 @@ http://stage-api-access.evant.com/event_notes/234
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { event_note: { body: 'This is the updated body of the event note.' } }
 ```

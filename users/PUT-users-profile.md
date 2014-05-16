@@ -31,7 +31,7 @@ http://stage-api-access.evant.com/users/profile
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { user: 
   { alt_email: "alt@example.com", 

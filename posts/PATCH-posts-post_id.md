@@ -29,7 +29,7 @@ http://stage-api-access.evant.com/posts/234
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { post: 
   { title: "Coffee Pot", 

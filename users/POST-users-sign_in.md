@@ -16,7 +16,7 @@ The user does not need to be logged in to use this route.
 
 
 =
-####Post Data:
+####Post data example:
 ```
 { user: 
   { email: "generic_user@evanta.com", 

@@ -18,7 +18,7 @@ The user needs to be logged in and have valid credentials to use this route. Thi
 This requests provides a <strong>HTML 201</strong> on success.
 
 =
-####Post Data:
+####Post data example:
 ```
 { group_member: 
   { group_id: 296 } 

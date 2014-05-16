@@ -19,7 +19,7 @@ http://stage-api-access.evant.com/event_users
 ```
 
 =
-####Post Data:
+####Post data example:
 ```
 { event_user: 
   { event_id: 42 } 
