@@ -10,9 +10,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-:group_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'groups' table. This is the ID of the group that the invite will be associated with.
-
-:user_id - Integer, passed in through the post data. Derived from the 'id' field of the 'users' table. This is who the invitation will be sent to.
+None; default only
 
 =
 ####Response:
