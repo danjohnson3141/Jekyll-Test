@@ -29,53 +29,21 @@ http://stage-api-access.evant.com/group_requests
 ####Post data example:
 ```
 { group_request: 
-  { user_id: 5317, 
-    group_id: 706 } 
+  { group_id: 706 } 
  }
 ```
 
 =
+###Post data detail:
+
+[[include:/post_data/post_group_request]]
+
+=
 ####JSON response example:
 
-```json
-{"group_request"=>
-  {"id"=>89,
-   "user"=>
-    {"id"=>5317,
-     "email"=>"generic_user@evanta.com",
-     "alt_email"=>nil,
-     "first_name"=>"Generic",
-     "last_name"=>"User",
-     "title"=>"CEO of QA",
-     "organization_name"=>"Evanta",
-     "bio"=>"This is the biography of the default Generic User",
-     "photo"=>
-      "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-     "user_role_id"=>5321,
-     "user_connection_id"=>nil},
-   "group"=>
-    {"id"=>706,
-     "name"=>"TestGroup",
-     "description"=>"For Testing",
-     "owner_user_id"=>nil,
-     "member_count"=>0,
-     "group_member_id"=>nil,
-     "group_request_id"=>89,
-     "group_request_is_approved"=>false,
-     "group_invite_id"=>nil,
-     "create_post"=>false,
-     "create_groups"=>nil,
-     "leave_group"=>nil,
-     "group_type"=>
-      {"id"=>1181,
-       "name"=>"Factory:Open",
-       "description"=>"Open",
-       "is_group_visible"=>true,
-       "is_memberlist_visible"=>true,
-       "is_content_visible"=>true,
-       "is_approval_required"=>false},
-     "owner"=>nil,
-     "banner_ads"=>[],
-     "group_sponsor"=>nil,
-     "group_members"=>[]}}}
-```
+[[include:/json/JSON_POST_group_request]]
+
+=
+####Response Data Detail:
+
+[[include:/serializers/group_request]]
