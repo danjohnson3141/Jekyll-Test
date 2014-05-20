@@ -33,4 +33,4 @@ Returns an array of user objects
 =
 ####Response Data Detail:
 
-[[include:/serializers/group_members_user]]
+[[include:/serializers/group_member_user]]

@@ -33,4 +33,4 @@ returns an array of group requests
 =
 ####Response Data Detail:
 
-[[include:/serializers/group_requests_groups]]
+[[include:/serializers/group_request_group]]

@@ -31,4 +31,4 @@ http://stage-api-access.evant.com/group_members/groups/13175
 =
 ####Response Data Detail:
 
-[[include:/serializers/group_members_group]]
+[[include:/serializers/group_member_group]]
