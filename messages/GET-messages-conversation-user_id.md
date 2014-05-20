@@ -34,4 +34,4 @@ Returns an array of message objects
 ####Response Data Detail:
 
 
-[[include:/serializers/messages]]
+[[include:/serializers/message]]
