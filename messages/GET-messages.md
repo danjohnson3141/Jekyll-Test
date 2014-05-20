@@ -1,6 +1,6 @@
 <!-- --- title: GET /messages -->
 
-This route gets the inbox messages view for the logged in user. The 'inbox view' returns only the most recent conversation threads with each person the user was communicating with. This route returns an array of message objects.
+This route gets the inbox messages view for the logged in user. The 'inbox view' returns only the single most recent with each person the user was communicating with.
 
 =
 ####Authentication:
@@ -23,6 +23,8 @@ http://stage-api-access.evant.com/messages
 
 =
 ####JSON response example:
+
+This route returns an array of message objects.
 
 [[include:/json/JSON_GET_messages]]
 =

@@ -30,7 +30,7 @@ http://stage-api-access.evant.com/ROUTE_NAME
 { Example: 
 	{Test: Boolean} }
 ```
-
+ 
 =
 ###Post data detail:
 
