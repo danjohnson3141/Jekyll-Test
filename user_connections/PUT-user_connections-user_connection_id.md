@@ -1,6 +1,6 @@
 <!-- --- title: PUT /user_connections/:id -->
 
-Changes a user_connection request to being approved. There is a field 'is_approved' on the 'user_connections' table that is the value that gets changed. This field has a default boolean value of 0, which gets changed to 1 after this route has been run.
+Changes a user_connection request to being approved. There is a field 'is_approved' on the 'user_connections' table that is the value that gets changed. This field has a default boolean value of 0, which gets changed to 1 after this route has been run. The user is only able to PATCH records where they are the connection recipient. No post data is passed in with this route. If the record is already approved and this is attempted, they should receive a 422 error.
 
 =
 ####Authentication:
@@ -10,42 +10,26 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-:user_connection_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'user_connection' table.
+:id - Integer, passed in through the URL. Is derived from the 'id' field on the 'user_connection' table.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:
 ```json
-http://stage-api-access.evant.com//user_connections/159
+http://stage-api-access.evant.com/user_connections/159
+```
+
+=
+####Post data example:
+```
+NO POST DATA USED
 ```
 
 =
 ####JSON response example:
 
-```json
-{"user_connection"=>
-  {"id"=>159,
-   "body"=>"I'd like to connect",
-   "is_approved"=>true,
-   "sender_user_id"=>12606,
-   "recipient_user_id"=>12603,
-   "SenderUser"=>
-    {"id"=>12606,
-     "first_name"=>"Mustafa",
-     "last_name"=>"Schinner",
-     "title"=>"Random User",
-     "organization_name"=>"Gorczany-Morar",
-     "photo"=>
-      "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-     "user_role_id"=>12608},
-   "RecipientUser"=>
-    {"id"=>12603,
-     "first_name"=>"Generic",
-     "last_name"=>"User",
-     "title"=>"CEO of QA",
-     "organization_name"=>"Evanta",
-     "photo"=>
-      "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-     "user_role_id"=>12607}}}
-```
-
-This requests provides a <strong>HTML 201</strong> on success.
+[[include:/json/JSON_NO_RESPONSE]]

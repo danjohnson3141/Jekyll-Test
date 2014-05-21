@@ -22,11 +22,14 @@ group_type_name, The name of the group_type of this group, string
 groups, The groups (visible to the active user) that this user belongs to, array; GroupTiny
 id, The ID of this record, integer
 is_approval_required, Whether the user needs to be approved to join, boolean
+is_approved, Whether this connection request has been approved, boolean
+is_approver, Whether the active user is the person to approve this request, boolean
 is_content_visible, Whether posts are visibile, boolean
 is_group_visible, Whether the group can be seen, boolean
 is_memberlist_visible, Whether the member list can be seen, boolean
 is_viewed, Whether the active user has previously viewed this, boolean
 last_name, "The user's last name", string
+name, description, type
 name, The name of this group, string
 organization_name, "The organization the user is associated with", string
 owner, Info about the group owner, object; UserShort
@@ -36,6 +39,7 @@ post_count, How many posts (visible to the active user) this user has created, i
 post_id, The ID of the post, integer
 post_like_count, How many post likes (visible to the active user) this user has created, integer
 title, "The user's title", string
+user, Info on the user, object; UserMicro
 user, Info on the user, object; UserTiny
 user_connection, Info on the connection between active user and other user, object; UserConnectionShort
 user_connection_count, How many connections (visible to the active user) this user has created, integer

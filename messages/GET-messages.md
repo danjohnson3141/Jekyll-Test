@@ -27,6 +27,7 @@ http://stage-api-access.evant.com/messages
 This route returns an array of message objects.
 
 [[include:/json/JSON_GET_messages]]
+
 =
 ####Response Data Detail
 

@@ -1,4 +1,4 @@
-* [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
+* [[DELETE /user_connections/:id|DELETE-user_connections-id]]
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
 * [[GET /user_connections/user/:id|GET-user_connections-user_id]]
 * [[GET /users/password/edit|GET-users-password-edit]]

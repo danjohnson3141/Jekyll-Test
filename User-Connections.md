@@ -1,4 +1,4 @@
-* [[DELETE /user_connections/:id|DELETE-user_connections-user_connection_id]]
+* [[DELETE /user_connections/:id|DELETE-user_connections-id]]
 * [[GET /user_connections/pending|GET-user_connections-pending]]
 * [[GET /users/connections/:user_id|GET-user_connections-user_id]]
 * [[PATCH /user_connections/:id|PATCH-user_connections-user_connection_id]]

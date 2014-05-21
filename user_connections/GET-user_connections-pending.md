@@ -1,6 +1,6 @@
 <!-- --- title: GET /user_connections/pending -->
 
-Returns a list of **all** user_connection records that currently have 'is_approved' as 'false'.
+Returns a list of **all** user_connection records that currently have 'is_approved' as 'false'. This returns records where the active user is either the sender or recipeint of the connection request.
 
 =
 ####Authentication:
@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 none; defaults only
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/user_connections/pending
@@ -21,30 +26,11 @@ http://stage-api-access.evant.com/user_connections/pending
 =
 ####JSON response example:
 
-```json
-{"user_connections"=>
-  [{"id"=>144,
-    "is_approved"=>false,
-    "is_approver"=>false,
-    "user"=>
-     {"id"=>8938,
-      "first_name"=>"Gonzalo",
-      "last_name"=>"Volkman",
-      "title"=>"Random User",
-      "organization_name"=>"O'Connell LLC",
-      "photo"=>
-       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg"}},
-   {"id"=>145,
-    "is_approved"=>false,
-    "is_approver"=>true,
-    "user"=>
-     {"id"=>8939,
-      "first_name"=>"Jarod",
-      "last_name"=>"McClure",
-      "title"=>"Random User",
-      "organization_name"=>"Jast, Bergnaum and DuBuque",
-      "photo"=>
-       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg"}}]}
-```
+An array of user_connection objects
 
-This requests provides a <strong>HTML 200</strong> on success.
+[[include:/json/JSON_GET_user_connections_pending]]
+
+=
+####Response Data Detail:
+
+[[include:/serializers/user_connection]]
