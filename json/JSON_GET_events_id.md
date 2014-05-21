@@ -1,3 +1,4 @@
+```json
 {"event"=>
   {"id"=>1,
    "name"=>"Incredible Rubber Car 1",
@@ -73,3 +74,4 @@
       "survey_link"=>"http://www.surveygizmo.com/event/1/survey_1",
       "display_rank"=>2,
       "event"=>{"id"=>1, "name"=>"Incredible Rubber Car 1"}}]}}
+```
