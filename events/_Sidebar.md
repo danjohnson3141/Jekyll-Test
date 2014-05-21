@@ -15,7 +15,7 @@
 * [[GET /event_users/attendees/:event_id|GET-event_users-attendees-event_id]]
 * [[GET /event_users/events/:user_id|GET-event_users-events-user_id]]
 * [[GET /event_users/users/:event_id|GET-event_users-users-event_id]]
-* [[GET /events/:id|GET-events-event_id]]
+* [[GET /events/:id|GET-events-id]]
 * [[GET /events/all|GET-events-all-user_id]]
 * [[GET /events/past|GET-events-past-user_id]]
 * [[GET /events/upcoming|GET-events-upcoming-user_id]]

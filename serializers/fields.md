@@ -29,7 +29,6 @@ is_group_visible, Whether the group can be seen, boolean
 is_memberlist_visible, Whether the member list can be seen, boolean
 is_viewed, Whether the active user has previously viewed this, boolean
 last_name, "The user's last name", string
-name, description, type
 name, The name of this group, string
 organization_name, "The organization the user is associated with", string
 owner, Info about the group owner, object; UserShort

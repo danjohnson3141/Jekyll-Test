@@ -1,65 +1,22 @@
 name, description, type
 id, The ID of this record, integer
-name, ,
-begin_date, ,
-end_date, ,
-venue_name, ,
-address, ,
-city, ,
-state, ,
-postal_code, ,
-event_follower_id, ,
-registraion_status, ,
-user_today_event, ,
-can_follow_event, ,
-allow_notes, ,
-allow_bookmarks, ,
-country, , object; country
-timezone, , object: timezone
-group, , object; GroupTiny
-sponsors, , array; SponsorShort
-event_staff, , array; UserShort
-event_evaluations, , array; event evaluations
-
-  def event_evaluations
-    object.get_event_evaluations(scope)
-  end
-
-  def event_follower_id
-    EventFollower.where(user_id: current_user.id, event_id: self.id).first.try(:id)
-  end
-
-  def registraion_status
-    event_user = EventUser.where(user_id: current_user.id, event_id: self.id).first
-    registration_status = EventRegistrationStatus.find(event_user.event_registration_status_id).key if event_user && !event_user.event_registration_status_id.nil?
-  end
-
-  def user_today_event
-    return false if AppSettings::Value.new(:todays_event_callout, event: object).off?
-    object.user_today_event?(scope)
-  end
-
-  def can_follow_event
-    object.can_follow_event?
-  end
-
-  def attendees
-    return object.attendees_excluding_hidden if object.show_attendees?(current_user)
-    []
-  end
-
-  def event_sponsors
-    object.event_sponsors if object.show_event_sponsors?(scope)
-  end
-
-  def allow_notes
-    AppSettings::Value.new(:event_notes, event: object, user: scope).on?
-  end
-
-  def allow_bookmarks
-    AppSettings::Value.new(:event_bookmarks, event: object, user: scope).on?
-  end
-
-
-
-end
+name, , string
+begin_date, The day that the event begins; yyyy-mm-dd, string
+end_date, The day that the event ends; yyyy-mm-dd, string
+venue_name, The name of the location where the event is happening, string
+address, The steet address for this event, string
+city, The city in which the event is happening, string
+state, , string
+postal_code, , string
+event_follower_id, , integer
+registraion_status, , string
+user_today_event, Whether the event is happening today , boolean
+can_follow_event, Whether the active user can follow this event, boolean
+allow_notes, Whether the active user can create event_notes, boolean
+allow_bookmarks, Whether the active user can bookmark things, boolean
+country, Info on the country this event is happening in, object; country
+timezone, Info on the timezone this event is happening in, object: timezone
+group, Info on the group this event is associated with, object; GroupTiny
+sponsors, List of sponsors, array; SponsorShort
+event_staff, List of event staff , array; UserShort
+event_evaluations, All of the event evaluations visible to the active user for this event, array; EventEvaluation
