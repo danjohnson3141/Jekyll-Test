@@ -1,4 +1,4 @@
-<!-- --- title: POST /app_settings -->
+<!-- --- title: PATCH /post_attachments/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
