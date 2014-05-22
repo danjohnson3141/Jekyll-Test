@@ -20,4 +20,4 @@
 | group              | Info on the group this event is associated with                          | object; GroupTiny      |
 | sponsors           | List of sponsors                                                         | array; SponsorShort    |
 | event_staff        | List of event staff                                                      | array; UserShort       |
-| event_evaluations  | All of the event evaluations visible to the active user for this event   | array; EventEvaluation |
+| event_evaluations  | List of of event evaluations visible to the active user for this event   | array; EventEvaluation |
