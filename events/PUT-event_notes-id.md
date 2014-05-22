@@ -1,6 +1,6 @@
 <!-- --- title: PUT /event_notes/:id -->
 
-This allows the active user to update **one** event_notes record.
+This allows the active user to edit **one** event_notes record.
 
 =
 ####Authentication:
@@ -10,9 +10,12 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-(event_notes) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
+:id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
 
-:body - Text, passed in through the post data. This is the plain text of the submission.
+=
+####Response:
+
+This requests provides a <strong>HTML 204</strong> on success.
 
 =
 ####API request example:
@@ -27,8 +30,11 @@ http://stage-api-access.evant.com/event_notes/234
 ```
 
 =
+###Post data detail:
+
+[[include:/post_data/patch_event_notes_id]]
+
+=
 ####JSON response example:
 
 [[include:/json/JSON_NO_RESPONSE]]
-
-This requests provides a <strong>HTML 204</strong> on success.

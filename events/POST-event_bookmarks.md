@@ -10,13 +10,12 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-:event_user_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_users' table.
+none, default only.
 
-:sponsor_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'sponsors' table.
+=
+####Response:
 
-:event_speaker_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_speakers' table.
-
-:event_session_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'event_sessions' table.
+This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:
@@ -27,32 +26,22 @@ http://stage-api-access.evant.com/event_bookmarks
 =
 ####Post data example::
 ```
-{ event_bookmark: { event_session_id: 9 } }
+{ event_bookmark: 
+  { event_session_id: 9 } }
 ```
+
+=
+###Post data detail:
+
+[[include:/post_data/post_event_bookmark]]
+
 
 =
 ####JSON response example:
 
-```json
-{"event_bookmark"=>
-  {"id"=>3,
-   "event"=>{"id"=>9, "name"=>"Rustic Wooden Shoes 9"},
-   "event_user"=>nil,
-   "event_speaker"=>nil,
-   "event_session"=>
-    {"id"=>9,
-     "name"=>"Small Plastic Shirt",
-     "description"=>
-      "Universal mobile contingency. Reactive upward-trending intranet",
-     "start_date_time"=>"2014-03-14T20:25:35.000Z",
-     "end_date_time"=>"2014-03-14T21:25:35.000Z",
-     "track_name"=>"Function-based even-keeled software",
-     "breakout_id"=>nil,
-     "session_type"=>"Ergonomic Wooden Car",
-     "room_name"=>"Intelligent Granite Computer",
-     "is_comments_on"=>false,
-     "display_rank"=>nil},
-   "sponsor"=>nil}}
-```
+[[include:/json/JSON_POST_event_bookmarks]]
 
-This requests provides a <strong>HTML 201</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/event_bookmark_short]]

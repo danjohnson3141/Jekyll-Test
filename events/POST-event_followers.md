@@ -10,7 +10,12 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+None; default only.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:
@@ -22,49 +27,21 @@ http://stage-api-access.evant.com/event_followers
 ####Post data example::
 ```
 { event_follower: 
-  { user_id: 129457, 
-    event_id: 18374 } 
+  { event_id: 18374 } 
  }
 ```
+ 
+=
+###Post data detail:
+
+[[include:/post_data/post_event_followers]]
+
 =
 ####JSON response example:
 
-```json
-{"event_follower"=>
-  {"id"=>4283,
-   "created_by"=>nil,
-   "updated_by"=>nil,
-   "user"=>
-    {"id"=>129457,
-     "email"=>"generic_user@evanta.com",
-     "alt_email"=>"alt_gen_use@evanta.com",
-     "first_name"=>"Generic",
-     "last_name"=>"User",
-     "title"=>"CEO of QA",
-     "organization_name"=>"Evanta",
-     "bio"=>"This is the biography of the default Generic User",
-     "photo"=>
-      "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-     "user_role_id"=>129461,
-     "user_connection_id"=>nil},
-   "event"=>
-    {"id"=>18374,
-     "name"=>"Sleek Granite Computer 1",
-     "event_begin_date"=>"2014-03-07",
-     "event_end_date"=>"2014-03-08",
-     "venue_name"=>"Hills-Strosin",
-     "address"=>"74058 Madisyn Pines",
-     "state"=>"VA",
-     "postal_code"=>"18034",
-     "event_follower_id"=>4283,
-     "registraion_status"=>nil,
-     "is_event_today"=>false,
-     "can_follow_event"=>false,
-     "country"=>{"id"=>5110, "name"=>"Serbia", "abbreviation"=>"08j"},
-     "timezone"=>{"id"=>3196, "name"=>"Pacific", "offset"=>2},
-     "group"=>
-      {"id"=>19839, "name"=>"Open Group 1", "group_type_name"=>"Factory:Open"},
-     "attendees"=>[]}}}
-```
+[[include:/json/JSON_POST_event_followers]]
 
-This requests provides a <strong>HTML 201</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/event_follower]]
