@@ -26,7 +26,8 @@ http://stage-api-access.evant.com/event_user_schedules
 =
 ####Post data example::
 ```json
-{ event_user_schedule: { event_session_id: 1527 } }
+{ event_user_schedule: 
+	{ event_session_id: 1527 } }
 ``` 
  
 =

@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 (event_evaluations) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_evaluations' table.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/event_evaluations/1
@@ -21,13 +26,9 @@ http://stage-api-access.evant.com/event_evaluations/1
 =
 ####JSON response example:
 
-```json
-{"event_evaluation"=>
-  {"id"=>5,
-   "name"=>"RSPEC Eval 1",
-   "survey_link"=>"http://www.surveygizmo.com/event/3/survey_1",
-   "display_rank"=>3,
-   "event"=>{"id"=>3, "name"=>"Sleek Concrete Table 3"}}}
-```
+[[include:/json/JSON_GET_event_evaluations_id]]
 
-This requests provides a <strong>HTML 200</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/event_evaluation]]

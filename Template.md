@@ -16,7 +16,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####Response:
 
-This requests provides a <strong>HTML QQQ</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:

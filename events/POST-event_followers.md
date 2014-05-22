@@ -27,8 +27,7 @@ http://stage-api-access.evant.com/event_followers
 ####Post data example::
 ```
 { event_follower: 
-  { event_id: 18374 } 
- }
+  { event_id: 18374 } }
 ```
  
 =

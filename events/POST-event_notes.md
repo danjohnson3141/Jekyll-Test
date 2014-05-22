@@ -25,7 +25,8 @@ http://stage-api-access.evant.com/event_notes
 
 ####Post Data::
 ```
-{ event_note: { body: 'This text is the body of the note.', event_session_id: 21 }
+{ event_note: 
+	{ body: 'This text is the body of the note.', event_session_id: 21 }
 ```
 
 =

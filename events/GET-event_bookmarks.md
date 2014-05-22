@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 None; default only.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/event_bookmarks
@@ -20,42 +25,10 @@ http://stage-api-access.evant.com/event_bookmarks
 
 =
 ####JSON response example:
-```json
-{"event_bookmarks"=>
-  [{"id"=>1089,
-    "event"=>{"id"=>6928, "name"=>"Gorgeous Concrete Chair 1"},
-    "event_user"=>
-     {"id"=>2583,
-      "user"=>
-       {"id"=>38103,
-        "first_name"=>"Generic",
-        "last_name"=>"User",
-        "title"=>"CEO of QA",
-        "organization_name"=>"Evanta",
-        "photo"=>
-         "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-        "user_role_id"=>37707,
-        "user_connection_id"=>nil}},
-    "event_speaker"=>nil,
-    "event_session"=>nil,
-    "sponsor"=>nil},
-   {"id"=>1090,
-    "event"=>{"id"=>6929, "name"=>"Awesome Steel Table 2"},
-    "event_user"=>
-     {"id"=>2584,
-      "user"=>
-       {"id"=>38103,
-        "first_name"=>"Generic",
-        "last_name"=>"User",
-        "title"=>"CEO of QA",
-        "organization_name"=>"Evanta",
-        "photo"=>
-         "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-        "user_role_id"=>37707,
-        "user_connection_id"=>nil}},
-    "event_speaker"=>nil,
-    "event_session"=>nil,
-    "sponsor"=>nil}]}
-```
 
-This requests provides a <strong>HTML 200</strong> on success.
+[[include:/json/JSON_NEEDS_EXAMPLE]]
+
+=
+####Response Data Detail:
+
+[[include:/serializers/event_bookmark_short]]

@@ -26,6 +26,8 @@ event_evaluations, All of the event evaluations visible to the active user for t
 event_follower_id, If the active user is following the event; this is the ID of that record, integer
 event_id, The ID of the event, integer 
 event_notes, Any event notes that the active user may have created for this user, array; EventNoteShort
+event_notes, Any event notes that the active user may have created for this user, array; EventNoteTiny
+event_registration_status, Info on this users reg status, object; EventRegistrationStatus
 event_session, Info on the event_session, object; EventSession
 event_session, Info on the event_session, object; EventSessionShort
 event_session_id, The ID of the event_session, integer 
@@ -73,7 +75,9 @@ timezone, Info on the timezone this event is happening in, object: Timezone
 title, "The user's title", string
 user, Info on the user, object; User
 user, Info on the user, object; UserMicro
+user, Info on the user, object; UserNano
 user, Info on the user, object; UserTiny
+user, Info on the user, object; UserShort
 user_connection, Info on the connection between active user and other user, object; UserConnectionShort
 user_connection_count, How many connections (visible to the active user) this user has created, integer
 user_connections_blocked, Whether the active user can connect with this user, boolean
