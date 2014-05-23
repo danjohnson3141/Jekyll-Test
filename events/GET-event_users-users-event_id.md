@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 :event_id - Integer, passed in through the URL. Is derived from the 'event_id' field on the 'event_users' table.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/event_users/users/10579
@@ -21,43 +26,11 @@ http://stage-api-access.evant.com/event_users/users/10579
 =
 ####JSON response example:
 
-```json
-{"event_followers"=>
-  [{"id"=>2344,
-    "event_id"=>10579,
-    "created_by"=>nil,
-    "updated_by"=>nil,
-    "user"=>
-     {"id"=>83483,
-      "email"=>"generic_user@evanta.com",
-      "alt_email"=>"alt_gen_use@evanta.com",
-      "first_name"=>"Generic",
-      "last_name"=>"User",
-      "title"=>"CEO of QA",
-      "organization_name"=>"Evanta",
-      "bio"=>"This is the biography of the default Generic User",
-      "photo"=>
-       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-      "user_role_id"=>83487,
-      "user_connection_id"=>nil}},
-   {"id"=>2345,
-    "event_id"=>10579,
-    "created_by"=>nil,
-    "updated_by"=>nil,
-    "user"=>
-     {"id"=>83486,
-      "email"=>"garrison.hayes@wizakunze.name",
-      "alt_email"=>"herta@hotmail.com",
-      "first_name"=>"Ines",
-      "last_name"=>"Ledner",
-      "title"=>"Random User",
-      "organization_name"=>"Bergnaum LLC",
-      "bio"=>
-       "Vitae illum non culpa qui dolores nulla et reprehenderit eos qui id sed adipisci praesentium.",
-      "photo"=>
-       "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-      "user_role_id"=>83488,
-      "user_connection_id"=>1020}}]}
-```
+Returns an array of event_user_tiny objects
 
-This requests provides a <strong>HTML 200</strong> on success.
+[[include:/json/JSON_GET_event_users_users_event_id]]
+
+=
+####Response Data Detail:
+
+[[include:/serializers/event_user_tiny]]

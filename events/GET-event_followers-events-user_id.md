@@ -26,7 +26,7 @@ http://stage-api-access.evant.com/event_followers/events/35005
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_event_followers_events_user_id]]
 
 =
 ####Response Data Detail:

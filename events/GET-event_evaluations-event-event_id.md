@@ -26,11 +26,11 @@ http://stage-api-access.evant.com/event_evaluations/event/5
 =
 ####JSON response example:
 
+Returns an array of event_evaluation objects
+
 [[include:/json/JSON_GET_event_evaluations_event_event_id]]
 
 =
 ####Response Data Detail:
-
-Returns an array of event_evaluation objects
 
 [[include:/serializers/event_evaluation]]

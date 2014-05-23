@@ -26,11 +26,12 @@ http://stage-api-access.evant.com/event_bookmarks/event/2904
 =
 ####JSON response example:
 
+Returns an array of event_bookmark_short objects
+
 [[include:/json/JSON_GET_event_bookmarks_event_event_id]]
 
 =
 ####Response Data Detail:
 
-Returns an array of bookmark objects
 
 [[include:/serializers/event_bookmark_short]]

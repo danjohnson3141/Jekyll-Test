@@ -26,7 +26,9 @@ http://stage-api-access.evant.com/event_bookmarks
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+Returns an array of event_bookmark_short objects
+
+[[include:/json/JSON_GET_event_bookmarks]]
 
 =
 ####Response Data Detail:

@@ -10,7 +10,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters
 
-None; default only.
+None; default only..
 
 =
 ####Response:
@@ -19,7 +19,7 @@ This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:
-```json
+```
 http://stage-api-access.evant.com/groups
 ```
 
