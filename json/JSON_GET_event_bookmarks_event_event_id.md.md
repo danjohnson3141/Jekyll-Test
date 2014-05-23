@@ -1,5 +1,0 @@
-```json
-{
-    "event_bookmarks": []
-}
-```

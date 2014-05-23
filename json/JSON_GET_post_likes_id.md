@@ -1,7 +1,7 @@
 ```json
 {
     "post_like": {
-        "ago": "22h",
+        "ago": "1d",
         "creator": {
             "connection_status": null,
             "event_council_member": false,

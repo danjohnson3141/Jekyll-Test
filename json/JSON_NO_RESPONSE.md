@@ -1,3 +1,0 @@
-```json
-NO JSON RESPONSE
-```

@@ -184,6 +184,11 @@
                         "name": "All Leaders"
                     },
                     {
+                        "group_type_name": "Open",
+                        "id": 7,
+                        "name": "BritNayNay's Group - Public to the People"
+                    },
+                    {
                         "group_type_name": "Private",
                         "id": 1,
                         "name": "CIO"
@@ -218,7 +223,7 @@
                 "organization_name": "Evanta",
                 "photo": null,
                 "post_count": 7,
-                "post_like_count": 0,
+                "post_like_count": 1,
                 "region": {
                     "id": 32,
                     "name": "Ohio"

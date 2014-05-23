@@ -44,7 +44,7 @@
                 "sponsor": null,
                 "thumbnail_teaser_photo": "http://lorempixel.com/300/500",
                 "title": "Reduced systematic Graphic Interface: Ergonomic Wooden Shoes",
-                "view_count": 7
+                "view_count": 10
             }
         },
         {

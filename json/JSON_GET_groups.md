@@ -105,7 +105,7 @@
             "hide_app_sponsors": false,
             "id": 7,
             "leave_group": true,
-            "member_count": 2,
+            "member_count": 3,
             "name": "BritNayNay's Group - Public to the People",
             "owner": {
                 "connection_status": null,

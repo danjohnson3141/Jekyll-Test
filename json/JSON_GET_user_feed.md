@@ -33,7 +33,7 @@
                 "like_count": 1,
                 "post_attachments": [
                     {
-                        "ago": "5h",
+                        "ago": "7h",
                         "attachment_type": {
                             "description": "Audio file attachment (mp3)",
                             "id": 2,
@@ -47,7 +47,7 @@
                 ],
                 "post_like_id": 50,
                 "recent_activity": {
-                    "ago": "2h",
+                    "ago": "4h",
                     "message": "Graham Baas commented on this post",
                     "post_attachment_id": null,
                     "post_comment_id": 51,
@@ -65,7 +65,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "5h",
+                "ago": "7h",
                 "authors": [
                     {
                         "first_name": "Brittany",
@@ -107,7 +107,69 @@
         {
             "notification": null,
             "post": {
-                "ago": "8h",
+                "ago": "3d",
+                "authors": [
+                    {
+                        "first_name": "Ryan",
+                        "id": 8,
+                        "last_name": "Pyeatt",
+                        "moderator": false,
+                        "organization_name": "Evanta",
+                        "photo": null,
+                        "title": "Vice President of IT",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": true,
+                "comment_count": 0,
+                "created_by": 8,
+                "event": null,
+                "event_session": null,
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": "Mesh sticky schemas. Engage sticky systems. Target real-time channels. Deploy distributed platforms. \n\nUnleash end-to-end e-tailers. Strategize compelling web services. Leverage proactive paradigms. I",
+                "group": {
+                    "group_type_name": "Private",
+                    "id": 2,
+                    "name": "CISO"
+                },
+                "id": 10,
+                "like_count": 0,
+                "post_attachments": [
+                    {
+                        "ago": "7h",
+                        "attachment_type": {
+                            "description": "Audio file attachment (mp3)",
+                            "id": 2,
+                            "name": "Audio"
+                        },
+                        "created_by": 1,
+                        "id": 11,
+                        "post_id": 10,
+                        "url": "https://www.attachment.com/attachment"
+                    }
+                ],
+                "post_like_id": null,
+                "recent_activity": {
+                    "ago": "7h",
+                    "message": "Evanta Access added an attachment",
+                    "post_attachment_id": 11,
+                    "post_comment_id": null,
+                    "post_like_id": null,
+                    "user_id": 1
+                },
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": null,
+                "thumbnail_teaser_photo": "http://lorempixel.com/500/320",
+                "title": null,
+                "view_count": 49
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "10h",
                 "authors": [
                     {
                         "first_name": "Jim",
@@ -159,7 +221,7 @@
                 "like_count": 0,
                 "post_attachments": [
                     {
-                        "ago": "5h",
+                        "ago": "7h",
                         "attachment_type": {
                             "description": "Image file attachment (jpg/gif)",
                             "id": 1,
@@ -173,7 +235,7 @@
                 ],
                 "post_like_id": null,
                 "recent_activity": {
-                    "ago": "5h",
+                    "ago": "7h",
                     "message": "Evanta Access added an attachment",
                     "post_attachment_id": 3,
                     "post_comment_id": null,
@@ -191,151 +253,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "3d",
-                "authors": [
-                    {
-                        "first_name": "Ryan",
-                        "id": 8,
-                        "last_name": "Pyeatt",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Vice President of IT",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 8,
-                "event": null,
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Mesh sticky schemas. Engage sticky systems. Target real-time channels. Deploy distributed platforms. \n\nUnleash end-to-end e-tailers. Strategize compelling web services. Leverage proactive paradigms. I",
-                "group": {
-                    "group_type_name": "Private",
-                    "id": 2,
-                    "name": "CISO"
-                },
-                "id": 10,
-                "like_count": 0,
-                "post_attachments": [
-                    {
-                        "ago": "5h",
-                        "attachment_type": {
-                            "description": "Audio file attachment (mp3)",
-                            "id": 2,
-                            "name": "Audio"
-                        },
-                        "created_by": 1,
-                        "id": 11,
-                        "post_id": 10,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": null,
-                "recent_activity": {
-                    "ago": "5h",
-                    "message": "Evanta Access added an attachment",
-                    "post_attachment_id": 11,
-                    "post_comment_id": null,
-                    "post_like_id": null,
-                    "user_id": 1
-                },
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/500/320",
-                "title": null,
-                "view_count": 49
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "6h",
-                "authors": [
-                    {
-                        "first_name": "Ryan",
-                        "id": 8,
-                        "last_name": "Pyeatt",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Vice President of IT",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 8,
-                "event": {
-                    "id": 2,
-                    "name": "2014 Minneapolis CISO Executive Summit"
-                },
-                "event_session": null,
-                "excerpt": "Morph interactive technologies. Syndicate rich roi. Visualize dynamic initiatives. Strategize distributed functionalities. \n\nTarget viral technologies. Incentivize out-of-the-box niches. Deploy extens",
-                "featured": true,
-                "generated_excerpt": "Morph interactive technologies. Syndicate rich roi. Visualize dynamic initiatives. Strategize distributed functionalities. \n\nTarget viral technologies. Incentivize out-of-the-box niches. Deploy extens",
-                "group": null,
-                "id": 26,
-                "like_count": 1,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/250/300",
-                "title": "Reverse-engineered optimizing time-frame: Intelligent Cotton Pants",
-                "view_count": 2
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "7h",
-                "authors": [
-                    {
-                        "first_name": "Terry",
-                        "id": 11,
-                        "last_name": "Waters",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Imagineer",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 11,
-                "event": {
-                    "id": 2,
-                    "name": "2014 Minneapolis CISO Executive Summit"
-                },
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Visualize front-end synergies. Incentivize vertical synergies. Reintermediate synergistic schemas. Optimize robust e-services. \n\nVisualize integrated platforms. Orchestrate cross-media portals. Transf",
-                "group": null,
-                "id": 44,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/480/480",
-                "title": null,
-                "view_count": 26
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "11h",
+                "ago": "13h",
                 "authors": [
                     {
                         "first_name": "Mike",
@@ -377,7 +295,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "12h",
+                "ago": "14h",
                 "authors": [
                     {
                         "first_name": "Jamil",
@@ -443,7 +361,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "13h",
+                "ago": "15h",
                 "authors": [
                     {
                         "first_name": "Evanta",
@@ -473,7 +391,7 @@
                 "like_count": 0,
                 "post_attachments": [
                     {
-                        "ago": "5h",
+                        "ago": "7h",
                         "attachment_type": {
                             "description": "Audio file attachment (mp3)",
                             "id": 2,
@@ -523,7 +441,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "13h",
+                "ago": "15h",
                 "authors": [
                     {
                         "first_name": "Michael",
@@ -565,7 +483,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "2d",
+                "ago": "3d",
                 "authors": [
                     {
                         "first_name": "John",
@@ -597,7 +515,7 @@
                 "like_count": 1,
                 "post_attachments": [
                     {
-                        "ago": "5h",
+                        "ago": "7h",
                         "attachment_type": {
                             "description": "Audio file attachment (mp3)",
                             "id": 2,
@@ -611,7 +529,7 @@
                 ],
                 "post_like_id": null,
                 "recent_activity": {
-                    "ago": "17h",
+                    "ago": "19h",
                     "message": "Evanta Access liked this post",
                     "post_attachment_id": null,
                     "post_comment_id": null,
@@ -629,7 +547,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "19h",
+                "ago": "21h",
                 "authors": [
                     {
                         "first_name": "Terry",
@@ -658,7 +576,7 @@
                 "like_count": 0,
                 "post_attachments": [
                     {
-                        "ago": "5h",
+                        "ago": "7h",
                         "attachment_type": {
                             "description": "Image file attachment (jpg/gif)",
                             "id": 1,
@@ -708,7 +626,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "19h",
+                "ago": "21h",
                 "authors": [
                     {
                         "first_name": "Dan",
@@ -762,7 +680,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "19h",
+                "ago": "21h",
                 "authors": [
                     {
                         "first_name": "Nathan",
@@ -791,7 +709,7 @@
                 "like_count": 0,
                 "post_attachments": [
                     {
-                        "ago": "5h",
+                        "ago": "7h",
                         "attachment_type": {
                             "description": "Video file attachment (mpeg/mov)",
                             "id": 3,
@@ -841,7 +759,7 @@
         {
             "notification": null,
             "post": {
-                "ago": "20h",
+                "ago": "22h",
                 "authors": [
                     {
                         "first_name": "Brittany",
@@ -1174,6 +1092,115 @@
                 "thumbnail_teaser_photo": "http://lorempixel.com/250/200",
                 "title": "Looking Into the Crystal Ball \u2013 The Future Role of the CIO",
                 "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "1d",
+                "authors": [
+                    {
+                        "first_name": "Ryan",
+                        "id": 8,
+                        "last_name": "Pyeatt",
+                        "moderator": false,
+                        "organization_name": "Evanta",
+                        "photo": null,
+                        "title": "Vice President of IT",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": true,
+                "comment_count": 2,
+                "created_by": 8,
+                "event": null,
+                "event_session": null,
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": "Transition bricks-and-clicks mindshare. Drive revolutionary platforms. Reinvent global portals. Streamline turn-key web-readiness. \n\nEngage bleeding-edge vortals. Seize impactful architectures. Aggreg",
+                "group": {
+                    "group_type_name": "Secret",
+                    "id": 4,
+                    "name": "Minneapolis Boardroom"
+                },
+                "id": 102,
+                "like_count": 1,
+                "post_attachments": [],
+                "post_like_id": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": {
+                    "banner_ads": [
+                        {
+                            "graphic_link": "http://placehold.it/840x100/25227c/ffffff/&text=Palo Alto Networks,+Event:+2,+Banner:+43",
+                            "id": 43,
+                            "link_url": "www.evanta.com"
+                        },
+                        {
+                            "graphic_link": "http://placehold.it/840x100/434eca/ffffff/&text=Palo Alto Networks,+Event:+2,+Banner:+44",
+                            "id": 44,
+                            "link_url": "www.evanta.com"
+                        }
+                    ],
+                    "description": "<p>Palo Alto Networks is leading a new era in cybersecurity by protecting thousands of enterprise, government, and service provider networks from cyber threats. Because of our deep expertise, steadfast commitment to innovation and game-changing next-generation security platform, more than 13,500 customers have chosen Palo Alto Networks and this number grows every day. Our platform natively brings together all key network security functions, including firewall, URL filtering, IDS/IPS, and advanced threat protection. Because these functions are purposely built into the platform from the ground up and they natively share important information across the respective disciplines, we ensure better security than legacy products. As a result, organizations can safely enable the use of all applications critical to running their business, maintain complete visibility and control, confidently pursue new technology initiatives like cloud, SDN and mobility, and protect the organization from the most basic to multi-faceted and complicated cyber attacks &mdash; known and unknown.</p>",
+                    "id": 22,
+                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16196.jpg",
+                    "name": "Palo Alto Networks",
+                    "splash_sponsor": false,
+                    "sponsor_type": {
+                        "description": "Multi-lateral discrete forecast",
+                        "display_rank": 40,
+                        "id": 5,
+                        "name": "Presenting Sponsor"
+                    },
+                    "url": "www.paloaltonetworks.com"
+                },
+                "thumbnail_teaser_photo": "http://lorempixel.com/320/420",
+                "title": null,
+                "view_count": 39
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "2d",
+                "authors": [
+                    {
+                        "first_name": "Maggie",
+                        "id": 17,
+                        "last_name": "Schultz",
+                        "moderator": false,
+                        "organization_name": "Champlin, Treutel and Bechtelar",
+                        "photo": null,
+                        "title": "Senior Response Supervisor of Toys, Kids & Baby",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": true,
+                "comment_count": 1,
+                "created_by": 17,
+                "event": null,
+                "event_session": null,
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": "Expedite value-added architectures. Incubate mission-critical schemas. Reintermediate ubiquitous systems. Reinvent best-of-breed action-items. \n\nSeize scalable paradigms. Aggregate visionary e-tailers",
+                "group": {
+                    "group_type_name": "Secret",
+                    "id": 6,
+                    "name": "All Leaders"
+                },
+                "id": 12,
+                "like_count": 1,
+                "post_attachments": [],
+                "post_like_id": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": null,
+                "thumbnail_teaser_photo": "http://lorempixel.com/500/500",
+                "title": null,
+                "view_count": 10
             }
         }
     ]

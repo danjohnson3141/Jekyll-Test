@@ -26,7 +26,7 @@
                     "survey_link": "https://www.surveygizmo.com/event2"
                 }
             ],
-            "event_follower_id": 2,
+            "event_follower_id": null,
             "event_staff": [],
             "group": {
                 "group_type_name": "Private",

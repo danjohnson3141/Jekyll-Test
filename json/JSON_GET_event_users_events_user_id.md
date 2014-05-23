@@ -11,7 +11,7 @@
                     "name": "United States of America"
                 },
                 "end_date": "2014-06-24",
-                "event_follower_id": 2,
+                "event_follower_id": null,
                 "group": {
                     "description": "HR Group. Exploit virtual web-readiness. Exploit real-time schemas. Disintermediate bricks-and-clicks e-business. Generate plug-and-play e-markets. ",
                     "group_type": {
