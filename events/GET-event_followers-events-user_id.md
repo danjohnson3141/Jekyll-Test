@@ -1,6 +1,6 @@
 <!-- --- title: GET /event_followers/events/:user_id -->
 
-Returns a list of all the events followed by one user.
+Returns a list of **all** the events followed by one user.
 
 =
 ####Authentication:
@@ -13,6 +13,11 @@ The user needs to be logged in and have valid credentials to use this route.
 :user_id - Integer, passed in through the URL. Is derived from the 'user_id' field on the 'event_followers' table.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```json
 http://stage-api-access.evant.com/event_followers/events/35005
@@ -21,52 +26,9 @@ http://stage-api-access.evant.com/event_followers/events/35005
 =
 ####JSON response example:
 
-```json
-{"event_followers"=>
-  [{"id"=>1032,
-    "user_id"=>35005,
-    "created_by"=>nil,
-    "updated_by"=>nil,
-    "event"=>
-     {"id"=>4573,
-      "name"=>"rspec test event 1",
-      "event_begin_date"=>nil,
-      "event_end_date"=>nil,
-      "venue_name"=>nil,
-      "address"=>nil,
-      "state"=>nil,
-      "postal_code"=>nil,
-      "event_follower_id"=>1032,
-      "registraion_status"=>nil,
-      "is_event_today"=>nil,
-      "can_follow_event"=>false,
-      "country"=>nil,
-      "timezone"=>nil,
-      "group"=>
-       {"id"=>5672, "name"=>"TestGroup", "group_type_name"=>"Factory:Open"},
-      "attendees"=>[]}},
-   {"id"=>1033,
-    "user_id"=>35005,
-    "created_by"=>nil,
-    "updated_by"=>nil,
-    "event"=>
-     {"id"=>4574,
-      "name"=>"rspec test event 2",
-      "event_begin_date"=>nil,
-      "event_end_date"=>nil,
-      "venue_name"=>nil,
-      "address"=>nil,
-      "state"=>nil,
-      "postal_code"=>nil,
-      "event_follower_id"=>1033,
-      "registraion_status"=>nil,
-      "is_event_today"=>nil,
-      "can_follow_event"=>false,
-      "country"=>nil,
-      "timezone"=>nil,
-      "group"=>
-       {"id"=>5672, "name"=>"TestGroup", "group_type_name"=>"Factory:Open"},
-      "attendees"=>[]}}]}
-```
+[[include:/json/JSON_NEEDS_EXAMPLE]]
 
-This requests provides a <strong>HTML 200</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]
