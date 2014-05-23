@@ -15,7 +15,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
 ####API request example:
-```json
+```html
 http://stage-api-access.evant.com/ROUTE_NAME
 ```
 

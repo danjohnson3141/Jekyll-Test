@@ -14,7 +14,7 @@ none; defaults only
 
 =
 ####API request example:
-```json
+```html
 http://stage-api-access.evant.com/users/profile
 ```
 

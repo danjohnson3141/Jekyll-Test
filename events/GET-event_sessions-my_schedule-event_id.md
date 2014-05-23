@@ -14,7 +14,7 @@ The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####API request example:
-```json
+```html
 http://stage-api-access.evant.com/event_sessions/my_schedule/6126
 ```
 

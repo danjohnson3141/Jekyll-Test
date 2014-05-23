@@ -15,7 +15,7 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 
 =
 ####API request example:
-```json
+```html
 http://stage-api-access.evant.com/event_speakers/event_session/664
 ```
 

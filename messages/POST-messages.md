@@ -19,7 +19,7 @@ This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:
-```json
+```html
 http://example.com:3000/messages
 ```
 

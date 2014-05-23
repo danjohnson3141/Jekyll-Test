@@ -16,7 +16,7 @@ No authorizations required
 
 =
 ####API request example:
-```json
+```html
 http://stage-api-access.evant.com/app_supports
 ```
 

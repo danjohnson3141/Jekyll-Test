@@ -14,7 +14,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
 ####API request example:
-```json
+```html
 http://stage-api-access.evant.com/event_users/events/9675
 ```
 

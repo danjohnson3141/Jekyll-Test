@@ -19,7 +19,7 @@ This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:
-```json
+```html
 http://stage-api-access.evant.com/group_members
 ```
 
