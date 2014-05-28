@@ -93,15 +93,12 @@ GET /user_feed
 GET /users/industry_type_options
 GET /users/locale_options
 GET /users/password/edit
-GET /users/password/edit
-GET /users/password/new
 GET /users/password/new
 GET /users/post_options
 GET /users/profile
 GET /users/profile/:user_id
 GET /users/region_options
 GET /users/settings
-GET /users/sign_in
 GET /users/sign_in
 OPTIONS /*path
 PATCH /event_notes/:id
