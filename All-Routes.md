@@ -187,7 +187,6 @@
 ####Routes that exist, but not really
 These exist just so that documentation audits don't get tripped up:
 
-* GET /app_setting_options/:id
 * GET /users/password/edit
 * GET /users/password/new
 * GET /users/sign_in
