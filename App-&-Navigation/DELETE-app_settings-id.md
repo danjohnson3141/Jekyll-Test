@@ -1,4 +1,4 @@
-<!-- --- title: GET /app_labels/app -->
+<!-- --- title: DELETE /app_settings/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

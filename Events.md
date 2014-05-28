@@ -7,7 +7,7 @@
 * [[GET /event_sessions/:id|GET-event_sessions-id]]
 * [[GET /event_sessions/event/:event_id|GET-event_sessions-event-event_id]]
 * [[GET /event_sessions/my_schedule/:event_id|GET-event_sessions-my_schedule-event_id]]
-* [[GET /event_speakers/:id|GET-event_speakers-event_speaker_id]]
+* [[GET /event_speakers/:id|GET-event_speakers-id]]
 * [[GET /event_speakers/event/:event_id|GET-event_speakers-event-event_id]]
 * [[GET /event_speakers/event_session/:event_session_id|GET-event_speakers-event_session-event_session_id]]
 * [[GET /event_users/:id|GET-event_users-id]]

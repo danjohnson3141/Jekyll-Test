@@ -46,7 +46,7 @@
 * [[GET /event_sessions/:id|GET-event_sessions-id]]
 * [[GET /event_sessions/event/:event_id|GET-event_sessions-event-event_id]]
 * [[GET /event_sessions/my_schedule/:event_id|GET-event_sessions-my_schedule-event_id]]
-* [[GET /event_speakers/:id|GET-event_speakers-event_speaker_id]]
+* [[GET /event_speakers/:id|GET-event_speakers-id]]
 * [[GET /event_speakers/event/:event_id|GET-event_speakers-event-event_id]]
 * [[GET /event_speakers/event_session/:event_session_id|GET-event_speakers-event_session-event_session_id]]
 * [[GET /event_users/:id|GET-event_users-id]]
@@ -209,16 +209,3 @@ These routes are used internally only:
 * PUT /sync/event_sessions/:client_id
 * PUT /sync/events/:client_id
 * PUT /sync/sponsors/:client_id
-
-<!--
-Deprecated Routes
-* [[DELETE /notifications/:id|DELETE-notifications-id]]
-* [[GET /event_evaluations/event/:event_id|GET-event_evaluations-event-event_id]]
-* [[GET /event_evaluations|GET-event_evaluations]]
-* [[GET /events|GET-events]]
-* [[GET /notifications/user/:user_id|GET-notifications-user-user_id]]
-* [[GET /post_comments/user/:user_id|GET-post_comments-user-id]]
-* [[PATCH /notifications/:id|PATCH-notifications-id]]
-* [[POST /notifications|POST-notifications]]
-* [[PUT /notifications/:id|PUT-notifications-id]]
--->

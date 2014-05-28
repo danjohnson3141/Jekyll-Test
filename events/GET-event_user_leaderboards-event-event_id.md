@@ -1,4 +1,4 @@
-<!-- --- title: GET /event_users/:id -->
+<!-- --- title: GET /event_user_leaderboards/event/:event_id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
