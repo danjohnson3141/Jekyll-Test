@@ -2,7 +2,7 @@
 
 ####App & Navigation
 * [[DELETE /app_settings/:id|DELETE-app_settings-id]]
-* [[GET /app_settings|GET-app_settings-name]]
+* [[GET /app_setting_options/:id|GET-app_setting_options-id]]
 * [[GET /navigation/left|GET-navigation-left]]
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]
 * [[POST /app_settings|POST-app_settings]]
@@ -11,6 +11,7 @@
 * [[GET /app_labels/event/:event_id|GET-app_labels-event-event_id]]
 * [[GET /users/industry_type_options|GET-users-industry_type_options]]
 * [[GET /users/region_options|GET-users-region_options]]
+* [[GET /app_settings|GET-app_settings]]
 
 =
 ####Event Bookmarks

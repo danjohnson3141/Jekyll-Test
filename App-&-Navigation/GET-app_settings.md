@@ -1,4 +1,4 @@
-<!-- --- title: GET user_connections/user/:user_id -->
+<!-- --- title: GET /app_settings -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

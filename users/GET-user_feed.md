@@ -1,4 +1,4 @@
-<!-- --- title: GET /user_feed-->
+<!-- --- title: GET /user_feed -->
 
 This route is a collection of post and notifications that is specific to the active user. This list is procedurally generated based off of a variety of criteria. 
 
