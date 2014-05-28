@@ -1,6 +1,6 @@
 <!-- --- title: DELETE /event_user_schedules/:id -->
 
-Removes the event user schedule record from the database. 
+Removes **one** one event_user_schedule record from the database. The active user is only able to remove records for which they are the creator.
 
 =
 ####Authentication:

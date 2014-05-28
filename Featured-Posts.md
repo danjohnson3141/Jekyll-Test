@@ -1,5 +1,3 @@
-* [[DELETE /featured_posts/:id|DELETE-featured_posts-id]]
 * [[GET /featured_posts/event/:event_id|GET-featured_posts-event-event_id]]
 * [[GET /featured_posts/group/:group_id|GET-featured_posts-group-group_id]]
 * [[GET /featured_posts/user|GET-featured_posts-user]]
-* [[POST /featured_posts|POST-featured_posts]]

@@ -1,6 +1,6 @@
 <!-- --- title: DELETE /event_bookmarks/:id -->
 
-Removes one specific event bookmark for the user.
+Removes **one** one event_bookmark record from the database. The active user is only able to remove records for which they are the creator.
 
 =
 ####Authentication:

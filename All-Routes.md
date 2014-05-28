@@ -1,7 +1,6 @@
 <!-- --- title: List of all routes -->
 
 ####App & Navigation
-* [[GET /app/labels/:page|GET-app-labels-page]]
 * [[GET /app_settings|GET-app_settings-name]]
 * [[GET /navigation/left|GET-navigation-left]]
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]
@@ -11,9 +10,7 @@
 =
 ####Event Bookmarks
 * [[DELETE /event_bookmarks/:id|DELETE-event_bookmarks-id]]
-* [[GET /event_bookmarks/:id|GET-event_bookmarks-id]]
 * [[GET /event_bookmarks/event/:event_id|GET-event_bookmarks-event-event_id]]
-* [[GET /event_bookmarks|GET-event_bookmarks]]
 * [[POST /event_bookmarks|POST-event_bookmarks]]
 
 =
@@ -38,10 +35,8 @@
 ####Events
 * [[DELETE /event_followers/:id|DELETE-event_followers-id]]
 * [[DELETE /event_user_schedules/:id|DELETE-event_user_schedules-id]]
-* [[DELETE /event_users/:event_user_id|DELETE-event_users-event_user_id]]
+* [[DELETE /event_users/:id|DELETE-event_users-id]]
 * [[GET /event_evaluations/:id|GET-event_evaluations-id]]
-* [[GET /event_followers/events/:user_id|GET-event_followers-events-user_id]]
-* [[GET /event_followers/users/:event_id|GET-event_followers-users-event_id]]
 * [[GET /event_session_evaluations/:id|GET-event_session_evaluations-id]]
 * [[GET /event_sessions/:id|GET-event_sessions-id]]
 * [[GET /event_sessions/event/:event_id|GET-event_sessions-event-event_id]]
@@ -63,11 +58,9 @@
 
 =
 ####Featured Posts
-* [[DELETE /featured_posts/:id|DELETE-featured_posts-id]]
 * [[GET /featured_posts/event/:event_id|GET-featured_posts-event-event_id]]
 * [[GET /featured_posts/group/:group_id|GET-featured_posts-group-group_id]]
 * [[GET /featured_posts/user|GET-featured_posts-user]]
-* [[POST /featured_posts|POST-featured_posts]]
 
 =
 ####Groups
@@ -102,7 +95,6 @@
 
 =
 ####Notifications
-* [[GET /notifications/:id|GET-notifications-id]]
 * [[GET /notifications|GET-notifications]]
 * [[PATCH /notifications/:id|PATCH-notifications-id]]
 * [[PUT /notifications/:id|PUT-notifications-id]]
@@ -110,9 +102,7 @@
 =
 ####Post Attachments
 * [[DELETE /post_attachments/:id|DELETE-post_attachments-id]]
-* [[PATCH /post_attachments/:id|PATCH-post_attachments-id]]
 * [[POST /post_attachments|POST-post_attachments]]
-* [[PUT /post_attachments/:id|PUT-post_attachments-id]]
 
 =
 ####Post Comments
@@ -156,7 +146,6 @@
 ####User Connections
 * [[DELETE /user_connections/:id|DELETE-user_connections-id]]
 * [[GET /user_connections/pending|GET-user_connections-pending]]
-* [[GET /users/connections/:user_id|GET-user_connections-user_id]]
 * [[PATCH /user_connections/:id|PATCH-user_connections-user_connection_id]]
 * [[POST /user_connections|POST-user_connections]]
 * [[PUT /user_connections/:id|PUT-user_connections-user_connection_id]]
@@ -167,7 +156,6 @@
 * [[GET /users/locale_options|GET-users-locale_options]]
 * [[GET /user_feed|GET-user_feed]]
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
-* [[GET /users/profile/:id|GET-users-profile-id]]
 * [[GET /users/profile|GET-users-profile]]
 * [[PATCH /users/password|PATCH-users-password]]
 * [[PATCH /users/profile|PATCH-users-profile]]
@@ -182,7 +170,6 @@
 These exist just so that documentation audits don't get tripped up
 
 * GET /app_setting_options/:id
-* GET /options_test
 * GET /users/password/edit
 * GET /users/password/new
 * GET /users/sign_in

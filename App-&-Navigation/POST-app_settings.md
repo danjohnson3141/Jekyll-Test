@@ -1,4 +1,4 @@
-<!-- --- title: POST /featured_posts -->
+<!-- --- title: POST /app_settings -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

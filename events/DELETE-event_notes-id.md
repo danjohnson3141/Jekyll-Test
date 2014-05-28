@@ -1,6 +1,6 @@
 <!-- --- title: DELETE /event_notes/:id -->
 
-Removes one event_notes record for the user.
+Removes **one** event_notes record record from the database. The active user is only able to remove records for which they are the creator.
 
 =
 ####Authentication:

@@ -1,4 +1,4 @@
-<!-- --- title: PATCH /post_attachments/:id -->
+<!-- --- title: PATCH /notifications/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

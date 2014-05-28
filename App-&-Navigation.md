@@ -1,4 +1,3 @@
-* [[GET /app/labels/:page|GET-app-labels-page]]
 * [[GET /app_settings|GET-app_settings-name]]
 * [[GET /navigation/left|GET-navigation-left]]
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]

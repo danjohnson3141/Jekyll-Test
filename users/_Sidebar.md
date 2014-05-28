@@ -8,7 +8,6 @@
 * [[PATCH /users/password|PATCH--users-password]]
 * [[POST /users/password|POST--users-password]]
 * [[PUT /users/password|PUT--users-password]]
-* [[GET /users/profile/:id|GET--users-profile-id]]
 * [[GET /users/profile|GET--users-profile]]
 * [[PATCH /users/profile|PATCH--users-profile]]
 * [[PUT /users/profile|PUT--users-profile]]

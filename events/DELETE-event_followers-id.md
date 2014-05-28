@@ -1,6 +1,6 @@
 <!-- --- title: DELETE /event_followers/:id -->
 
-This is how a user unfollows an events.
+Removes **one** event_follower record from the database. This is how a user unfollows an events. The active user is only able to remove records for which they are the follower, being the creator doesn't matter for this route.
 
 =
 ####Authentication:

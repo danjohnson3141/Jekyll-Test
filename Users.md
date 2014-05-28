@@ -3,7 +3,6 @@
 * [[GET /user_connections/user/:id|GET-user_connections-user_id]]
 * [[GET /users/password/edit|GET-users-password-edit]]
 * [[GET /users/password/new|GET-users-password-new]]
-* [[GET /users/profile/:id|GET-users-profile-id]]
 * [[GET /users/profile|GET-users-profile]]
 * [[GET /users/sign_in|GET-users-sign_in]]
 * [[PATCH /user_connections/:id|PATCH-user_connections-user_connection_id]]

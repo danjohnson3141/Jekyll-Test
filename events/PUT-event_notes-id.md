@@ -1,6 +1,6 @@
 <!-- --- title: PUT /event_notes/:id -->
 
-This allows the active user to edit **one** event_notes record.
+This allows the active user to edit **one** event_notes record. The active user is only able to update records for which they are the creator.
 
 =
 ####Authentication:

@@ -1,6 +1,6 @@
 <!-- --- title: DELETE /event_users/:id -->
 
-This removes an event_users record. Event_users keeps track of event registrations and their status. 
+Removes **one** event_user record record from the database. The active user is only able to remove records for which they are the creator. Functionality of this route may change going forward.
 
 =
 ####Authentication:
