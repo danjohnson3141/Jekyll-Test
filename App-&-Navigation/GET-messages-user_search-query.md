@@ -1,4 +1,4 @@
-<!-- --- title: GET /posts/similar/:post_id -->
+<!-- --- title: GET /messages/user_search/:query -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

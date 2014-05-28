@@ -1,4 +1,4 @@
-<!-- --- title: GET /search/content -->
+<!-- --- title: GET /posts/sponsor/:sponsor_id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

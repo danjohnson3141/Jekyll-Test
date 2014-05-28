@@ -1,4 +1,4 @@
-<!-- --- title: GET /messages/user_search/:query -->
+<!-- --- title: GET app_labels/event/:event_id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
