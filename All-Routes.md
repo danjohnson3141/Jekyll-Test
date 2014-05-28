@@ -167,13 +167,31 @@
 
 =
 ####Routes that exist, but not really
-These exist just so that documentation audits don't get tripped up
+These exist just so that documentation audits don't get tripped up:
 
 * GET /app_setting_options/:id
 * GET /users/password/edit
 * GET /users/password/new
 * GET /users/sign_in
 * OPTIONS /*path
+
+These routes are used internally only:
+
+* DELETE /sync/event_sessions/:client_id
+* DELETE /sync/events/:client_id
+* DELETE /sync/sponsors/:client_id
+* GET /sync/event_sessions/:client_id
+* GET /sync/events/:client_id
+* GET /sync/sponsors/:client_id
+* PATCH /sync/event_sessions/:client_id
+* PATCH /sync/events/:client_id
+* PATCH /sync/sponsors/:client_id
+* POST /sync/event_sessions
+* POST /sync/events
+* POST /sync/sponsors
+* PUT /sync/event_sessions/:client_id
+* PUT /sync/events/:client_id
+* PUT /sync/sponsors/:client_id
 
 <!--
 Deprecated Routes
