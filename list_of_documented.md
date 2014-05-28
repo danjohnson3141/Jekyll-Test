@@ -13,6 +13,9 @@ DELETE /post_comments/:id
 DELETE /post_followers/:id
 DELETE /post_likes/:id
 DELETE /posts/:id
+DELETE /sync/event_sessions/:client_id
+DELETE /sync/events/:client_id
+DELETE /sync/sponsors/:client_id
 DELETE /user_connections/:id
 DELETE /users/sign_out
 GET /app_setting_options/:id
@@ -71,6 +74,9 @@ GET /sponsors/:id
 GET /sponsors/app
 GET /sponsors/event
 GET /sponsors/group
+GET /sync/event_sessions/:client_id
+GET /sync/events/:client_id
+GET /sync/sponsors/:client_id
 GET /user_connections/pending
 GET /user_feed
 GET /users/locale_options
@@ -87,6 +93,9 @@ PATCH /groups/:id
 PATCH /notifications/:id
 PATCH /post_comments/:id
 PATCH /posts/:id
+PATCH /sync/event_sessions/:client_id
+PATCH /sync/events/:client_id
+PATCH /sync/sponsors/:client_id
 PATCH /user_connections/:id
 PATCH /users/password
 PATCH /users/profile
@@ -107,6 +116,9 @@ POST /post_comments
 POST /post_followers
 POST /post_likes
 POST /posts
+POST /sync/event_sessions
+POST /sync/events
+POST /sync/sponsors
 POST /user_connections
 POST /users/password
 POST /users/sign_in
@@ -116,6 +128,9 @@ PUT /groups/:id
 PUT /notifications/:id
 PUT /post_comments/:id
 PUT /posts/:id
+PUT /sync/event_sessions/:client_id
+PUT /sync/events/:client_id
+PUT /sync/sponsors/:client_id
 PUT /user_connections/:id
 PUT /users/password
 PUT /users/profile

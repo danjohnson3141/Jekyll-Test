@@ -1,4 +1,4 @@
-<!-- --- title: GET /post_followers/users/:post_id -->
+<!-- --- title: GET /post_followers/posts/:user_id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

@@ -1,11 +1,16 @@
 <!-- --- title: List of all routes -->
 
 ####App & Navigation
+* [[DELETE /app_settings/:id|DELETE-app_settings-id]]
 * [[GET /app_settings|GET-app_settings-name]]
 * [[GET /navigation/left|GET-navigation-left]]
 * [[GET /navigation/right/:event_id|GET-navigation-right-event_id]]
 * [[POST /app_settings|POST-app_settings]]
 * [[POST /app_supports|POST-app_supports]]
+* [[GET /app_labels/app|GET-app_labels-app]]
+* [[GET /app_labels/event/:event_id|GET-app_labels-event-event_id]]
+* [[GET /users/industry_type_options|GET-users-industry_type_options]]
+* [[GET /users/region_options|GET-users-region_options]]
 
 =
 ####Event Bookmarks
@@ -92,6 +97,7 @@
 * [[GET /messages/conversation/:user_id|GET-messages-conversation-user_id]]
 * [[GET /messages|GET-messages]]
 * [[POST /messages|POST-messages]]
+* [[GET /messages/user_search/:query|GET-messages-user_search-query]]
 
 =
 ####Notifications
@@ -133,6 +139,14 @@
 * [[PATCH /posts/:id|PATCH-posts-post_id]]
 * [[POST /posts|POST-posts]]
 * [[PUT /posts/:id|PUT-posts-post_id]]
+* [[GET /posts/similar/:post_id|GET-posts-similar-post_id]]
+* [[GET /posts/sponsor/:sponsor_id|GET-posts-sponsor-sponsor_id]]
+
+=
+####Search
+* [[GET /search/content|GET-search-content]]
+* [[GET /search/event_groups|GET-search-event_groups]]
+* [[GET /search/users|GET-search-users]]
 
 =
 ####Sponsors
@@ -141,6 +155,7 @@
 * [[GET /sponsors/event|GET-sponsors-event]]
 * [[GET /sponsors/group|GET-sponsors-group]]
 * [[GET /sponsors|GET-sponsors]]
+* [[GET /sponsors/homepage|GET-sponsors-homepage]]
 
 =
 ####User Connections
@@ -149,6 +164,7 @@
 * [[PATCH /user_connections/:id|PATCH-user_connections-user_connection_id]]
 * [[POST /user_connections|POST-user_connections]]
 * [[PUT /user_connections/:id|PUT-user_connections-user_connection_id]]
+* [[GET /user_connections/user/:user_id|GET-user_connections-user-user_id]]
 
 =
 ####Users
@@ -164,6 +180,7 @@
 * [[PUT /users/password|PUT-users-password]]
 * [[PUT /users/profile|PUT-users-profile]]
 * [[GET /users/post_options|GET-users-post_options]]
+* [[GET /users/profile/:user_id|GET-users-profile-user_id]]
 
 =
 ####Routes that exist, but not really

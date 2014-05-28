@@ -1,4 +1,4 @@
-<!-- --- title: PATCH /notifications/:id -->
+<!-- --- title: GET /users/settings -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

@@ -1,4 +1,4 @@
-<!-- --- title: POST /post_followers -->
+<!-- --- title: POST /post_attachments -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

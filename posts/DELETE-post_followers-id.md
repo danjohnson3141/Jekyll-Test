@@ -1,4 +1,4 @@
-<!-- --- title: GET /event_council_members/event/:event_id -->
+<!-- --- title: DELETE /post_followers/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

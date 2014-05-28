@@ -1,4 +1,4 @@
-<!-- --- title: DELETE /post_followers/:id -->
+<!-- --- title: DELETE /post_attachments/:id -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 

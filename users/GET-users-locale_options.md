@@ -1,4 +1,4 @@
-<!-- --- title: GET /users/settings -->
+<!-- --- title: GET /users/locale_options -->
 
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
