@@ -10,7 +10,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; default only
 
 =
 ####Response:
@@ -26,9 +26,11 @@ http://example.com/users/locale_options
 =
 ####JSON response example:
 
+returns an array of app_language objects
+
 [[include:/json/JSON_GET_users_locale_options]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/app_language]]

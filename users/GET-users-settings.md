@@ -1,27 +1,34 @@
 <!-- --- title: GET /users/settings -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns a list of user modifiable settings for the app. This is broken up into two types, `Preferences` and `Privacy` those can then be subdivided based on the category.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+None; default ony.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/users/settings
 ```
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_users_settings]]
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/app_setting_option_user]]

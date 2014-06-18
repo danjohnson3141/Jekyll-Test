@@ -1,17 +1,16 @@
 <!-- --- title: GET /users/region_options -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns a list of of regions available for the user to select from. This is then displayed on the user's profile.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+None; default only
 
 =
 ####Response:
@@ -21,27 +20,17 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/users/region_options
 ```
-
-=
-####Post data example:
-```
-{ Example: 
-	{Test: Boolean} }
-```
- 
-=
-###Post data detail:
-
-[[include:/post_data/EXAMPLE]]
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+returns an array of region objects
+
+[[include:/json/JSON_GET_users_region_options]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/region]]

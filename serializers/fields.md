@@ -16,6 +16,7 @@ city, The city in which the event is happening, string
 connection_status, Info on connection status between this and active user, object; UserConnectionShort
 country, Info on the country this event is happening in, object; Country
 description, The description of this group, string
+description, Verbose name of locale; used externally, string
 email, The email address of this user; should only show if this is active user profile, string
 end_date, The day that the event ends; yyyy-mm-dd, string
 event, Info on the event, object; Event
@@ -54,9 +55,13 @@ is_content_visible, Whether posts are visibile, boolean
 is_group_visible, Whether the group can be seen, boolean
 is_memberlist_visible, Whether the member list can be seen, boolean
 is_viewed, Whether the active user has previously viewed this, boolean
+key, The reference used by the app to associate this text with the on page element, string
+label, The actual text displayed by the app, string
+label_plural, Plural of the label; if neccesary, string
 last_name, "The user's last name", string
 name, The name of this event, string
 name, The name of this group, string
+name, The named used internally; usually two characters, string
 organization_name, "The organization the user is associated with", string
 owner, Info about the group owner, object; UserShort
 owner_user_id, The user ID of the user who owns this group, integer
@@ -76,8 +81,8 @@ title, "The user's title", string
 user, Info on the user, object; User
 user, Info on the user, object; UserMicro
 user, Info on the user, object; UserNano
-user, Info on the user, object; UserTiny
 user, Info on the user, object; UserShort
+user, Info on the user, object; UserTiny
 user_connection, Info on the connection between active user and other user, object; UserConnectionShort
 user_connection_count, How many connections (visible to the active user) this user has created, integer
 user_connections_blocked, Whether the active user can connect with this user, boolean
@@ -85,6 +90,4 @@ user_profile, "Whether the user has a profile, usually used for speakers who don
 user_role_id, "The ID of this user's role", integer
 user_today_event, Whether the event is happening today, boolean
 venue_name, The name of the location where the event is happening, string
-key, The reference used by the app to associate this text with the on page element, string
-label, The actual text displayed by the app, string
-label_plural, Plural of the label; if neccesary, string
+name, The name of this region, string
