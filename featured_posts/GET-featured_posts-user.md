@@ -20,7 +20,7 @@ suffix: '?limit=X'
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/featured_posts/user?limit=5
+http://example.com/featured_posts/user?limit=5
 ```
 
 =

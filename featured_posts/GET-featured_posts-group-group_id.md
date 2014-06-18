@@ -24,7 +24,7 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/group_featured_posts/764
+http://example.com/group_featured_posts/764
 ```
 
 =

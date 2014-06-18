@@ -35,7 +35,7 @@ None; default only.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/user_feed
+http://example.com/user_feed
 ```
 
 =

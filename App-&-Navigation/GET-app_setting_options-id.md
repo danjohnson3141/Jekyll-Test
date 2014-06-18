@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/app_setting_options/text
+http://example.com/app_setting_options/text
 ```
 
 =

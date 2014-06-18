@@ -1,12 +1,11 @@
 <!-- --- title: GET /users/locale_options -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns a list of possible language preferences for the active user to select from while editing their profile. This will affect the labels being passed in through the API and at some point will also affect how numbers, dates and times are displayed. However, much of this functionality is still in development.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
@@ -14,14 +13,22 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```html
-http://stage-api-access.evant.com/ROUTE_NAME
+http://example.com/users/locale_options
 ```
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_users_locale_options]]
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]

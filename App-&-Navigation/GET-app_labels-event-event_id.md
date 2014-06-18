@@ -1,17 +1,17 @@
 <!-- --- title: GET /app_labels/event/:event_id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns a list of labels specific to an event. 
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:event_id - Integer, passed in through the URL. Is derived from the 'id' field of the 'events' table.
+
 
 =
 ####Response:
@@ -21,27 +21,15 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/ROUTE_NAME
+http://example.com/app_labels/event/4
 ```
-
-=
-####Post data example:
-```
-{ Example: 
-	{Test: Boolean} }
-```
- 
-=
-###Post data detail:
-
-[[include:/post_data/EXAMPLE]]
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_app_labels_event_event_id]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/app_label]]

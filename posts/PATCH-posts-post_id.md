@@ -25,7 +25,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####JSON request example
 ```
-http://stage-api-access.evant.com/posts/234
+http://example.com/posts/234
 ```
 
 =

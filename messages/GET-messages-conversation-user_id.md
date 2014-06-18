@@ -20,7 +20,7 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/messages/conversation/18655
+http://example.com/messages/conversation/18655
 ```
 
 =

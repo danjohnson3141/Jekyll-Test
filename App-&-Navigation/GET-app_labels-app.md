@@ -1,17 +1,16 @@
 <!-- --- title: GET /app_labels/app -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route returns a list of all the text that will be used by the app. The text being returned can be affected the the language settings of the user.
 
 =
 ####Authentication:
 
-Declare what authentications are required
 Good sample text: The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+none; default only
 
 =
 ####Response:
@@ -21,27 +20,15 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/ROUTE_NAME
-```
-
-=
-####Post data example:
-```
-{ Example: 
-	{Test: Boolean} }
+http://example.com/app_labels/app
 ```
  
 =
-###Post data detail:
-
-[[include:/post_data/EXAMPLE]]
-
-=
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_app_labels_app]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/app_label]]

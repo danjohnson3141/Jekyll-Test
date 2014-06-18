@@ -17,7 +17,7 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/ROUTE_NAME
+http://example.com/ROUTE_NAME
 ```
 
 =

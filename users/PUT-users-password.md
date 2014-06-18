@@ -19,7 +19,7 @@ The active user does not need to be logged in for this route to work.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/users/password
+http://example.com/users/password
 ```
 
 =

@@ -16,7 +16,7 @@ This route has no parameters and returns its content based on the users's intern
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/navigation/left
+http://example.com/navigation/left
 ```
 =
 ####JSON response example:

@@ -15,7 +15,7 @@ None; default only.
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/sponsors/event
+http://example.com/sponsors/event
 ```
 
 =

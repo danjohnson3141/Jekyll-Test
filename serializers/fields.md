@@ -85,3 +85,6 @@ user_profile, "Whether the user has a profile, usually used for speakers who don
 user_role_id, "The ID of this user's role", integer
 user_today_event, Whether the event is happening today, boolean
 venue_name, The name of the location where the event is happening, string
+key, The reference used by the app to associate this text with the on page element, string
+label, The actual text displayed by the app, string
+label_plural, Plural of the label; if neccesary, string

@@ -15,7 +15,7 @@ none; defaults only
 =
 ####API request example:
 ```html
-http://stage-api-access.evant.com/users/sign_out
+http://example.com/users/sign_out
 ```
 
 =
