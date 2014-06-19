@@ -26,7 +26,7 @@ http://example.com/users/profile
 =
 ####JSON response example:
 
-[[include:/json/users/profile]]
+[[include:/json/users_profile]]
 
 =
 ####Response Data Detail:

@@ -174,6 +174,7 @@
 * [[GET /user_feed|GET-user_feed]]
 * [[DELETE /users/sign_out|DELETE-users-sign_out]]
 * [[GET /users/profile|GET-users-profile]]
+* [[GET /users/profile/:user_id|GET-users-profile-user_id]]
 * [[PATCH /users/password|PATCH-users-password]]
 * [[PATCH /users/profile|PATCH-users-profile]]
 * [[POST /users/password|POST-users-password]]
