@@ -2,6 +2,7 @@
 
 ####URL Parameters
 
+* (app_setting_option) :id - Integer, passed in the URL. Is derived from the 'id' field on the the 'app_setting_option' table.
 * (event_bookmarks) :id - Integer, passed in the URL. Is derived from the 'id' field on the the 'event_bookmarks' table.
 * (event_notes) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_notes' table.
 * (event_user_schedules) :id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_user_schedules' table.

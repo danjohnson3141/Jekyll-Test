@@ -1,6 +1,6 @@
 <!-- --- title: GET /app_setting_options/:id -->
 
-This returns the true or false value for one specifc application setting. Application settings are referenced by a
+Returns information on specific app_setting options, most specifically any dependencies that app_setting may have. This is a development tool and isn't actually part of the app itself.
 
 =
 ####Authentication:
@@ -10,7 +10,12 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-:name - Varchar, passed in through the URL.
+:id (app_setting_option) - Integer, passed in the URL. Is derived from the 'id' field on the the 'app_setting_option' table.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:
@@ -21,13 +26,9 @@ http://example.com/app_setting_options/text
 =
 ####JSON response example:
 
-```json
-{"json_example"=>
-  [{"id"=>123,
-    "field1"=>"Text",
-    "field2"=>nil
-  }]
-}
-```
+[[include:/json/JSON_GET_app_setting_options_id]]
 
-This requests provides a <strong>HTML 200</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]
