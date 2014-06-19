@@ -61,6 +61,7 @@ label_plural, Plural of the label; if neccesary, string
 last_name, "The user's last name", string
 name, The name of this event, string
 name, The name of this group, string
+name, The name of this region, string
 name, The named used internally; usually two characters, string
 organization_name, "The organization the user is associated with", string
 owner, Info about the group owner, object; UserShort
@@ -90,4 +91,3 @@ user_profile, "Whether the user has a profile, usually used for speakers who don
 user_role_id, "The ID of this user's role", integer
 user_today_event, Whether the event is happening today, boolean
 venue_name, The name of the location where the event is happening, string
-name, The name of this region, string

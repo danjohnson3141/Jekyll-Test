@@ -1,6 +1,6 @@
 <!-- --- title: GET /users/profile -->
 
-Returns the active user's profile.
+Returns the active user's profile. Not to be confused with the /users/profile/:user_id route.
 
 =
 ####Authentication:
@@ -26,9 +26,9 @@ http://example.com/users/profile
 =
 ####JSON response example:
 
-[[include:/json//users/profile]]
+[[include:/json/users/profile]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/user]]

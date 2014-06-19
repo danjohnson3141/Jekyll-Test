@@ -22,3 +22,5 @@
 | event_notes              | Any event notes that the active user may have created for this user                    | array; EventNoteShort       |
 | groups                   | The groups (visible to the active user) that this user belongs to                      | array; GroupTiny            |
 | attended_events          | The events (visible to the active user) that this user has attended                    | array; AttendedEvent        |
+| industry_type | The type of business industry this profile is associated with | string |
+| region | The geographic area this profile is associated with; not neccessarily a city or state | string |
