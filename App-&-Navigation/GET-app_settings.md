@@ -1,6 +1,10 @@
 <!-- --- title: GET /app_settings -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route returns a boolean value on the current status of an app setting as it relates to the active user. The app_settings route is the odd duck of this project. There are a number of different text parameters that can be passed in, and some of those text parameters can then be further modified by appending those text paramters with either group_ids or event_ids. The ability to do this is not indicated anywhere.
+
+It is possible to pass in more than one app setting parameter at a time.
+
+
 
 =
 ####Authentication:
@@ -16,32 +20,11 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####Response:
 
-This requests provides a <strong>HTML 200</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/app_settings
 ```
 
-=
-####Post data example:
-```
-{ Example: 
-	{Test: Boolean} }
-```
- 
-=
-###Post data detail:
-
-[[include:/post_data/EXAMPLE]]
-
-=
-####JSON response example:
-
-[[include:/json/JSON_NEEDS_EXAMPLE]]
-
-=
-####Response Data Detail:
-
-[[include:/serializers/EXAMPLE]]

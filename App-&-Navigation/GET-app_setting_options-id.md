@@ -1,16 +1,17 @@
 <!-- --- title: GET /app_setting_options/:id -->
 
-Returns information on specific app_setting options, most specifically any dependencies that app_setting may have. This is a development tool and isn't actually part of the app itself.
+PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
 ####Authentication:
 
-The user needs to be logged in and have valid credentials to use this route.
+Declare what authentications are required
+Good sample text: The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-:id (app_setting_option) - Integer, passed in the URL. Is derived from the 'id' field on the the 'app_setting_option' table.
+LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
 ####Response:
@@ -20,15 +21,25 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://example.com/app_setting_options/text
+http://example.com/ROUTE_NAME
 ```
+
+=
+####Post data example:
+```
+{ Example: 
+	{Test: Boolean} }
+```
+ 
+=
+###Post data detail:
+
+[[include:/post_data/EXAMPLE]]
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_GET_app_setting_options_id]]
+[[include:/json/JSON_NEEDS_EXAMPLE]]
 
 =
 ####Response Data Detail:
-
-[[include:/serializers/EXAMPLE]]

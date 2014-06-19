@@ -16,12 +16,12 @@ LIST OF ALL PARAMETERS AND WHAT THEY ARE
 =
 ####Response:
 
-This requests provides a <strong>HTML 201</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:
 ```html
-http://example.com/app_settings
+http://example.com/ROUTE_NAME
 ```
 
 =
