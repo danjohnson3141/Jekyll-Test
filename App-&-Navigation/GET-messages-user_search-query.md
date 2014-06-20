@@ -26,7 +26,7 @@ http://example.com/messages/user_search/b
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_messages_user_search_query]]
 
 =
 ####Response Data Detail:
