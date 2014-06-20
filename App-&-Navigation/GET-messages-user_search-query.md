@@ -1,17 +1,16 @@
 <!-- --- title: GET /messages/user_search/:query -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This is route to search for other users that the active user are able to message. The actual functionality of the search function is still under development, but the general methodology of this route should remain fairly static.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:query, simple text passed in
 
 =
 ####Response:
@@ -21,20 +20,8 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/messages/user_search/b
 ```
-
-=
-####Post data example:
-```
-{ Example: 
-	{Test: Boolean} }
-```
- 
-=
-###Post data detail:
-
-[[include:/post_data/EXAMPLE]]
 
 =
 ####JSON response example:
@@ -44,4 +31,4 @@ http://example.com/ROUTE_NAME
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/user_nano]]
