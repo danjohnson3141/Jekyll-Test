@@ -4,6 +4,7 @@ This route returns a boolean value on the current status of an app setting as it
 
 It is possible to pass in more than one app_setting parameter at a time. Each app_setting can only have one additional parameter (event or group) passed in. The app_settings should be seperated by an ampersand '&'.
 
+This is a very confusing and complex route. If you have **any** questions, please feel free to contact the development team.
 
 =
 ####Authentication:
@@ -34,8 +35,15 @@ http://example.com/app_settings/?names[]=support_link&names[]=send_messages&name
 ```
 
 =
+####JSON response example:
+
+This route doesn't actually return well-formed JSON.
+
+[[include:/json/JSON_NEEDS_EXAMPLE]]
+
+=
 ####List of app_setting keys:
 
-Some of these keys appear twice in the list, with and without an additional parameter. If that key is passed in without a paramter, it will return a value from the application level. If passed in with the parameter, it will be specifically for inside of that group or event.
+Some of these key require that a key is passed in without an additional paramter, either an event ID or a group ID. 
 
 [[include:/post_data/app_settings_parameters]]
