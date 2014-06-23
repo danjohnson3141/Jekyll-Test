@@ -26,6 +26,8 @@ http://example.com/messages/user_search/b
 =
 ####JSON response example:
 
+returns an array of user_nano objects
+
 [[include:/json/JSON_GET_messages_user_search_query]]
 
 =

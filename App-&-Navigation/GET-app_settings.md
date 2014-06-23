@@ -13,12 +13,16 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+| name | description | type |
+-----------------------------
+| :group_id | Is derived from the 'id' field on the 'groups' table. | integer
+| :event_id | Is derived from the 'id' field on the 'events' table. | integer
+| app_setting_key| A string key passed in that references an app_setting | string
 
 =
 ####Response:
 
-This requests provides a <strong>HTML 201</strong> on success.
+This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:
@@ -26,3 +30,7 @@ This requests provides a <strong>HTML 201</strong> on success.
 http://example.com/app_settings
 ```
 
+=
+####List of app_setting keys:
+
+[[include:/post_data/app_settings_parameters]]
