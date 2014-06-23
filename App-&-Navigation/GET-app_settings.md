@@ -14,7 +14,7 @@ The user needs to be logged in and have valid credentials to use this route.
 ####Parameters:
 
 | name | description | type |
------------------------------
+-------|-------------|---------
 | :group_id | Is derived from the 'id' field on the 'groups' table. | integer
 | :event_id | Is derived from the 'id' field on the 'events' table. | integer
 | app_setting_key| A string key passed in that references an app_setting | string
