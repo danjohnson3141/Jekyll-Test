@@ -91,3 +91,6 @@ user_profile, "Whether the user has a profile, usually used for speakers who don
 user_role_id, "The ID of this user's role", integer
 user_today_event, Whether the event is happening today, boolean
 venue_name, The name of the location where the event is happening, string
+client_id, A reference key to an external record, string
+display_rank, Allows for arbitrary sorting of results, integer
+event_council, Info on the event_council, object; EventCouncil
