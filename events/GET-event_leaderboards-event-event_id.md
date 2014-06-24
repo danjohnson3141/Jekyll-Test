@@ -31,4 +31,4 @@ http://example.com/event_leaderboards/event/4
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/event_leaderboard]]
