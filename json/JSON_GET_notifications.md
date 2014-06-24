@@ -2,124 +2,138 @@
 {
     "notifications": [
         {
-            "ago": "7h",
-            "body": "Evanta Access wants to connect with you.",
+            "ago": "5d",
+            "body": "Ryan Pyeatt commented on a post you're following.",
             "event": null,
             "group_id": null,
             "group_invite_id": null,
             "group_request_id": null,
-            "id": 116,
+            "id": 248,
             "is_viewed": false,
-            "post_id": null,
+            "post_id": 83,
             "user": {
-                "first_name": "Evanta",
-                "id": 1,
-                "last_name": "Access",
+                "first_name": "Ryan",
+                "id": 13,
+                "last_name": "Pyeatt",
                 "moderator": false,
                 "organization_name": "Evanta",
-                "photo": null,
-                "title": "Administrator",
-                "user_profile": null
-            },
-            "user_connection": {
-                "id": 6,
-                "is_approved": true,
-                "is_approver": true
-            }
-        },
-        {
-            "ago": "7h",
-            "body": "Michael Irey wants to connect with you.",
-            "event": null,
-            "group_id": null,
-            "group_invite_id": null,
-            "group_request_id": null,
-            "id": 122,
-            "is_viewed": false,
-            "post_id": null,
-            "user": {
-                "first_name": "Michael",
-                "id": 2,
-                "last_name": "Irey",
-                "moderator": false,
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Software Engineer",
-                "user_profile": null
-            },
-            "user_connection": {
-                "id": 12,
-                "is_approved": false,
-                "is_approver": true
-            }
-        },
-        {
-            "ago": "7h",
-            "body": "Dan Johnson wants to connect with you.",
-            "event": null,
-            "group_id": null,
-            "group_invite_id": null,
-            "group_request_id": null,
-            "id": 127,
-            "is_viewed": false,
-            "post_id": null,
-            "user": {
-                "first_name": "Dan",
-                "id": 3,
-                "last_name": "Johnson",
-                "moderator": false,
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Web Developer",
-                "user_profile": null
-            },
-            "user_connection": {
-                "id": 17,
-                "is_approved": false,
-                "is_approver": true
-            }
-        },
-        {
-            "ago": "2d",
-            "body": "Webster Batz liked your post.",
-            "event": null,
-            "group_id": null,
-            "group_invite_id": null,
-            "group_request_id": null,
-            "id": 198,
-            "is_viewed": false,
-            "post_id": 32,
-            "user": {
-                "first_name": "Webster",
-                "id": 28,
-                "last_name": "Batz",
-                "moderator": false,
-                "organization_name": "Rohan, Padberg and Christiansen",
-                "photo": null,
-                "title": "Investor Functionality Facilitator of Books",
-                "user_profile": null
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                "title": "VP, IT",
+                "user_profile": true
             },
             "user_connection": null
         },
         {
             "ago": "5d",
-            "body": "Ashleigh Stamm liked your post.",
+            "body": "Ryan Pyeatt commented on a post you're following.",
             "event": null,
             "group_id": null,
             "group_invite_id": null,
             "group_request_id": null,
-            "id": 170,
+            "id": 247,
             "is_viewed": false,
-            "post_id": 55,
+            "post_id": 83,
             "user": {
-                "first_name": "Ashleigh",
-                "id": 37,
-                "last_name": "Stamm",
+                "first_name": "Ryan",
+                "id": 13,
+                "last_name": "Pyeatt",
                 "moderator": false,
-                "organization_name": "Feest Group",
-                "photo": null,
-                "title": "Investor Metrics Specialist of Electronics & Computers",
-                "user_profile": null
+                "organization_name": "Evanta",
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                "title": "VP, IT",
+                "user_profile": true
+            },
+            "user_connection": null
+        },
+        {
+            "ago": "6d",
+            "body": "Ryan Pyeatt has requested to join your group \"111\".",
+            "event": null,
+            "group_id": 13,
+            "group_invite_id": null,
+            "group_request_id": 14,
+            "id": 246,
+            "is_viewed": false,
+            "post_id": null,
+            "user": {
+                "first_name": "Ryan",
+                "id": 13,
+                "last_name": "Pyeatt",
+                "moderator": false,
+                "organization_name": "Evanta",
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                "title": "VP, IT",
+                "user_profile": true
+            },
+            "user_connection": null
+        },
+        {
+            "ago": "6d",
+            "body": "Ryan Pyeatt has requested to join your group \"documentation purposes\".",
+            "event": null,
+            "group_id": 12,
+            "group_invite_id": null,
+            "group_request_id": 12,
+            "id": 244,
+            "is_viewed": false,
+            "post_id": null,
+            "user": {
+                "first_name": "Ryan",
+                "id": 13,
+                "last_name": "Pyeatt",
+                "moderator": false,
+                "organization_name": "Evanta",
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                "title": "VP, IT",
+                "user_profile": true
+            },
+            "user_connection": null
+        },
+        {
+            "ago": "7d",
+            "body": "Ryan Pyeatt wants to connect with you.",
+            "event": null,
+            "group_id": null,
+            "group_invite_id": null,
+            "group_request_id": null,
+            "id": 242,
+            "is_viewed": false,
+            "post_id": null,
+            "user": {
+                "first_name": "Ryan",
+                "id": 13,
+                "last_name": "Pyeatt",
+                "moderator": false,
+                "organization_name": "Evanta",
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                "title": "VP, IT",
+                "user_profile": true
+            },
+            "user_connection": {
+                "id": 41,
+                "is_approved": false,
+                "is_approver": true
+            }
+        },
+        {
+            "ago": "18d",
+            "body": "You've been invited to join Security through Obscurity.",
+            "event": null,
+            "group_id": 3,
+            "group_invite_id": 33,
+            "group_request_id": null,
+            "id": 76,
+            "is_viewed": false,
+            "post_id": null,
+            "user": {
+                "first_name": "Brittany",
+                "id": 14,
+                "last_name": "Budil",
+                "moderator": false,
+                "organization_name": "Evanta",
+                "photo": "https://assets.evanta.com/shared/resources/Users/square/115436.jpg",
+                "title": "IT Project Manager",
+                "user_profile": true
             },
             "user_connection": null
         }

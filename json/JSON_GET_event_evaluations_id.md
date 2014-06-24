@@ -3,12 +3,12 @@
     "event_evaluation": {
         "display_rank": null,
         "event": {
-            "id": 2,
-            "name": "2014 Minneapolis CISO Executive Summit"
+            "id": 4,
+            "name": "2014 Chicago CFO Executive Summit"
         },
         "id": 1,
-        "name": "Take survey for 2014 Minneapolis CISO Executive Summit",
-        "survey_link": "https://www.surveygizmo.com/event2"
+        "name": "Minneapolis CIO Event Evaluation",
+        "survey_link": "https://www.surveygizmo.com/s3/1671049/Minneapolis-CIO-Executive-Summit-Evaluation-2014"
     }
 }
 ```

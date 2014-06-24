@@ -2,77 +2,82 @@
 {
     "post_followers": [
         {
-            "id": 44,
+            "id": 27,
             "post": {
-                "ago": "2d",
+                "ago": "11d",
                 "authors": [
                     {
-                        "first_name": "Daisha",
-                        "id": 33,
-                        "last_name": "Schaden",
+                        "first_name": "Graham",
+                        "id": 28,
+                        "last_name": "Baas",
                         "moderator": false,
-                        "organization_name": "Witting-Hoppe",
-                        "photo": null,
-                        "title": "Product Interactions Administrator of Electronics & Computers",
-                        "user_profile": null
-                    },
-                    {
-                        "first_name": "Speaker",
-                        "id": 12,
-                        "last_name": "User Needed",
-                        "moderator": false,
-                        "organization_name": "Placeholding",
-                        "photo": null,
-                        "title": "Placeholding",
-                        "user_profile": null
+                        "organization_name": null,
+                        "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                        "title": null,
+                        "user_profile": true
                     }
                 ],
                 "can_like": true,
                 "comment_count": 0,
                 "event": {
-                    "id": 2,
-                    "name": "2014 Minneapolis CISO Executive Summit"
+                    "id": 4,
+                    "name": "2014 Chicago CFO Executive Summit"
                 },
                 "excerpt": null,
-                "generated_excerpt": "Visualize rich models. Redefine impactful metrics. Reinvent user-centric architectures. Transition compelling portals. \n\nDeliver b2b schemas. Innovate magnetic channels. Utilize front-end infrastructu",
+                "generated_excerpt": "",
                 "group": null,
-                "id": 80,
+                "id": 111,
                 "like_count": 0,
                 "post_attachments": [],
                 "post_like_id": null,
+                "publish_date": null,
                 "show_likes_count": true,
                 "show_post_likes_list": true,
-                "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/25227c/ffffff/&text=Palo Alto Networks,+Event:+2,+Banner:+43",
-                            "id": 43,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/434eca/ffffff/&text=Palo Alto Networks,+Event:+2,+Banner:+44",
-                            "id": 44,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
-                    "description": "<p>Palo Alto Networks is leading a new era in cybersecurity by protecting thousands of enterprise, government, and service provider networks from cyber threats. Because of our deep expertise, steadfast commitment to innovation and game-changing next-generation security platform, more than 13,500 customers have chosen Palo Alto Networks and this number grows every day. Our platform natively brings together all key network security functions, including firewall, URL filtering, IDS/IPS, and advanced threat protection. Because these functions are purposely built into the platform from the ground up and they natively share important information across the respective disciplines, we ensure better security than legacy products. As a result, organizations can safely enable the use of all applications critical to running their business, maintain complete visibility and control, confidently pursue new technology initiatives like cloud, SDN and mobility, and protect the organization from the most basic to multi-faceted and complicated cyber attacks &mdash; known and unknown.</p>",
-                    "id": 22,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16196.jpg",
-                    "name": "Palo Alto Networks",
-                    "splash_sponsor": false,
-                    "sponsor_type": {
-                        "description": "Multi-lateral discrete forecast",
-                        "display_rank": 40,
-                        "id": 5,
-                        "name": "Presenting Sponsor"
-                    },
-                    "url": "www.paloaltonetworks.com"
-                },
-                "thumbnail_teaser_photo": "http://lorempixel.com/320/420",
+                "sponsor": null,
+                "thumbnail_teaser_photo": null,
                 "title": null,
-                "view_count": 2
+                "view_count": 15
             },
-            "user_id": 1
+            "user_id": 28
+        },
+        {
+            "id": 28,
+            "post": {
+                "ago": "14d",
+                "authors": [
+                    {
+                        "first_name": "Ryan",
+                        "id": 13,
+                        "last_name": "Pyeatt",
+                        "moderator": false,
+                        "organization_name": "Evanta",
+                        "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                        "title": "VP, IT",
+                        "user_profile": true
+                    }
+                ],
+                "can_like": true,
+                "comment_count": 0,
+                "event": {
+                    "id": 4,
+                    "name": "2014 Chicago CFO Executive Summit"
+                },
+                "excerpt": null,
+                "generated_excerpt": "Just a reminder to everyone to be sure to fill out your session and event evaluations by the end of the day for a chance to be entered for a prize!",
+                "group": null,
+                "id": 83,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": 56,
+                "publish_date": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": null,
+                "thumbnail_teaser_photo": null,
+                "title": "Please fill out your session evaluations",
+                "view_count": 38
+            },
+            "user_id": 28
         }
     ]
 }

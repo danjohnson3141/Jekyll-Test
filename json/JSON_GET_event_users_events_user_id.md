@@ -3,89 +3,85 @@
     "event_users": [
         {
             "event": {
-                "address": "",
-                "begin_date": "2014-06-24",
-                "city": "Minneapolis",
+                "address": null,
+                "begin_date": "2014-06-11",
+                "city": null,
                 "country": {
                     "abbreviation": "USA",
                     "name": "United States of America"
                 },
-                "end_date": "2014-06-24",
+                "end_date": "2014-10-28",
                 "event_follower_id": null,
                 "group": {
-                    "description": "HR Group. Exploit virtual web-readiness. Exploit real-time schemas. Disintermediate bricks-and-clicks e-business. Generate plug-and-play e-markets. ",
+                    "description": "This will have the test event(s) attached to keep all of our test data in a separate sandbox from the prod users.",
                     "group_type": {
-                        "description": "Anyone can see the group. Only members see who's in it* and what members post",
-                        "id": 2,
-                        "name": "Private"
+                        "description": "Only members see the group, who's in it*, and what members post",
+                        "id": 3,
+                        "name": "Secret"
                     },
-                    "id": 3,
-                    "name": "HR",
+                    "id": 10,
+                    "name": "Evanta Office Test Group",
                     "owner": {
                         "connection_status": {
-                            "id": 6,
-                            "is_approved": true,
+                            "id": 41,
+                            "is_approved": false,
                             "is_approver": true
                         },
                         "event_council_member": false,
-                        "first_name": "Evanta",
-                        "id": 1,
-                        "last_name": "Access",
+                        "first_name": "Ryan",
+                        "id": 13,
+                        "last_name": "Pyeatt",
                         "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Administrator",
+                        "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                        "title": "VP, IT",
                         "user_connections_blocked": false,
                         "user_profile": true,
                         "user_role_id": 1
                     },
-                    "owner_user_id": 1
+                    "owner_user_id": 13
                 },
-                "id": 2,
-                "name": "2014 Minneapolis CISO Executive Summit",
-                "postal_code": "",
-                "state": "MN",
-                "venue_name": "Hyatt Regency Minneapolis"
+                "id": 4,
+                "name": "2014 Chicago CFO Executive Summit",
+                "postal_code": null,
+                "state": "IL",
+                "venue_name": "Omni Los Angeles Hotel at California Plaza"
             },
             "event_registration_status": {
-                "id": 2,
-                "key": "registered"
+                "id": 3,
+                "key": "attended"
             },
-            "id": 1,
+            "id": 40,
             "sponsor": null
         },
         {
             "event": {
                 "address": "",
-                "begin_date": "2014-05-04",
+                "begin_date": "2014-06-25",
                 "city": "Minneapolis",
                 "country": {
                     "abbreviation": "USA",
                     "name": "United States of America"
                 },
                 "end_date": "2014-06-25",
-                "event_follower_id": 11,
+                "event_follower_id": null,
                 "group": {
-                    "description": "HR Group. Exploit virtual web-readiness. Exploit real-time schemas. Disintermediate bricks-and-clicks e-business. Generate plug-and-play e-markets. ",
+                    "description": "~CIO Group Description Goes Here",
                     "group_type": {
                         "description": "Anyone can see the group. Only members see who's in it* and what members post",
                         "id": 2,
                         "name": "Private"
                     },
-                    "id": 3,
-                    "name": "HR",
+                    "id": 1,
+                    "name": "CIO",
                     "owner": {
-                        "connection_status": {
-                            "id": 6,
-                            "is_approved": true,
-                            "is_approver": true
-                        },
+                        "connection_status": null,
                         "event_council_member": false,
                         "first_name": "Evanta",
                         "id": 1,
-                        "last_name": "Access",
+                        "last_name": "ApiAccess",
                         "organization_name": "Evanta",
                         "photo": null,
-                        "title": "Administrator",
+                        "title": "System Account",
                         "user_connections_blocked": false,
                         "user_profile": true,
                         "user_role_id": 1
@@ -99,10 +95,10 @@
                 "venue_name": "Hyatt Regency Minneapolis"
             },
             "event_registration_status": {
-                "id": 2,
-                "key": "registered"
+                "id": 3,
+                "key": "attended"
             },
-            "id": 10,
+            "id": 46,
             "sponsor": null
         }
     ]

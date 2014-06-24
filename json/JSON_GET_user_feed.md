@@ -4,1203 +4,851 @@
         {
             "notification": null,
             "post": {
-                "ago": "3d",
+                "ago": "14d",
                 "authors": [
                     {
-                        "first_name": "Dena",
-                        "id": 26,
-                        "last_name": "Koepp",
+                        "first_name": "Ryan",
+                        "id": 13,
+                        "last_name": "Pyeatt",
                         "moderator": false,
-                        "organization_name": "Sipes-Hoeger",
-                        "photo": null,
-                        "title": "Lead Response Coordinator of Grocery, Health & Beauty",
-                        "user_profile": null
+                        "organization_name": "Evanta",
+                        "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                        "title": "VP, IT",
+                        "user_profile": true
                     }
                 ],
                 "can_like": true,
-                "comment_count": 1,
-                "created_by": 11,
+                "comment_count": 0,
+                "created_by": 13,
                 "event": {
-                    "id": 1,
-                    "name": "2014 Minneapolis CIO Executive Summit"
+                    "id": 4,
+                    "name": "2014 Chicago CFO Executive Summit"
                 },
                 "event_session": null,
                 "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Recontextualize granular schemas. Exploit customized bandwidth. Syndicate value-added architectures. Transform robust networks. \n\nReinvent 24/365 schemas. Evolve next-generation functionalities. Archi",
+                "featured": true,
+                "generated_excerpt": "Just a reminder to everyone to be sure to fill out your session and event evaluations by the end of the day for a chance to be entered for a prize!",
                 "group": null,
-                "id": 36,
-                "like_count": 1,
-                "post_attachments": [
-                    {
-                        "ago": "7h",
-                        "attachment_type": {
-                            "description": "Audio file attachment (mp3)",
-                            "id": 2,
-                            "name": "Audio"
-                        },
-                        "created_by": 10,
-                        "id": 10,
-                        "post_id": 36,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": 50,
+                "id": 83,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": 56,
+                "publish_date": null,
                 "recent_activity": {
-                    "ago": "4h",
-                    "message": "Graham Baas commented on this post",
+                    "ago": "5d",
+                    "message": "Ryan Pyeatt commented on this post",
                     "post_attachment_id": null,
-                    "post_comment_id": 51,
+                    "post_comment_id": 29,
                     "post_like_id": null,
-                    "user_id": 7
+                    "user_id": 13
                 },
                 "show_likes_count": true,
                 "show_post_likes_list": true,
                 "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/480/200",
-                "title": null,
-                "view_count": 20
+                "thumbnail_teaser_photo": null,
+                "title": "Please fill out your session evaluations",
+                "view_count": 38
             }
         },
         {
             "notification": null,
             "post": {
-                "ago": "7h",
+                "ago": "19d",
                 "authors": [
                     {
                         "first_name": "Brittany",
-                        "id": 6,
+                        "id": 14,
                         "last_name": "Budil",
                         "moderator": false,
                         "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Project Manager",
-                        "user_profile": null
+                        "photo": "https://assets.evanta.com/shared/resources/Users/square/115436.jpg",
+                        "title": "IT Project Manager",
+                        "user_profile": true
                     }
                 ],
                 "can_like": true,
                 "comment_count": 0,
-                "created_by": 6,
+                "created_by": 14,
                 "event": null,
                 "event_session": null,
                 "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "I am posting in ALL Leaders group - Noooo!",
+                "featured": true,
+                "generated_excerpt": "123",
                 "group": {
                     "group_type_name": "Secret",
-                    "id": 6,
-                    "name": "All Leaders"
+                    "id": 3,
+                    "name": "Security through Obscurity"
                 },
-                "id": 105,
+                "id": 73,
                 "like_count": 0,
-                "post_attachments": [],
+                "post_attachments": [
+                    {
+                        "ago": "18d",
+                        "attachment_type": null,
+                        "created_by": 14,
+                        "display_rank": null,
+                        "id": 6,
+                        "post_id": 73,
+                        "url": "https://s3.amazonaws.com/access_resources/production/post_attachments/.a633d52c095aa78cf116769a1a16677c_14.gif"
+                    }
+                ],
                 "post_like_id": null,
+                "publish_date": null,
                 "recent_activity": null,
                 "show_likes_count": true,
                 "show_post_likes_list": true,
                 "sponsor": null,
                 "thumbnail_teaser_photo": null,
-                "title": null,
-                "view_count": 1
+                "title": "123",
+                "view_count": 18
             }
         },
         {
             "notification": null,
             "post": {
-                "ago": "3d",
+                "ago": "20d",
                 "authors": [
                     {
-                        "first_name": "Ryan",
-                        "id": 8,
-                        "last_name": "Pyeatt",
+                        "first_name": "Douglas",
+                        "id": null,
+                        "last_name": "DeGrote",
                         "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Vice President of IT",
+                        "organization_name": "Xcel Energy Inc.",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/121934.jpg",
+                        "title": "CISO, Director of IT Security & Risk Management",
                         "user_profile": null
                     }
                 ],
-                "can_like": true,
+                "can_like": false,
                 "comment_count": 0,
-                "created_by": 8,
-                "event": null,
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Mesh sticky schemas. Engage sticky systems. Target real-time channels. Deploy distributed platforms. \n\nUnleash end-to-end e-tailers. Strategize compelling web services. Leverage proactive paradigms. I",
-                "group": {
-                    "group_type_name": "Private",
-                    "id": 2,
-                    "name": "CISO"
-                },
-                "id": 10,
-                "like_count": 0,
-                "post_attachments": [
-                    {
-                        "ago": "7h",
-                        "attachment_type": {
-                            "description": "Audio file attachment (mp3)",
-                            "id": 2,
-                            "name": "Audio"
-                        },
-                        "created_by": 1,
-                        "id": 11,
-                        "post_id": 10,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": null,
-                "recent_activity": {
-                    "ago": "7h",
-                    "message": "Evanta Access added an attachment",
-                    "post_attachment_id": 11,
-                    "post_comment_id": null,
-                    "post_like_id": null,
-                    "user_id": 1
-                },
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/500/320",
-                "title": null,
-                "view_count": 49
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "10h",
-                "authors": [
-                    {
-                        "first_name": "Jim",
-                        "id": 3,
-                        "last_name": "O'Conner",
-                        "moderator": false,
-                        "organization_name": "Cargill, Inc.",
-                        "photo": null,
-                        "title": "CISO",
-                        "user_profile": true
-                    },
-                    {
-                        "first_name": "Patrick",
-                        "id": 3,
-                        "last_name": "Joyce",
-                        "moderator": false,
-                        "organization_name": "Medtronic, Inc.",
-                        "photo": null,
-                        "title": "VP - Global Information Technology & Chief Security Officer",
-                        "user_profile": true
-                    },
-                    {
-                        "first_name": "Dave",
-                        "id": 3,
-                        "last_name": "Frymier",
-                        "moderator": true,
-                        "organization_name": "Unisys Corporation",
-                        "photo": null,
-                        "title": "VP & CISO",
-                        "user_profile": true
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 7,
-                "event": null,
-                "event_session": {
-                    "event": {
-                        "id": 2,
-                        "name": "2014 Minneapolis CISO Executive Summit"
-                    },
-                    "id": 15
-                },
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "<p>Two main drivers of information security today are the consumerization of IT and advanced persistent threats. Both threaten organizations not just from the traditional location outside the network,",
-                "group": null,
-                "id": 52,
-                "like_count": 0,
-                "post_attachments": [
-                    {
-                        "ago": "7h",
-                        "attachment_type": {
-                            "description": "Image file attachment (jpg/gif)",
-                            "id": 1,
-                            "name": "Image"
-                        },
-                        "created_by": 1,
-                        "id": 3,
-                        "post_id": 52,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": null,
-                "recent_activity": {
-                    "ago": "7h",
-                    "message": "Evanta Access added an attachment",
-                    "post_attachment_id": 3,
-                    "post_comment_id": null,
-                    "post_like_id": null,
-                    "user_id": 1
-                },
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/480/200",
-                "title": "Before the Security Event Happens",
-                "view_count": null
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "13h",
-                "authors": [
-                    {
-                        "first_name": "Mike",
-                        "id": 4,
-                        "last_name": "Caputo",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Front-end Web Developer",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 4,
-                "event": null,
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Synthesize efficient mindshare. Aggregate rich e-tailers. Grow innovative web services. Brand b2c partnerships. \n\nLeverage cross-media roi. Transition cutting-edge schemas. Empower innovative systems.",
-                "group": {
-                    "group_type_name": "Secret",
-                    "id": 4,
-                    "name": "Minneapolis Boardroom"
-                },
-                "id": 19,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/500/200",
-                "title": null,
-                "view_count": 20
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "14h",
-                "authors": [
-                    {
-                        "first_name": "Jamil",
-                        "id": 15,
-                        "last_name": "Adams",
-                        "moderator": false,
-                        "organization_name": "DuBuque and Sons",
-                        "photo": null,
-                        "title": "Human Paradigm Developer of Home, Garden & Tools",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 1,
-                "created_by": 15,
-                "event": {
-                    "id": 1,
-                    "name": "2014 Minneapolis CIO Executive Summit"
-                },
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Aggregate frictionless roi. Redefine innovative methodologies. Productize best-of-breed networks. Synthesize intuitive markets. \n\nWhiteboard seamless paradigms. Facilitate granular applications. Reint",
-                "group": null,
-                "id": 86,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/504e2f/ffffff/&text=Google,+Banner:+79",
-                            "id": 79,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/22ba8e/ffffff/&text=Google,+Banner:+80",
-                            "id": 80,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
-                    "description": "Google's Enterprise products bring Google technology and innovation to organizations. Google Apps offers simple, powerful communication and collaboration tools for any size business \u2014 all hosted by Google to streamline setup, minimize maintenance, and reduce IT costs.",
-                    "id": 40,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16329.jpg",
-                    "name": "Google",
-                    "splash_sponsor": false,
-                    "sponsor_type": {
-                        "description": "Sponsorship on Evanta365",
-                        "display_rank": 20,
-                        "id": 7,
-                        "name": "Digital Content Host"
-                    },
-                    "url": "www.google.com/enterprise"
-                },
-                "thumbnail_teaser_photo": "http://lorempixel.com/500/500",
-                "title": null,
-                "view_count": 47
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "15h",
-                "authors": [
-                    {
-                        "first_name": "Evanta",
-                        "id": 1,
-                        "last_name": "Access",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Administrator",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 3,
                 "created_by": 1,
                 "event": null,
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Strategize seamless synergies. Deliver customized infomediaries. Iterate real-time e-markets. Envisioneer next-generation communities. \n\nEmbrace efficient technologies. Visualize scalable infomediarie",
-                "group": {
-                    "group_type_name": "Open",
-                    "id": 5,
-                    "name": "Company Culture"
-                },
-                "id": 99,
-                "like_count": 0,
-                "post_attachments": [
-                    {
-                        "ago": "7h",
-                        "attachment_type": {
-                            "description": "Audio file attachment (mp3)",
-                            "id": 2,
-                            "name": "Audio"
-                        },
-                        "created_by": 10,
-                        "id": 17,
-                        "post_id": 99,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/cc3a24/ffffff/&text=BT Global Services,+Event:+1,+Banner:+13",
-                            "id": 13,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/117531/ffffff/&text=BT Global Services,+Event:+1,+Banner:+14",
-                            "id": 14,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
-                    "description": "<p>BT experts help clients do business in more than 170 countries through global networks grounded in local expertise. Our professional and managed services help them find new strategies for collaboration, cloud computing, contact centers, security, and mobility. Wherever business takes you, you&rsquo;ll see BT Global Services. We&rsquo;re already there.</p>",
-                    "id": 7,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16052.jpg",
-                    "name": "BT Global Services",
-                    "splash_sponsor": false,
-                    "sponsor_type": {
-                        "description": "Compatible optimal hierarchy",
-                        "display_rank": 155,
-                        "id": 1,
-                        "name": "Local Sponsors"
-                    },
-                    "url": "www.bt.com/us"
-                },
-                "thumbnail_teaser_photo": "http://lorempixel.com/480/320",
-                "title": null,
-                "view_count": 34
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "15h",
-                "authors": [
-                    {
-                        "first_name": "Michael",
-                        "id": 2,
-                        "last_name": "Irey",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Software Engineer",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 2,
-                "event": null,
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Incentivize intuitive users. Iterate mission-critical infomediaries. Architect interactive functionalities. Integrate extensible niches. \n\nExploit vertical eyeballs. Productize b2b models. Integrate o",
-                "group": {
-                    "group_type_name": "Open",
-                    "id": 5,
-                    "name": "Company Culture"
-                },
-                "id": 22,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/200/320",
-                "title": null,
-                "view_count": 5
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "3d",
-                "authors": [
-                    {
-                        "first_name": "John",
-                        "id": 3,
-                        "last_name": "Geisler",
-                        "moderator": false,
-                        "organization_name": "Cargill, Inc.",
-                        "photo": null,
-                        "title": "Corporate VP & CIO",
-                        "user_profile": true
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 4,
-                "event": null,
                 "event_session": {
                     "event": {
-                        "id": 1,
-                        "name": "2014 Minneapolis CIO Executive Summit"
-                    },
-                    "id": 2
-                },
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "<p>In 2008, Cargill launched Tartan &mdash; a bold, comprehensive, enterprise-wide initiative to improve, redesign and create common key processes used to run and manage businesses. The critical goal ",
-                "group": null,
-                "id": 63,
-                "like_count": 1,
-                "post_attachments": [
-                    {
-                        "ago": "7h",
-                        "attachment_type": {
-                            "description": "Audio file attachment (mp3)",
-                            "id": 2,
-                            "name": "Audio"
-                        },
-                        "created_by": 38,
-                        "id": 15,
-                        "post_id": 63,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": null,
-                "recent_activity": {
-                    "ago": "19h",
-                    "message": "Evanta Access liked this post",
-                    "post_attachment_id": null,
-                    "post_comment_id": null,
-                    "post_like_id": 8,
-                    "user_id": 1
-                },
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/480/500",
-                "title": "Designing Initiatives for Nimble Evolution",
-                "view_count": null
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "21h",
-                "authors": [
-                    {
-                        "first_name": "Terry",
-                        "id": 11,
-                        "last_name": "Waters",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Imagineer",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 1,
-                "created_by": 11,
-                "event": {
-                    "id": 1,
-                    "name": "2014 Minneapolis CIO Executive Summit"
-                },
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Repurpose out-of-the-box experiences. Exploit front-end infrastructures. Brand distributed paradigms. Enhance cutting-edge interfaces. \n\nSyndicate magnetic communities. Extend cutting-edge portals. In",
-                "group": null,
-                "id": 74,
-                "like_count": 0,
-                "post_attachments": [
-                    {
-                        "ago": "7h",
-                        "attachment_type": {
-                            "description": "Image file attachment (jpg/gif)",
-                            "id": 1,
-                            "name": "Image"
-                        },
-                        "created_by": 32,
-                        "id": 18,
-                        "post_id": 74,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/35d73a/ffffff/&text=CenturyLink Technology Solutions,+Event:+1,+Banner:+5",
-                            "id": 5,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/30fea2/ffffff/&text=CenturyLink Technology Solutions,+Event:+1,+Banner:+6",
-                            "id": 6,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
-                    "description": "<p>CenturyLink Technology Solutions delivers innovative managed services for global businesses on virtual, dedicated and colocation platforms. With deep IT infrastructure experience and an advanced network at the foundation, CenturyLink Technology Solutions services are enhanced by flexible automation and customization choices, enabling enterprises to focus on business results and advancements for their customers. CenturyLink Technology Solutions accolades include being named the No. 2 retail colocation provider by Synergy Research Group and Frost &amp; Sullivan and earning cloud and managed hosting leadership recognition from leading industry analyst firms. CenturyLink Technology Solutions is an operating segment within CenturyLink, an S&amp;P 500 company listed among the Fortune 500 list of America&rsquo;s largest corporations.</p>\u21b5\u21b5<p>Blog: <a href=\"http://blog.centurylinktechnology.com\">http://blog.centurylinktechnology.com</a><br />Facebook: <a href=\"http://www.facebook.com/CenturyLinkTech\">www.facebook.com/CenturyLinkTech</a><br />LinkedIn: <a href=\"http://www.linkedin.com/company/centurylinktech\">http://www.linkedin.com/company/centurylinktech</a><br />Twitter: <a href=\"https://twitter.com/CenturyLinkTech\">@CenturyLinkTech</a> </p>",
-                    "id": 3,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16053.jpg",
-                    "name": "CenturyLink Technology Solutions",
-                    "splash_sponsor": false,
-                    "sponsor_type": {
-                        "description": "Cross-group non-volatile knowledge user",
-                        "display_rank": 65,
-                        "id": 3,
-                        "name": "National Sponsors"
-                    },
-                    "url": "www.centurylink.com/technology"
-                },
-                "thumbnail_teaser_photo": "http://lorempixel.com/500/300",
-                "title": null,
-                "view_count": 25
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "21h",
-                "authors": [
-                    {
-                        "first_name": "Dan",
-                        "id": 3,
-                        "last_name": "Heschke",
-                        "moderator": false,
-                        "organization_name": "Imation Corp.",
-                        "photo": null,
-                        "title": "Exec. Director, IT",
-                        "user_profile": true
-                    },
-                    {
-                        "first_name": "Austin",
-                        "id": 3,
-                        "last_name": "Park",
-                        "moderator": true,
-                        "organization_name": "PDS",
-                        "photo": null,
-                        "title": "SVP & CTO",
-                        "user_profile": true
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 1,
-                "created_by": 3,
-                "event": null,
-                "event_session": {
-                    "event": {
-                        "id": 1,
-                        "name": "2014 Minneapolis CIO Executive Summit"
-                    },
-                    "id": 7
-                },
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "<p>IT organizations today are far more than a collection of best practices and technology integration projects. They serve as business innovators, consultants and analysts. With the increase of cloud-",
-                "group": null,
-                "id": 68,
-                "like_count": 2,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/320/500",
-                "title": "The Evolution of IT to Cloud Services Aggregation and Brokerage",
-                "view_count": null
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "21h",
-                "authors": [
-                    {
-                        "first_name": "Nathan",
                         "id": 5,
-                        "last_name": "Brakken",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Web Developer",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 5,
-                "event": {
-                    "id": 1,
-                    "name": "2014 Minneapolis CIO Executive Summit"
-                },
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Envisioneer interactive convergence. Enable sexy networks. Enable real-time applications. Deliver collaborative channels. \n\nEmpower dot-com e-business. Empower best-of-breed systems. Productize wirele",
-                "group": null,
-                "id": 76,
-                "like_count": 0,
-                "post_attachments": [
-                    {
-                        "ago": "7h",
-                        "attachment_type": {
-                            "description": "Video file attachment (mpeg/mov)",
-                            "id": 3,
-                            "name": "Video"
-                        },
-                        "created_by": 19,
-                        "id": 8,
-                        "post_id": 76,
-                        "url": "https://www.attachment.com/attachment"
-                    }
-                ],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/c9581e/ffffff/&text=NetIQ,+Event:+1,+Banner:+25",
-                            "id": 25,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/db6601/ffffff/&text=NetIQ,+Event:+1,+Banner:+26",
-                            "id": 26,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
-                    "description": "<p>NetIQ is a global, enterprise software company with a relentless focus on customer success. Customers and partners choose NetIQ to regain control over the persistent challenges of change, complexity and risk. Our portfolio includes scalable, automated solutions for Identity, Security, Access, Governance, Systems and Application, Service, and Workload Management that help organizations securely deliver, manage and measure computing services across physical, virtual and cloud computing environments. Our in-depth understanding of how highly distributed enterprises deliver IT services drives us to develop intelligent IT solutions that deliver reliable and cost-effective results. </p>",
-                    "id": 13,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16055.jpg",
-                    "name": "NetIQ",
-                    "splash_sponsor": false,
-                    "sponsor_type": {
-                        "description": "Compatible optimal hierarchy",
-                        "display_rank": 155,
-                        "id": 1,
-                        "name": "Local Sponsors"
+                        "name": "2104 New York CFO Executive Summit"
                     },
-                    "url": "www.netiq.com"
+                    "id": 66
                 },
-                "thumbnail_teaser_photo": "http://lorempixel.com/320/300",
-                "title": null,
-                "view_count": 35
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "22h",
-                "authors": [
-                    {
-                        "first_name": "Brittany",
-                        "id": 6,
-                        "last_name": "Budil",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Project Manager",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 6,
-                "event": {
-                    "id": 1,
-                    "name": "2014 Minneapolis CIO Executive Summit"
-                },
-                "event_session": null,
                 "excerpt": null,
                 "featured": false,
-                "generated_excerpt": "Embrace clicks-and-mortar vortals. Engineer distributed e-markets. Mesh user-centric experiences. Repurpose b2b portals. \n\nUtilize front-end web services. Engage holistic initiatives. Unleash revoluti",
+                "generated_excerpt": " The complexity of the cyber attack space is fostering an indirect problem: vendor risk. Whether by fault or mismanagement, third-party partnerships are causing many widespread breaches, and CISOs a ",
                 "group": null,
-                "id": 83,
-                "like_count": 2,
+                "id": 67,
+                "like_count": 0,
                 "post_attachments": [],
                 "post_like_id": null,
+                "publish_date": null,
                 "recent_activity": null,
                 "show_likes_count": true,
                 "show_post_likes_list": true,
                 "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/504e2f/ffffff/&text=Google,+Banner:+79",
-                            "id": 79,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/22ba8e/ffffff/&text=Google,+Banner:+80",
-                            "id": 80,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
-                    "description": "Google's Enterprise products bring Google technology and innovation to organizations. Google Apps offers simple, powerful communication and collaboration tools for any size business \u2014 all hosted by Google to streamline setup, minimize maintenance, and reduce IT costs.",
+                    "banner_ads": [],
+                    "description": "<p>IBM Security<br />Security Intelligence. Think Integrated</p>\r\n\r\n<p>The threat landscape continues to challenge organizations with increases in advanced attacks resulting in more security breaches, while mobile, social and cloud initiatives create greater IT complexity and expose new vulnerabilities. To keep pace, you need a proactive, big-picture approach to protecting users, data and infrastructure in an integrated manner. </p>\r\n\r\n<p>IBM Security offers a framework of integrated security intelligence capabilities, backed by industry-leading experience and supported by world-renowned IBM X-Force research and development. <br />These capabilities and services are delivered through a comprehensive and robust set of tools and best practices delivering distinct value through Intelligence, Expertise, and Integration </p>",
                     "id": 40,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16329.jpg",
-                    "name": "Google",
+                    "logo": "https://assets.evanta.com/shared/resources/event_sponsors/15784.jpg",
+                    "name": "IBM",
                     "splash_sponsor": false,
                     "sponsor_type": {
-                        "description": "Sponsorship on Evanta365",
-                        "display_rank": 20,
-                        "id": 7,
-                        "name": "Digital Content Host"
-                    },
-                    "url": "www.google.com/enterprise"
-                },
-                "thumbnail_teaser_photo": "http://lorempixel.com/320/250",
-                "title": null,
-                "view_count": 2
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "1d",
-                "authors": [
-                    {
-                        "first_name": "Speaker",
-                        "id": 12,
-                        "last_name": "User Needed",
-                        "moderator": false,
-                        "organization_name": "Placeholding",
-                        "photo": null,
-                        "title": "Placeholding",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 12,
-                "event": null,
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Facilitate sticky synergies. Visualize frictionless relationships. Syndicate transparent technologies. Evolve synergistic applications. \n\nStrategize web-enabled mindshare. Maximize wireless models. Pr",
-                "group": {
-                    "group_type_name": "Secret",
-                    "id": 6,
-                    "name": "All Leaders"
-                },
-                "id": 23,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/250/480",
-                "title": null,
-                "view_count": 47
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "1d",
-                "authors": [
-                    {
-                        "first_name": "Brittany",
-                        "id": 6,
-                        "last_name": "Budil",
-                        "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Project Manager",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 0,
-                "created_by": 6,
-                "event": {
-                    "id": 1,
-                    "name": "2014 Minneapolis CIO Executive Summit"
-                },
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Cultivate collaborative supply-chains. Visualize intuitive e-tailers. Generate vertical models. Empower sexy web-readiness. \n\nEmbrace web-enabled mindshare. Leverage cutting-edge e-business. Innovate ",
-                "group": null,
-                "id": 73,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/208952/ffffff/&text=Rimini Street, Inc.,+Event:+1,+Banner:+31",
-                            "id": 31,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/da8836/ffffff/&text=Rimini Street, Inc.,+Event:+1,+Banner:+32",
-                            "id": 32,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
-                    "description": "<p>Rimini Street is the leading provider of premium third-party enterprise software support services. Our innovative, award-winning support program allows Oracle and SAP licensees to save 50 percent in annual support fees, avoid expensive forced upgrades, and receive premium services that are not part of standard vendor support \u2014 including support for customizations at no extra cost.</p>\u21b5\u21b5<p>More than 660 global companies, including 75 of Fortune 500 and 16 of Global 100, and public sector organizations depend on Rimini Street as their trusted, expert, independent provider of enterprise software support, so they can apply more of their IT budgets to strategic business initiatives. </p>",
-                    "id": 16,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16057.jpg",
-                    "name": "Rimini Street, Inc.",
-                    "splash_sponsor": false,
-                    "sponsor_type": {
-                        "description": "Compatible optimal hierarchy",
+                        "description": "Multi-channelled encompassing toolset",
                         "display_rank": 155,
                         "id": 1,
                         "name": "Local Sponsors"
                     },
-                    "url": "www.riministreet.com"
+                    "url": "ibm.com/security"
                 },
-                "thumbnail_teaser_photo": "http://lorempixel.com/200/500",
-                "title": null,
-                "view_count": 31
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "1d",
-                "authors": [
-                    {
-                        "first_name": "Council Member",
-                        "id": 13,
-                        "last_name": "User Needed",
-                        "moderator": false,
-                        "organization_name": "Placeholding",
-                        "photo": null,
-                        "title": "Placeholding",
-                        "user_profile": null
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 1,
-                "created_by": 13,
-                "event": null,
-                "event_session": null,
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "Orchestrate cross-platform eyeballs. Target transparent interfaces. Morph intuitive systems. Leverage impactful eyeballs. \n\nCultivate mission-critical networks. Harness rich interfaces. Mesh enterpris",
-                "group": {
-                    "group_type_name": "Open",
-                    "id": 5,
-                    "name": "Company Culture"
-                },
-                "id": 21,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": null,
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/480/480",
-                "title": null,
-                "view_count": 42
-            }
-        },
-        {
-            "notification": null,
-            "post": {
-                "ago": "2d",
-                "authors": [
-                    {
-                        "first_name": "Shadrack",
-                        "id": 3,
-                        "last_name": "Roberts",
-                        "moderator": false,
-                        "organization_name": "Army Sustainment Command",
-                        "photo": null,
-                        "title": "Chief Privacy/Cyber Official",
-                        "user_profile": true
-                    }
-                ],
-                "can_like": true,
-                "comment_count": 1,
-                "created_by": 11,
-                "event": null,
-                "event_session": {
-                    "event": {
-                        "id": 2,
-                        "name": "2014 Minneapolis CISO Executive Summit"
-                    },
-                    "id": 21
-                },
-                "excerpt": null,
-                "featured": false,
-                "generated_excerpt": "<p>Recruitment for security professionals has never been simple. But now, with the vacuum created by almost daily breaches, it&rsquo;s painful. The need for skilled manpower far exceeds what the prosp",
-                "group": null,
-                "id": 60,
-                "like_count": 0,
-                "post_attachments": [],
-                "post_like_id": null,
-                "recent_activity": {
-                    "ago": "1d",
-                    "message": "Dan Johnson commented on this post",
-                    "post_attachment_id": null,
-                    "post_comment_id": 9,
-                    "post_like_id": null,
-                    "user_id": 3
-                },
-                "show_likes_count": true,
-                "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/250/420",
-                "title": "Getting Creative \u2013 Recruitment Strategies When the Well is Dry",
+                "thumbnail_teaser_photo": null,
+                "title": "Is Vendor Management the New Risk Management?",
                 "view_count": null
             }
         },
         {
             "notification": null,
             "post": {
-                "ago": "9d",
+                "ago": "20d",
                 "authors": [
                     {
-                        "first_name": "Michael",
-                        "id": 3,
-                        "last_name": "Hedges",
+                        "first_name": "Dave",
+                        "id": null,
+                        "last_name": "Martin",
                         "moderator": false,
-                        "organization_name": "Medtronic, Inc.",
-                        "photo": null,
-                        "title": "VP & CIO",
-                        "user_profile": true
-                    },
-                    {
-                        "first_name": "Ellyn",
-                        "id": 3,
-                        "last_name": "Hosch",
-                        "moderator": false,
-                        "organization_name": "Prime Therapeutics",
-                        "photo": null,
-                        "title": "CIO",
-                        "user_profile": true
-                    },
-                    {
-                        "first_name": "Mark",
-                        "id": 3,
-                        "last_name": "Murphy",
-                        "moderator": false,
-                        "organization_name": "St. Jude Medical, Inc.",
-                        "photo": null,
-                        "title": "VP, IT & CIO",
-                        "user_profile": true
+                        "organization_name": "EMC Corporation",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/111972.jpg",
+                        "title": "VP, Chief Security Officer",
+                        "user_profile": null
                     }
                 ],
-                "can_like": true,
-                "comment_count": 1,
-                "created_by": 11,
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
                 "event": null,
                 "event_session": {
                     "event": {
-                        "id": 1,
-                        "name": "2014 Minneapolis CIO Executive Summit"
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
                     },
-                    "id": 8
+                    "id": 69
                 },
                 "excerpt": null,
                 "featured": false,
-                "generated_excerpt": "<p>CIOs face diverse and ever-evolving responsibilities. As the role has advanced, CIOs have transitioned from the back office to the forefront of the organization. Defining, creating and executing fo",
+                "generated_excerpt": " Security programs must evolve with the times. What new challenges are impacting the security status quo? And what opportunities are emerging for risk and security professionals to further enable th ",
+                "group": null,
+                "id": 70,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": {
+                    "banner_ads": [],
+                    "description": "<p>RSA, The Security Division of EMC, is the premier provider of intelligence-driven security solutions. RSA helps the world's leading organizations solve their most complex and sensitive security challenges: managing organizational risk, safeguarding mobile access and collaboration, preventing online fraud, and defending against advanced threats.</p>\r\n\r\n<p>Combining agile controls for identity assurance, fraud detection, and data protection, robust Security Analytics and industry-leading GRC capabilities, and expert consulting and advisory services, RSA brings visibility and trust to millions of user identities, the data they create, the transactions they perform, and the IT infrastructure they rely on. For more information, please visit www.EMC.com/RSA.</p>",
+                    "id": 25,
+                    "logo": "https://assets.evanta.com/shared/resources/event_sponsors/16109.jpg",
+                    "name": "RSA, The Security Division of EMC",
+                    "splash_sponsor": false,
+                    "sponsor_type": {
+                        "description": "Optimized tangible parallelism",
+                        "display_rank": 25,
+                        "id": 2,
+                        "name": "National Presenting Sponsors"
+                    },
+                    "url": "www.EMC.com/RSA"
+                },
+                "thumbnail_teaser_photo": null,
+                "title": "Tales from the Front Lines \u2013 Actionable Strategies for an Intelligence-Driven Security Program",
+                "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "Anton",
+                        "id": null,
+                        "last_name": "Towne",
+                        "moderator": false,
+                        "organization_name": "The Schwan Food Company",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/104869.jpg",
+                        "title": "IT Security Manager",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Jason",
+                        "id": null,
+                        "last_name": "Newman",
+                        "moderator": false,
+                        "organization_name": "Blue Cross and Blue Shield of Minnesota",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/175760.jpg",
+                        "title": "CISO",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Brian",
+                        "id": null,
+                        "last_name": "Contos",
+                        "moderator": true,
+                        "organization_name": "Blue Coat Systems, Inc.",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/181004.jpg",
+                        "title": "VP and CISO",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 68
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " The last few decades in security have proved that no walls are high enough to keep out attackers. Threat actors vary enormously, and the fluidity of talent, techniques and technology behind an inci ",
                 "group": null,
                 "id": 69,
-                "like_count": 2,
+                "like_count": 0,
                 "post_attachments": [],
                 "post_like_id": null,
-                "recent_activity": {
-                    "ago": "1d",
-                    "message": "Evanta Access liked this post",
-                    "post_attachment_id": null,
-                    "post_comment_id": null,
-                    "post_like_id": 42,
-                    "user_id": 1
-                },
+                "publish_date": null,
+                "recent_activity": null,
                 "show_likes_count": true,
                 "show_post_likes_list": true,
-                "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/250/200",
-                "title": "Looking Into the Crystal Ball \u2013 The Future Role of the CIO",
+                "sponsor": {
+                    "banner_ads": [],
+                    "description": "<p>Blue Coat empowers enterprises to safely and securely choose the best applications, services, devices, data sources, and content the world has to offer, so they can create, communicate, collaborate, innovate, execute, compete and win in their markets. Blue Coat has a long history of protecting organizations, their data and their employees and is the trusted brand to 15,000 customers worldwide, including 86 percent of the FORTUNE Global 500. With a robust portfolio of intellectual property anchored by more than 200 patents and patents pending, the company continues to drive innovations that assure business continuity, agility and governance.</p>",
+                    "id": 38,
+                    "logo": "https://assets.evanta.com/shared/resources/event_sponsors/16836.jpg",
+                    "name": "Blue Coat Systems, Inc.",
+                    "splash_sponsor": false,
+                    "sponsor_type": {
+                        "description": "Multi-channelled encompassing toolset",
+                        "display_rank": 155,
+                        "id": 1,
+                        "name": "Local Sponsors"
+                    },
+                    "url": "www.bluecoat.com"
+                },
+                "thumbnail_teaser_photo": null,
+                "title": "Old Maps No Longer Work \u2013 Using Analytics to Evolve Security Strategy",
                 "view_count": null
             }
         },
         {
             "notification": null,
             "post": {
-                "ago": "1d",
+                "ago": "20d",
                 "authors": [
                     {
-                        "first_name": "Ryan",
-                        "id": 8,
-                        "last_name": "Pyeatt",
+                        "first_name": "Pamela",
+                        "id": null,
+                        "last_name": "Warren",
                         "moderator": false,
-                        "organization_name": "Evanta",
-                        "photo": null,
-                        "title": "Vice President of IT",
+                        "organization_name": "Palo Alto Networks",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/186430.jpg",
+                        "title": "Director of Industry Solutions",
                         "user_profile": null
                     }
                 ],
-                "can_like": true,
-                "comment_count": 2,
-                "created_by": 8,
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
                 "event": null,
-                "event_session": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 67
+                },
                 "excerpt": null,
                 "featured": false,
-                "generated_excerpt": "Transition bricks-and-clicks mindshare. Drive revolutionary platforms. Reinvent global portals. Streamline turn-key web-readiness. \n\nEngage bleeding-edge vortals. Seize impactful architectures. Aggreg",
-                "group": {
-                    "group_type_name": "Secret",
-                    "id": 4,
-                    "name": "Minneapolis Boardroom"
-                },
-                "id": 102,
-                "like_count": 1,
+                "generated_excerpt": " Despite the negative press about the weakness of collective good-guy cyber defenses, there is reason for hope. Certain members of the security community are leading the way to new, innovative think ",
+                "group": null,
+                "id": 68,
+                "like_count": 0,
                 "post_attachments": [],
                 "post_like_id": null,
+                "publish_date": null,
                 "recent_activity": null,
                 "show_likes_count": true,
                 "show_post_likes_list": true,
                 "sponsor": {
-                    "banner_ads": [
-                        {
-                            "graphic_link": "http://placehold.it/840x100/25227c/ffffff/&text=Palo Alto Networks,+Event:+2,+Banner:+43",
-                            "id": 43,
-                            "link_url": "www.evanta.com"
-                        },
-                        {
-                            "graphic_link": "http://placehold.it/840x100/434eca/ffffff/&text=Palo Alto Networks,+Event:+2,+Banner:+44",
-                            "id": 44,
-                            "link_url": "www.evanta.com"
-                        }
-                    ],
+                    "banner_ads": [],
                     "description": "<p>Palo Alto Networks is leading a new era in cybersecurity by protecting thousands of enterprise, government, and service provider networks from cyber threats. Because of our deep expertise, steadfast commitment to innovation and game-changing next-generation security platform, more than 13,500 customers have chosen Palo Alto Networks and this number grows every day. Our platform natively brings together all key network security functions, including firewall, URL filtering, IDS/IPS, and advanced threat protection. Because these functions are purposely built into the platform from the ground up and they natively share important information across the respective disciplines, we ensure better security than legacy products. As a result, organizations can safely enable the use of all applications critical to running their business, maintain complete visibility and control, confidently pursue new technology initiatives like cloud, SDN and mobility, and protect the organization from the most basic to multi-faceted and complicated cyber attacks &mdash; known and unknown.</p>",
-                    "id": 22,
-                    "logo": "https://bluehawk.evanta.com/Resources/event_sponsors/16196.jpg",
+                    "id": 27,
+                    "logo": "https://assets.evanta.com/shared/resources/event_sponsors/16196.jpg",
                     "name": "Palo Alto Networks",
                     "splash_sponsor": false,
                     "sponsor_type": {
-                        "description": "Multi-lateral discrete forecast",
+                        "description": "Customer-focused fault-tolerant standardization",
                         "display_rank": 40,
                         "id": 5,
                         "name": "Presenting Sponsor"
                     },
                     "url": "www.paloaltonetworks.com"
                 },
-                "thumbnail_teaser_photo": "http://lorempixel.com/320/420",
-                "title": null,
-                "view_count": 39
+                "thumbnail_teaser_photo": null,
+                "title": "Four Cybersecurity Innovations to Give You Courage",
+                "view_count": 1
             }
         },
         {
             "notification": null,
             "post": {
-                "ago": "2d",
+                "ago": "20d",
                 "authors": [
                     {
-                        "first_name": "Maggie",
-                        "id": 17,
-                        "last_name": "Schultz",
+                        "first_name": "Michael",
+                        "id": null,
+                        "last_name": "McNeil",
                         "moderator": false,
-                        "organization_name": "Champlin, Treutel and Bechtelar",
-                        "photo": null,
-                        "title": "Senior Response Supervisor of Toys, Kids & Baby",
+                        "organization_name": "Philips Healthcare",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/103086.jpg",
+                        "title": "Global Product Security & Services Officer",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Paul",
+                        "id": null,
+                        "last_name": "Hershberger",
+                        "moderator": false,
+                        "organization_name": "The Mosaic Company",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/118461.jpg",
+                        "title": "Director IT, Security Risk & Compliance",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Tomas",
+                        "id": null,
+                        "last_name": "Castrejon",
+                        "moderator": true,
+                        "organization_name": "PwC",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/161559.jpg",
+                        "title": "Director Client Services",
                         "user_profile": null
                     }
                 ],
-                "can_like": true,
-                "comment_count": 1,
-                "created_by": 17,
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
                 "event": null,
-                "event_session": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 70
+                },
                 "excerpt": null,
                 "featured": false,
-                "generated_excerpt": "Expedite value-added architectures. Incubate mission-critical schemas. Reintermediate ubiquitous systems. Reinvent best-of-breed action-items. \n\nSeize scalable paradigms. Aggregate visionary e-tailers",
-                "group": {
-                    "group_type_name": "Secret",
-                    "id": 6,
-                    "name": "All Leaders"
+                "generated_excerpt": " Employees appreciate the flexibility of using their personal mobile device for work related activities; what they might not appreciate is having their device wiped if security has been compromised  ",
+                "group": null,
+                "id": 71,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": {
+                    "banner_ads": [],
+                    "description": "<p>PwC helps organizations and individuals create the value they&rsquo;re looking for. We&rsquo;re a network of firms in 158 countries with more than 180,000 people who are committed to delivering quality in assurance, tax and advisory services. Tell us what matters to you and find out more by visiting us at www.pwc.com. </p>\r\n\r\n<p>PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see www.pwc.com/structure for further details. </p>",
+                    "id": 43,
+                    "logo": "https://assets.evanta.com/shared/resources/event_sponsors/16541.jpg",
+                    "name": "PwC",
+                    "splash_sponsor": false,
+                    "sponsor_type": {
+                        "description": "Multi-channelled encompassing toolset",
+                        "display_rank": 155,
+                        "id": 1,
+                        "name": "Local Sponsors"
+                    },
+                    "url": "www.pwc.com"
                 },
-                "id": 12,
+                "thumbnail_teaser_photo": null,
+                "title": "Freedom and Accountability \u2013 Establishing a Balance in BYOD Policy",
+                "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "Jim",
+                        "id": null,
+                        "last_name": "O'Conner",
+                        "moderator": false,
+                        "organization_name": "Cargill, Inc.",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/101245.jpg",
+                        "title": "CISO",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Patrick",
+                        "id": null,
+                        "last_name": "Joyce",
+                        "moderator": false,
+                        "organization_name": "Medtronic, Inc.",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/182602.jpg",
+                        "title": "VP - Global Information Technology & Chief Security Officer",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Dave",
+                        "id": null,
+                        "last_name": "Frymier",
+                        "moderator": true,
+                        "organization_name": "Unisys Corporation",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/140374.jpg",
+                        "title": "VP & CISO",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 65
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " Two main drivers of information security today are the consumerization of IT and advanced persistent threats. Both threaten organizations not just from the traditional location outside the network, ",
+                "group": null,
+                "id": 66,
                 "like_count": 1,
                 "post_attachments": [],
                 "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": {
+                    "banner_ads": [],
+                    "description": "<p>Unisys is a worldwide information technology company. We provide a portfolio of IT services, software, and technology that solves critical problems for clients. We specialize in helping clients secure their operations, increase the efficiency and utilization of their data centers, enhance support to their end users and constituents, and modernize their enterprise applications. To provide these services and solutions, we bring together offerings and capabilities in outsourcing services, systems integration and consulting services, infrastructure services, maintenance services, and high-end server technology. With approximately 23,000 employees, Unisys serves commercial organizations and government agencies throughout the world.</p>",
+                    "id": 46,
+                    "logo": "https://assets.evanta.com/shared/resources/event_sponsors/16396.jpg",
+                    "name": "Unisys Corporation",
+                    "splash_sponsor": false,
+                    "sponsor_type": {
+                        "description": "Multi-channelled encompassing toolset",
+                        "display_rank": 155,
+                        "id": 1,
+                        "name": "Local Sponsors"
+                    },
+                    "url": "www.unisys.com"
+                },
+                "thumbnail_teaser_photo": null,
+                "title": "Before the Security Event Happens",
+                "view_count": 3
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "James",
+                        "id": null,
+                        "last_name": "Christiansen",
+                        "moderator": false,
+                        "organization_name": "Accuvant",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/159025.jpg",
+                        "title": "VP, Info. Risk Mgmt.",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "James",
+                        "id": null,
+                        "last_name": "Robinson",
+                        "moderator": false,
+                        "organization_name": "Accuvant",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/156831.jpg",
+                        "title": "Director, Information Security",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 64
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " CISOs have long understood the essential need for a cyber-incident response plan. But what are the consequences when, in the middle of a cyberattack, your mitigation efforts don\u2019t go as plann ",
+                "group": null,
+                "id": 65,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": {
+                    "banner_ads": [],
+                    "description": "<p>Accuvant is the Authoritative Source for information security. Since 2002, the company has served more than 5,200 clients, including half of the Fortune 100 and more than 900 educational institutions and government entities. Headquartered in Denver, Accuvant has offices across the United States and Canada and boasts the largest and most elite army of technical security professionals in the world &mdash; Accuvant LABS. For more information, please visit www.accuvant.com.</p>",
+                    "id": 26,
+                    "logo": "https://assets.evanta.com/shared/resources/event_sponsors/15849.jpg",
+                    "name": "Accuvant",
+                    "splash_sponsor": false,
+                    "sponsor_type": {
+                        "description": "Customer-focused fault-tolerant standardization",
+                        "display_rank": 40,
+                        "id": 5,
+                        "name": "Presenting Sponsor"
+                    },
+                    "url": "www.accuvant.com"
+                },
+                "thumbnail_teaser_photo": null,
+                "title": "Incident Response \u2013 How to Overturn Hacker Advantage",
+                "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "Dale",
+                        "id": null,
+                        "last_name": "Buckner",
+                        "moderator": false,
+                        "organization_name": "Global Guardian",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/168819.jpg",
+                        "title": "President & CEO",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 60
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " As the enterprise expands into international markets, it encounters fundamental differences in education, religion, societal interaction, security threats and political instability \u2014 all of which i ",
+                "group": null,
+                "id": 61,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
                 "recent_activity": null,
                 "show_likes_count": true,
                 "show_post_likes_list": true,
                 "sponsor": null,
-                "thumbnail_teaser_photo": "http://lorempixel.com/500/500",
-                "title": null,
-                "view_count": 10
+                "thumbnail_teaser_photo": null,
+                "title": "Staying Secure in a Global Enterprise",
+                "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "Chris",
+                        "id": null,
+                        "last_name": "Buse",
+                        "moderator": false,
+                        "organization_name": "State of Minnesota",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/69007.jpg",
+                        "title": "CISO",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Barry",
+                        "id": null,
+                        "last_name": "Caplin",
+                        "moderator": true,
+                        "organization_name": "Fairview Health Services",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/72113.jpg",
+                        "title": "CISO",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Chris",
+                        "id": null,
+                        "last_name": "Grillo",
+                        "moderator": false,
+                        "organization_name": "Merrill Corporation",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/101600.jpg",
+                        "title": "VP, IT Security",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 59
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " With challenging budgets, it\u2019s increasingly important for the security organization to build business relationships and communicate its role in protecting the company brand. To build trust, C ",
+                "group": null,
+                "id": 60,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": null,
+                "thumbnail_teaser_photo": null,
+                "title": "Recasting the Security Program as a Business Partner",
+                "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "Michael",
+                        "id": null,
+                        "last_name": "Pozmantier",
+                        "moderator": false,
+                        "organization_name": "U.S. Department of Homeland Security",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/167922.jpg",
+                        "title": "Program Manager, Transition to Practice, Cyber Security Division",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Darby",
+                        "id": null,
+                        "last_name": "Mitchell",
+                        "moderator": false,
+                        "organization_name": "MIT Lincoln Laboratory",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/188280.jpg",
+                        "title": "Research Scientist, Cyber Systems and Technology Group",
+                        "user_profile": null
+                    },
+                    {
+                        "first_name": "Glenn",
+                        "id": null,
+                        "last_name": "Fink, Ph.D.",
+                        "moderator": false,
+                        "organization_name": "Pacific Northwest National Laboratory",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/168698.jpg",
+                        "title": "Senior Research Scientist",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 58
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " Today\u2019s cyberwar is an escalating and rapidly evolving arms race. While government R&amp;D labs have been producing next\u2014generation cybersecurity technologies for a while now, few of th ",
+                "group": null,
+                "id": 59,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": null,
+                "thumbnail_teaser_photo": null,
+                "title": "Transition to Practice \u2013 Next-Level Security Innovation",
+                "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "Joe",
+                        "id": 22,
+                        "last_name": "Topinka",
+                        "moderator": true,
+                        "organization_name": "Red Wing Shoe Company, Inc.",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/54959.jpg",
+                        "title": "VP Multichannel Commerce & CIO",
+                        "user_profile": true
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 57
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " How can CISOs communicate priorities and sell them to the business? Not just to the BOD or CEO, but to truly align all levels of the organization? Business leaders know security is important, but t ",
+                "group": null,
+                "id": 58,
+                "like_count": 0,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": null,
+                "thumbnail_teaser_photo": null,
+                "title": "Speaking to the Business",
+                "view_count": null
+            }
+        },
+        {
+            "notification": null,
+            "post": {
+                "ago": "20d",
+                "authors": [
+                    {
+                        "first_name": "Scott",
+                        "id": null,
+                        "last_name": "Borg",
+                        "moderator": false,
+                        "organization_name": "U.S. Cyber Consequences Unit",
+                        "photo": "https://bluehawk.evanta.com/Resources/contacts/large/165606.jpg",
+                        "title": "Director & Chief Economist",
+                        "user_profile": null
+                    }
+                ],
+                "can_like": false,
+                "comment_count": 0,
+                "created_by": 1,
+                "event": null,
+                "event_session": {
+                    "event": {
+                        "id": 5,
+                        "name": "2104 New York CFO Executive Summit"
+                    },
+                    "id": 56
+                },
+                "excerpt": null,
+                "featured": false,
+                "generated_excerpt": " Some of the most destructive cyber attacks today go unrecognized for weeks or indefinitely. Meanwhile, companies waste resources defending against other attacks that are highly unlikely. Both probl ",
+                "group": null,
+                "id": 57,
+                "like_count": 1,
+                "post_attachments": [],
+                "post_like_id": null,
+                "publish_date": null,
+                "recent_activity": null,
+                "show_likes_count": true,
+                "show_post_likes_list": true,
+                "sponsor": null,
+                "thumbnail_teaser_photo": null,
+                "title": "The First Step Toward a High-ROI Cyber Defense",
+                "view_count": null
             }
         }
     ]

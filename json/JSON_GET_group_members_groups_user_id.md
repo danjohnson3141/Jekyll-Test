@@ -3,195 +3,147 @@
     "group_members": [
         {
             "group": {
-                "description": "CIO Group. Morph sticky roi. Utilize virtual paradigms. Embrace web-enabled supply-chains. Maximize value-added relationships. Target collaborative interfaces. Embrace compelling convergence. Target plug-and-play functionalities. Benchmark intuitive e-services. ",
-                "group_type": {
-                    "description": "Anyone can see the group. Only members see who's in it* and what members post",
-                    "id": 2,
-                    "name": "Private"
-                },
-                "id": 1,
-                "name": "CIO",
-                "owner": {
-                    "connection_status": {
-                        "id": 6,
-                        "is_approved": true,
-                        "is_approver": true
-                    },
-                    "event_council_member": false,
-                    "first_name": "Evanta",
-                    "id": 1,
-                    "last_name": "Access",
-                    "organization_name": "Evanta",
-                    "photo": null,
-                    "title": "Administrator",
-                    "user_connections_blocked": false,
-                    "user_profile": true,
-                    "user_role_id": 1
-                },
-                "owner_user_id": 1
-            },
-            "id": 1,
-            "user_id": 1
-        },
-        {
-            "group": {
-                "description": "Minneapolis Boardroom. E-enable extensible portals. Utilize killer infrastructures. Extend real-time e-business. Reinvent impactful functionalities. ",
+                "description": "This will have the test event(s) attached to keep all of our test data in a separate sandbox from the prod users.",
                 "group_type": {
                     "description": "Only members see the group, who's in it*, and what members post",
                     "id": 3,
                     "name": "Secret"
                 },
-                "id": 4,
-                "name": "Minneapolis Boardroom",
+                "id": 10,
+                "name": "Evanta Office Test Group",
                 "owner": {
                     "connection_status": {
-                        "id": 6,
-                        "is_approved": true,
+                        "id": 41,
+                        "is_approved": false,
                         "is_approver": true
                     },
                     "event_council_member": false,
-                    "first_name": "Evanta",
-                    "id": 1,
-                    "last_name": "Access",
+                    "first_name": "Ryan",
+                    "id": 13,
+                    "last_name": "Pyeatt",
                     "organization_name": "Evanta",
-                    "photo": null,
-                    "title": "Administrator",
+                    "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                    "title": "VP, IT",
                     "user_connections_blocked": false,
                     "user_profile": true,
                     "user_role_id": 1
                 },
-                "owner_user_id": 1
+                "owner_user_id": 13
             },
-            "id": 2,
-            "user_id": 1
+            "id": 55,
+            "user_id": 28
         },
         {
             "group": {
-                "description": "CISO Group. Brand dynamic networks. Recontextualize customized technologies. Grow end-to-end systems. Envisioneer intuitive applications. ",
+                "description": "No one will ever see this.",
                 "group_type": {
-                    "description": "Anyone can see the group. Only members see who's in it* and what members post",
-                    "id": 2,
-                    "name": "Private"
-                },
-                "id": 2,
-                "name": "CISO",
-                "owner": {
-                    "connection_status": {
-                        "id": 6,
-                        "is_approved": true,
-                        "is_approver": true
-                    },
-                    "event_council_member": false,
-                    "first_name": "Evanta",
-                    "id": 1,
-                    "last_name": "Access",
-                    "organization_name": "Evanta",
-                    "photo": null,
-                    "title": "Administrator",
-                    "user_connections_blocked": false,
-                    "user_profile": true,
-                    "user_role_id": 1
-                },
-                "owner_user_id": 1
-            },
-            "id": 17,
-            "user_id": 1
-        },
-        {
-            "group": {
-                "description": "HR Group. Exploit virtual web-readiness. Exploit real-time schemas. Disintermediate bricks-and-clicks e-business. Generate plug-and-play e-markets. ",
-                "group_type": {
-                    "description": "Anyone can see the group. Only members see who's in it* and what members post",
-                    "id": 2,
-                    "name": "Private"
+                    "description": "Only members see the group, who's in it*, and what members post",
+                    "id": 3,
+                    "name": "Secret"
                 },
                 "id": 3,
-                "name": "HR",
+                "name": "Security through Obscurity",
                 "owner": {
-                    "connection_status": {
-                        "id": 6,
-                        "is_approved": true,
-                        "is_approver": true
-                    },
+                    "connection_status": null,
                     "event_council_member": false,
-                    "first_name": "Evanta",
-                    "id": 1,
-                    "last_name": "Access",
-                    "organization_name": "Evanta",
-                    "photo": null,
-                    "title": "Administrator",
+                    "first_name": "Graham",
+                    "id": 28,
+                    "last_name": "Baas",
+                    "organization_name": null,
+                    "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                    "title": null,
                     "user_connections_blocked": false,
                     "user_profile": true,
                     "user_role_id": 1
                 },
-                "owner_user_id": 1
+                "owner_user_id": 28
             },
-            "id": 18,
-            "user_id": 1
+            "id": 58,
+            "user_id": 28
         },
         {
             "group": {
-                "description": "Company Culture. Scale visionary supply-chains. Enable out-of-the-box web-readiness. Synergize real-time communities. Monetize seamless bandwidth. ",
-                "group_type": {
-                    "description": "Anyone can see the group, who's in it*, and what members post",
-                    "id": 1,
-                    "name": "Open"
-                },
-                "id": 5,
-                "name": "Company Culture",
-                "owner": {
-                    "connection_status": {
-                        "id": 6,
-                        "is_approved": true,
-                        "is_approver": true
-                    },
-                    "event_council_member": false,
-                    "first_name": "Evanta",
-                    "id": 1,
-                    "last_name": "Access",
-                    "organization_name": "Evanta",
-                    "photo": null,
-                    "title": "Administrator",
-                    "user_connections_blocked": false,
-                    "user_profile": true,
-                    "user_role_id": 1
-                },
-                "owner_user_id": 1
-            },
-            "id": 33,
-            "user_id": 1
-        },
-        {
-            "group": {
-                "description": "All Leaders. Innovate enterprise experiences. Incubate viral roi. Productize extensible eyeballs. Scale value-added interfaces. ",
+                "description": "123",
                 "group_type": {
                     "description": "Only members see the group, who's in it*, and what members post",
                     "id": 3,
                     "name": "Secret"
                 },
-                "id": 6,
-                "name": "All Leaders",
+                "id": 9,
+                "name": "123",
                 "owner": {
-                    "connection_status": {
-                        "id": 6,
-                        "is_approved": true,
-                        "is_approver": true
-                    },
+                    "connection_status": null,
                     "event_council_member": false,
-                    "first_name": "Evanta",
-                    "id": 1,
-                    "last_name": "Access",
-                    "organization_name": "Evanta",
-                    "photo": null,
-                    "title": "Administrator",
+                    "first_name": "Graham",
+                    "id": 28,
+                    "last_name": "Baas",
+                    "organization_name": null,
+                    "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                    "title": null,
                     "user_connections_blocked": false,
                     "user_profile": true,
                     "user_role_id": 1
                 },
-                "owner_user_id": 1
+                "owner_user_id": 28
             },
-            "id": 34,
-            "user_id": 1
+            "id": 76,
+            "user_id": 28
+        },
+        {
+            "group": {
+                "description": "123",
+                "group_type": {
+                    "description": "Anyone can see the group. Only members see who's in it* and what members post",
+                    "id": 2,
+                    "name": "Private"
+                },
+                "id": 12,
+                "name": "documentation purposes",
+                "owner": {
+                    "connection_status": null,
+                    "event_council_member": false,
+                    "first_name": "Graham",
+                    "id": 28,
+                    "last_name": "Baas",
+                    "organization_name": null,
+                    "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                    "title": null,
+                    "user_connections_blocked": false,
+                    "user_profile": true,
+                    "user_role_id": 1
+                },
+                "owner_user_id": 28
+            },
+            "id": 88,
+            "user_id": 28
+        },
+        {
+            "group": {
+                "description": "111",
+                "group_type": {
+                    "description": "Anyone can see the group. Only members see who's in it* and what members post",
+                    "id": 2,
+                    "name": "Private"
+                },
+                "id": 13,
+                "name": "111",
+                "owner": {
+                    "connection_status": null,
+                    "event_council_member": false,
+                    "first_name": "Graham",
+                    "id": 28,
+                    "last_name": "Baas",
+                    "organization_name": null,
+                    "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                    "title": null,
+                    "user_connections_blocked": false,
+                    "user_profile": true,
+                    "user_role_id": 1
+                },
+                "owner_user_id": 28
+            },
+            "id": 89,
+            "user_id": 28
         }
     ]
 }

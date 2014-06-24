@@ -2,6 +2,7 @@
 {
     "app_setting_options": [
         {
+            "app_label": "Don't allow members to request to add me as a connection",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Connection",
@@ -10,14 +11,16 @@
             "setting": false
         },
         {
-            "app_setting_id": null,
+            "app_label": "Send me the Evanta365 weekly newsletter",
+            "app_setting_id": 100,
             "category": "Preference",
             "description": "Email",
             "id": 117,
             "name": "User does not want to receive the weekly newsletter",
-            "setting": false
+            "setting": true
         },
         {
+            "app_label": "Send me a weekly digest of new site activity",
             "app_setting_id": null,
             "category": "Preference",
             "description": "Email",
@@ -26,14 +29,7 @@
             "setting": false
         },
         {
-            "app_setting_id": null,
-            "category": "Preference",
-            "description": "Email",
-            "id": 121,
-            "name": "User does not want to receive daily feed digest (content & notifications)",
-            "setting": false
-        },
-        {
+            "app_label": "Email me when I receive a new connection request",
             "app_setting_id": null,
             "category": "Preference",
             "description": "Email",
@@ -42,6 +38,7 @@
             "setting": false
         },
         {
+            "app_label": "Email me when I receive a new private message",
             "app_setting_id": null,
             "category": "Preference",
             "description": "Email",
@@ -50,14 +47,16 @@
             "setting": false
         },
         {
-            "app_setting_id": null,
+            "app_label": "Email me when someone requests to join a Private/Secret group that I am the owner of",
+            "app_setting_id": 101,
             "category": "Preference",
             "description": "Email",
             "id": 124,
             "name": "Email me when Requests to join my private group(s) (in digest so default No)",
-            "setting": false
+            "setting": true
         },
         {
+            "app_label": "Don't show events I've attended on my profile",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Event",
@@ -66,6 +65,7 @@
             "setting": false
         },
         {
+            "app_label": "Don't show me in Event Attendee or Group Member lists",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Member List",
@@ -74,14 +74,16 @@
             "setting": false
         },
         {
-            "app_setting_id": null,
+            "app_label": "Don't allow anyone to message me",
+            "app_setting_id": 102,
             "category": "Privacy",
             "description": "Message",
             "id": 45,
             "name": "Block everyone (connections or not) from sending me private messages (Userspeak: \"Don't allow anyone to message me\")",
-            "setting": false
+            "setting": true
         },
         {
+            "app_label": "Only allow my connections to message me",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Message",
@@ -90,6 +92,7 @@
             "setting": false
         },
         {
+            "app_label": "Hide my Posts list from my profile",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Profile",
@@ -98,6 +101,7 @@
             "setting": false
         },
         {
+            "app_label": "Hide my Likes list from my profile",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Profile",
@@ -106,6 +110,7 @@
             "setting": false
         },
         {
+            "app_label": "Hide my Connections list from my profile",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Profile",
@@ -114,14 +119,16 @@
             "setting": false
         },
         {
+            "app_label": "Don't show my Primary Region on my profile",
             "app_setting_id": null,
-            "category": "Preference",
+            "category": "Privacy",
             "description": "Profile",
             "id": 179,
             "name": "Users do not have associated region",
             "setting": false
         },
         {
+            "app_label": "Do not post to my connection's feeds when I update my Title or Organization",
             "app_setting_id": null,
             "category": "Privacy",
             "description": "Wall",

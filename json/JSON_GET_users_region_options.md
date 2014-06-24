@@ -6,203 +6,183 @@
             "name": "Atlanta"
         },
         {
-            "id": 2,
+            "id": 54,
             "name": "Baltimore"
         },
         {
-            "id": 3,
+            "id": 2,
             "name": "Boston"
         },
         {
-            "id": 4,
+            "id": 52,
             "name": "Calgary"
         },
         {
-            "id": 5,
-            "name": "Cambridge"
-        },
-        {
-            "id": 6,
+            "id": 42,
             "name": "Charlotte"
         },
         {
-            "id": 7,
+            "id": 3,
             "name": "Chicago"
         },
         {
-            "id": 8,
+            "id": 45,
             "name": "Cincinnati"
         },
         {
-            "id": 9,
-            "name": "CIO Institute"
-        },
-        {
-            "id": 10,
+            "id": 38,
             "name": "Cleveland"
         },
         {
-            "id": 11,
-            "name": "Collegiate"
-        },
-        {
-            "id": 12,
+            "id": 59,
             "name": "Connecticut"
         },
         {
-            "id": 13,
+            "id": 5,
             "name": "Dallas"
         },
         {
-            "id": 14,
+            "id": 31,
             "name": "Denver"
         },
         {
-            "id": 15,
+            "id": 6,
             "name": "Detroit"
         },
         {
-            "id": 16,
+            "id": 35,
             "name": "Florida"
         },
         {
-            "id": 17,
-            "name": "Global"
-        },
-        {
-            "id": 18,
+            "id": 7,
             "name": "Houston"
         },
         {
-            "id": 19,
+            "id": 55,
             "name": "Indianapolis"
         },
         {
-            "id": 20,
+            "id": 44,
             "name": "Kansas City"
         },
         {
-            "id": 21,
+            "id": 49,
             "name": "Las Vegas"
         },
         {
-            "id": 22,
+            "id": 8,
             "name": "London"
         },
         {
-            "id": 23,
+            "id": 40,
             "name": "Los Angeles"
         },
         {
-            "id": 24,
+            "id": 56,
             "name": "Memphis"
         },
         {
-            "id": 25,
+            "id": 58,
             "name": "Miami"
         },
         {
-            "id": 26,
+            "id": 41,
             "name": "Milwaukee"
         },
         {
-            "id": 27,
+            "id": 9,
             "name": "Minneapolis"
         },
         {
-            "id": 28,
+            "id": 60,
             "name": "Montreal"
         },
         {
-            "id": 29,
+            "id": 47,
             "name": "Nashville"
         },
         {
-            "id": 30,
+            "id": 10,
             "name": "New Jersey"
         },
         {
-            "id": 31,
+            "id": 18,
             "name": "New York"
         },
         {
-            "id": 32,
+            "id": 12,
             "name": "Ohio"
         },
         {
-            "id": 33,
+            "id": 62,
+            "name": "Orlando"
+        },
+        {
+            "id": 13,
             "name": "Philadelphia"
         },
         {
-            "id": 34,
+            "id": 37,
             "name": "Phoenix"
         },
         {
-            "id": 35,
+            "id": 43,
             "name": "Pittsburgh"
         },
         {
-            "id": 36,
+            "id": 53,
             "name": "Portland"
         },
         {
-            "id": 37,
+            "id": 48,
             "name": "Richmond"
         },
         {
-            "id": 38,
+            "id": 57,
             "name": "Rochester"
         },
         {
-            "id": 39,
+            "id": 36,
             "name": "San Antonio"
         },
         {
-            "id": 40,
+            "id": 46,
             "name": "San Diego"
         },
         {
-            "id": 41,
+            "id": 14,
             "name": "San Francisco"
         },
         {
-            "id": 42,
+            "id": 34,
             "name": "Seattle"
         },
         {
-            "id": 43,
-            "name": "Singapore"
-        },
-        {
-            "id": 44,
+            "id": 15,
             "name": "Southern California"
         },
         {
-            "id": 45,
+            "id": 30,
             "name": "St. Louis"
         },
         {
-            "id": 46,
+            "id": 16,
             "name": "Sydney"
         },
         {
-            "id": 47,
+            "id": 39,
             "name": "Texas"
         },
         {
-            "id": 48,
+            "id": 17,
             "name": "Toronto"
         },
         {
-            "id": 49,
-            "name": "Tri-State"
-        },
-        {
-            "id": 50,
+            "id": 21,
             "name": "Vancouver, BC"
         },
         {
-            "id": 51,
+            "id": 22,
             "name": "Washington, DC"
         }
     ]

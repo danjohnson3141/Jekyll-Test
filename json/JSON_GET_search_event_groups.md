@@ -4,7 +4,7 @@
         {
             "event": {
                 "address": "",
-                "begin_date": "2014-05-04",
+                "begin_date": "2014-06-25",
                 "city": "Minneapolis",
                 "end_date": "2014-06-25",
                 "id": 1,
@@ -17,11 +17,11 @@
         {
             "event": null,
             "group": {
-                "description": "Company Culture. Scale visionary supply-chains. Enable out-of-the-box web-readiness. Synergize real-time communities. Monetize seamless bandwidth. ",
-                "group_type_name": "Open",
+                "description": "This is my group",
+                "group_type_name": "Secret",
                 "id": 5,
-                "name": "Company Culture",
-                "owner_user_id": 1
+                "name": "Ryan's Awesome Group",
+                "owner_user_id": 13
             }
         },
         {
@@ -40,17 +40,17 @@
         {
             "event": null,
             "group": {
-                "description": "HR Group. Exploit virtual web-readiness. Exploit real-time schemas. Disintermediate bricks-and-clicks e-business. Generate plug-and-play e-markets. ",
-                "group_type_name": "Private",
+                "description": "No one will ever see this.",
+                "group_type_name": "Secret",
                 "id": 3,
-                "name": "HR",
-                "owner_user_id": 1
+                "name": "Security through Obscurity",
+                "owner_user_id": 28
             }
         },
         {
             "event": null,
             "group": {
-                "description": "CIO Group. Morph sticky roi. Utilize virtual paradigms. Embrace web-enabled supply-chains. Maximize value-added relationships. Target collaborative interfaces. Embrace compelling convergence. Target plug-and-play functionalities. Benchmark intuitive e-services. ",
+                "description": "~CIO Group Description Goes Here",
                 "group_type_name": "Private",
                 "id": 1,
                 "name": "CIO",

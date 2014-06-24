@@ -1,5 +1,2 @@
 ```json
-{
-    "post_comments": []
-}
 ```

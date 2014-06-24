@@ -1,38 +1,38 @@
 ```json
 {
     "event_note": {
-        "body": "Quia vero quo enim repudiandae et recusandae exercitationem. Eaque eveniet qui laboriosam possimus ut quo adipisci.\n\nFuga occaecati inventore maiores quia necessitatibus non. Itaque eaque ut nulla. Aut nulla laboriosam quis. Iure quaerat suscipit recusandae. Minus aliquam aut sit sint numquam.",
+        "body": "this is an event note on an event_users",
         "event": {
-            "id": 1,
-            "name": "2014 Minneapolis CIO Executive Summit"
+            "id": 4,
+            "name": "2014 Chicago CFO Executive Summit"
         },
         "event_session": null,
         "event_speaker": null,
         "event_user": {
             "event_registration_status": {
-                "id": 2,
-                "key": "registered"
+                "id": 3,
+                "key": "attended"
             },
-            "id": 16,
+            "id": 4,
             "user": {
                 "connection_status": {
-                    "id": 17,
+                    "id": 40,
                     "is_approved": false,
-                    "is_approver": true
+                    "is_approver": false
                 },
                 "event_council_member": false,
-                "first_name": "Dan",
-                "id": 3,
-                "last_name": "Johnson",
+                "first_name": "Brittany",
+                "id": 14,
+                "last_name": "Budil",
                 "organization_name": "Evanta",
-                "photo": null,
-                "title": "Web Developer",
+                "photo": "https://assets.evanta.com/shared/resources/Users/square/115436.jpg",
+                "title": "IT Project Manager",
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
             }
         },
-        "id": 1,
+        "id": 21,
         "sponsor": null
     }
 }

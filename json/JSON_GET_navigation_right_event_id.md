@@ -9,8 +9,8 @@
         "show_leaderboard_results": true,
         "show_leaderboard_rules": true,
         "show_my_schedule": true,
-        "show_qr_scannable": true,
-        "show_qr_scanner": true,
+        "show_qr_scannable": false,
+        "show_qr_scanner": false,
         "show_sessions": true,
         "show_speakers": true,
         "show_sponsors": true

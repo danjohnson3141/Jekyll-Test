@@ -2,51 +2,51 @@
 {
     "industry_types": [
         {
-            "id": 2,
+            "id": 1,
             "name": "Aerospace"
         },
         {
-            "id": 3,
+            "id": 2,
             "name": "Agriculture"
         },
         {
-            "id": 4,
+            "id": 3,
             "name": "Automotive"
         },
         {
-            "id": 5,
+            "id": 4,
             "name": "Business Services"
         },
         {
-            "id": 6,
+            "id": 5,
             "name": "Communications"
         },
         {
-            "id": 7,
+            "id": 6,
             "name": "Computers"
         },
         {
-            "id": 12,
+            "id": 11,
             "name": "Consultants"
         },
         {
-            "id": 13,
+            "id": 12,
             "name": "Education"
         },
         {
-            "id": 8,
+            "id": 7,
             "name": "Electronics"
         },
         {
-            "id": 14,
+            "id": 13,
             "name": "Engineering/Construction"
         },
         {
-            "id": 15,
+            "id": 14,
             "name": "Financial Services"
         },
         {
-            "id": 16,
+            "id": 15,
             "name": "Government"
         },
         {
@@ -54,28 +54,24 @@
             "name": "Healthcare/Pharma"
         },
         {
-            "id": 17,
+            "id": 16,
             "name": "Insurance"
         },
         {
-            "id": 18,
+            "id": 17,
             "name": "Legal"
         },
         {
-            "id": 19,
+            "id": 18,
             "name": "Manufacturing"
         },
         {
-            "id": 20,
+            "id": 19,
             "name": "Marketing"
         },
         {
-            "id": 21,
+            "id": 20,
             "name": "Media"
-        },
-        {
-            "id": 1,
-            "name": "N/A"
         },
         {
             "id": 30,
@@ -98,11 +94,11 @@
             "name": "Retail"
         },
         {
-            "id": 9,
+            "id": 8,
             "name": "Software Manufacturer"
         },
         {
-            "id": 10,
+            "id": 9,
             "name": "Systems/Network Integrator"
         },
         {
@@ -118,7 +114,7 @@
             "name": "Utility"
         },
         {
-            "id": 11,
+            "id": 10,
             "name": "Web Services Provider"
         }
     ]

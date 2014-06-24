@@ -7,66 +7,64 @@
             "id": 1,
             "name": "en"
         },
-        "attended_events": [],
-        "bio": "System Administrator Account",
-        "can_edit_profile": false,
-        "can_message": true,
-        "connection_status": {
-            "id": 6,
-            "is_approved": true,
-            "is_approver": true
-        },
-        "email": null,
-        "event_notes": [],
-        "first_name": "Evanta",
-        "groups": [
+        "attended_events": [
             {
-                "group_type_name": "Secret",
-                "id": 6,
-                "name": "All Leaders"
-            },
-            {
-                "group_type_name": "Private",
+                "council_member": false,
                 "id": 1,
-                "name": "CIO"
+                "name": "2014 Minneapolis CIO Executive Summit",
+                "speaker": false
             },
             {
-                "group_type_name": "Private",
-                "id": 2,
-                "name": "CISO"
-            },
-            {
-                "group_type_name": "Open",
-                "id": 5,
-                "name": "Company Culture"
-            },
-            {
-                "group_type_name": "Private",
-                "id": 3,
-                "name": "HR"
-            },
-            {
-                "group_type_name": "Secret",
+                "council_member": false,
                 "id": 4,
-                "name": "Minneapolis Boardroom"
+                "name": "2014 Chicago CFO Executive Summit",
+                "speaker": false
             }
         ],
-        "id": 1,
-        "industry_type": {
-            "id": 28,
-            "name": "Travel/Entertainment"
-        },
-        "last_name": "Access",
-        "organization_name": "Evanta",
-        "photo": null,
-        "post_count": 4,
-        "post_like_count": 0,
-        "region": {
-            "id": 11,
-            "name": "Collegiate"
-        },
-        "title": "Administrator",
-        "user_connection_count": 3,
+        "bio": null,
+        "can_edit_profile": true,
+        "can_message": false,
+        "connection_status": null,
+        "email": "graham.baas@evanta.com",
+        "event_notes": [],
+        "first_name": "Graham",
+        "groups": [
+            {
+                "group_type_name": "Private",
+                "id": 13,
+                "name": "111"
+            },
+            {
+                "group_type_name": "Secret",
+                "id": 9,
+                "name": "123"
+            },
+            {
+                "group_type_name": "Secret",
+                "id": 10,
+                "name": "Evanta Office Test Group"
+            },
+            {
+                "group_type_name": "Secret",
+                "id": 3,
+                "name": "Security through Obscurity"
+            },
+            {
+                "group_type_name": "Private",
+                "id": 12,
+                "name": "documentation purposes"
+            }
+        ],
+        "id": 28,
+        "industry_type": null,
+        "last_name": "Baas",
+        "organization_name": null,
+        "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+        "post_count": 1,
+        "post_like_count": 6,
+        "region": null,
+        "title": null,
+        "user_connection_count": 0,
         "user_connections_blocked": false,
         "user_profile": true,
         "user_role_id": 1

@@ -3,49 +3,71 @@
     "groups": [
         {
             "create_post": true,
-            "description": "321",
+            "description": "111",
             "group_invite_id": null,
             "group_invites": [],
-            "group_member_id": 113,
+            "group_member_id": 89,
             "group_request_id": null,
             "group_request_is_approved": null,
-            "group_requests": [],
+            "group_requests": [
+                {
+                    "group_id": 13,
+                    "id": 14,
+                    "user": {
+                        "connection_status": {
+                            "id": 41,
+                            "is_approved": false,
+                            "is_approver": true
+                        },
+                        "event_council_member": false,
+                        "first_name": "Ryan",
+                        "id": 13,
+                        "last_name": "Pyeatt",
+                        "organization_name": "Evanta",
+                        "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                        "title": "VP, IT",
+                        "user_connections_blocked": false,
+                        "user_profile": true,
+                        "user_role_id": 1
+                    }
+                }
+            ],
             "group_sponsors": [],
             "group_type": {
-                "description": "Anyone can see the group, who's in it*, and what members post",
-                "id": 1,
-                "is_approval_required": false,
-                "is_content_visible": true,
+                "description": "Anyone can see the group. Only members see who's in it* and what members post",
+                "id": 2,
+                "is_approval_required": true,
+                "is_content_visible": false,
                 "is_group_visible": true,
-                "is_memberlist_visible": true,
-                "name": "Open"
+                "is_memberlist_visible": false,
+                "name": "Private"
             },
             "hide_app_sponsors": false,
-            "id": 10,
+            "id": 13,
             "leave_group": false,
             "member_count": 1,
-            "name": "123",
+            "name": "111",
             "owner": {
                 "connection_status": null,
                 "event_council_member": false,
                 "first_name": "Graham",
-                "id": 7,
+                "id": 28,
                 "last_name": "Baas",
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Quality Assurance",
+                "organization_name": null,
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                "title": null,
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
             },
-            "owner_user_id": 7
+            "owner_user_id": 28
         },
         {
             "create_post": true,
-            "description": "All Leaders. Innovate enterprise experiences. Incubate viral roi. Productize extensible eyeballs. Scale value-added interfaces. ",
+            "description": "123",
             "group_invite_id": null,
             "group_invites": [],
-            "group_member_id": 38,
+            "group_member_id": 76,
             "group_request_id": null,
             "group_request_is_approved": null,
             "group_requests": [],
@@ -60,74 +82,31 @@
                 "name": "Secret"
             },
             "hide_app_sponsors": false,
-            "id": 6,
-            "leave_group": true,
-            "member_count": 38,
-            "name": "All Leaders",
+            "id": 9,
+            "leave_group": false,
+            "member_count": 1,
+            "name": "123",
             "owner": {
-                "connection_status": {
-                    "id": 6,
-                    "is_approved": true,
-                    "is_approver": true
-                },
+                "connection_status": null,
                 "event_council_member": false,
-                "first_name": "Evanta",
-                "id": 1,
-                "last_name": "Access",
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Administrator",
+                "first_name": "Graham",
+                "id": 28,
+                "last_name": "Baas",
+                "organization_name": null,
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                "title": null,
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
             },
-            "owner_user_id": 1
+            "owner_user_id": 28
         },
         {
             "create_post": false,
-            "description": "You are welcome in this amazing group.",
+            "description": "~CIO Group Description Goes Here",
             "group_invite_id": null,
             "group_invites": [],
             "group_member_id": null,
-            "group_request_id": null,
-            "group_request_is_approved": null,
-            "group_requests": [],
-            "group_sponsors": [],
-            "group_type": {
-                "description": "Anyone can see the group, who's in it*, and what members post",
-                "id": 1,
-                "is_approval_required": false,
-                "is_content_visible": true,
-                "is_group_visible": true,
-                "is_memberlist_visible": true,
-                "name": "Open"
-            },
-            "hide_app_sponsors": false,
-            "id": 7,
-            "leave_group": true,
-            "member_count": 3,
-            "name": "BritNayNay's Group - Public to the People",
-            "owner": {
-                "connection_status": null,
-                "event_council_member": true,
-                "first_name": "Brittany",
-                "id": 6,
-                "last_name": "Budil",
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Project Manager",
-                "user_connections_blocked": false,
-                "user_profile": true,
-                "user_role_id": 1
-            },
-            "owner_user_id": 6
-        },
-        {
-            "create_post": true,
-            "description": "CIO Group. Morph sticky roi. Utilize virtual paradigms. Embrace web-enabled supply-chains. Maximize value-added relationships. Target collaborative interfaces. Embrace compelling convergence. Target plug-and-play functionalities. Benchmark intuitive e-services. ",
-            "group_invite_id": null,
-            "group_invites": [],
-            "group_member_id": 13,
             "group_request_id": null,
             "group_request_is_approved": null,
             "group_requests": [],
@@ -144,21 +123,17 @@
             "hide_app_sponsors": false,
             "id": 1,
             "leave_group": true,
-            "member_count": 8,
+            "member_count": 2,
             "name": "CIO",
             "owner": {
-                "connection_status": {
-                    "id": 6,
-                    "is_approved": true,
-                    "is_approver": true
-                },
+                "connection_status": null,
                 "event_council_member": false,
                 "first_name": "Evanta",
                 "id": 1,
-                "last_name": "Access",
+                "last_name": "ApiAccess",
                 "organization_name": "Evanta",
                 "photo": null,
-                "title": "Administrator",
+                "title": "System Account",
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
@@ -166,11 +141,11 @@
             "owner_user_id": 1
         },
         {
-            "create_post": true,
-            "description": "CISO Group. Brand dynamic networks. Recontextualize customized technologies. Grow end-to-end systems. Envisioneer intuitive applications. ",
+            "create_post": false,
+            "description": "~CISO Group Description Goes Here",
             "group_invite_id": null,
             "group_invites": [],
-            "group_member_id": 29,
+            "group_member_id": null,
             "group_request_id": null,
             "group_request_is_approved": null,
             "group_requests": [],
@@ -187,118 +162,54 @@
             "hide_app_sponsors": false,
             "id": 2,
             "leave_group": true,
-            "member_count": 8,
-            "name": "CISO",
-            "owner": {
-                "connection_status": {
-                    "id": 6,
-                    "is_approved": true,
-                    "is_approver": true
-                },
-                "event_council_member": false,
-                "first_name": "Evanta",
-                "id": 1,
-                "last_name": "Access",
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Administrator",
-                "user_connections_blocked": false,
-                "user_profile": true,
-                "user_role_id": 1
-            },
-            "owner_user_id": 1
-        },
-        {
-            "create_post": true,
-            "description": "Company Culture. Scale visionary supply-chains. Enable out-of-the-box web-readiness. Synergize real-time communities. Monetize seamless bandwidth. ",
-            "group_invite_id": null,
-            "group_invites": [],
-            "group_member_id": 37,
-            "group_request_id": 7,
-            "group_request_is_approved": false,
-            "group_requests": [],
-            "group_sponsors": [],
-            "group_type": {
-                "description": "Anyone can see the group, who's in it*, and what members post",
-                "id": 1,
-                "is_approval_required": false,
-                "is_content_visible": true,
-                "is_group_visible": true,
-                "is_memberlist_visible": true,
-                "name": "Open"
-            },
-            "hide_app_sponsors": false,
-            "id": 5,
-            "leave_group": true,
-            "member_count": 37,
-            "name": "Company Culture",
-            "owner": {
-                "connection_status": {
-                    "id": 6,
-                    "is_approved": true,
-                    "is_approver": true
-                },
-                "event_council_member": false,
-                "first_name": "Evanta",
-                "id": 1,
-                "last_name": "Access",
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Administrator",
-                "user_connections_blocked": false,
-                "user_profile": true,
-                "user_role_id": 1
-            },
-            "owner_user_id": 1
-        },
-        {
-            "create_post": false,
-            "description": "Can't sit here....",
-            "group_invite_id": null,
-            "group_invites": [],
-            "group_member_id": null,
-            "group_request_id": null,
-            "group_request_is_approved": null,
-            "group_requests": [],
-            "group_sponsors": [],
-            "group_type": {
-                "description": "Anyone can see the group. Only members see who's in it* and what members post",
-                "id": 2,
-                "is_approval_required": true,
-                "is_content_visible": false,
-                "is_group_visible": true,
-                "is_memberlist_visible": false,
-                "name": "Private"
-            },
-            "hide_app_sponsors": false,
-            "id": 9,
-            "leave_group": true,
             "member_count": 1,
-            "name": "Darth Pyeatt's Private Group",
+            "name": "CISO",
             "owner": {
                 "connection_status": null,
                 "event_council_member": false,
-                "first_name": "Ryan",
-                "id": 8,
-                "last_name": "Pyeatt",
+                "first_name": "Evanta",
+                "id": 1,
+                "last_name": "ApiAccess",
                 "organization_name": "Evanta",
                 "photo": null,
-                "title": "Vice President of IT",
+                "title": "System Account",
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
             },
-            "owner_user_id": 8
+            "owner_user_id": 1
         },
         {
             "create_post": true,
-            "description": "HR Group. Exploit virtual web-readiness. Exploit real-time schemas. Disintermediate bricks-and-clicks e-business. Generate plug-and-play e-markets. ",
+            "description": "123",
             "group_invite_id": null,
             "group_invites": [],
-            "group_member_id": 30,
+            "group_member_id": 88,
             "group_request_id": null,
             "group_request_is_approved": null,
-            "group_requests": [],
+            "group_requests": [
+                {
+                    "group_id": 12,
+                    "id": 12,
+                    "user": {
+                        "connection_status": {
+                            "id": 41,
+                            "is_approved": false,
+                            "is_approver": true
+                        },
+                        "event_council_member": false,
+                        "first_name": "Ryan",
+                        "id": 13,
+                        "last_name": "Pyeatt",
+                        "organization_name": "Evanta",
+                        "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                        "title": "VP, IT",
+                        "user_connections_blocked": false,
+                        "user_profile": true,
+                        "user_role_id": 1
+                    }
+                }
+            ],
             "group_sponsors": [],
             "group_type": {
                 "description": "Anyone can see the group. Only members see who's in it* and what members post",
@@ -310,35 +221,31 @@
                 "name": "Private"
             },
             "hide_app_sponsors": false,
-            "id": 3,
-            "leave_group": true,
-            "member_count": 8,
-            "name": "HR",
+            "id": 12,
+            "leave_group": false,
+            "member_count": 1,
+            "name": "documentation purposes",
             "owner": {
-                "connection_status": {
-                    "id": 6,
-                    "is_approved": true,
-                    "is_approver": true
-                },
+                "connection_status": null,
                 "event_council_member": false,
-                "first_name": "Evanta",
-                "id": 1,
-                "last_name": "Access",
-                "organization_name": "Evanta",
-                "photo": null,
-                "title": "Administrator",
+                "first_name": "Graham",
+                "id": 28,
+                "last_name": "Baas",
+                "organization_name": null,
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                "title": null,
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
             },
-            "owner_user_id": 1
+            "owner_user_id": 28
         },
         {
             "create_post": true,
-            "description": "Minneapolis Boardroom. E-enable extensible portals. Utilize killer infrastructures. Extend real-time e-business. Reinvent impactful functionalities. ",
+            "description": "This will have the test event(s) attached to keep all of our test data in a separate sandbox from the prod users.",
             "group_invite_id": null,
             "group_invites": [],
-            "group_member_id": 14,
+            "group_member_id": 55,
             "group_request_id": null,
             "group_request_is_approved": null,
             "group_requests": [],
@@ -353,32 +260,93 @@
                 "name": "Secret"
             },
             "hide_app_sponsors": false,
-            "id": 4,
+            "id": 10,
             "leave_group": true,
-            "member_count": 8,
-            "name": "Minneapolis Boardroom",
+            "member_count": 20,
+            "name": "Evanta Office Test Group",
             "owner": {
                 "connection_status": {
-                    "id": 6,
-                    "is_approved": true,
+                    "id": 41,
+                    "is_approved": false,
                     "is_approver": true
                 },
                 "event_council_member": false,
-                "first_name": "Evanta",
-                "id": 1,
-                "last_name": "Access",
+                "first_name": "Ryan",
+                "id": 13,
+                "last_name": "Pyeatt",
                 "organization_name": "Evanta",
-                "photo": null,
-                "title": "Administrator",
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                "title": "VP, IT",
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
             },
-            "owner_user_id": 1
+            "owner_user_id": 13
+        },
+        {
+            "create_post": true,
+            "description": "No one will ever see this.",
+            "group_invite_id": 33,
+            "group_invites": [
+                {
+                    "group_id": 3,
+                    "id": 17,
+                    "user": {
+                        "connection_status": {
+                            "id": 41,
+                            "is_approved": false,
+                            "is_approver": true
+                        },
+                        "event_council_member": false,
+                        "first_name": "Ryan",
+                        "id": 13,
+                        "last_name": "Pyeatt",
+                        "organization_name": "Evanta",
+                        "photo": "https://s3.amazonaws.com/access_resources/production/profile/13.jpg?37",
+                        "title": "VP, IT",
+                        "user_connections_blocked": false,
+                        "user_profile": true,
+                        "user_role_id": 1
+                    }
+                }
+            ],
+            "group_member_id": 58,
+            "group_request_id": null,
+            "group_request_is_approved": null,
+            "group_requests": [],
+            "group_sponsors": [],
+            "group_type": {
+                "description": "Only members see the group, who's in it*, and what members post",
+                "id": 3,
+                "is_approval_required": true,
+                "is_content_visible": false,
+                "is_group_visible": false,
+                "is_memberlist_visible": false,
+                "name": "Secret"
+            },
+            "hide_app_sponsors": false,
+            "id": 3,
+            "leave_group": false,
+            "member_count": 3,
+            "name": "Security through Obscurity",
+            "owner": {
+                "connection_status": null,
+                "event_council_member": false,
+                "first_name": "Graham",
+                "id": 28,
+                "last_name": "Baas",
+                "organization_name": null,
+                "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
+                "title": null,
+                "user_connections_blocked": false,
+                "user_profile": true,
+                "user_role_id": 1
+            },
+            "owner_user_id": 28
         },
         {
             "create_post": false,
-            "description": "Group Testing",
+            "description": "DevNow Test Group 02\nTest Group DevNow 02\nGroup Test Devnow 02",
             "group_invite_id": null,
             "group_invites": [],
             "group_member_id": null,
@@ -396,24 +364,24 @@
                 "name": "Open"
             },
             "hide_app_sponsors": false,
-            "id": 8,
+            "id": 11,
             "leave_group": true,
             "member_count": 1,
-            "name": "Test",
+            "name": "Test Group 02",
             "owner": {
                 "connection_status": null,
                 "event_council_member": false,
-                "first_name": "Ryan",
-                "id": 8,
-                "last_name": "Pyeatt",
-                "organization_name": "Evanta",
+                "first_name": "James",
+                "id": 10,
+                "last_name": "Cliburn",
+                "organization_name": "Development Now",
                 "photo": null,
-                "title": "Vice President of IT",
+                "title": "Dev Now Consultant",
                 "user_connections_blocked": false,
                 "user_profile": true,
                 "user_role_id": 1
             },
-            "owner_user_id": 8
+            "owner_user_id": 10
         }
     ]
 }
