@@ -26,7 +26,7 @@ http://example.com/event_users/2
 =
 ####JSON response example:
 
-[[include:GET-event_users-id]]
+[[include:/json/JSON_GET_event_users_id]]
 
 =
 ####Response Data Detail:
