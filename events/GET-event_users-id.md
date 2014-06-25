@@ -1,27 +1,34 @@
 <!-- --- title: GET /event_users/:id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns informtion on **one** event_user
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:id - Integer, passed in through the URL. Is derived from the 'id' field of the 'event_users' table.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
 
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/event_users/2
 ```
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:GET-event_users-id]]
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]

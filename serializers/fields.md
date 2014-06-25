@@ -94,3 +94,4 @@ venue_name, The name of the location where the event is happening, string
 client_id, A reference key to an external record, string
 display_rank, Allows for arbitrary sorting of results, integer
 event_council, Info on the event_council, object; EventCouncil
+leaderboard_points, The cumulative number of points this user has, integer

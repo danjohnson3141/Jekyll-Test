@@ -1,17 +1,16 @@
 <!-- --- title: GET /event_user_leaderboards/event/:event_id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns the results of the leaderboard for **one** event.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:event_id - Integer, passed in throug the post data. Is derived from the 'id' field on the 'events' table.
 
 =
 ####Response:
@@ -21,15 +20,15 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/event_user_leaderboards/event/4
 ```
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_event_user_leaderboards_event_event_id]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/event_user_leaderboard]]
