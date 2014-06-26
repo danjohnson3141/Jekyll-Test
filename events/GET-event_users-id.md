@@ -31,4 +31,4 @@ http://example.com/event_users/2
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/event_user_attendee]]

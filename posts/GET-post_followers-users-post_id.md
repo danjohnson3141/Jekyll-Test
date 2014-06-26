@@ -1,5 +1,7 @@
 <!-- --- title: GET /post_followers/users/:post_id -->
 
+THIS ROUTE IS SLATED FOR DEPRECATION AND IS CURRENTLY NOT BEING USED.
+
 PLAIN ENGLISH DESCRIPTION OF THE ROUTE
 
 =
@@ -14,6 +16,11 @@ Good sample text: The user needs to be logged in and have valid credentials to u
 LIST OF ALL PARAMETERS AND WHAT THEY ARE
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```html
 http://example.com/ROUTE_NAME
@@ -24,4 +31,7 @@ http://example.com/ROUTE_NAME
 
 [[include:/json/JSON_NEEDS_EXAMPLE]]
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]

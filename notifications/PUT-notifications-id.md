@@ -1,27 +1,34 @@
 <!-- --- title: PUT /notifications/:id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route is what changes notifications from being 'unread' to being 'read' [is_viewed from 0 to 1].
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:id (notification) - Integer, passed in through the URL. Is derived from the 'id' field on the 'notifications' table.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 204</strong> on success.
 
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/notifications/723
 ```
 
 =
-####JSON response example:
+####Post data example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+NO POST DATA
+ 
+=
+###Post data detail:
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+NO POST DATA
