@@ -1,27 +1,48 @@
 <!-- --- title: POST /post_attachments -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route allows the active user to add an attachment to a post. However, we're not storing the attachment locally, the database is just recording the URL of the file (hosted externally). The active user needs to be the creator of the post that the attachment is being created for.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+None; default only
+
+=
+####Response:
+
+This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/post_attachments
 ```
+
+=
+####Post data example:
+```
+ { post_attachment: 
+ 	{ post_id: @post_event_open_mine.id, 
+ 	  url: 'my_attachment.com', 
+ 	  attachment_type: @attachment_type.key } }
+```
+ 
+=
+###Post data detail:
+
+[[include:/post_data/post_post_attachments]]
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_POST_post_attachments]]
 
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/post_attachment]]

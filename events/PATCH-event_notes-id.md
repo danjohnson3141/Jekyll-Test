@@ -15,7 +15,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Response:
 
-This requests provides a <strong>HTML 204</strong> on success.
+This requests provides a <strong>HTML 201</strong> on success.
 
 =
 ####API request example:

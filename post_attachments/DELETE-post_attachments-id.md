@@ -1,27 +1,24 @@
 <!-- --- title: DELETE /post_attachments/:id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route removes **one** post_attachment from the database. The active user has to 
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+:id (post_comments) - Integer, passed in the URL. Is derived from the 'id' field on the 'post_attachments' table.
+
+=
+####Response:
+
+This requests provides a <strong>HTML 204</strong> on success.
 
 =
 ####API request example:
 ```html
 http://example.com/ROUTE_NAME
-```
-
-=
-####JSON response example:
-
-[[include:/json/JSON_NEEDS_EXAMPLE]]
-
-This requests provides a <strong>HTML RESPONSE NUMBER</strong> on success.
+```Ï

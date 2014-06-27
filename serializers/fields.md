@@ -13,15 +13,18 @@ can_edit_profile, "Whether the active user can edit this profile", boolean
 can_follow_event, Whether the active user can follow this event, boolean
 can_message, Whether the active user can message this user, boolean
 city, The city in which the event is happening, string
+client_id, A reference key to an external record, string
 connection_status, Info on connection status between this and active user, object; UserConnectionShort
 country, Info on the country this event is happening in, object; Country
 description, The description of this group, string
 description, Verbose name of locale; used externally, string
+display_rank, Allows for arbitrary sorting of results, integer
 email, The email address of this user; should only show if this is active user profile, string
 end_date, The day that the event ends; yyyy-mm-dd, string
 event, Info on the event, object; Event
 event, Info on the event, object; EventShort
 event, Info on the event, object; EventTiny
+event_council, Info on the event_council, object; EventCouncil
 event_council_member, Whether this user is an event_council_member for this event,boolean
 event_evaluations, All of the event evaluations visible to the active user for this event, array; EventEvaluation
 event_follower_id, If the active user is following the event; this is the ID of that record, integer
@@ -59,6 +62,7 @@ key, The reference used by the app to associate this text with the on page eleme
 label, The actual text displayed by the app, string
 label_plural, Plural of the label; if neccesary, string
 last_name, "The user's last name", string
+leaderboard_points, The cumulative number of points this user has, integer
 name, The name of this event, string
 name, The name of this group, string
 name, The name of this region, string
@@ -91,7 +95,6 @@ user_profile, "Whether the user has a profile, usually used for speakers who don
 user_role_id, "The ID of this user's role", integer
 user_today_event, Whether the event is happening today, boolean
 venue_name, The name of the location where the event is happening, string
-client_id, A reference key to an external record, string
-display_rank, Allows for arbitrary sorting of results, integer
-event_council, Info on the event_council, object; EventCouncil
-leaderboard_points, The cumulative number of points this user has, integer
+url, The address of where the resource is being hostd, string
+created_by, The user_id of the person that creatd the record, integer
+attachment_type, Info on the file type, object; AttachmentType
