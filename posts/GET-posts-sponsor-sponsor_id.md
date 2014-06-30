@@ -1,17 +1,16 @@
 <!-- --- title: GET /posts/sponsor/:sponsor_id -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+Returns **all** the posts associated with **one** sponsor.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
 
-LIST OF ALL PARAMETERS AND WHAT THEY ARE
+sponsor_id, The ID of the sponsor, integer 
 
 =
 ####Response:
@@ -21,27 +20,15 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://example.com/ROUTE_NAME
+http://example.com/posts/sponsor/4
 ```
-
-=
-####Post data example:
-```
-{ Example: 
-	{Test: Boolean} }
-```
- 
-=
-###Post data detail:
-
-[[include:/post_data/EXAMPLE]]
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_NEEDS_EXAMPLE]]
+[[include:/json/JSON_GET_posts_sponsor_sponsor_id]]
 
 =
 ####Response Data Detail:
 
-[[include:/serializers/EXAMPLE]]
+[[include:/serializers/post_feed]]
