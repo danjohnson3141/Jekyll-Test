@@ -1,12 +1,11 @@
 <!-- --- title: GET /search/event_groups -->
 
-PLAIN ENGLISH DESCRIPTION OF THE ROUTE
+This route is still in development and functionality is still being figured out. Anything described here is only tentative.
 
 =
 ####Authentication:
 
-Declare what authentications are required
-Good sample text: The user needs to be logged in and have valid credentials to use this route.
+The user needs to be logged in and have valid credentials to use this route.
 
 =
 ####Parameters:
@@ -23,18 +22,6 @@ This requests provides a <strong>HTML 200</strong> on success.
 ```html
 http://example.com/ROUTE_NAME
 ```
-
-=
-####Post data example:
-```
-{ Example: 
-	{Test: Boolean} }
-```
- 
-=
-###Post data detail:
-
-[[include:/post_data/EXAMPLE]]
 
 =
 ####JSON response example:

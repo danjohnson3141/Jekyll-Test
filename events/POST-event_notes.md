@@ -43,4 +43,4 @@ http://example.com/event_notes
 =
 ####Response Data Detail:
 
-[[include:/serializers/event_note]]
+[[include:/serializers/event_note_short]]

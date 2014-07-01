@@ -5,7 +5,9 @@ allow_bookmarks, Whether the active user can bookmark things, boolean
 allow_notes, Whether the active user can create event_notes, boolean
 alt_email, The alt email address of this user; should only show if this is active user profile, string
 app_language, Info on the language setting chosen by this user, object; AppLanguage
+attachment_type, Info on the file type, object; AttachmentType
 attended_events, The events (visible to the active user) that this user has attended, array; AttendedEvent
+banner_ads, Any banner ads associated with this sponsor ,array; BannerAdShort
 begin_date, The day that the event begins; yyyy-mm-dd, string
 bio, Description of this user, string
 body, Content of the post, string
@@ -16,7 +18,9 @@ city, The city in which the event is happening, string
 client_id, A reference key to an external record, string
 connection_status, Info on connection status between this and active user, object; UserConnectionShort
 country, Info on the country this event is happening in, object; Country
+created_by, The user_id of the person that creatd the record, integer
 description, The description of this group, string
+description, The description of this sponsor, string
 description, Verbose name of locale; used externally, string
 display_rank, Allows for arbitrary sorting of results, integer
 email, The email address of this user; should only show if this is active user profile, string
@@ -63,9 +67,11 @@ label, The actual text displayed by the app, string
 label_plural, Plural of the label; if neccesary, string
 last_name, "The user's last name", string
 leaderboard_points, The cumulative number of points this user has, integer
+logo, URL of the image associated with this sponsor, string
 name, The name of this event, string
 name, The name of this group, string
 name, The name of this region, string
+name, The name of this sponsor, string
 name, The named used internally; usually two characters, string
 organization_name, "The organization the user is associated with", string
 owner, Info about the group owner, object; UserShort
@@ -76,13 +82,17 @@ post_id, The ID of the post, integer
 post_like_count, How many post likes (visible to the active user) this user has created, integer
 postal_code, Postal code for the event, string
 registraion_status, The registration status of the active user for this event, string
+splash_sponsor, Whether this sponsor is a splash sponsor, boolean
 sponsor, Info on the sponsor, object; Sponsor
 sponsor, Info on the sponsor, object; SponsorTiny
 sponsor_id, The ID of the sponsor, integer 
+sponsor_type, Info on the type of sponsor, object; SponsorType
 sponsors, List of sponsors, array; SponsorShort
 state, The state in which the event is happening, string
 timezone, Info on the timezone this event is happening in, object: Timezone
 title, "The user's title", string
+url, The address of where the resource is being hostd, string
+url, URL of the desired external link for this sponsor, string
 user, Info on the user, object; User
 user, Info on the user, object; UserMicro
 user, Info on the user, object; UserNano
@@ -95,6 +105,3 @@ user_profile, "Whether the user has a profile, usually used for speakers who don
 user_role_id, "The ID of this user's role", integer
 user_today_event, Whether the event is happening today, boolean
 venue_name, The name of the location where the event is happening, string
-url, The address of where the resource is being hostd, string
-created_by, The user_id of the person that creatd the record, integer
-attachment_type, Info on the file type, object; AttachmentType
