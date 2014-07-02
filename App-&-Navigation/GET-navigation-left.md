@@ -14,71 +14,22 @@ The user needs to be logged in and have valid credentials to use this route.
 This route has no parameters and returns its content based on the users's internal settings.
 
 =
+####Response:
+
+This requests provides a <strong>HTML 200</strong> on success.
+
+=
 ####API request example:
 ```html
 http://example.com/navigation/left
 ```
+
 =
 ####JSON response example:
 
-```json
-{
-    "navigation_left": {
-        "show_messages": true,
-        "show_notifications": true,
-        "show_search": true,
-        "show_user_profile": true,
-        "show_posts_count": true,
-        "show_likes_count": true,
-        "show_connections_count": true,
-        "show_groups": true,
-        "show_events": true,
-        "show_app_sponsors": true,
-        "show_support_link": true,
-        "new_message_count": 0,
-        "new_notification_count": 162,
-        "user_headshot": "https://s3.amazonaws.com/access_resources/staging/thumbnails/7.jpg?12",
-        "user_full_name": "Graham Baas",
-        "user_title": "Quality Assurance",
-        "user_organization": "Evanta",
-        "user_post_count": 18,
-        "user_like_count": 6,
-        "user_connection_count": 4,
-        "user_pending_connection_count": 0,
-        "user_events": [
-            {
-                "id": 7,
-                "name": "2015 HOU CIO ES"
-            },
-            {
-                "id": 9,
-                "name": "2015 BOS CISO ES ZQZQ"
-            },
-            {
-                "id": 8,
-                "name": "2014 NYC CIO ES"
-            }
-        ],
-        "user_today_events": [],
-        "user_groups": [
-            {
-                "id": 7,
-                "name": "Test_Secret",
-                "group_type_name": "Secret"
-            },
-            {
-                "id": 8,
-                "name": "Test_Public",
-                "group_type_name": "Open"
-            },
-            {
-                "id": 9,
-                "name": "Test_Private",
-                "group_type_name": "Private"
-            }
-        ]
-    }
-}
-```
+[[include:/json/JSON_GET_navigation_left]]
 
-This requests provides a **HTML 200** on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]

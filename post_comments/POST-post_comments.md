@@ -10,9 +10,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-:body - Text, passed in through the post data. This is the plain text of the submission.
-:post_id - Integer, passed in through the post data. Is derived from the 'id' field on the 'post' table.
-
+None; default ony.
 
 =
 ####API request example:
@@ -21,30 +19,19 @@ http://example.com/post_comments
 ```
 
 =
-###Post Data:
-```json
-{ post_comment: { body: 'Awesome post dude!', post_id: 1053 } }
+####Post data example:
 ```
-
+{ post_comment: 
+  { body: 'Awesome post dude!', 
+    post_id: 1053 } }
+```
+ 
 =
 ####JSON response example:
 
-```json
-{"post_comment"=>
-  {"id"=>10,
-   "body"=>"Awesome post dude!",
-   "ago"=>"0m",
-   "post_id"=>4,
-   "creator"=>
-    {"id"=>1,
-     "first_name"=>"Generic",
-     "last_name"=>"User",
-     "title"=>"CEO of QA",
-     "organization_name"=>"Evanta",
-     "photo"=>
-      "https://assets.evanta.com/shared/resources/Users/large/anonymous2.jpg",
-     "moderator"=>false,
-     "user_profile"=>true}}}
-```
+[[include:/json/JSON_POST_post_comments]]
 
-This requests provides a <strong>HTML 201</strong> on success.
+=
+####Response Data Detail:
+
+[[include:/serializers/EXAMPLE]]
