@@ -1,6 +1,6 @@
-<!-- --- title: GET /post_likes/:id -->
+<!-- --- title: GET /post_likes/users/:post_id -->
 
-Returns **one** post like based off the id passed in.
+Returns **all** post likes for **one** post.
 
 =
 ####Authentication:
@@ -10,7 +10,7 @@ The user needs to be logged in and have valid credentials to use this route.
 =
 ####Parameters:
 
-(post likes) :id - Integer, passed in through the URL. Is derived from the 'id' field on the 'post_likes' table.
+:post_id - Integer, passed in through the URL. Is derived from the 'id' field on the 'posts' table.
 
 =
 ####Response:
@@ -20,13 +20,13 @@ This requests provides a <strong>HTML 200</strong> on success.
 =
 ####API request example:
 ```html
-http://example.com/post_likes/553
+http://example.com/post_likes/user/2304
 ```
 
 =
 ####JSON response example:
 
-[[include:/json/JSON_GET_post_likes_id]]
+[[include:/json/JSON_NEEDS_EXAMPLE]]
 
 =
 ####Response Data Detail:
