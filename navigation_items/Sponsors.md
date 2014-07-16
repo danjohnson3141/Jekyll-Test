@@ -3,3 +3,4 @@
 * [[GET /sponsors/event|GET-sponsors-event]]
 * [[GET /sponsors/group|GET-sponsors-group]]
 * [[GET /sponsors|GET-sponsors]]
+* [[GET /sponsors/homepage|GET-sponsors-homepage]]
