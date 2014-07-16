@@ -5,7 +5,7 @@ Returns a list of **all** sponsors that have a value of '1' in the homepage_spon
 =
 ####Authentication:
 
-The user needs to be logged in and have valid credentials to use this route.
+The user does not need to be authenticated to use this route.
 
 =
 ####Parameters:
