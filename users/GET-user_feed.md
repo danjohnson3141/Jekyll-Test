@@ -74,7 +74,7 @@ http://example.com/user_feed
                     {
                         "id": 7,
                         "first_name": "Graham",
-                        "last_name": "Baas",
+                        "last_name": "Smith",
                         "title": "Quality Assurance",
                         "organization_name": "Evanta",
                         "photo": "https://s3.amazonaws.com/access_resources/staging/thumbnails/7.jpg?12",

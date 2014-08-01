@@ -25,7 +25,7 @@
         "can_edit_profile": true,
         "can_message": false,
         "connection_status": null,
-        "email": "graham.baas@evanta.com",
+        "email": "graham.Smith@evanta.com",
         "event_notes": [],
         "first_name": "Graham",
         "groups": [
@@ -57,7 +57,7 @@
         ],
         "id": 28,
         "industry_type": null,
-        "last_name": "Baas",
+        "last_name": "Smith",
         "organization_name": null,
         "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",
         "post_count": 1,

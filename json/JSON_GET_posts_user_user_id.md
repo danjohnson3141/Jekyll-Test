@@ -7,7 +7,7 @@
                 {
                     "first_name": "Graham",
                     "id": 28,
-                    "last_name": "Baas",
+                    "last_name": "Smith",
                     "moderator": false,
                     "organization_name": null,
                     "photo": "https://s3.amazonaws.com/access_resources/production/profile/28.jpg?44",

@@ -29,7 +29,7 @@
                 "name": "2014 Minneapolis CIO Executive Summit"
             }
         ],
-        "user_full_name": "Graham Baas",
+        "user_full_name": "Graham Smith",
         "user_groups": [
             {
                 "group_type_name": "Secret",
